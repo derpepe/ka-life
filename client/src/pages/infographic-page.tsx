@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, useParams } from "wouter";
 import { getInfographicById } from "@/lib/infographic-data";
 import InfographicView from "@/components/infographic-view";
 import KaLifeLogo from "@/components/brand/ka-life-logo";
+import Footer from "@/components/footer";
 
 export default function InfographicPage() {
   const params = useParams<{ id: string }>();
   const infographic = getInfographicById(params.id || "");
+  const [copied, setCopied] = useState(false);
 
   if (!infographic) {
     return (
@@ -62,6 +64,13 @@ export default function InfographicPage() {
     );
   }
 
+  const handleCopy = () => {
+    navigator.clipboard.writeText(infographic.socialPostText).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    });
+  };
+
   return (
     <div data-testid="infographic-page">
       {/* Back navigation bar */}
@@ -104,6 +113,98 @@ export default function InfographicPage() {
       </div>
 
       <InfographicView infographic={infographic} />
+
+      {/* Share section */}
+      <div
+        data-testid="share-section"
+        style={{
+          borderTop: "1px solid #e5e7eb",
+          background: "white",
+          padding: "32px 24px",
+        }}
+      >
+        <div style={{ maxWidth: 780, margin: "0 auto" }}>
+          <h3
+            style={{
+              fontFamily: "'Playfair Display', serif",
+              fontSize: 16,
+              fontWeight: 700,
+              color: "#111827",
+              margin: "0 0 16px",
+            }}
+          >
+            Teile diese Ausgabe
+          </h3>
+
+          {/* Social post text */}
+          <div style={{ position: "relative", marginBottom: 16 }}>
+            <textarea
+              data-testid="social-post-text"
+              readOnly
+              value={infographic.socialPostText}
+              rows={4}
+              style={{
+                width: "100%",
+                boxSizing: "border-box",
+                fontFamily: "'Source Sans 3', sans-serif",
+                fontSize: 14,
+                color: "#374151",
+                background: "#f8f6f0",
+                border: "1px solid #e5e7eb",
+                borderRadius: 6,
+                padding: "12px 14px",
+                resize: "none",
+                lineHeight: 1.6,
+                outline: "none",
+              }}
+            />
+            <button
+              data-testid="copy-social-post"
+              onClick={handleCopy}
+              style={{
+                position: "absolute",
+                top: 10,
+                right: 10,
+                background: copied ? "#2d6a4f" : "#111827",
+                color: "white",
+                border: "none",
+                borderRadius: 4,
+                padding: "5px 12px",
+                fontSize: 12,
+                fontFamily: "'Source Sans 3', sans-serif",
+                fontWeight: 600,
+                cursor: "pointer",
+                transition: "background 0.2s",
+              }}
+            >
+              {copied ? "Kopiert!" : "Kopieren"}
+            </button>
+          </div>
+
+          {/* Social PNG link */}
+          <p
+            style={{
+              fontFamily: "'Source Sans 3', sans-serif",
+              fontSize: 13,
+              color: "#6b7280",
+              margin: 0,
+            }}
+          >
+            {"Bild zum Posten: "}
+            <a
+              href={`/social/${infographic.id}.png`}
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="social-png-link"
+              style={{ color: "#2d6a4f", textDecoration: "underline" }}
+            >
+              {`social/${infographic.id}.png`}
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <Footer />
     </div>
   );
 }

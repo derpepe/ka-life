@@ -29,6 +29,7 @@ export interface WeeklyInfographic {
   sections: InfographicSection[];
   sources: string[];
   editorNote?: string;
+  socialPostText: string;
   socialCard: {
     headline: string;
     subline: string;
@@ -78,7 +79,7 @@ export const infographics: WeeklyInfographic[] = [
       },
       {
         type: "torte-der-wahrheit",
-        title: "Torten der Wahrheit",
+        title: "F\u00E4chertorten",
         subtitle: "Karlsruhe urteilt \u2013 wir kommentieren",
         data: {
           pies: [
@@ -190,7 +191,8 @@ export const infographics: WeeklyInfographic[] = [
       "KBA Neuzulassungsstatistik 2025",
       "Stadt Karlsruhe, Mobili\u00E4tsbericht 2025",
     ],
-    editorNote: "Die Torten der Wahrheit sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt.",
+    editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt.",
+    socialPostText: "Der BGH in Karlsruhe hat entschieden: Autobauer m\u00FCssen nicht schneller aus dem Verbrenner raus, als die Politik es vorgibt. Was das f\u00FCr die Klimadebatte bedeutet \u2013 in unserer neuen Infografik.\n\n\u27A1 ka-life.de",
   },
 ];
 

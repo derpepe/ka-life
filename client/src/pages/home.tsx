@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "wouter";
 import { infographics } from "@/lib/infographic-data";
 import SocialCard from "@/components/social-card";
-import KaLifeLogo from "@/components/brand/ka-life-logo";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -14,21 +15,7 @@ export default function Home() {
         fontFamily: "'Source Sans 3', sans-serif",
       }}
     >
-      {/* Header */}
-      <header
-        style={{
-          background: "white",
-          borderBottom: "1px solid #e5e7eb",
-          padding: "16px 24px",
-          position: "sticky",
-          top: 0,
-          zIndex: 100,
-        }}
-      >
-        <div style={{ maxWidth: 1100, margin: "0 auto", display: "flex", alignItems: "center" }}>
-          <KaLifeLogo size={36} showText={true} />
-        </div>
-      </header>
+      <Header />
 
       {/* Hero intro */}
       <div
@@ -44,11 +31,11 @@ export default function Home() {
             fontSize: 16,
             color: "#6b7280",
             margin: "0 0 40px",
-            maxWidth: 540,
+            maxWidth: 600,
             lineHeight: 1.6,
           }}
         >
-          {"Jeden Samstag eine neue Infografik aus der F\u00E4cherstadt. Daten, Fakten und Torten der Wahrheit \u2013 mit Karlsruhe-Bezug."}
+          {"Jeden Samstag erscheint auf KA-Life eine neue Infografik rund um Karlsruhe: Daten, Fakten und satirische F\u00E4chertorten \u2013 zu den Themen, die die F\u00E4cherstadt bewegen. Von Bundesverfassungsgericht bis KSC, von KIT-Forschung bis Kombil\u00F6sung."}
         </p>
 
         {/* Grid */}
@@ -101,26 +88,7 @@ export default function Home() {
         )}
       </div>
 
-      {/* Footer */}
-      <footer
-        style={{
-          borderTop: "1px solid #e5e7eb",
-          padding: "24px",
-          textAlign: "center",
-          marginTop: 40,
-        }}
-      >
-        <p
-          style={{
-            fontFamily: "'Source Sans 3', sans-serif",
-            fontSize: 12,
-            color: "#9ca3af",
-            margin: 0,
-          }}
-        >
-          ka-life.de &middot; Karlsruhe in Zahlen &middot; Jeden Samstag neu
-        </p>
-      </footer>
+      <Footer />
     </div>
   );
 }
