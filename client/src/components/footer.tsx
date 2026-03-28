@@ -24,7 +24,7 @@ export default function Footer() {
           flexWrap: "wrap",
         }}
       >
-        <span>{"\u00A9 2026 PJS GmbH \u00B7 Karlsruhe"}</span>
+        <span>{"\u00A9 2026 Decisions Made Easy GmbH \u00B7 Karlsruhe"}</span>
         <span style={{ color: "#d1d5db" }}>{"\u00B7"}</span>
         <Link
           href="/ueber"

@@ -35,7 +35,7 @@ export default function Home() {
             lineHeight: 1.6,
           }}
         >
-          {"Jeden Samstag erscheint auf KA-Life eine neue Infografik rund um Karlsruhe: Daten, Fakten und satirische F\u00E4chertorten \u2013 zu den Themen, die die F\u00E4cherstadt bewegen. Von Bundesverfassungsgericht bis KSC, von KIT-Forschung bis Kombil\u00F6sung."}
+          {"Jeden Samstag erscheint auf KA-Life eine neue Infografik rund um Karlsruhe: Daten, Fakten und satirische F\u00E4chertorten \u2013 zu den Themen, die die F\u00E4cherstadt bewegen. Von Bundesverfassungsgericht bis KSC, von KIT-Forschung bis Lokalpolitik, von bekannten Karlsruher Pers\u00F6nlichkeiten bis Kombil\u00F6sung."}
         </p>
 
         {/* Grid */}

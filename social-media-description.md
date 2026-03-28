@@ -4,7 +4,7 @@
 KA-Life: Jeden Samstag eine neue Infografik aus Karlsruhe. Daten, Fakten & Fächertorten aus der Fächerstadt. 🏛️📊
 
 ## Mittel (für Post-Beschreibung / About)
-KA-Life ist eine wöchentliche Infografik-Kolumne über Karlsruhe. Jeden Samstag beleuchten wir ein aktuelles Thema aus der Fächerstadt – mit Daten, Fakten und satirischen Fächertorten. Von Bundesverfassungsgericht bis KSC, von KIT-Forschung bis Kombi-Lösung.
+KA-Life ist eine wöchentliche Infografik-Kolumne über Karlsruhe. Jeden Samstag beleuchten wir ein aktuelles Thema aus der Fächerstadt – mit Daten, Fakten und satirischen Fächertorten. Von Bundesverfassungsgericht bis KSC, von KIT-Forschung bis Lokalpolitik, von bekannten Karlsruher Persönlichkeiten bis Kombilösung.
 
 👉 ka-life.de
 
@@ -16,8 +16,10 @@ Jeden Samstag erscheint auf ka-life.de eine neue Infografik rund um Karlsruhe. W
 🏛️ Urteile vom Bundesverfassungsgericht & BGH
 🔬 Forschung & Innovation am KIT
 ⚽ Der ewige Kampf des KSC
+🏛️ Lokalpolitik & Gemeinderat
 🚋 Stadtentwicklung & Kombilösung
 🏢 Lokale Wirtschaft & Unternehmen
+👤 Bekannte Karlsruher Persönlichkeiten
 🎭 Kultur & Events
 
 Dazu gibt es jede Woche unsere „Fächertorten" – satirische Kreisdiagramme, inspiriert vom Karlsruher Fächergrundriss.

@@ -77,8 +77,8 @@ export default function Impressum() {
                 lineHeight: 1.8,
               }}
             >
-              <p style={{ margin: "0 0 4px", fontWeight: 600 }}>PJS GmbH</p>
-              <p style={{ margin: "0 0 4px" }}>{"Wiesbadener Stra\u00DFe 50"}</p>
+              <p style={{ margin: "0 0 4px", fontWeight: 600 }}>Decisions Made Easy GmbH</p>
+              <p style={{ margin: "0 0 4px" }}>{"H\u00E4ndelstra\u00DFe 18"}</p>
               <p style={{ margin: "0 0 4px" }}>76185 Karlsruhe</p>
               <p style={{ margin: "0 0 4px" }}>Deutschland</p>
             </div>
@@ -193,7 +193,7 @@ export default function Impressum() {
               }}
             >
               <p style={{ margin: "0 0 4px" }}>Peter Schneider</p>
-              <p style={{ margin: "0 0 4px" }}>{"Wiesbadener Stra\u00DFe 50"}</p>
+              <p style={{ margin: "0 0 4px" }}>{"H\u00E4ndelstra\u00DFe 18"}</p>
               <p style={{ margin: "0 0 4px" }}>76185 Karlsruhe</p>
             </div>
           </section>

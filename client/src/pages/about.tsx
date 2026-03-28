@@ -105,7 +105,7 @@ export default function About() {
                 margin: 0,
               }}
             >
-              {"Interaktive Infografiken zu den Themen, die Karlsruhe bewegen: Urteile vom Bundesverfassungsgericht und BGH, Forschung am KIT, der ewige Kampf des KSC, Stadtentwicklung und Kombil\u00F6sung, lokale Wirtschaft und Kultur. Dazu gibt es jede Woche unsere F\u00E4chertorten \u2013 satirische Kreisdiagramme, inspiriert vom Karlsruher F\u00E4chergrundriss."}
+              {"Interaktive Infografiken zu den Themen, die Karlsruhe bewegen: Urteile vom Bundesverfassungsgericht und BGH, Forschung am KIT, der ewige Kampf des KSC, Lokalpolitik, Stadtentwicklung und Kombil\u00F6sung, lokale Wirtschaft, bekannte Karlsruher Pers\u00F6nlichkeiten und Kultur. Dazu gibt es jede Woche unsere F\u00E4chertorten \u2013 satirische Kreisdiagramme, inspiriert vom Karlsruher F\u00E4chergrundriss."}
             </p>
           </section>
 
@@ -131,7 +131,7 @@ export default function About() {
                 margin: 0,
               }}
             >
-              {"KA-Life ist ein Projekt der PJS GmbH aus Karlsruhe. Die Infografiken werden automatisiert recherchiert und aufbereitet \u2013 die Themenauswahl und redaktionelle Bearbeitung erfolgt durch Menschen."}
+              {"KA-Life ist ein Projekt der Decisions Made Easy GmbH aus Karlsruhe. Die Infografiken werden automatisiert recherchiert und aufbereitet \u2013 die Themenauswahl und redaktionelle Bearbeitung erfolgt durch Menschen."}
             </p>
           </section>
 
