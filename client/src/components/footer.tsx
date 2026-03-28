@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer
       style={{
-        borderTop: "1px solid #e5e7eb",
+        borderTop: "1px solid #f0f0f0",
         padding: "24px",
         textAlign: "center",
         marginTop: 40,
@@ -13,7 +13,7 @@ export default function Footer() {
     >
       <p
         style={{
-          fontFamily: "'Source Sans 3', sans-serif",
+          fontFamily: "'Inter', sans-serif",
           fontSize: 12,
           color: "#9ca3af",
           margin: 0,
@@ -25,7 +25,7 @@ export default function Footer() {
         }}
       >
         <span>{"\u00A9 2026 Decisions Made Easy GmbH \u00B7 Karlsruhe"}</span>
-        <span style={{ color: "#d1d5db" }}>{"\u00B7"}</span>
+        <span style={{ color: "#e5e7eb" }}>{"\u00B7"}</span>
         <Link
           href="/ueber"
           style={{
@@ -38,7 +38,7 @@ export default function Footer() {
         >
           {"\u00DCber KA-Life"}
         </Link>
-        <span style={{ color: "#d1d5db" }}>{"\u00B7"}</span>
+        <span style={{ color: "#e5e7eb" }}>{"\u00B7"}</span>
         <Link
           href="/impressum"
           style={{

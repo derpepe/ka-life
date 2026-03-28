@@ -11,8 +11,8 @@ export default function Home() {
       data-testid="home-page"
       style={{
         minHeight: "100vh",
-        background: "#f8f6f0",
-        fontFamily: "'Source Sans 3', sans-serif",
+        background: "#ffffff",
+        fontFamily: "'Inter', sans-serif",
       }}
     >
       <Header />
@@ -27,15 +27,16 @@ export default function Home() {
       >
         <p
           style={{
-            fontFamily: "'Source Sans 3', sans-serif",
-            fontSize: 16,
+            fontFamily: "'Inter', sans-serif",
+            fontSize: 15,
+            fontWeight: 400,
             color: "#6b7280",
             margin: "0 0 40px",
-            maxWidth: 600,
-            lineHeight: 1.6,
+            maxWidth: 560,
+            lineHeight: 1.7,
           }}
         >
-          {"Jeden Samstag erscheint auf KA-Life eine neue Infografik rund um Karlsruhe: Daten, Fakten und satirische F\u00E4chertorten \u2013 zu den Themen, die die F\u00E4cherstadt bewegen. Von Bundesverfassungsgericht bis KSC, von KIT-Forschung bis Lokalpolitik, von bekannten Karlsruher Pers\u00F6nlichkeiten bis Kombil\u00F6sung."}
+          {"Jeden Samstag erscheint auf KA-Life eine neue Infografik rund um Karlsruhe: Daten, Fakten und satirische F\u00E4chertorten \u2013 zu den Themen, die die F\u00E4cherstadt bewegen."}
         </p>
 
         {/* Grid */}
@@ -55,13 +56,13 @@ export default function Home() {
               style={{
                 textDecoration: "none",
                 display: "block",
-                borderRadius: 10,
+                borderRadius: 12,
                 overflow: "hidden",
                 transition: "transform 0.2s, box-shadow 0.2s",
               }}
               onMouseEnter={(e) => {
-                (e.currentTarget as HTMLElement).style.transform = "translateY(-3px)";
-                (e.currentTarget as HTMLElement).style.boxShadow = "0 8px 24px rgba(0,0,0,0.12)";
+                (e.currentTarget as HTMLElement).style.transform = "translateY(-2px)";
+                (e.currentTarget as HTMLElement).style.boxShadow = "0 8px 32px rgba(0,0,0,0.08)";
               }}
               onMouseLeave={(e) => {
                 (e.currentTarget as HTMLElement).style.transform = "translateY(0)";
@@ -79,8 +80,8 @@ export default function Home() {
               textAlign: "center",
               padding: "80px 0",
               color: "#9ca3af",
-              fontFamily: "'Source Sans 3', sans-serif",
-              fontSize: 16,
+              fontFamily: "'Inter', sans-serif",
+              fontSize: 15,
             }}
           >
             Noch keine Infografiken vorhanden. Bald mehr.

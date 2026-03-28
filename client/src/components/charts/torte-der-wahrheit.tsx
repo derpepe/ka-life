@@ -76,14 +76,14 @@ function PieChart({ pie }: { pie: PieData }) {
     <div data-testid="pie-chart" style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 12 }}>
       <p
         style={{
-          fontFamily: "'Playfair Display', serif",
-          fontWeight: 700,
+          fontFamily: "'Inter', sans-serif",
+          fontWeight: 600,
           fontSize: 13,
           textAlign: "center",
-          color: "#1a1a2e",
+          color: "#111827",
           maxWidth: size,
           margin: 0,
-          lineHeight: 1.3,
+          lineHeight: 1.35,
         }}
       >
         {pie.title}
@@ -109,8 +109,8 @@ function PieChart({ pie }: { pie: PieData }) {
           >
             <div
               style={{
-                width: 10,
-                height: 10,
+                width: 8,
+                height: 8,
                 borderRadius: 2,
                 background: slice.color,
                 flexShrink: 0,
@@ -118,9 +118,9 @@ function PieChart({ pie }: { pie: PieData }) {
             />
             <span
               style={{
-                fontFamily: "'Source Sans 3', sans-serif",
+                fontFamily: "'Inter', sans-serif",
                 fontSize: 11,
-                color: "#4b5563",
+                color: "#6b7280",
                 lineHeight: 1.2,
               }}
             >

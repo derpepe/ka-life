@@ -9,22 +9,22 @@ export default function About() {
       data-testid="about-page"
       style={{
         minHeight: "100vh",
-        background: "#f8f6f0",
-        fontFamily: "'Source Sans 3', sans-serif",
+        background: "#ffffff",
+        fontFamily: "'Inter', sans-serif",
       }}
     >
       <Header />
 
-      <main style={{ maxWidth: 780, margin: "0 auto", padding: "48px 24px 64px" }}>
+      <main style={{ maxWidth: 680, margin: "0 auto", padding: "56px 24px 64px" }}>
         {/* Page title */}
         <div style={{ marginBottom: 48 }}>
           <p
             style={{
-              fontFamily: "'Source Sans 3', sans-serif",
-              fontSize: 13,
+              fontFamily: "'Inter', sans-serif",
+              fontSize: 12,
               fontWeight: 600,
-              color: "#2d6a4f",
-              letterSpacing: "0.08em",
+              color: "#1a5c3a",
+              letterSpacing: "0.1em",
               textTransform: "uppercase",
               margin: "0 0 12px",
             }}
@@ -33,48 +33,39 @@ export default function About() {
           </p>
           <h1
             style={{
-              fontFamily: "'Playfair Display', serif",
-              fontSize: 40,
+              fontFamily: "'Inter', sans-serif",
+              fontSize: 32,
               fontWeight: 700,
               color: "#111827",
-              margin: "0 0 8px",
+              margin: 0,
               lineHeight: 1.2,
+              letterSpacing: "-0.02em",
             }}
           >
             {"\u00DCber KA-Life"}
           </h1>
-          <div
-            style={{
-              width: 48,
-              height: 3,
-              background: "#2d6a4f",
-              borderRadius: 2,
-              marginTop: 16,
-            }}
-          />
         </div>
 
         {/* Content sections */}
-        <div style={{ display: "flex", flexDirection: "column", gap: 40 }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: 36 }}>
 
-          {/* Was ist KA-Life? */}
           <section>
             <h2
               style={{
-                fontFamily: "'Playfair Display', serif",
-                fontSize: 22,
-                fontWeight: 700,
+                fontFamily: "'Inter', sans-serif",
+                fontSize: 18,
+                fontWeight: 600,
                 color: "#111827",
-                margin: "0 0 12px",
+                margin: "0 0 10px",
               }}
             >
               Was ist KA-Life?
             </h2>
             <p
               style={{
-                fontFamily: "'Source Sans 3', sans-serif",
-                fontSize: 16,
-                color: "#374151",
+                fontFamily: "'Inter', sans-serif",
+                fontSize: 15,
+                color: "#4b5563",
                 lineHeight: 1.7,
                 margin: 0,
               }}
@@ -83,24 +74,23 @@ export default function About() {
             </p>
           </section>
 
-          {/* Was erwartet dich? */}
           <section>
             <h2
               style={{
-                fontFamily: "'Playfair Display', serif",
-                fontSize: 22,
-                fontWeight: 700,
+                fontFamily: "'Inter', sans-serif",
+                fontSize: 18,
+                fontWeight: 600,
                 color: "#111827",
-                margin: "0 0 12px",
+                margin: "0 0 10px",
               }}
             >
               Was erwartet dich?
             </h2>
             <p
               style={{
-                fontFamily: "'Source Sans 3', sans-serif",
-                fontSize: 16,
-                color: "#374151",
+                fontFamily: "'Inter', sans-serif",
+                fontSize: 15,
+                color: "#4b5563",
                 lineHeight: 1.7,
                 margin: 0,
               }}
@@ -109,24 +99,23 @@ export default function About() {
             </p>
           </section>
 
-          {/* Wer steckt dahinter? */}
           <section>
             <h2
               style={{
-                fontFamily: "'Playfair Display', serif",
-                fontSize: 22,
-                fontWeight: 700,
+                fontFamily: "'Inter', sans-serif",
+                fontSize: 18,
+                fontWeight: 600,
                 color: "#111827",
-                margin: "0 0 12px",
+                margin: "0 0 10px",
               }}
             >
               Wer steckt dahinter?
             </h2>
             <p
               style={{
-                fontFamily: "'Source Sans 3', sans-serif",
-                fontSize: 16,
-                color: "#374151",
+                fontFamily: "'Inter', sans-serif",
+                fontSize: 15,
+                color: "#4b5563",
                 lineHeight: 1.7,
                 margin: 0,
               }}
@@ -135,24 +124,23 @@ export default function About() {
             </p>
           </section>
 
-          {/* Mitmachen & Feedback */}
           <section>
             <h2
               style={{
-                fontFamily: "'Playfair Display', serif",
-                fontSize: 22,
-                fontWeight: 700,
+                fontFamily: "'Inter', sans-serif",
+                fontSize: 18,
+                fontWeight: 600,
                 color: "#111827",
-                margin: "0 0 12px",
+                margin: "0 0 10px",
               }}
             >
               {"Mitmachen \u0026 Feedback"}
             </h2>
             <p
               style={{
-                fontFamily: "'Source Sans 3', sans-serif",
-                fontSize: 16,
-                color: "#374151",
+                fontFamily: "'Inter', sans-serif",
+                fontSize: 15,
+                color: "#4b5563",
                 lineHeight: 1.7,
                 margin: 0,
               }}
@@ -160,7 +148,7 @@ export default function About() {
               {"Du hast ein Thema f\u00FCr eine Infografik? Schreib uns an "}
               <a
                 href="mailto:ka-life@pjs.de"
-                style={{ color: "#2d6a4f", textDecoration: "underline" }}
+                style={{ color: "#1a5c3a", textDecoration: "underline", textUnderlineOffset: "2px" }}
               >
                 ka-life@pjs.de
               </a>
@@ -171,7 +159,7 @@ export default function About() {
         </div>
 
         {/* Back link */}
-        <div style={{ marginTop: 56, paddingTop: 32, borderTop: "1px solid #e5e7eb" }}>
+        <div style={{ marginTop: 56, paddingTop: 32, borderTop: "1px solid #f0f0f0" }}>
           <Link
             href="/"
             data-testid="back-to-overview"
@@ -179,14 +167,15 @@ export default function About() {
               display: "inline-flex",
               alignItems: "center",
               gap: 6,
-              fontFamily: "'Source Sans 3', sans-serif",
-              fontSize: 14,
-              color: "#6b7280",
+              fontFamily: "'Inter', sans-serif",
+              fontSize: 13,
+              fontWeight: 500,
+              color: "#9ca3af",
               textDecoration: "none",
               transition: "color 0.15s",
             }}
             onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.color = "#111827")}
-            onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = "#6b7280")}
+            onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = "#9ca3af")}
           >
             {"\u2190 Zur\u00FCck zur \u00DCbersicht"}
           </Link>

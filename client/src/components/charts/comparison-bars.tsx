@@ -12,7 +12,7 @@ export default function ComparisonBars({ section }: ComparisonBarsProps) {
   const maxValue = Math.max(...items.map((item) => item.value));
 
   return (
-    <div data-testid="comparison-bars-section" style={{ display: "flex", flexDirection: "column", gap: 16 }}>
+    <div data-testid="comparison-bars-section" style={{ display: "flex", flexDirection: "column", gap: 14 }}>
       {items.map((item, i) => {
         const widthPct = (item.value / maxValue) * 100;
         const isHovered = hoveredIndex === i;
@@ -42,8 +42,8 @@ export default function ComparisonBars({ section }: ComparisonBarsProps) {
             >
               <span
                 style={{
-                  fontFamily: "'Source Sans 3', sans-serif",
-                  fontSize: 14,
+                  fontFamily: "'Inter', sans-serif",
+                  fontSize: 13,
                   fontWeight: 500,
                   color: "#374151",
                   lineHeight: 1.3,
@@ -55,12 +55,12 @@ export default function ComparisonBars({ section }: ComparisonBarsProps) {
               <span
                 style={{
                   fontFamily: "'JetBrains Mono', monospace",
-                  fontSize: 12,
+                  fontSize: 11,
                   fontWeight: 600,
                   color: item.color,
                   whiteSpace: "nowrap" as const,
                   padding: "2px 8px",
-                  background: `${item.color}18`,
+                  background: `${item.color}10`,
                   borderRadius: 4,
                 }}
               >
@@ -70,9 +70,9 @@ export default function ComparisonBars({ section }: ComparisonBarsProps) {
             {/* Bar */}
             <div
               style={{
-                height: 10,
-                background: "#f3f4f6",
-                borderRadius: 5,
+                height: 8,
+                background: "#f5f5f5",
+                borderRadius: 4,
                 overflow: "hidden",
               }}
             >
@@ -81,7 +81,7 @@ export default function ComparisonBars({ section }: ComparisonBarsProps) {
                   height: "100%",
                   width: `${widthPct}%`,
                   background: item.color,
-                  borderRadius: 5,
+                  borderRadius: 4,
                   transition: "width 0.6s cubic-bezier(0.4, 0, 0.2, 1)",
                 }}
               />

@@ -16,33 +16,34 @@ export default function QuoteBlock({ section }: QuoteBlockProps) {
     <div
       data-testid="quote-block"
       style={{
-        borderLeft: `4px solid ${color}`,
+        borderLeft: `3px solid ${color}`,
         paddingLeft: 24,
         paddingTop: 4,
         paddingBottom: 4,
         margin: "0 auto",
-        maxWidth: 680,
+        maxWidth: 600,
       }}
     >
       <blockquote
         style={{
-          fontFamily: "'Playfair Display', Georgia, serif",
+          fontFamily: "'Inter', sans-serif",
           fontStyle: "italic",
-          fontSize: 22,
-          lineHeight: 1.55,
+          fontSize: 18,
+          lineHeight: 1.6,
           color: "#1f2937",
           margin: 0,
-          fontWeight: 400,
+          fontWeight: 500,
+          letterSpacing: "-0.01em",
         }}
       >
         &bdquo;{text}&ldquo;
       </blockquote>
       <cite
         style={{
-          fontFamily: "'Source Sans 3', sans-serif",
+          fontFamily: "'Inter', sans-serif",
           fontStyle: "normal",
-          fontSize: 13,
-          color: "#6b7280",
+          fontSize: 12,
+          color: "#9ca3af",
           display: "block",
           marginTop: 12,
           fontWeight: 400,

@@ -66,36 +66,36 @@ function NumberCardItem({ card, index }: { card: NumberCard; index: number }) {
       data-testid={`number-card-${index}`}
       style={{
         background: "white",
-        borderRadius: 8,
+        borderRadius: 10,
         overflow: "hidden",
-        boxShadow: "0 1px 4px rgba(0,0,0,0.08)",
+        border: "1px solid #f0f0f0",
         display: "flex",
         flexDirection: "column",
       }}
     >
       {/* Colored top bar */}
-      <div style={{ height: 5, background: card.color }} />
-      <div style={{ padding: "20px 20px 24px" }}>
+      <div style={{ height: 3, background: card.color }} />
+      <div style={{ padding: "18px 18px 22px" }}>
         <div
           style={{
             fontFamily: "'JetBrains Mono', monospace",
-            fontWeight: 500,
-            fontSize: 52,
+            fontWeight: 600,
+            fontSize: 44,
             lineHeight: 1,
             color: card.color,
-            letterSpacing: "-0.02em",
+            letterSpacing: "-0.03em",
           }}
         >
           {displayValue}
         </div>
         <div
           style={{
-            fontFamily: "'Source Sans 3', sans-serif",
+            fontFamily: "'Inter', sans-serif",
             fontWeight: 600,
-            fontSize: 11,
+            fontSize: 10,
             color: "#9ca3af",
             textTransform: "uppercase",
-            letterSpacing: "0.08em",
+            letterSpacing: "0.1em",
             marginTop: 4,
           }}
         >
@@ -103,12 +103,12 @@ function NumberCardItem({ card, index }: { card: NumberCard; index: number }) {
         </div>
         <div
           style={{
-            fontFamily: "'Source Sans 3', sans-serif",
+            fontFamily: "'Inter', sans-serif",
             fontWeight: 400,
-            fontSize: 14,
-            color: "#374151",
+            fontSize: 13,
+            color: "#4b5563",
             marginTop: 10,
-            lineHeight: 1.4,
+            lineHeight: 1.5,
           }}
         >
           {card.label}
@@ -127,7 +127,7 @@ export default function NumberCards({ section }: NumberCardsProps) {
       style={{
         display: "grid",
         gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
-        gap: 16,
+        gap: 14,
       }}
     >
       {cards.map((card, i) => (

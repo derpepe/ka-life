@@ -7,8 +7,8 @@ export default function Header() {
     <header
       style={{
         background: "white",
-        borderBottom: "1px solid #e5e7eb",
-        padding: "16px 24px",
+        borderBottom: "1px solid #f0f0f0",
+        padding: "14px 24px",
         position: "sticky",
         top: 0,
         zIndex: 100,
@@ -24,28 +24,29 @@ export default function Header() {
         }}
       >
         <Link href="/" style={{ textDecoration: "none" }}>
-          <KaLifeLogo size={36} showText={true} />
+          <KaLifeLogo size={32} showText={true} />
         </Link>
         <div style={{ flex: 1 }} />
         <nav
           style={{
             display: "flex",
             alignItems: "center",
-            gap: 20,
+            gap: 24,
           }}
         >
           <Link
             href="/ueber"
             data-testid="nav-ueber"
             style={{
-              fontFamily: "'Source Sans 3', sans-serif",
-              fontSize: 14,
-              color: "#6b7280",
+              fontFamily: "'Inter', sans-serif",
+              fontSize: 13,
+              fontWeight: 500,
+              color: "#9ca3af",
               textDecoration: "none",
               transition: "color 0.15s",
             }}
             onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.color = "#111827")}
-            onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = "#6b7280")}
+            onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = "#9ca3af")}
           >
             {"\u00DCber"}
           </Link>
@@ -53,14 +54,15 @@ export default function Header() {
             href="/impressum"
             data-testid="nav-impressum"
             style={{
-              fontFamily: "'Source Sans 3', sans-serif",
-              fontSize: 14,
-              color: "#6b7280",
+              fontFamily: "'Inter', sans-serif",
+              fontSize: 13,
+              fontWeight: 500,
+              color: "#9ca3af",
               textDecoration: "none",
               transition: "color 0.15s",
             }}
             onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.color = "#111827")}
-            onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = "#6b7280")}
+            onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = "#9ca3af")}
           >
             Impressum
           </Link>

@@ -39,8 +39,8 @@ export default function StackedBar({ section }: StackedBarProps) {
             onMouseEnter={() => setHoveredStack(i)}
             onMouseLeave={() => setHoveredStack(null)}
           >
-            <div style={{ width: 14, height: 14, borderRadius: 3, background: s.color, flexShrink: 0 }} />
-            <span style={{ fontFamily: "'Source Sans 3', sans-serif", fontSize: 13, color: "#374151", fontWeight: 600 }}>
+            <div style={{ width: 12, height: 12, borderRadius: 3, background: s.color, flexShrink: 0 }} />
+            <span style={{ fontFamily: "'Inter', sans-serif", fontSize: 12, color: "#374151", fontWeight: 600 }}>
               {s.label}
             </span>
           </div>
@@ -58,9 +58,9 @@ export default function StackedBar({ section }: StackedBarProps) {
               <div
                 style={{
                   fontFamily: "'JetBrains Mono', monospace",
-                  fontSize: 13,
+                  fontSize: 12,
                   fontWeight: 500,
-                  color: "#6b7280",
+                  color: "#9ca3af",
                   width: 36,
                   flexShrink: 0,
                   textAlign: "right",
@@ -72,11 +72,11 @@ export default function StackedBar({ section }: StackedBarProps) {
               <div
                 style={{
                   flex: 1,
-                  height: 36,
+                  height: 32,
                   display: "flex",
                   borderRadius: 4,
                   overflow: "hidden",
-                  background: "#f3f4f6",
+                  background: "#f5f5f5",
                 }}
               >
                 {rowValues.map((val, stackIdx) => {
@@ -105,9 +105,9 @@ export default function StackedBar({ section }: StackedBarProps) {
                         <span
                           style={{
                             fontFamily: "'JetBrains Mono', monospace",
-                            fontSize: 11,
+                            fontSize: 10,
                             color: "white",
-                            fontWeight: 500,
+                            fontWeight: 600,
                             whiteSpace: "nowrap",
                             padding: "0 4px",
                           }}
@@ -123,7 +123,7 @@ export default function StackedBar({ section }: StackedBarProps) {
               <div
                 style={{
                   fontFamily: "'JetBrains Mono', monospace",
-                  fontSize: 12,
+                  fontSize: 11,
                   color: "#9ca3af",
                   width: 50,
                   flexShrink: 0,

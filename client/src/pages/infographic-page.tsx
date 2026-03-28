@@ -16,30 +16,31 @@ export default function InfographicPage() {
         data-testid="infographic-not-found"
         style={{
           minHeight: "100vh",
-          background: "#f8f6f0",
+          background: "#ffffff",
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          gap: 20,
-          fontFamily: "'Source Sans 3', sans-serif",
+          gap: 16,
+          fontFamily: "'Inter', sans-serif",
           padding: 24,
           textAlign: "center",
         }}
       >
-        <KaLifeLogo size={48} showText={true} />
+        <KaLifeLogo size={40} showText={true} />
         <h1
           style={{
-            fontFamily: "'Playfair Display', serif",
-            fontSize: 32,
-            fontWeight: 700,
+            fontFamily: "'Inter', sans-serif",
+            fontSize: 24,
+            fontWeight: 600,
             color: "#111827",
             margin: "16px 0 0",
+            letterSpacing: "-0.01em",
           }}
         >
           Infografik nicht gefunden
         </h1>
-        <p style={{ color: "#6b7280", fontSize: 16, margin: "8px 0 24px" }}>
+        <p style={{ color: "#6b7280", fontSize: 14, margin: "4px 0 24px" }}>
           Die Ausgabe &bdquo;{params.id}&ldquo; existiert nicht.
         </p>
         <Link
@@ -48,14 +49,14 @@ export default function InfographicPage() {
             display: "inline-flex",
             alignItems: "center",
             gap: 6,
-            background: "#2d6a4f",
+            background: "#1a5c3a",
             color: "white",
             padding: "10px 20px",
-            borderRadius: 6,
+            borderRadius: 8,
             textDecoration: "none",
             fontWeight: 600,
-            fontSize: 14,
-            fontFamily: "'Source Sans 3', sans-serif",
+            fontSize: 13,
+            fontFamily: "'Inter', sans-serif",
           }}
         >
           {"\u2190 Zur\u00FCck zur \u00DCbersicht"}
@@ -77,7 +78,7 @@ export default function InfographicPage() {
       <div
         style={{
           background: "white",
-          borderBottom: "1px solid #e5e7eb",
+          borderBottom: "1px solid #f0f0f0",
           padding: "12px 16px",
           position: "sticky",
           top: 0,
@@ -87,7 +88,7 @@ export default function InfographicPage() {
           gap: 16,
         }}
       >
-        <div style={{ maxWidth: 780, margin: "0 auto", width: "100%", display: "flex", alignItems: "center", gap: 16 }}>
+        <div style={{ maxWidth: 680, margin: "0 auto", width: "100%", display: "flex", alignItems: "center", gap: 16 }}>
           <Link
             href="/"
             data-testid="back-link"
@@ -95,20 +96,20 @@ export default function InfographicPage() {
               display: "inline-flex",
               alignItems: "center",
               gap: 6,
-              color: "#6b7280",
+              color: "#9ca3af",
               textDecoration: "none",
-              fontFamily: "'Source Sans 3', sans-serif",
-              fontSize: 14,
-              fontWeight: 400,
+              fontFamily: "'Inter', sans-serif",
+              fontSize: 13,
+              fontWeight: 500,
               transition: "color 0.15s",
             }}
             onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.color = "#111827")}
-            onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = "#6b7280")}
+            onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = "#9ca3af")}
           >
             &larr; Alle Ausgaben
           </Link>
           <div style={{ flex: 1 }} />
-          <KaLifeLogo size={24} showText={false} />
+          <KaLifeLogo size={22} showText={false} />
         </div>
       </div>
 
@@ -118,17 +119,17 @@ export default function InfographicPage() {
       <div
         data-testid="share-section"
         style={{
-          borderTop: "1px solid #e5e7eb",
+          borderTop: "1px solid #f0f0f0",
           background: "white",
           padding: "32px 24px",
         }}
       >
-        <div style={{ maxWidth: 780, margin: "0 auto" }}>
+        <div style={{ maxWidth: 680, margin: "0 auto" }}>
           <h3
             style={{
-              fontFamily: "'Playfair Display', serif",
-              fontSize: 16,
-              fontWeight: 700,
+              fontFamily: "'Inter', sans-serif",
+              fontSize: 14,
+              fontWeight: 600,
               color: "#111827",
               margin: "0 0 16px",
             }}
@@ -146,12 +147,12 @@ export default function InfographicPage() {
               style={{
                 width: "100%",
                 boxSizing: "border-box",
-                fontFamily: "'Source Sans 3', sans-serif",
-                fontSize: 14,
-                color: "#374151",
-                background: "#f8f6f0",
-                border: "1px solid #e5e7eb",
-                borderRadius: 6,
+                fontFamily: "'Inter', sans-serif",
+                fontSize: 13,
+                color: "#4b5563",
+                background: "#fafafa",
+                border: "1px solid #f0f0f0",
+                borderRadius: 8,
                 padding: "12px 14px",
                 resize: "none",
                 lineHeight: 1.6,
@@ -165,13 +166,13 @@ export default function InfographicPage() {
                 position: "absolute",
                 top: 10,
                 right: 10,
-                background: copied ? "#2d6a4f" : "#111827",
+                background: copied ? "#1a5c3a" : "#111827",
                 color: "white",
                 border: "none",
-                borderRadius: 4,
+                borderRadius: 6,
                 padding: "5px 12px",
-                fontSize: 12,
-                fontFamily: "'Source Sans 3', sans-serif",
+                fontSize: 11,
+                fontFamily: "'Inter', sans-serif",
                 fontWeight: 600,
                 cursor: "pointer",
                 transition: "background 0.2s",
@@ -184,9 +185,9 @@ export default function InfographicPage() {
           {/* Social PNG link */}
           <p
             style={{
-              fontFamily: "'Source Sans 3', sans-serif",
-              fontSize: 13,
-              color: "#6b7280",
+              fontFamily: "'Inter', sans-serif",
+              fontSize: 12,
+              color: "#9ca3af",
               margin: 0,
             }}
           >
@@ -196,7 +197,7 @@ export default function InfographicPage() {
               target="_blank"
               rel="noopener noreferrer"
               data-testid="social-png-link"
-              style={{ color: "#2d6a4f", textDecoration: "underline" }}
+              style={{ color: "#1a5c3a", textDecoration: "underline", textUnderlineOffset: "2px" }}
             >
               {`social/${infographic.id}.png`}
             </a>

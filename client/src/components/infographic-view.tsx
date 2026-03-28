@@ -24,9 +24,9 @@ function SectionWrapper({
       data-testid={`section-${section.type}`}
       style={{
         background: "white",
-        borderRadius: 10,
-        padding: "28px 28px 32px",
-        boxShadow: "0 1px 6px rgba(0,0,0,0.06)",
+        borderRadius: 12,
+        padding: "24px 24px 28px",
+        border: "1px solid #f0f0f0",
         marginBottom: 0,
       }}
     >
@@ -34,12 +34,13 @@ function SectionWrapper({
         <div style={{ marginBottom: 20 }}>
           <h2
             style={{
-              fontFamily: "'Playfair Display', Georgia, serif",
-              fontWeight: 700,
-              fontSize: 22,
+              fontFamily: "'Inter', sans-serif",
+              fontWeight: 600,
+              fontSize: 17,
               color: "#111827",
               margin: 0,
-              lineHeight: 1.25,
+              lineHeight: 1.3,
+              letterSpacing: "-0.01em",
             }}
           >
             {section.title}
@@ -47,25 +48,16 @@ function SectionWrapper({
           {section.subtitle && (
             <p
               style={{
-                fontFamily: "'Source Sans 3', sans-serif",
-                fontSize: 14,
+                fontFamily: "'Inter', sans-serif",
+                fontSize: 13,
                 color: "#6b7280",
                 margin: "6px 0 0",
-                lineHeight: 1.4,
+                lineHeight: 1.5,
               }}
             >
               {section.subtitle}
             </p>
           )}
-          <div
-            style={{
-              height: 2,
-              width: 40,
-              background: accent,
-              borderRadius: 1,
-              marginTop: 12,
-            }}
-          />
         </div>
       )}
       <SectionContent section={section} />
@@ -105,9 +97,9 @@ export default function InfographicView({ infographic }: InfographicViewProps) {
     <div
       data-testid="infographic-view"
       style={{
-        background: theme.background,
+        background: "#fafafa",
         minHeight: "100vh",
-        fontFamily: "'Source Sans 3', sans-serif",
+        fontFamily: "'Inter', sans-serif",
       }}
     >
       {/* Header */}
@@ -118,7 +110,7 @@ export default function InfographicView({ infographic }: InfographicViewProps) {
           padding: "40px 24px 36px",
         }}
       >
-        <div style={{ maxWidth: 780, margin: "0 auto" }}>
+        <div style={{ maxWidth: 680, margin: "0 auto" }}>
           <div
             style={{
               display: "flex",
@@ -130,13 +122,13 @@ export default function InfographicView({ infographic }: InfographicViewProps) {
             <span
               style={{
                 fontFamily: "'JetBrains Mono', monospace",
-                fontSize: 11,
-                fontWeight: 500,
+                fontSize: 10,
+                fontWeight: 600,
                 letterSpacing: "0.1em",
                 textTransform: "uppercase" as const,
-                background: theme.accentLight,
-                color: theme.accentDark,
-                padding: "3px 10px",
+                background: "rgba(255,255,255,0.15)",
+                color: "white",
+                padding: "4px 10px",
                 borderRadius: 4,
               }}
             >
@@ -144,10 +136,10 @@ export default function InfographicView({ infographic }: InfographicViewProps) {
             </span>
             <span
               style={{
-                fontFamily: "'Source Sans 3', sans-serif",
+                fontFamily: "'Inter', sans-serif",
                 fontSize: 12,
-                color: "rgba(255,255,255,0.6)",
-                letterSpacing: "0.05em",
+                color: "rgba(255,255,255,0.5)",
+                letterSpacing: "0.03em",
               }}
             >
               KW {infographic.weekNumber} &middot; {infographic.dateRange}
@@ -156,13 +148,13 @@ export default function InfographicView({ infographic }: InfographicViewProps) {
 
           <h1
             style={{
-              fontFamily: "'Playfair Display', Georgia, serif",
-              fontWeight: 900,
-              fontSize: "clamp(28px, 5vw, 44px)",
-              lineHeight: 1.1,
-              margin: "0 0 14px",
+              fontFamily: "'Inter', sans-serif",
+              fontWeight: 800,
+              fontSize: "clamp(26px, 5vw, 38px)",
+              lineHeight: 1.15,
+              margin: "0 0 12px",
               color: "white",
-              letterSpacing: "-0.01em",
+              letterSpacing: "-0.025em",
             }}
           >
             {infographic.title}
@@ -170,12 +162,13 @@ export default function InfographicView({ infographic }: InfographicViewProps) {
 
           <p
             style={{
-              fontFamily: "'Source Sans 3', sans-serif",
-              fontSize: 17,
-              lineHeight: 1.55,
-              color: "rgba(255,255,255,0.8)",
+              fontFamily: "'Inter', sans-serif",
+              fontSize: 15,
+              lineHeight: 1.6,
+              color: "rgba(255,255,255,0.7)",
               margin: 0,
-              maxWidth: 620,
+              maxWidth: 560,
+              fontWeight: 400,
             }}
           >
             {infographic.subtitle}
@@ -186,12 +179,12 @@ export default function InfographicView({ infographic }: InfographicViewProps) {
       {/* Sections */}
       <main
         style={{
-          maxWidth: 780,
+          maxWidth: 680,
           margin: "0 auto",
-          padding: "32px 16px 48px",
+          padding: "28px 16px 48px",
           display: "flex",
           flexDirection: "column",
-          gap: 24,
+          gap: 20,
         }}
       >
         {infographic.sections.map((section, i) => (
@@ -203,23 +196,23 @@ export default function InfographicView({ infographic }: InfographicViewProps) {
           <div
             data-testid="editor-note"
             style={{
-              background: "#fffbeb",
-              border: "1px solid #fde68a",
-              borderRadius: 8,
+              background: "#fafafa",
+              border: "1px solid #f0f0f0",
+              borderRadius: 10,
               padding: "14px 18px",
               display: "flex",
               gap: 10,
               alignItems: "flex-start",
             }}
           >
-            <span style={{ fontSize: 16 }}>&#9998;</span>
+            <span style={{ fontSize: 14, opacity: 0.5 }}>&#9998;</span>
             <p
               style={{
-                fontFamily: "'Source Sans 3', sans-serif",
-                fontSize: 13,
-                color: "#92400e",
+                fontFamily: "'Inter', sans-serif",
+                fontSize: 12,
+                color: "#6b7280",
                 margin: 0,
-                lineHeight: 1.5,
+                lineHeight: 1.6,
                 fontStyle: "italic",
               }}
             >
@@ -232,17 +225,17 @@ export default function InfographicView({ infographic }: InfographicViewProps) {
         <div
           data-testid="sources"
           style={{
-            borderTop: "1px solid #e5e7eb",
+            borderTop: "1px solid #f0f0f0",
             paddingTop: 20,
           }}
         >
           <p
             style={{
-              fontFamily: "'Source Sans 3', sans-serif",
-              fontSize: 11,
+              fontFamily: "'Inter', sans-serif",
+              fontSize: 10,
               color: "#9ca3af",
               textTransform: "uppercase" as const,
-              letterSpacing: "0.08em",
+              letterSpacing: "0.1em",
               fontWeight: 600,
               margin: "0 0 8px",
             }}
@@ -254,9 +247,9 @@ export default function InfographicView({ infographic }: InfographicViewProps) {
               <li
                 key={i}
                 style={{
-                  fontFamily: "'Source Sans 3', sans-serif",
-                  fontSize: 12,
-                  color: "#6b7280",
+                  fontFamily: "'Inter', sans-serif",
+                  fontSize: 11,
+                  color: "#9ca3af",
                 }}
               >
                 {src}

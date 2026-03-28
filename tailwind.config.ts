@@ -9,8 +9,8 @@ export default {
         sans: ["var(--font-sans)"],
         serif: ["var(--font-serif)"],
         mono: ["var(--font-mono)"],
-        display: ["'Playfair Display'", "Georgia", "serif"],
-        body: ["'Source Sans 3'", "'Helvetica Neue'", "sans-serif"],
+        display: ["'Inter'", "'Helvetica Neue'", "sans-serif"],
+        body: ["'Inter'", "'Helvetica Neue'", "sans-serif"],
         data: ["'JetBrains Mono'", "Menlo", "monospace"],
       },
       borderRadius: {

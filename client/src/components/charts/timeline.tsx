@@ -17,8 +17,8 @@ export default function Timeline({ section }: TimelineProps) {
           left: 10,
           top: 8,
           bottom: 8,
-          width: 2,
-          background: "linear-gradient(to bottom, #e5e7eb 0%, #e5e7eb 100%)",
+          width: 1.5,
+          background: "#e5e7eb",
           borderRadius: 1,
         }}
       />
@@ -32,7 +32,7 @@ export default function Timeline({ section }: TimelineProps) {
               data-testid={`timeline-event-${i}`}
               style={{
                 position: "relative",
-                paddingBottom: isLast ? 0 : 28,
+                paddingBottom: isLast ? 0 : 24,
                 display: "flex",
                 alignItems: "flex-start",
                 gap: 14,
@@ -44,12 +44,12 @@ export default function Timeline({ section }: TimelineProps) {
                   position: "absolute",
                   left: -22,
                   top: 4,
-                  width: event.highlight ? 14 : 10,
-                  height: event.highlight ? 14 : 10,
+                  width: event.highlight ? 12 : 8,
+                  height: event.highlight ? 12 : 8,
                   borderRadius: "50%",
-                  background: event.highlight ? "#2d6a4f" : "#d1d5db",
-                  border: event.highlight ? "2px solid #2d6a4f" : "2px solid #e5e7eb",
-                  boxShadow: event.highlight ? "0 0 0 3px rgba(45,106,79,0.15)" : "none",
+                  background: event.highlight ? "#1a5c3a" : "#d1d5db",
+                  border: event.highlight ? "2px solid #1a5c3a" : "2px solid #e5e7eb",
+                  boxShadow: event.highlight ? "0 0 0 3px rgba(26,92,58,0.12)" : "none",
                   transform: event.highlight ? "translateX(-2px)" : "none",
                   zIndex: 1,
                   transition: "all 0.2s",
@@ -60,10 +60,10 @@ export default function Timeline({ section }: TimelineProps) {
                 <div
                   style={{
                     fontFamily: "'JetBrains Mono', monospace",
-                    fontSize: 11,
-                    fontWeight: 500,
-                    color: event.highlight ? "#2d6a4f" : "#9ca3af",
-                    letterSpacing: "0.04em",
+                    fontSize: 10,
+                    fontWeight: 600,
+                    color: event.highlight ? "#1a5c3a" : "#9ca3af",
+                    letterSpacing: "0.06em",
                     textTransform: "uppercase" as const,
                     marginBottom: 3,
                   }}
@@ -72,11 +72,11 @@ export default function Timeline({ section }: TimelineProps) {
                 </div>
                 <div
                   style={{
-                    fontFamily: "'Source Sans 3', sans-serif",
-                    fontSize: event.highlight ? 16 : 15,
+                    fontFamily: "'Inter', sans-serif",
+                    fontSize: event.highlight ? 14 : 13,
                     fontWeight: event.highlight ? 600 : 400,
-                    color: event.highlight ? "#111827" : "#374151",
-                    lineHeight: 1.4,
+                    color: event.highlight ? "#111827" : "#4b5563",
+                    lineHeight: 1.5,
                   }}
                 >
                   {event.label}

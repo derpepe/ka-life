@@ -37,20 +37,15 @@ export default function WaffleChart({ section }: WaffleChartProps) {
 
   const cols = 10;
   const rows = Math.ceil(total / cols);
-  const cellSize = 22;
+  const cellSize = 20;
   const gap = 3;
   const gridWidth = cols * (cellSize + gap) - gap;
-
-  // secondaryFilled are the e-car slots (first secondaryFilled squares = green)
-  // filledColor (verbrenner) = remaining filled squares
 
   const squares = Array.from({ length: total }, (_, idx) => {
     let color = emptyColor;
     if (idx < secondaryFilled) {
-      // E-Auto
       color = secondaryColor;
     } else if (idx < filled) {
-      // Verbrenner
       color = filledColor;
     }
     return color;
@@ -61,7 +56,7 @@ export default function WaffleChart({ section }: WaffleChartProps) {
       <div
         style={{
           display: "flex",
-          gap: 32,
+          gap: 28,
           alignItems: "flex-start",
           flexWrap: "wrap" as const,
         }}
@@ -93,22 +88,22 @@ export default function WaffleChart({ section }: WaffleChartProps) {
 
         {/* Legend and annotation */}
         <div style={{ flex: 1, minWidth: 160 }}>
-          <div style={{ display: "flex", flexDirection: "column", gap: 10, marginBottom: 16 }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: 8, marginBottom: 14 }}>
             <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-              <div style={{ width: 16, height: 16, borderRadius: 3, background: filledColor, flexShrink: 0 }} />
-              <span style={{ fontFamily: "'Source Sans 3', sans-serif", fontSize: 13, color: "#374151", fontWeight: 600 }}>
+              <div style={{ width: 14, height: 14, borderRadius: 3, background: filledColor, flexShrink: 0 }} />
+              <span style={{ fontFamily: "'Inter', sans-serif", fontSize: 12, color: "#374151", fontWeight: 600 }}>
                 Verbrenner ({filled - secondaryFilled} von 100)
               </span>
             </div>
             <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-              <div style={{ width: 16, height: 16, borderRadius: 3, background: secondaryColor, flexShrink: 0 }} />
-              <span style={{ fontFamily: "'Source Sans 3', sans-serif", fontSize: 13, color: "#374151", fontWeight: 600 }}>
+              <div style={{ width: 14, height: 14, borderRadius: 3, background: secondaryColor, flexShrink: 0 }} />
+              <span style={{ fontFamily: "'Inter', sans-serif", fontSize: 12, color: "#374151", fontWeight: 600 }}>
                 Elektro ({secondaryFilled} von 100)
               </span>
             </div>
             <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-              <div style={{ width: 16, height: 16, borderRadius: 3, background: emptyColor, flexShrink: 0 }} />
-              <span style={{ fontFamily: "'Source Sans 3', sans-serif", fontSize: 13, color: "#374151", fontWeight: 600 }}>
+              <div style={{ width: 14, height: 14, borderRadius: 3, background: emptyColor, flexShrink: 0 }} />
+              <span style={{ fontFamily: "'Inter', sans-serif", fontSize: 12, color: "#374151", fontWeight: 600 }}>
                 Sonstige ({total - filled} von 100)
               </span>
             </div>
@@ -116,10 +111,10 @@ export default function WaffleChart({ section }: WaffleChartProps) {
 
           <p
             style={{
-              fontFamily: "'Source Sans 3', sans-serif",
-              fontSize: 13,
+              fontFamily: "'Inter', sans-serif",
+              fontSize: 12,
               color: "#6b7280",
-              lineHeight: 1.5,
+              lineHeight: 1.6,
               margin: 0,
             }}
           >

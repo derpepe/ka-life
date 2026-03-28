@@ -8,27 +8,27 @@ export default function NotFound() {
       data-testid="not-found-page"
       style={{
         minHeight: "100vh",
-        background: "#f8f6f0",
+        background: "#ffffff",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
-        gap: 12,
-        fontFamily: "'Source Sans 3', sans-serif",
+        gap: 8,
+        fontFamily: "'Inter', sans-serif",
         padding: 24,
         textAlign: "center",
       }}
     >
-      <KaLifeLogo size={48} showText={true} />
+      <KaLifeLogo size={40} showText={true} />
 
       <div
         style={{
           fontFamily: "'JetBrains Mono', monospace",
-          fontSize: 80,
-          fontWeight: 500,
+          fontSize: 72,
+          fontWeight: 600,
           color: "#e5e7eb",
           lineHeight: 1,
-          marginTop: 24,
+          marginTop: 32,
         }}
       >
         404
@@ -36,11 +36,12 @@ export default function NotFound() {
 
       <h1
         style={{
-          fontFamily: "'Playfair Display', Georgia, serif",
-          fontSize: 28,
-          fontWeight: 700,
+          fontFamily: "'Inter', sans-serif",
+          fontSize: 22,
+          fontWeight: 600,
           color: "#111827",
           margin: "8px 0 0",
+          letterSpacing: "-0.01em",
         }}
       >
         Seite nicht gefunden
@@ -49,10 +50,10 @@ export default function NotFound() {
       <p
         style={{
           color: "#6b7280",
-          fontSize: 15,
-          margin: "8px 0 24px",
-          maxWidth: 360,
-          lineHeight: 1.5,
+          fontSize: 14,
+          margin: "8px 0 28px",
+          maxWidth: 340,
+          lineHeight: 1.6,
         }}
       >
         {"Diese Seite existiert nicht. Vielleicht wurde die Adresse ge\u00E4ndert oder die Infografik noch nicht ver\u00F6ffentlicht."}
@@ -64,15 +65,14 @@ export default function NotFound() {
           display: "inline-flex",
           alignItems: "center",
           gap: 6,
-          background: "#2d6a4f",
+          background: "#1a5c3a",
           color: "white",
           padding: "10px 22px",
-          borderRadius: 6,
+          borderRadius: 8,
           textDecoration: "none",
           fontWeight: 600,
-          fontSize: 14,
-          fontFamily: "'Source Sans 3', sans-serif",
-          letterSpacing: "0.01em",
+          fontSize: 13,
+          fontFamily: "'Inter', sans-serif",
         }}
       >
         {"\u2190 Zur\u00FCck zur \u00DCbersicht"}

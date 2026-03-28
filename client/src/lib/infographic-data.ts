@@ -54,7 +54,7 @@ export const infographics: WeeklyInfographic[] = [
       accentDark: "#1b4332",
       secondary: "#e63946",
       tertiary: "#457b9d",
-      background: "#f8f6f0",
+      background: "#fafafa",
     },
     socialCard: {
       headline: "Verbrenner d\u00FCrfen\nweiter brennen",

@@ -17,44 +17,18 @@ export default function SocialCard({ infographic, wide = false }: SocialCardProp
       data-testid="social-card"
       style={{
         background: socialCard.gradient,
-        borderRadius: 10,
+        borderRadius: 12,
         aspectRatio: wide ? "16/9" : "1/1",
         position: "relative",
         overflow: "hidden",
         display: "flex",
         flexDirection: "column",
         justifyContent: "space-between",
-        padding: 22,
+        padding: 24,
         cursor: "pointer",
         width: "100%",
       }}
     >
-      {/* Decorative circles */}
-      <div
-        style={{
-          position: "absolute",
-          top: -60,
-          right: -60,
-          width: 200,
-          height: 200,
-          borderRadius: "50%",
-          background: "rgba(255,255,255,0.05)",
-          pointerEvents: "none",
-        }}
-      />
-      <div
-        style={{
-          position: "absolute",
-          bottom: -40,
-          left: -40,
-          width: 160,
-          height: 160,
-          borderRadius: "50%",
-          background: "rgba(255,255,255,0.04)",
-          pointerEvents: "none",
-        }}
-      />
-
       {/* Top bar */}
       <div
         style={{
@@ -65,14 +39,14 @@ export default function SocialCard({ infographic, wide = false }: SocialCardProp
           zIndex: 1,
         }}
       >
-        <KaLifeLogo size={28} showText={false} color="white" />
+        <KaLifeLogo size={24} showText={false} color="white" />
         <span
           style={{
-            fontFamily: "'Source Sans 3', sans-serif",
+            fontFamily: "'Inter', sans-serif",
             fontSize: 11,
-            color: "rgba(255,255,255,0.7)",
-            fontWeight: 400,
-            letterSpacing: "0.04em",
+            color: "rgba(255,255,255,0.6)",
+            fontWeight: 500,
+            letterSpacing: "0.02em",
           }}
         >
           ka-life.de
@@ -97,22 +71,22 @@ export default function SocialCard({ infographic, wide = false }: SocialCardProp
           data-testid="social-card-key-number"
           style={{
             fontFamily: "'JetBrains Mono', monospace",
-            fontWeight: 500,
-            fontSize: "clamp(48px, 10vw, 80px)",
+            fontWeight: 600,
+            fontSize: "clamp(48px, 10vw, 76px)",
             color: "white",
             lineHeight: 1,
-            letterSpacing: "-0.02em",
+            letterSpacing: "-0.03em",
           }}
         >
           {socialCard.keyNumber}
         </div>
         <div
           style={{
-            fontFamily: "'Source Sans 3', sans-serif",
-            fontSize: 13,
-            color: "rgba(255,255,255,0.75)",
-            fontWeight: 400,
-            letterSpacing: "0.03em",
+            fontFamily: "'Inter', sans-serif",
+            fontSize: 12,
+            color: "rgba(255,255,255,0.65)",
+            fontWeight: 500,
+            letterSpacing: "0.02em",
           }}
         >
           {socialCard.keyLabel}
@@ -123,19 +97,20 @@ export default function SocialCard({ infographic, wide = false }: SocialCardProp
       <div style={{ position: "relative", zIndex: 1 }}>
         <div
           style={{
-            borderTop: "1px solid rgba(255,255,255,0.2)",
+            borderTop: "1px solid rgba(255,255,255,0.15)",
             paddingTop: 14,
           }}
         >
           <h3
             data-testid="social-card-headline"
             style={{
-              fontFamily: "'Playfair Display', Georgia, serif",
+              fontFamily: "'Inter', sans-serif",
               fontWeight: 700,
-              fontSize: "clamp(14px, 3vw, 18px)",
+              fontSize: "clamp(14px, 3vw, 17px)",
               color: "white",
               margin: "0 0 6px",
-              lineHeight: 1.25,
+              lineHeight: 1.3,
+              letterSpacing: "-0.01em",
             }}
           >
             {lines.map((line, i) => (
@@ -147,10 +122,11 @@ export default function SocialCard({ infographic, wide = false }: SocialCardProp
           </h3>
           <div
             style={{
-              fontFamily: "'Source Sans 3', sans-serif",
+              fontFamily: "'Inter', sans-serif",
               fontSize: 11,
-              color: "rgba(255,255,255,0.6)",
-              letterSpacing: "0.06em",
+              color: "rgba(255,255,255,0.5)",
+              letterSpacing: "0.03em",
+              fontWeight: 400,
             }}
           >
             {socialCard.subline}
