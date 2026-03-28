@@ -159,10 +159,10 @@ export default function About() {
             >
               {"Du hast ein Thema f\u00FCr eine Infografik? Schreib uns an "}
               <a
-                href="mailto:peter@pjs.de"
+                href="mailto:ka-life@pjs.de"
                 style={{ color: "#2d6a4f", textDecoration: "underline" }}
               >
-                peter@pjs.de
+                ka-life@pjs.de
               </a>
               {"."}
             </p>

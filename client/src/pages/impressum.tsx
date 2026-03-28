@@ -138,8 +138,8 @@ export default function Impressum() {
               </p>
               <p style={{ margin: "0 0 4px" }}>
                 {"E-Mail: "}
-                <a href="mailto:peter@pjs.de" style={{ color: "#2d6a4f", textDecoration: "none" }}>
-                  peter@pjs.de
+                <a href="mailto:ka-life@pjs.de" style={{ color: "#2d6a4f", textDecoration: "none" }}>
+                  ka-life@pjs.de
                 </a>
               </p>
             </div>
