@@ -1,0 +1,14 @@
+[build]
+  # Vite baut nur das Frontend
+  command = "npm run build:static"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# SPA-Routing: alle Pfade → index.html (Hash-Routing braucht das eigentlich nicht,
+# aber schadet nicht als Fallback)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
