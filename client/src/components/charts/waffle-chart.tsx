@@ -6,7 +6,11 @@ interface WaffleChartProps {
 }
 
 export default function WaffleChart({ section }: WaffleChartProps) {
-  const { total, filled, filledColor, emptyColor, annotation, secondaryFilled, secondaryColor } = section.data as {
+  const {
+    total, filled, filledColor, emptyColor, annotation,
+    secondaryFilled, secondaryColor,
+    filledLabel, secondaryLabel, emptyLabel,
+  } = section.data as {
     total: number;
     filled: number;
     filledColor: string;
@@ -14,6 +18,9 @@ export default function WaffleChart({ section }: WaffleChartProps) {
     annotation: string;
     secondaryFilled: number;
     secondaryColor: string;
+    filledLabel?: string;
+    secondaryLabel?: string;
+    emptyLabel?: string;
   };
 
   const ref = useRef<HTMLDivElement>(null);
@@ -35,11 +42,9 @@ export default function WaffleChart({ section }: WaffleChartProps) {
     return () => observer.disconnect();
   }, []);
 
-  const cols = 10;
-  const rows = Math.ceil(total / cols);
-  const cellSize = 20;
+  const cols = total <= 30 ? Math.min(total, 10) : 10;
+  const cellSize = total <= 30 ? 24 : 20;
   const gap = 3;
-  const gridWidth = cols * (cellSize + gap) - gap;
 
   const squares = Array.from({ length: total }, (_, idx) => {
     let color = emptyColor;
@@ -50,6 +55,13 @@ export default function WaffleChart({ section }: WaffleChartProps) {
     }
     return color;
   });
+
+  // Dynamic labels with fallback
+  const primaryCount = filled - secondaryFilled;
+  const emptyCount = total - filled;
+  const primaryLabel = filledLabel || `Kategorie A (${primaryCount} von ${total})`;
+  const secLabel = secondaryLabel || `Kategorie B (${secondaryFilled} von ${total})`;
+  const restLabel = emptyLabel || `Sonstige (${emptyCount} von ${total})`;
 
   return (
     <div data-testid="waffle-chart" ref={ref}>
@@ -89,24 +101,30 @@ export default function WaffleChart({ section }: WaffleChartProps) {
         {/* Legend and annotation */}
         <div style={{ flex: 1, minWidth: 160 }}>
           <div style={{ display: "flex", flexDirection: "column", gap: 8, marginBottom: 14 }}>
-            <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-              <div style={{ width: 14, height: 14, borderRadius: 3, background: filledColor, flexShrink: 0 }} />
-              <span style={{ fontFamily: "'Inter', sans-serif", fontSize: 12, color: "#374151", fontWeight: 600 }}>
-                Verbrenner ({filled - secondaryFilled} von 100)
-              </span>
-            </div>
-            <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-              <div style={{ width: 14, height: 14, borderRadius: 3, background: secondaryColor, flexShrink: 0 }} />
-              <span style={{ fontFamily: "'Inter', sans-serif", fontSize: 12, color: "#374151", fontWeight: 600 }}>
-                Elektro ({secondaryFilled} von 100)
-              </span>
-            </div>
-            <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-              <div style={{ width: 14, height: 14, borderRadius: 3, background: emptyColor, flexShrink: 0 }} />
-              <span style={{ fontFamily: "'Inter', sans-serif", fontSize: 12, color: "#374151", fontWeight: 600 }}>
-                Sonstige ({total - filled} von 100)
-              </span>
-            </div>
+            {primaryCount > 0 && (
+              <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                <div style={{ width: 14, height: 14, borderRadius: 3, background: filledColor, flexShrink: 0 }} />
+                <span style={{ fontFamily: "'Inter', sans-serif", fontSize: 12, color: "#374151", fontWeight: 600 }}>
+                  {primaryLabel}
+                </span>
+              </div>
+            )}
+            {secondaryFilled > 0 && (
+              <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                <div style={{ width: 14, height: 14, borderRadius: 3, background: secondaryColor, flexShrink: 0 }} />
+                <span style={{ fontFamily: "'Inter', sans-serif", fontSize: 12, color: "#374151", fontWeight: 600 }}>
+                  {secLabel}
+                </span>
+              </div>
+            )}
+            {emptyCount > 0 && (
+              <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                <div style={{ width: 14, height: 14, borderRadius: 3, background: emptyColor, flexShrink: 0 }} />
+                <span style={{ fontFamily: "'Inter', sans-serif", fontSize: 12, color: "#374151", fontWeight: 600 }}>
+                  {restLabel}
+                </span>
+              </div>
+            )}
           </div>
 
           <p

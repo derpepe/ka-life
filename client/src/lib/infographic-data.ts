@@ -181,6 +181,9 @@ export const infographics: WeeklyInfographic[] = [
           annotation: "72 von 100 neu zugelassenen Autos in Karlsruhe fahren noch mit Verbrenner \u2013 Tendenz sinkend.",
           secondaryFilled: 28,
           secondaryColor: "#2d6a4f",
+          filledLabel: "Verbrenner (44 von 100)",
+          secondaryLabel: "Elektro (28 von 100)",
+          emptyLabel: "Sonstige (28 von 100)",
         },
       },
     ],
@@ -307,6 +310,9 @@ export const infographics: WeeklyInfographic[] = [
           annotation: "6 Siege, 4 Unentschieden, 4 Niederlagen \u2013 der Wildpark ist keine Festung mehr.",
           secondaryFilled: 6,
           secondaryColor: "#2d6a4f",
+          filledLabel: "Unentschieden + Niederlagen (4+4)",
+          secondaryLabel: "Siege (6 von 14)",
+          emptyLabel: "Ausstehend (4 von 14)",
         },
       },
     ],
@@ -706,6 +712,9 @@ export const infographics: WeeklyInfographic[] = [
           annotation: "22 von 30 seiner wichtigsten Geb\u00E4ude existieren noch \u2013 viele davon unter Denkmalschutz.",
           secondaryFilled: 18,
           secondaryColor: "#2c3e50",
+          filledLabel: "Umgebaut erhalten (4 von 30)",
+          secondaryLabel: "Original erhalten (18 von 30)",
+          emptyLabel: "Abgerissen (8 von 30)",
         },
       },
     ],
@@ -717,6 +726,271 @@ export const infographics: WeeklyInfographic[] = [
     ],
     editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt.",
     socialPostText: "Vor 200 Jahren starb Friedrich Weinbrenner \u2013 der Mann, der Karlsruhe geformt hat. Vom Marktplatz bis zur Pyramide: Was von seinem Erbe \u00FCbrig ist.\n\n\u27A1 ka-life.de",
+  },
+  {
+    id: "kw08-2026",
+    weekNumber: 8,
+    year: 2026,
+    dateRange: "16.\u201322. Feb. 2026",
+    title: "500 K\u00E4fige f\u00FCr die Freiheit",
+    subtitle: "THE CAGE von Fahar Al-Salih verwandelt die Stadtkirche in einen begehbaren K\u00E4fig aus 500 Vogelk\u00E4figen \u2013 Kunst zwischen Freiheit und Begrenzung.",
+    kicker: "Kunst & Gesellschaft",
+    theme: {
+      accent: "#6b4c2a",
+      accentLight: "#c9a96e",
+      accentDark: "#3d2a14",
+      secondary: "#d4a017",
+      tertiary: "#5c7a3d",
+      background: "#fafafa",
+    },
+    socialCard: {
+      headline: "500 K\u00E4fige\nf\u00FCr die Freiheit",
+      subline: "THE CAGE \u00b7 Stadtkirche \u00b7 KW 8",
+      keyNumber: "500",
+      keyLabel: "Handgefertigte Vogelk\u00E4fige",
+      gradient: "linear-gradient(135deg, #6b4c2a 0%, #3d2a14 100%)",
+    },
+    sections: [
+      {
+        type: "number-cards",
+        title: "THE CAGE in Zahlen",
+        subtitle: "Eine Installation, die bewegt",
+        data: {
+          cards: [
+            { value: "500", unit: "K\u00E4fige", label: "Handgefertigt aus Palmbl\u00E4ttern", color: "#6b4c2a" },
+            { value: "5", unit: "Meter hoch", label: "Begehbarer Raum in der Stadtkirche", color: "#d4a017" },
+            { value: "8", unit: "Meter lang", label: "Monumentale Rauminstallation", color: "#5c7a3d" },
+            { value: "3", unit: "Wochen", label: "7.\u201329. M\u00E4rz 2026", color: "#3d2a14" },
+          ] as NumberCard[],
+        },
+      },
+      {
+        type: "torte-der-wahrheit",
+        title: "F\u00E4chertorten",
+        subtitle: "Was uns THE CAGE lehrt",
+        data: {
+          pies: [
+            {
+              title: "Warum Karlsruher in die Stadtkirche gehen",
+              slices: [
+                { label: "Wegen der Kunst", value: 45, color: "#6b4c2a" },
+                { label: "Instagram-Foto", value: 25, color: "#d4a017" },
+                { label: "Zuf\u00E4llig reingelaufen", value: 20, color: "#c9a96e" },
+                { label: "Tats\u00E4chlich Gottesdienst", value: 10, color: "#adb5bd" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Unsichtbare K\u00E4fige in Karlsruhe",
+              slices: [
+                { label: "Mietpreise", value: 35, color: "#6b4c2a" },
+                { label: "Kombi-Baustellen", value: 25, color: "#d4a017" },
+                { label: "B\u00FCrokratie", value: 25, color: "#5c7a3d" },
+                { label: "KSC-Dauerkarte", value: 15, color: "#adb5bd" },
+              ] as PieSlice[],
+            },
+          ],
+        },
+      },
+      {
+        type: "timeline",
+        title: "Kunst in der Stadtkirche",
+        subtitle: "Vom Weinbrenner-Bau zum Kunstort",
+        data: {
+          events: [
+            { date: "1807", label: "Friedrich Weinbrenner erbaut die Stadtkirche" },
+            { date: "2022", label: "Fahar Al-Salih schafft THE CAGE in Riad" },
+            { date: "2024", label: "GAIA: 90.000 Besucher in der Stadtkirche", highlight: true },
+            { date: "2025", label: "Stellar Sanctuary: 32.000 Besucher" },
+            { date: "7. M\u00E4rz 2026", label: "THE CAGE er\u00F6ffnet in Karlsruhe", highlight: true },
+          ] as TimelineEvent[],
+        },
+      },
+      {
+        type: "comparison",
+        title: "Besuchermagneten Stadtkirche",
+        subtitle: "Kunstinstallationen der letzten Jahre",
+        data: {
+          items: [
+            { label: "GAIA (2024)", value: 90, display: "90.000", color: "#6b4c2a" },
+            { label: "Stellar Sanctuary (2025)", value: 32, display: "32.000", color: "#d4a017" },
+            { label: "THE CAGE (2026, Prognose)", value: 50, display: "50.000?", color: "#5c7a3d" },
+          ] as BarItem[],
+        },
+      },
+      {
+        type: "quote",
+        title: "Zitat",
+        data: {
+          text: "Wir sind hier in einem offenen K\u00E4fig. Das symbolisiert Optimismus: Man kann hinein- und hinausgehen.",
+          author: "Fahar Al-Salih, K\u00FCnstler",
+          color: "#6b4c2a",
+        },
+      },
+      {
+        type: "waffle",
+        title: "Herkunft der K\u00E4fige",
+        subtitle: "Traditionelle irakische Handwerkskunst",
+        data: {
+          total: 20,
+          filled: 20,
+          filledColor: "#6b4c2a",
+          emptyColor: "#e5e7eb",
+          annotation: "Alle 500+ K\u00E4fige sind aus Resten von Palmbl\u00E4ttern handgefertigt \u2013 ohne Kleber, ohne N\u00E4gel. Jeder ist ein Unikat.",
+          secondaryFilled: 0,
+          secondaryColor: "#d4a017",
+          filledLabel: "Handgefertigt aus Palmbl\u00E4ttern (alle)",
+          secondaryLabel: "",
+          emptyLabel: "",
+        },
+      },
+    ],
+    sources: [
+      "SWR Kultur, 04.03.2026",
+      "karlsruhe-erleben.de, THE CAGE",
+      "Sculpture Network",
+      "thecage-stadtkirchekarlsruhe.de",
+      "UNESCO City of Media Arts Karlsruhe",
+    ],
+    editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt.",
+    socialPostText: "500 handgefertigte Vogelk\u00E4fige bilden einen begehbaren Raum in der Karlsruher Stadtkirche. THE CAGE von Fahar Al-Salih fragt: In welchen K\u00E4figen leben wir?\n\n\u27A1 ka-life.de",
+  },
+  {
+    id: "kw06-2026",
+    weekNumber: 6,
+    year: 2026,
+    dateRange: "2.\u20138. Feb. 2026",
+    title: "Deutschlands gr\u00F6\u00DFte Kunstmesse",
+    subtitle: "Die art karlsruhe 2026 bringt 180 Galerien aus 18 L\u00E4ndern, 50.000 Besucher und Kunst von 20 Euro bis 1,12 Millionen.",
+    kicker: "Kunst & Kultur",
+    theme: {
+      accent: "#9b2335",
+      accentLight: "#e06070",
+      accentDark: "#5c0f1a",
+      secondary: "#2c3e50",
+      tertiary: "#f39c12",
+      background: "#fafafa",
+    },
+    socialCard: {
+      headline: "Deutschlands gr\u00F6\u00DFte\nKunstmesse",
+      subline: "art karlsruhe \u00b7 KW 6",
+      keyNumber: "180",
+      keyLabel: "Galerien aus 18 L\u00E4ndern",
+      gradient: "linear-gradient(135deg, #9b2335 0%, #5c0f1a 100%)",
+    },
+    sections: [
+      {
+        type: "number-cards",
+        title: "art karlsruhe 2026",
+        subtitle: "Vier Tage Kunst in vier Hallen",
+        data: {
+          cards: [
+            { value: "180", unit: "Galerien", label: "Aus 18 L\u00E4ndern", color: "#9b2335" },
+            { value: "50000", unit: "Besucher", label: "An vier Messetagen", color: "#2c3e50" },
+            { value: "120", unit: "Jahre", label: "Kunstgeschichte unter einem Dach", color: "#f39c12" },
+            { value: "18", unit: "Neuaussteller", label: "Frische Impulse aus dem Ausland", color: "#9b2335" },
+          ] as NumberCard[],
+        },
+      },
+      {
+        type: "torte-der-wahrheit",
+        title: "F\u00E4chertorten",
+        subtitle: "Was auf der Messe wirklich passiert",
+        data: {
+          pies: [
+            {
+              title: "Was Besucher auf der art machen",
+              slices: [
+                { label: "Staunen", value: 35, color: "#9b2335" },
+                { label: "Preisschilder suchen", value: 30, color: "#f39c12" },
+                { label: "Sektempfang", value: 20, color: "#e06070" },
+                { label: "Tats\u00E4chlich kaufen", value: 15, color: "#2c3e50" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Preisspanne der Kunstwerke",
+              slices: [
+                { label: "Unter 1.000 \u20ac", value: 30, color: "#2c3e50" },
+                { label: "1.000\u201310.000 \u20ac", value: 35, color: "#9b2335" },
+                { label: "10.000\u2013100.000 \u20ac", value: 25, color: "#f39c12" },
+                { label: "\u00dcber 100.000 \u20ac", value: 10, color: "#e06070" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Woher die Galerien kommen",
+              slices: [
+                { label: "Deutschland", value: 70, color: "#2c3e50" },
+                { label: "Frankreich/Schweiz", value: 12, color: "#9b2335" },
+                { label: "Resteuropa", value: 12, color: "#f39c12" },
+                { label: "\u00dcbersee", value: 6, color: "#e06070" },
+              ] as PieSlice[],
+            },
+          ],
+        },
+      },
+      {
+        type: "comparison",
+        title: "Kunst f\u00FCr jedes Budget",
+        subtitle: "Die Preisspanne 2026",
+        data: {
+          items: [
+            { label: "Teuerstes Werk", value: 100, display: "1,12 Mio. \u20ac", color: "#9b2335" },
+            { label: "Richter-Druck", value: 40, display: "~50.000 \u20ac", color: "#2c3e50" },
+            { label: "Nachwuchskunst", value: 8, display: "Ab 500 \u20ac", color: "#f39c12" },
+            { label: "Vogel-Benefiz", value: 2, display: "Ab 20 \u20ac", color: "#e06070" },
+          ] as BarItem[],
+        },
+      },
+      {
+        type: "timeline",
+        title: "Messe-Historie",
+        subtitle: "Vom Newcomer zur gr\u00F6\u00DFten Kunstmesse",
+        data: {
+          events: [
+            { date: "2004", label: "Erste art karlsruhe \u2013 Startschuss" },
+            { date: "2010", label: "\u00dcber 40.000 Besucher zum ersten Mal" },
+            { date: "2020", label: "Letzte Messe vor Corona" },
+            { date: "2023", label: "Neustart mit neuem Konzept" },
+            { date: "Feb. 2026", label: "180 Galerien, 50.000 Besucher \u2013 Rekord!", highlight: true },
+          ] as TimelineEvent[],
+        },
+      },
+      {
+        type: "quote",
+        title: "Zitat",
+        data: {
+          text: "Die Messe funktioniert, f\u00FCr Galerien, f\u00FCr Besucher und f\u00FCr den Markt.",
+          author: "Kristian Jarmuschek, Beiratsvorsitzender art karlsruhe",
+          color: "#9b2335",
+        },
+      },
+      {
+        type: "stacked-bar",
+        title: "Besucherentwicklung",
+        subtitle: "art karlsruhe (in Tausend)",
+        data: {
+          categories: ["2018", "2019", "2020", "2023", "2024", "2026"],
+          stacks: [
+            { label: "Besucher", color: "#9b2335" },
+          ],
+          values: [
+            [47],
+            [52],
+            [0],
+            [42],
+            [46],
+            [50],
+          ],
+        },
+      },
+    ],
+    sources: [
+      "art-karlsruhe.de, Pressemitteilungen",
+      "SWR Kultur, 09.02.2026",
+      "Artnet News, 26.01.2026",
+      "metropolregion.tv",
+    ],
+    editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt.",
+    socialPostText: "180 Galerien, 18 L\u00E4nder, 50.000 Besucher: Die art karlsruhe 2026 zeigt, warum Karlsruhe Deutschlands wichtigster Kunstmesse-Standort ist.\n\n\u27A1 ka-life.de",
   },
 ];
 
