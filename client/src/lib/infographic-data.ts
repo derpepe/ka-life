@@ -159,12 +159,13 @@ export const infographics: WeeklyInfographic[] = [
           stacks: [
             { label: "ESA-Beitrag", color: "#1a237e" },
           ],
+          unit: "Mrd. \u20ac",
           values: [
-            [5000],
-            [3800],
-            [2200],
-            [1800],
-            [900],
+            [5.0],
+            [3.8],
+            [2.2],
+            [1.8],
+            [0.9],
           ],
         },
       },
@@ -276,6 +277,7 @@ export const infographics: WeeklyInfographic[] = [
             { label: "Verbrenner", color: "#e63946" },
             { label: "E-Auto", color: "#2d6a4f" },
           ],
+          unit: "Tsd.",
           values: [
             [2650, 194],
             [2380, 356],
@@ -585,6 +587,7 @@ export const infographics: WeeklyInfographic[] = [
             { label: "EU", color: "#0072c6" },
             { label: "Industrie", color: "#f5a623" },
           ],
+          unit: "Mio. \u20ac",
           values: [
             [220, 55, 85],
             [235, 60, 90],
@@ -695,6 +698,7 @@ export const infographics: WeeklyInfographic[] = [
             { label: "CDU", color: "#111827" },
             { label: "Andere", color: "#adb5bd" },
           ],
+          unit: "%",
           values: [
             [12, 44, 44],
             [24, 39, 37],
@@ -1111,6 +1115,7 @@ export const infographics: WeeklyInfographic[] = [
           stacks: [
             { label: "Besucher", color: "#9b2335" },
           ],
+          unit: "Tsd.",
           values: [
             [47],
             [52],

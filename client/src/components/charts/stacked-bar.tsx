@@ -10,11 +10,29 @@ interface StackDef {
   color: string;
 }
 
+function formatValue(val: number, unit?: string): string {
+  // If a unit is provided, use locale formatting + unit
+  if (unit) {
+    return `${val.toLocaleString("de-DE")} ${unit}`;
+  }
+  // Default: just locale-formatted number
+  return val.toLocaleString("de-DE");
+}
+
+function formatCompact(val: number, unit?: string): string {
+  // Short format for inside bars
+  if (unit) {
+    return `${val.toLocaleString("de-DE")}`;
+  }
+  return val.toLocaleString("de-DE");
+}
+
 export default function StackedBar({ section }: StackedBarProps) {
-  const { categories, stacks, values } = section.data as {
+  const { categories, stacks, values, unit } = section.data as {
     categories: string[];
     stacks: StackDef[];
     values: number[][];
+    unit?: string;
   };
 
   const [hoveredStack, setHoveredStack] = useState<number | null>(null);
@@ -52,18 +70,21 @@ export default function StackedBar({ section }: StackedBarProps) {
         {categories.map((cat, rowIdx) => {
           const rowValues = values[rowIdx] || [];
           const total = rowValues.reduce((a, b) => a + b, 0);
+          // Dynamic label width based on longest category
+          const labelWidth = Math.max(60, ...categories.map(c => c.length * 8));
           return (
             <div key={rowIdx} data-testid={`stacked-bar-row-${rowIdx}`} style={{ display: "flex", alignItems: "center", gap: 12 }}>
-              {/* Year label */}
+              {/* Category label */}
               <div
                 style={{
                   fontFamily: "'JetBrains Mono', monospace",
-                  fontSize: 12,
+                  fontSize: 11,
                   fontWeight: 500,
                   color: "#9ca3af",
-                  width: 36,
+                  width: labelWidth,
                   flexShrink: 0,
                   textAlign: "right",
+                  whiteSpace: "nowrap",
                 }}
               >
                 {cat}
@@ -99,7 +120,7 @@ export default function StackedBar({ section }: StackedBarProps) {
                       }}
                       onMouseEnter={() => setHoveredStack(stackIdx)}
                       onMouseLeave={() => setHoveredStack(null)}
-                      title={`${stacks[stackIdx]?.label}: ${val.toLocaleString("de-DE")}`}
+                      title={`${stacks[stackIdx]?.label}: ${formatValue(val, unit)}`}
                     >
                       {widthPct > 8 && (
                         <span
@@ -112,7 +133,7 @@ export default function StackedBar({ section }: StackedBarProps) {
                             padding: "0 4px",
                           }}
                         >
-                          {val >= 1000 ? `${(val / 1000).toFixed(1)}T` : val}
+                          {formatCompact(val, unit)}
                         </span>
                       )}
                     </div>
@@ -125,11 +146,12 @@ export default function StackedBar({ section }: StackedBarProps) {
                   fontFamily: "'JetBrains Mono', monospace",
                   fontSize: 11,
                   color: "#9ca3af",
-                  width: 50,
+                  minWidth: 60,
                   flexShrink: 0,
+                  whiteSpace: "nowrap",
                 }}
               >
-                {(total / 1000).toFixed(1)}T
+                {formatValue(total, unit)}
               </div>
             </div>
           );
