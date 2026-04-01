@@ -178,7 +178,7 @@ export const infographics: WeeklyInfographic[] = [
       "AP News, 01.04.2026",
     ],
     editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt.",
-    socialPostText: "54 Jahre nach Apollo 17 fliegen wieder Menschen zum Mond. An Bord von Artemis II: ein europ\u00E4isches Antriebsmodul und ein deutscher Kleinsatellit. Was die Mission f\u00FCr Deutschland bedeutet.\n\n\u27A1 ka-life.de",
+    socialPostText: "54 Jahre nach Apollo 17 fliegen wieder Menschen zum Mond. An Bord von Artemis II: ein europ\u00E4isches Antriebsmodul und ein deutscher Kleinsatellit. Was die Mission f\u00FCr Deutschland bedeutet.\n\n\u27A1 ka-life.de/#/kw/kw14-2026",
   },
   {
     id: "kw13-2026",
@@ -336,7 +336,7 @@ export const infographics: WeeklyInfographic[] = [
       "Stadt Karlsruhe, Mobilit\u00E4tsbericht 2025",
     ],
     editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt.",
-    socialPostText: "Der BGH in Karlsruhe hat entschieden: Autobauer m\u00FCssen nicht schneller aus dem Verbrenner raus, als die Politik es vorgibt. Was das f\u00FCr die Klimadebatte bedeutet \u2013 in unserer neuen Infografik.\n\n\u27A1 ka-life.de",
+    socialPostText: "Der BGH in Karlsruhe hat entschieden: Autobauer m\u00FCssen nicht schneller aus dem Verbrenner raus, als die Politik es vorgibt. Was das f\u00FCr die Klimadebatte bedeutet \u2013 in unserer neuen Infografik.\n\n\u27A1 ka-life.de/#/kw/kw13-2026",
   },
   {
     id: "kw12-2026",
@@ -464,7 +464,7 @@ export const infographics: WeeklyInfographic[] = [
       "2. Bundesliga Tabelle, 22.03.2026",
     ],
     editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt.",
-    socialPostText: "37 Punkte, Platz 8, Tordifferenz minus 8: Der KSC pendelt zwischen Gl\u00FCcksgef\u00FChlen und Frust. Ein Blick auf die Achterbahn-Saison in Blau-Wei\u00DF.\n\n\u27A1 ka-life.de",
+    socialPostText: "37 Punkte, Platz 8, Tordifferenz minus 8: Der KSC pendelt zwischen Gl\u00FCcksgef\u00FChlen und Frust. Ein Blick auf die Achterbahn-Saison in Blau-Wei\u00DF.\n\n\u27A1 ka-life.de/#/kw/kw12-2026",
   },
   {
     id: "kw11-2026",
@@ -607,7 +607,7 @@ export const infographics: WeeklyInfographic[] = [
       "Baden TV, 12.03.2026",
     ],
     editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt.",
-    socialPostText: "Das KIT bleibt Exzellenzuniversit\u00E4t! 105 Millionen Euro F\u00F6rderung, Top 10 weltweit in Quantenforschung \u2013 was der Titel f\u00FCr Karlsruhe bedeutet.\n\n\u27A1 ka-life.de",
+    socialPostText: "Das KIT bleibt Exzellenzuniversit\u00E4t! 105 Millionen Euro F\u00F6rderung, Top 10 weltweit in Quantenforschung \u2013 was der Titel f\u00FCr Karlsruhe bedeutet.\n\n\u27A1 ka-life.de/#/kw/kw11-2026",
   },
   {
     id: "kw10-2026",
@@ -739,7 +739,7 @@ export const infographics: WeeklyInfographic[] = [
       "Wikipedia, Landtagswahl BW 2026",
     ],
     editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt.",
-    socialPostText: "Landtagswahl 2026: Karlsruhe w\u00E4hlt mit 39% Gr\u00FCne deutlich gr\u00FCner als der Rest des Landes. Cem \u00d6zdemir wird Ministerpr\u00E4sident.\n\n\u27A1 ka-life.de",
+    socialPostText: "Landtagswahl 2026: Karlsruhe w\u00E4hlt mit 39% Gr\u00FCne deutlich gr\u00FCner als der Rest des Landes. Cem \u00d6zdemir wird Ministerpr\u00E4sident.\n\n\u27A1 ka-life.de/#/kw/kw10-2026",
   },
   {
     id: "kw09-2026",
@@ -868,7 +868,7 @@ export const infographics: WeeklyInfographic[] = [
       "Wikipedia, Friedrich Weinbrenner",
     ],
     editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt.",
-    socialPostText: "Vor 200 Jahren starb Friedrich Weinbrenner \u2013 der Mann, der Karlsruhe geformt hat. Vom Marktplatz bis zur Pyramide: Was von seinem Erbe \u00FCbrig ist.\n\n\u27A1 ka-life.de",
+    socialPostText: "Vor 200 Jahren starb Friedrich Weinbrenner \u2013 der Mann, der Karlsruhe geformt hat. Vom Marktplatz bis zur Pyramide: Was von seinem Erbe \u00FCbrig ist.\n\n\u27A1 ka-life.de/#/kw/kw09-2026",
   },
   {
     id: "kw08-2026",
@@ -995,7 +995,7 @@ export const infographics: WeeklyInfographic[] = [
       "UNESCO City of Media Arts Karlsruhe",
     ],
     editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt.",
-    socialPostText: "500 handgefertigte Vogelk\u00E4fige bilden einen begehbaren Raum in der Karlsruher Stadtkirche. THE CAGE von Fahar Al-Salih fragt: In welchen K\u00E4figen leben wir?\n\n\u27A1 ka-life.de",
+    socialPostText: "500 handgefertigte Vogelk\u00E4fige bilden einen begehbaren Raum in der Karlsruher Stadtkirche. THE CAGE von Fahar Al-Salih fragt: In welchen K\u00E4figen leben wir?\n\n\u27A1 ka-life.de/#/kw/kw08-2026",
   },
   {
     id: "kw06-2026",
@@ -1134,7 +1134,7 @@ export const infographics: WeeklyInfographic[] = [
       "metropolregion.tv",
     ],
     editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt.",
-    socialPostText: "180 Galerien, 18 L\u00E4nder, 50.000 Besucher: Die art karlsruhe 2026 zeigt, warum Karlsruhe Deutschlands wichtigster Kunstmesse-Standort ist.\n\n\u27A1 ka-life.de",
+    socialPostText: "180 Galerien, 18 L\u00E4nder, 50.000 Besucher: Die art karlsruhe 2026 zeigt, warum Karlsruhe Deutschlands wichtigster Kunstmesse-Standort ist.\n\n\u27A1 ka-life.de/#/kw/kw06-2026",
   },
 ];
 
