@@ -180,6 +180,27 @@ export default function InfographicPage() {
             </button>
           </div>
 
+          {/* Link zur Infografik */}
+          <p
+            style={{
+              fontFamily: "'Inter', sans-serif",
+              fontSize: 12,
+              color: "#9ca3af",
+              margin: "0 0 8px",
+            }}
+          >
+            {"Link: "}
+            <a
+              href={`https://ka-life.de/#/kw/${infographic.id}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="infographic-link"
+              style={{ color: "#1a5c3a", textDecoration: "underline", textUnderlineOffset: "2px" }}
+            >
+              {`ka-life.de/#/kw/${infographic.id}`}
+            </a>
+          </p>
+
           {/* Social PNG link */}
           <p
             style={{
@@ -189,7 +210,7 @@ export default function InfographicPage() {
               margin: 0,
             }}
           >
-            {"Bild zum Posten: "}
+            {"Bild: "}
             <a
               href={`/social/${infographic.id}.png`}
               target="_blank"
