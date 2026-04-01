@@ -41,6 +41,145 @@ export interface WeeklyInfographic {
 
 export const infographics: WeeklyInfographic[] = [
   {
+    id: "kw14-2026",
+    weekNumber: 14,
+    year: 2026,
+    dateRange: "30. M\u00E4rz\u20135. April 2026",
+    title: "Zur\u00FCck zum Mond \u2013 mit deutscher Technik",
+    subtitle: "Artemis II startet am 1. April 2026 mit 4 Astronauten zum Mond. An Bord: ein European Service Module aus Europa und ein deutscher Kleinsatellit.",
+    kicker: "Raumfahrt & Technik",
+    theme: {
+      accent: "#1a237e",
+      accentLight: "#5c6bc0",
+      accentDark: "#0d1247",
+      secondary: "#ff6f00",
+      tertiary: "#b0bec5",
+      background: "#fafafa",
+    },
+    socialCard: {
+      headline: "Zur\u00FCck zum Mond\n\u2013 mit deutscher Technik",
+      subline: "Artemis II \u00b7 1. April 2026",
+      keyNumber: "54",
+      keyLabel: "Jahre seit dem letzten Mondflug",
+      gradient: "linear-gradient(135deg, #1a237e 0%, #0d1247 100%)",
+    },
+    sections: [
+      {
+        type: "number-cards",
+        title: "Artemis II in Zahlen",
+        subtitle: "Die erste bemannte Mondmission seit Apollo 17",
+        data: {
+          cards: [
+            { value: "54", unit: "Jahre", label: "Seit Apollo 17 (Dezember 1972)", color: "#1a237e" },
+            { value: "4", unit: "Astronauten", label: "Erste Frau und erster Kanadier Richtung Mond", color: "#ff6f00" },
+            { value: "10", unit: "Tage", label: "Missionsdauer Erde\u2013Mond\u2013Erde", color: "#5c6bc0" },
+            { value: "5", unit: "Mrd. \u20ac", label: "Deutschlands neues ESA-Budget (3 Jahre)", color: "#1a237e" },
+          ] as NumberCard[],
+        },
+      },
+      {
+        type: "torte-der-wahrheit",
+        title: "F\u00E4chertorten",
+        subtitle: "Was uns Artemis II wirklich lehrt",
+        data: {
+          pies: [
+            {
+              title: "Warum wir zum Mond fliegen",
+              slices: [
+                { label: "Wissenschaft", value: 25, color: "#1a237e" },
+                { label: "Geopolitik", value: 35, color: "#ff6f00" },
+                { label: "Nostalgie", value: 25, color: "#5c6bc0" },
+                { label: "Elon hat's versprochen", value: 15, color: "#b0bec5" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Was Karlsruher zum Mondflug sagen",
+              slices: [
+                { label: "Cool, aber Kombil\u00F6sung?", value: 40, color: "#1a237e" },
+                { label: "Wann fliegt der KSC?", value: 25, color: "#5c6bc0" },
+                { label: "Beeindruckend!", value: 20, color: "#ff6f00" },
+                { label: "War das nicht ein Aprilscherz?", value: 15, color: "#b0bec5" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Deutschlands Beitrag zu Artemis",
+              slices: [
+                { label: "ESM-Antrieb (Airbus Bremen)", value: 40, color: "#1a237e" },
+                { label: "CubeSat TACHELES", value: 20, color: "#ff6f00" },
+                { label: "ESA-Budget (5 Mrd. \u20ac)", value: 25, color: "#5c6bc0" },
+                { label: "Moralische Unterst\u00FCtzung", value: 15, color: "#b0bec5" },
+              ] as PieSlice[],
+            },
+          ],
+        },
+      },
+      {
+        type: "timeline",
+        title: "Der lange Weg zur\u00FCck zum Mond",
+        subtitle: "Von Apollo 17 bis Artemis II",
+        data: {
+          events: [
+            { date: "Dez. 1972", label: "Apollo 17: Letzter bemannter Mondflug" },
+            { date: "2004", label: "Constellation-Programm gestartet (sp\u00E4ter eingestellt)" },
+            { date: "2017", label: "NASA k\u00FCndigt Artemis-Programm an" },
+            { date: "Nov. 2022", label: "Artemis I: Unbemannter Testflug um den Mond", highlight: true },
+            { date: "Jan. 2026", label: "Artemis II Rollout zur Startrampe 39B" },
+            { date: "1. April 2026", label: "Artemis II: 4 Astronauten fliegen zum Mond", highlight: true },
+          ] as TimelineEvent[],
+        },
+      },
+      {
+        type: "comparison",
+        title: "Artemis vs. Apollo",
+        subtitle: "Wie sich die Mondmissionen unterscheiden",
+        data: {
+          items: [
+            { label: "Artemis II \u2013 Kosten pro Flug", value: 100, display: "4,1 Mrd. $", color: "#1a237e" },
+            { label: "Apollo 11 \u2013 inflationsbereinigt", value: 65, display: "2,7 Mrd. $", color: "#ff6f00" },
+            { label: "SLS-Raketenl\u00E4nge", value: 98, display: "98 m", color: "#5c6bc0" },
+            { label: "Saturn V-Raketenl\u00E4nge", value: 88, display: "111 m", color: "#b0bec5" },
+          ] as BarItem[],
+        },
+      },
+      {
+        type: "quote",
+        title: "Zitat",
+        data: {
+          text: "The next era of exploration begins.",
+          author: "Jared Isaacman, NASA-Administrator, 1. April 2026",
+          color: "#1a237e",
+        },
+      },
+      {
+        type: "stacked-bar",
+        title: "ESA-Budget nach L\u00E4ndern",
+        subtitle: "Top-Beitragszahler 2026\u20132028 (in Mrd. \u20ac)",
+        data: {
+          categories: ["Deutschland", "Frankreich", "Italien", "UK", "Spanien"],
+          stacks: [
+            { label: "ESA-Beitrag", color: "#1a237e" },
+          ],
+          values: [
+            [5000],
+            [3800],
+            [2200],
+            [1800],
+            [900],
+          ],
+        },
+      },
+    ],
+    sources: [
+      "NASA, Artemis II Mission Overview, 01.04.2026",
+      "NASASpaceFlight.com, 31.03.2026",
+      "DLR Pressemitteilung, 18.09.2024",
+      "ESA Ministerial Council, Nov. 2025",
+      "AP News, 01.04.2026",
+    ],
+    editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt.",
+    socialPostText: "54 Jahre nach Apollo 17 fliegen wieder Menschen zum Mond. An Bord von Artemis II: ein europ\u00E4isches Antriebsmodul und ein deutscher Kleinsatellit. Was die Mission f\u00FCr Deutschland bedeutet.\n\n\u27A1 ka-life.de",
+  },
+  {
     id: "kw13-2026",
     weekNumber: 13,
     year: 2026,
