@@ -138,7 +138,7 @@ export default function InfographicPage() {
           </h3>
 
           {/* Social post text */}
-          <div style={{ position: "relative", marginBottom: 16 }}>
+          <div style={{ marginBottom: 16 }}>
             <textarea
               data-testid="social-post-text"
               readOnly
@@ -163,15 +163,13 @@ export default function InfographicPage() {
               data-testid="copy-social-post"
               onClick={handleCopy}
               style={{
-                position: "absolute",
-                top: 10,
-                right: 10,
+                marginTop: 8,
                 background: copied ? "#1a5c3a" : "#111827",
                 color: "white",
                 border: "none",
                 borderRadius: 6,
-                padding: "5px 12px",
-                fontSize: 11,
+                padding: "7px 16px",
+                fontSize: 12,
                 fontFamily: "'Inter', sans-serif",
                 fontWeight: 600,
                 cursor: "pointer",
