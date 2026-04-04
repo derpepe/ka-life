@@ -41,6 +41,170 @@ export interface WeeklyInfographic {
 
 export const infographics: WeeklyInfographic[] = [
   {
+    id: "kw15-2026",
+    weekNumber: 15,
+    year: 2026,
+    dateRange: "6.\u201312. April 2026",
+    title: "18 Euro f\u00FCr 30 Quadratmeter",
+    subtitle: "Die Mieten in Karlsruhe steigen weiter \u2013 Studis zahlen inzwischen 480 Euro f\u00FCr ein WG-Zimmer und 18,42 \u20ac/m\u00B2 f\u00FCr Kleinstwohnungen. Ein Stadtteil-Vergleich.",
+    kicker: "Wohnen & Mieten",
+    theme: {
+      accent: "#b91c1c",
+      accentLight: "#f87171",
+      accentDark: "#7f1d1d",
+      secondary: "#1e40af",
+      tertiary: "#d97706",
+      background: "#fafafa",
+    },
+    socialCard: {
+      headline: "18 Euro f\u00FCr\n30 Quadratmeter",
+      subline: "Karlsruhe Mietspiegel \u00b7 KW 15",
+      keyNumber: "18\u20ac",
+      keyLabel: "pro m\u00B2 f\u00FCr Kleinstwohnungen",
+      gradient: "linear-gradient(135deg, #b91c1c 0%, #7f1d1d 100%)",
+    },
+    sections: [
+      {
+        type: "number-cards",
+        title: "Karlsruhe in Zahlen",
+        subtitle: "Mietpreise 2026 \u2013 Stand Q1",
+        data: {
+          cards: [
+            { value: "18,42", unit: "\u20ac/m\u00B2", label: "Kleinstwohnungen (30 m\u00B2)", color: "#b91c1c" },
+            { value: "5,2", unit: "% Anstieg", label: "Gegen\u00FCber Q1 2025", color: "#d97706" },
+            { value: "480", unit: "\u20ac warm", label: "WG-Zimmer Durchschnitt", color: "#1e40af" },
+            { value: "16,98", unit: "\u20ac/m\u00B2", label: "Nordstadt \u2013 teuerster Stadtteil", color: "#7f1d1d" },
+          ] as NumberCard[],
+        },
+      },
+      {
+        type: "torte-der-wahrheit",
+        title: "F\u00E4chertorten",
+        subtitle: "Die Wahrheit \u00FCber Karlsruher Mieten",
+        data: {
+          pies: [
+            {
+              title: "Was Karlsruher Studis von der Miete \u00FCbrig bleibt",
+              slices: [
+                { label: "Miete", value: 45, color: "#b91c1c" },
+                { label: "Mensa", value: 20, color: "#d97706" },
+                { label: "Semesterticket", value: 15, color: "#1e40af" },
+                { label: "Leben", value: 20, color: "#6b7280" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Wohnungsbesichtigung in KA",
+              slices: [
+                { label: "50 Bewerber vor dir", value: 40, color: "#b91c1c" },
+                { label: "Vermieter ghostet", value: 25, color: "#7f1d1d" },
+                { label: "Zu teuer", value: 20, color: "#d97706" },
+                { label: "Zuschlag bekommen", value: 15, color: "#22c55e" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Warum die Mieten steigen",
+              slices: [
+                { label: "Zu wenig Neubau", value: 35, color: "#b91c1c" },
+                { label: "KIT zieht alle an", value: 25, color: "#1e40af" },
+                { label: "Kombi-Aufwertung", value: 20, color: "#d97706" },
+                { label: "Investor:innen", value: 20, color: "#7f1d1d" },
+              ] as PieSlice[],
+            },
+          ],
+        },
+      },
+      {
+        type: "comparison",
+        title: "Stadtteil-Ranking",
+        subtitle: "Kaltmiete pro m\u00B2 nach Stadtteil (2026)",
+        data: {
+          items: [
+            { label: "Nordstadt", value: 100, display: "16,98 \u20ac", color: "#b91c1c" },
+            { label: "Innenstadt-West", value: 94, display: "15,90 \u20ac", color: "#dc2626" },
+            { label: "S\u00fcdweststadt", value: 88, display: "14,95 \u20ac", color: "#ef4444" },
+            { label: "Oststadt", value: 84, display: "14,20 \u20ac", color: "#f87171" },
+            { label: "M\u00fchlburg", value: 74, display: "12,50 \u20ac", color: "#d97706" },
+            { label: "Durlach", value: 70, display: "11,80 \u20ac", color: "#1e40af" },
+            { label: "Stupferich", value: 61, display: "10,40 \u20ac", color: "#22c55e" },
+          ] as BarItem[],
+        },
+      },
+      {
+        type: "stacked-bar",
+        title: "Mietpreisentwicklung",
+        subtitle: "Durchschnittliche Kaltmiete in Karlsruhe",
+        data: {
+          categories: ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"],
+          stacks: [
+            { label: "\u20ac/m\u00B2", color: "#b91c1c" },
+          ],
+          unit: "\u20ac/m\u00B2",
+          values: [
+            [11.10],
+            [11.67],
+            [12.03],
+            [12.25],
+            [12.48],
+            [12.59],
+            [14.54],
+            [14.72],
+            [14.77],
+          ],
+        },
+      },
+      {
+        type: "timeline",
+        title: "Mietexplosion in Karlsruhe",
+        subtitle: "Von bezahlbar zu \u201Ewie bitte?!\u201C",
+        data: {
+          events: [
+            { date: "2018", label: "Durchschnitt 11,10 \u20ac/m\u00B2 \u2013 noch moderat" },
+            { date: "2020", label: "Corona-Knick: Mieten stagnieren kurz" },
+            { date: "2023", label: "Baukosten explodieren, Neubau bricht ein" },
+            { date: "2024", label: "+15,5% Sprung auf 14,54 \u20ac/m\u00B2", highlight: true },
+            { date: "2025", label: "Mietpreisbremse verl\u00E4ngert \u2013 hilft kaum" },
+            { date: "Q1 2026", label: "14,77 \u20ac/m\u00B2 Durchschnitt, Rekordstand", highlight: true },
+          ] as TimelineEvent[],
+        },
+      },
+      {
+        type: "quote",
+        title: "Zitat",
+        data: {
+          text: "Die Lage wird mindestens bis 2030 sehr angespannt bleiben.",
+          author: "Ludwig Dorffmeister, ifo Institut, 2025",
+          color: "#b91c1c",
+        },
+      },
+      {
+        type: "waffle",
+        title: "BAf\u00f6G vs. Miete",
+        subtitle: "Was vom H\u00f6chstsatz \u00fcbrig bleibt",
+        data: {
+          total: 100,
+          filled: 55,
+          filledColor: "#b91c1c",
+          emptyColor: "#e5e7eb",
+          annotation: "55% des BAf\u00f6G-H\u00f6chstsatzes (992 \u20ac) gehen f\u00fcr ein durchschnittliches WG-Zimmer in Karlsruhe drauf. F\u00fcr Essen, Versicherung und Leben bleiben 450 \u20ac.",
+          secondaryFilled: 0,
+          secondaryColor: "#d97706",
+          filledLabel: "Miete (ca. 540 \u20ac f\u00fcr WG-Zimmer warm)",
+          secondaryLabel: "",
+          emptyLabel: "Rest f\u00fcr alles andere (450 \u20ac)",
+        },
+      },
+    ],
+    sources: [
+      "Wohnungsb\u00f6rse.net, Mietspiegel Karlsruhe Q1 2026",
+      "ImmoScout24, Mietspiegel Karlsruhe Q1 2026",
+      "WG-Gesucht.de, Karlsruhe, April 2026",
+      "ifo Institut, Wohnungsmarktprognose 2025",
+      "Engel & V\u00f6lkers, Mietpreise Karlsruhe 2026",
+    ],
+    editorNote: "Die F\u00e4chertorten sind satirisch \u00fcberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt.",
+    socialPostText: "18,42 \u20ac pro Quadratmeter f\u00fcr 30 m\u00b2 in Karlsruhe. 480 \u20ac f\u00fcr ein WG-Zimmer. Und 55% vom BAf\u00f6G gehen nur f\u00fcr die Miete drauf. Willkommen auf dem Karlsruher Wohnungsmarkt 2026.\n\n\u27a1 ka-life.de/#/kw/kw15-2026",
+  },
+  {
     id: "kw14-2026",
     weekNumber: 14,
     year: 2026,
