@@ -41,6 +41,167 @@ export interface WeeklyInfographic {
 
 export const infographics: WeeklyInfographic[] = [
   {
+    id: "kw16-2026",
+    weekNumber: 16,
+    year: 2026,
+    dateRange: "13.\u201319. April 2026",
+    title: "Dauerbaustelle F\u00E4cherstadt",
+    subtitle: "Tram 4, Tram 5, S4, S5, Rheintalbahn \u2013 Karlsruhe buddelt sich durch 2026. Kaum eine Linie bleibt verschont, und nach Ostern geht es direkt weiter.",
+    kicker: "Verkehr & Nahverkehr",
+    theme: {
+      accent: "#ea580c",
+      accentLight: "#fb923c",
+      accentDark: "#9a3412",
+      secondary: "#1d4ed8",
+      tertiary: "#374151",
+      background: "#fafafa",
+    },
+    socialCard: {
+      headline: "Dauerbaustelle\nF\u00E4cherstadt",
+      subline: "VBK \u00b7 AVG \u00b7 DB \u00b7 KW 16",
+      keyNumber: "12+",
+      keyLabel: "Linien gleichzeitig betroffen",
+      gradient: "linear-gradient(135deg, #ea580c 0%, #9a3412 100%)",
+    },
+    sections: [
+      {
+        type: "number-cards",
+        title: "Das Bau-Chaos in Zahlen",
+        subtitle: "Fr\u00FChjahr 2026 \u2013 Karlsruhe gr\u00E4bt sich um",
+        data: {
+          cards: [
+            { value: "12+", unit: "Linien", label: "Gleichzeitig betroffen (Tram, S-Bahn, Bus)", color: "#ea580c" },
+            { value: "7", unit: "Wochen", label: "Entenfang-Sperre: 13. April bis 11. Mai", color: "#9a3412" },
+            { value: "+2", unit: "Std. Fahrzeit", label: "Rheintalbahn: Bus statt ICE nach Freiburg", color: "#1d4ed8" },
+            { value: "12", unit: "Monate", label: "Stupferich: Busumleitung bis Ende 2026", color: "#374151" },
+          ] as NumberCard[],
+        },
+      },
+      {
+        type: "torte-der-wahrheit",
+        title: "F\u00E4chertorten",
+        subtitle: "Was Karlsruher Pendler wirklich denken",
+        data: {
+          pies: [
+            {
+              title: "Reaktion auf SEV-Ansage",
+              slices: [
+                { label: "Schon wieder?!", value: 45, color: "#ea580c" },
+                { label: "Fahrrad es ist", value: 25, color: "#fb923c" },
+                { label: "Homeoffice", value: 20, color: "#1d4ed8" },
+                { label: "Was ist SEV?", value: 10, color: "#9ca3af" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Warum die VBK immer bauen",
+              slices: [
+                { label: "Marode Gleise", value: 35, color: "#ea580c" },
+                { label: "Kombil\u00F6sungs-Nachwehen", value: 25, color: "#9a3412" },
+                { label: "F\u00F6rdert\u00F6pfe laufen aus", value: 20, color: "#1d4ed8" },
+                { label: "Tradition", value: 20, color: "#374151" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Alternativen der Karlsruher",
+              slices: [
+                { label: "Fahrrad", value: 30, color: "#22c55e" },
+                { label: "Auto (haha, Stau)", value: 25, color: "#ea580c" },
+                { label: "Zu Fu\u00DF", value: 20, color: "#fb923c" },
+                { label: "Einfach zu sp\u00E4t kommen", value: 15, color: "#1d4ed8" },
+                { label: "Umziehen", value: 10, color: "#9ca3af" },
+              ] as PieSlice[],
+            },
+          ],
+        },
+      },
+      {
+        type: "timeline",
+        title: "Baustellenkalender 2026",
+        subtitle: "Es h\u00F6rt nicht auf",
+        data: {
+          events: [
+            { date: "23. M\u00E4rz", label: "Schillerstra\u00DFe: Tram 4 umgeleitet, 3 Wochen" },
+            { date: "28. M\u00E4rz", label: "DB Rheintalbahn: KA\u2013Basel massiv eingeschr\u00E4nkt", highlight: true },
+            { date: "30. M\u00E4rz", label: "Osterferien-Paket: Tram 4, 5, S4 gesperrt", highlight: true },
+            { date: "13. April", label: "Entenfang + Kronenplatz: 4 Wochen Sperrung", highlight: true },
+            { date: "Mai\u2013Juli", label: "Gleisviereck Entenfang: Erneuerung bis Juli" },
+            { date: "Sommer", label: "Waldstadt Tram 4: N\u00E4chste Gro\u00DFbaustelle geplant" },
+          ] as TimelineEvent[],
+        },
+      },
+      {
+        type: "comparison",
+        title: "Was alles gleichzeitig gesperrt ist",
+        subtitle: "Betroffene Linien Osterferien 2026",
+        data: {
+          items: [
+            { label: "Tram 4 (Schillerstr. + Oberreut)", value: 100, display: "SEV", color: "#ea580c" },
+            { label: "Tram 5 (Umleitung Hirtenweg)", value: 90, display: "Umleitung", color: "#fb923c" },
+            { label: "S4 Bretten\u2013KA (komplett Bus)", value: 95, display: "SEV", color: "#9a3412" },
+            { label: "S5/S51 (n\u00E4chtl. Einschr.)", value: 60, display: "Teilausfall", color: "#1d4ed8" },
+            { label: "Bus 42, 107 (5 Wochen)", value: 70, display: "Umleitung", color: "#374151" },
+            { label: "Bus 50, 51 (Bulach)", value: 50, display: "Umleitung", color: "#6b7280" },
+            { label: "DB RE7 Rheintalbahn", value: 85, display: "+2 Std.", color: "#1d4ed8" },
+          ] as BarItem[],
+        },
+      },
+      {
+        type: "stacked-bar",
+        title: "Bautage pro Jahr",
+        subtitle: "Tage mit Einschr\u00E4nkungen im KVV-Netz",
+        data: {
+          categories: ["2022", "2023", "2024", "2025", "2026*"],
+          stacks: [
+            { label: "Bautage", color: "#ea580c" },
+          ],
+          unit: "Tage",
+          values: [
+            [85],
+            [110],
+            [140],
+            [165],
+            [190],
+          ],
+        },
+      },
+      {
+        type: "quote",
+        title: "Zitat",
+        data: {
+          text: "Mit der B\u00FCndelung der Bauarbeiten in den Ferienzeiten werden die Auswirkungen auf den regul\u00E4ren Berufs- und Sch\u00FClerverkehr bewusst reduziert.",
+          author: "VBK Pressemitteilung, M\u00E4rz 2026",
+          color: "#ea580c",
+        },
+      },
+      {
+        type: "waffle",
+        title: "Tram-Netz Karlsruhe",
+        subtitle: "Wie viele Linien sind gerade betroffen?",
+        data: {
+          total: 20,
+          filled: 12,
+          filledColor: "#ea580c",
+          emptyColor: "#e5e7eb",
+          annotation: "12 von ca. 20 VBK/AVG-Linien im Stadtgebiet sind im Fr\u00FChjahr 2026 von Bauma\u00DFnahmen betroffen \u2013 entweder durch Sperrungen, Umleitungen oder Schienenersatzverkehr.",
+          secondaryFilled: 0,
+          secondaryColor: "#1d4ed8",
+          filledLabel: "Betroffen (12 Linien)",
+          secondaryLabel: "",
+          emptyLabel: "Nicht betroffen (8 Linien)",
+        },
+      },
+    ],
+    sources: [
+      "VBK Pressemitteilung, 13.03.2026",
+      "KVV Verkehrsmeldungen, 10.04.2026",
+      "Deutsche Bahn, Bauarbeiten Rheintalbahn, 26.03.2026",
+      "SWR Aktuell, 27.03.2026",
+      "die-neue-welle.de, 04.04.2026",
+    ],
+    editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt.",
+    socialPostText: "12+ Linien gleichzeitig betroffen, 7 Wochen Entenfang-Sperre, Busse statt S-Bahn nach Bretten, +2 Stunden nach Freiburg. Willkommen in der Dauerbaustelle F\u00E4cherstadt.\n\n\u27a1 ka-life.de/#/kw/kw16-2026",
+  },
+  {
     id: "kw15-2026",
     weekNumber: 15,
     year: 2026,
