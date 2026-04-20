@@ -41,6 +41,162 @@ export interface WeeklyInfographic {
 
 export const infographics: WeeklyInfographic[] = [
   {
+    id: "kw17-2026",
+    weekNumber: 17,
+    year: 2026,
+    dateRange: "20.\u201326. April 2026",
+    title: "Vier Tore gegen die Angst",
+    subtitle: "KSC zerlegt Bielefeld 4:1 im Wildpark \u2013 der h\u00F6chste Heimsieg der Saison. Pl\u00F6tzlich redet Karlsruhe \u00FCber Aufstieg statt Abstieg.",
+    kicker: "KSC & Fu\u00DFball",
+    theme: {
+      accent: "#003399",
+      accentLight: "#4d88ff",
+      accentDark: "#001a4d",
+      secondary: "#ffffff",
+      tertiary: "#d4a017",
+      background: "#fafafa",
+    },
+    socialCard: {
+      headline: "Vier Tore\ngegen die Angst",
+      subline: "KSC 4:1 Bielefeld \u00b7 KW 17",
+      keyNumber: "4:1",
+      keyLabel: "H\u00F6chster Heimsieg der Saison",
+      gradient: "linear-gradient(135deg, #003399 0%, #001a4d 100%)",
+    },
+    sections: [
+      {
+        type: "number-cards",
+        title: "KSC nach dem 29. Spieltag",
+        subtitle: "Endlich wieder Wildpark-Feiern",
+        data: {
+          cards: [
+            { value: "4:1", unit: "Endstand", label: "Kantersieg gegen Bielefeld", color: "#003399" },
+            { value: "8", unit: "Platz", label: "Nur 6 Punkte hinter Platz 3", color: "#4d88ff" },
+            { value: "40", unit: "Punkte", label: "Nach 29 Spieltagen", color: "#d4a017" },
+            { value: "5", unit: "Tore", label: "Wanitzek in den letzten 3 Spielen", color: "#003399" },
+          ] as NumberCard[],
+        },
+      },
+      {
+        type: "torte-der-wahrheit",
+        title: "F\u00E4chertorten",
+        subtitle: "Was der Wildpark wirklich denkt",
+        data: {
+          pies: [
+            {
+              title: "Stimmung nach dem 4:1",
+              slices: [
+                { label: "Aufstieg!!!", value: 35, color: "#003399" },
+                { label: "Erstmal Bier", value: 30, color: "#d4a017" },
+                { label: "N\u00E4chste Woche wieder Zittern", value: 25, color: "#4d88ff" },
+                { label: "War ja nur Bielefeld", value: 10, color: "#9ca3af" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Wer hat den KSC gerettet?",
+              slices: [
+                { label: "Wanitzek (Legende)", value: 30, color: "#003399" },
+                { label: "Zivzivadze (Maschine)", value: 25, color: "#d4a017" },
+                { label: "Eichner (Taktikgenie)", value: 20, color: "#4d88ff" },
+                { label: "Die Fans (laut!)", value: 15, color: "#001a4d" },
+                { label: "Bielefeld (schwach)", value: 10, color: "#9ca3af" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Was KSC-Fans ihren Kollegen sagen",
+              slices: [
+                { label: "Hab ich doch gesagt!", value: 40, color: "#003399" },
+                { label: "Ich war im Stadion!", value: 25, color: "#d4a017" },
+                { label: "N\u00E4chstes Jahr erste Liga", value: 20, color: "#4d88ff" },
+                { label: "Kein Kommentar (noch)", value: 15, color: "#9ca3af" },
+              ] as PieSlice[],
+            },
+          ],
+        },
+      },
+      {
+        type: "timeline",
+        title: "Das Spiel in 90 Minuten",
+        subtitle: "KSC 4:1 Arminia Bielefeld \u2013 10. April 2026",
+        data: {
+          events: [
+            { date: "11'", label: "0:1 \u2013 Knoche trifft f\u00FCr Bielefeld. Wildpark verstummt." },
+            { date: "18'", label: "1:1 \u2013 Ben Farhat gleicht aus! Sofortige Antwort.", highlight: true },
+            { date: "62'", label: "2:1 \u2013 Kobald k\u00F6pft nach Ecke. Wildpark bebt!", highlight: true },
+            { date: "77'", label: "3:1 \u2013 Wanitzek! Freisto\u00DF ins Eck. Genie.", highlight: true },
+            { date: "89'", label: "4:1 \u2013 Fukuda macht den Deckel drauf.", highlight: true },
+          ] as TimelineEvent[],
+        },
+      },
+      {
+        type: "comparison",
+        title: "Topspieler der Saison",
+        subtitle: "Torbeteiligungen 2025/26",
+        data: {
+          items: [
+            { label: "Marvin Wanitzek", value: 100, display: "8 Tore, 6 Assists", color: "#003399" },
+            { label: "Budu Zivzivadze", value: 85, display: "10 Tore, 2 Assists", color: "#d4a017" },
+            { label: "Lamine Ben Farhat", value: 55, display: "4 Tore, 5 Assists", color: "#4d88ff" },
+            { label: "Shuto Fukuda", value: 45, display: "5 Tore, 2 Assists", color: "#001a4d" },
+          ] as BarItem[],
+        },
+      },
+      {
+        type: "stacked-bar",
+        title: "Zuschauerschnitt Wildpark",
+        subtitle: "Heimspiele 2025/26",
+        data: {
+          categories: ["Saison 21/22", "Saison 22/23", "Saison 23/24", "Saison 24/25", "Saison 25/26"],
+          stacks: [
+            { label: "Zuschauer", color: "#003399" },
+          ],
+          unit: "Zuschauer",
+          values: [
+            [15200],
+            [22500],
+            [28700],
+            [31200],
+            [33800],
+          ],
+        },
+      },
+      {
+        type: "quote",
+        title: "Zitat",
+        data: {
+          text: "Wenn wir so auftreten, brauchen wir uns vor niemandem zu verstecken.",
+          author: "Christian Eichner, KSC-Trainer, nach dem 4:1",
+          color: "#003399",
+        },
+      },
+      {
+        type: "waffle",
+        title: "Punkteausbeute seit der Winterpause",
+        subtitle: "R\u00FCckrunde bisher: 8 Spiele",
+        data: {
+          total: 24,
+          filled: 16,
+          filledColor: "#003399",
+          emptyColor: "#e5e7eb",
+          annotation: "16 von 24 m\u00F6glichen Punkten in der R\u00FCckrunde geholt \u2013 das w\u00E4re auf die ganze Saison hochgerechnet Platz 3.",
+          secondaryFilled: 0,
+          secondaryColor: "#d4a017",
+          filledLabel: "Geholte Punkte (16 von 24)",
+          secondaryLabel: "",
+          emptyLabel: "Liegengelassene Punkte (8)",
+        },
+      },
+    ],
+    sources: [
+      "ksc.de, Matchcenter 29. Spieltag",
+      "kicker.de, 2. Bundesliga Spieltag 29",
+      "Transfermarkt.de, KSC Saison 2025/26",
+      "ka-news.de, KSC-Berichterstattung",
+    ],
+    editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt.",
+    socialPostText: "4:1 gegen Bielefeld \u2013 der h\u00F6chste Heimsieg der Saison! Wanitzek trifft per Freisto\u00DF, Fukuda macht den Deckel drauf. Pl\u00F6tzlich redet der Wildpark \u00FCber Aufstieg statt Abstieg.\n\n\u27a1 ka-life.de/#/kw/kw17-2026",
+  },
+  {
     id: "kw16-2026",
     weekNumber: 16,
     year: 2026,
