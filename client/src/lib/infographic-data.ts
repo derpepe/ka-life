@@ -41,6 +41,167 @@ export interface WeeklyInfographic {
 
 export const infographics: WeeklyInfographic[] = [
   {
+    id: "kw18-2026",
+    weekNumber: 18,
+    year: 2026,
+    dateRange: "27. April \u2013 3. Mai 2026",
+    title: "Karlsruhe wird zum Genuss-Tempel",
+    subtitle: "Fest der Sinne am 25./26. April \u2013 40 Genussst\u00E4nde, 300 Oldtimer, 100 Jahre Berufsfeuerwehr und ein verkaufsoffener Sonntag. Die F\u00E4cherstadt feiert den Fr\u00FChling.",
+    kicker: "Stadtleben & Genuss",
+    theme: {
+      accent: "#65a30d",
+      accentLight: "#a3e635",
+      accentDark: "#365314",
+      secondary: "#dc2626",
+      tertiary: "#f59e0b",
+      background: "#fafafa",
+    },
+    socialCard: {
+      headline: "Karlsruhe wird\nzum Genuss-Tempel",
+      subline: "Fest der Sinne \u00b7 KW 18",
+      keyNumber: "40+",
+      keyLabel: "Genussst\u00E4nde auf dem Marktplatz",
+      gradient: "linear-gradient(135deg, #65a30d 0%, #365314 100%)",
+    },
+    sections: [
+      {
+        type: "number-cards",
+        title: "Das Fest der Sinne in Zahlen",
+        subtitle: "Karlsruhes gr\u00F6\u00DFtes Fr\u00FChlingsfest",
+        data: {
+          cards: [
+            { value: "40+", unit: "St\u00E4nde", label: "Genussmarkt auf dem Marktplatz", color: "#65a30d" },
+            { value: "100", unit: "Jahre", label: "Berufsfeuerwehr Karlsruhe \u2013 Jubil\u00E4um", color: "#dc2626" },
+            { value: "4", unit: "Pl\u00E4tze", label: "Markt-, Schloss-, Kirch- und Stephanplatz", color: "#f59e0b" },
+            { value: "5", unit: "Stunden", label: "Verkaufsoffener Sonntag (13\u201318 Uhr)", color: "#365314" },
+          ] as NumberCard[],
+        },
+      },
+      {
+        type: "torte-der-wahrheit",
+        title: "F\u00E4chertorten",
+        subtitle: "Was Karlsruher beim Fest der Sinne wirklich machen",
+        data: {
+          pies: [
+            {
+              title: "Wo Karlsruher das Wochenende verbringen",
+              slices: [
+                { label: "Genussmarkt (Bratwurst)", value: 35, color: "#65a30d" },
+                { label: "Verkaufsoffener Sonntag", value: 25, color: "#dc2626" },
+                { label: "Schlosspark", value: 20, color: "#f59e0b" },
+                { label: "Im Stau auf der Kriegsstr.", value: 12, color: "#9ca3af" },
+                { label: "Zuhause auf dem Balkon", value: 8, color: "#365314" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Was wir am Genussmarkt kaufen",
+              slices: [
+                { label: "Flammkuchen", value: 30, color: "#dc2626" },
+                { label: "Bratwurst (klassisch)", value: 25, color: "#a3e635" },
+                { label: "Wein \u00FCberteuert", value: 20, color: "#f59e0b" },
+                { label: "Etwas Veganes (probieren)", value: 15, color: "#65a30d" },
+                { label: "Nichts (zu voll)", value: 10, color: "#9ca3af" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Karlsruher Reaktionen auf Oldtimer",
+              slices: [
+                { label: "Oma! Sieh dir den an!", value: 30, color: "#dc2626" },
+                { label: "Foto f\u00FCr Insta", value: 25, color: "#f59e0b" },
+                { label: "Mein Opa fuhr genau so", value: 20, color: "#365314" },
+                { label: "Was Verbrenner...", value: 15, color: "#65a30d" },
+                { label: "Hauptsache nicht im Weg", value: 10, color: "#9ca3af" },
+              ] as PieSlice[],
+            },
+          ],
+        },
+      },
+      {
+        type: "timeline",
+        title: "Karlsruhes Fest-Saison 2026",
+        subtitle: "Vom Fr\u00FChling bis zum Herbst feiert die F\u00E4cherstadt",
+        data: {
+          events: [
+            { date: "25.\u201326. April", label: "Fest der Sinne \u2013 Genuss, Familie, Oldtimer", highlight: true },
+            { date: "Mai", label: "Schlosslichtspiele beginnen am 14. August" },
+            { date: "Juni", label: "Karlsruhe Pride Parade" },
+            { date: "Juli", label: "DAS FEST \u2013 Klotzanlage mit 250.000+ Besuchern", highlight: true },
+            { date: "August", label: "Schlosslichtspiele \u2013 G\u00E4nsehaut am Schloss" },
+            { date: "Oktober", label: "Christkindlesmarkt-Aufbau beginnt" },
+          ] as TimelineEvent[],
+        },
+      },
+      {
+        type: "comparison",
+        title: "Karlsruher Festivals im Vergleich",
+        subtitle: "Besucherzahlen 2025",
+        data: {
+          items: [
+            { label: "DAS FEST (Juli)", value: 100, display: "268.000", color: "#dc2626" },
+            { label: "Christkindlesmarkt", value: 95, display: "~250.000", color: "#65a30d" },
+            { label: "Schlosslichtspiele (gesamt)", value: 90, display: "~240.000", color: "#f59e0b" },
+            { label: "Fest der Sinne (Sch\u00E4tzung)", value: 30, display: "~80.000", color: "#365314" },
+            { label: "Brigantenfest Durlach", value: 15, display: "~40.000", color: "#a3e635" },
+          ] as BarItem[],
+        },
+      },
+      {
+        type: "stacked-bar",
+        title: "Wof\u00FCr Karlsruher beim Fest Geld ausgeben",
+        subtitle: "Durchschnittliche Ausgaben pro Person",
+        data: {
+          categories: ["Essen", "Getr\u00E4nke", "Shopping", "Eis/Snacks", "Sonstiges"],
+          stacks: [
+            { label: "Euro", color: "#65a30d" },
+          ],
+          unit: "\u20ac",
+          values: [
+            [18],
+            [15],
+            [25],
+            [6],
+            [4],
+          ],
+        },
+      },
+      {
+        type: "quote",
+        title: "Zitat",
+        data: {
+          text: "Im Fr\u00FChling zeigt sich Karlsruhe mit dem Fest der Sinne von seiner farbenpr\u00E4chtigsten Seite und l\u00E4dt zu einer wahren Genussreise ein.",
+          author: "KTG Karlsruhe Tourismus GmbH",
+          color: "#65a30d",
+        },
+      },
+      {
+        type: "waffle",
+        title: "100 Jahre Berufsfeuerwehr",
+        subtitle: "Ein Jahrhundert Karlsruhe in Einsatz",
+        data: {
+          total: 100,
+          filled: 100,
+          filledColor: "#dc2626",
+          emptyColor: "#e5e7eb",
+          annotation: "Seit 1926 sch\u00FCtzt die Berufsfeuerwehr Karlsruhe die Stadt. 100 Jahre Einsatz \u2013 von Br\u00E4nden \u00FCber Hochwasser bis Verkehrsunf\u00E4lle. Beim Fest der Sinne pr\u00E4sentiert die Feuerwehr historische Fahrzeuge auf dem Schlossplatz.",
+          secondaryFilled: 0,
+          secondaryColor: "#f59e0b",
+          filledLabel: "100 Jahre Berufsfeuerwehr (1926\u20132026)",
+          secondaryLabel: "",
+          emptyLabel: "",
+        },
+      },
+    ],
+    sources: [
+      "karlsruhe-erleben.de, Fest der Sinne 2026",
+      "Karlsruhe Marketing und Event GmbH, 04.2026",
+      "meinka.de, 24.04.2026",
+      "karlsruhe.de, City-Initiative Stadtmarketing",
+      "Berufsfeuerwehr Karlsruhe Jubil\u00E4um",
+    ],
+    editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt.",
+    socialPostText: "40 Genussst\u00E4nde, historische Feuerwehr-Oldtimer, verkaufsoffener Sonntag und 100 Jahre Berufsfeuerwehr: Karlsruhe feiert dieses Wochenende das Fest der Sinne. Was Karlsruher dabei wirklich tun \u2013 satirisch in F\u00E4chertorten.\n\n\u27a1 ka-life.de/#/kw/kw18-2026",
+  },
+  {
     id: "kw17-2026",
     weekNumber: 17,
     year: 2026,
