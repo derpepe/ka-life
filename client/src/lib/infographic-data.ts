@@ -41,6 +41,168 @@ export interface WeeklyInfographic {
 
 export const infographics: WeeklyInfographic[] = [
   {
+    id: "kw19-2026",
+    weekNumber: 19,
+    year: 2026,
+    dateRange: "4.\u201310. Mai 2026",
+    title: "Das Ende einer \u00C4ra",
+    subtitle: "Christian Eichner verl\u00E4sst den KSC nach 6 Jahren. \u00DCber 8.000 Fans unterschreiben gegen die Trennung. Die Bilanz eines Trainers, der mehr war als nur ein Trainer.",
+    kicker: "KSC & Vereinspolitik",
+    theme: {
+      accent: "#1e3a8a",
+      accentLight: "#60a5fa",
+      accentDark: "#0c1e4a",
+      secondary: "#f59e0b",
+      tertiary: "#dc2626",
+      background: "#fafafa",
+    },
+    socialCard: {
+      headline: "Das Ende\neiner \u00C4ra",
+      subline: "Eichner & der KSC \u00b7 KW 19",
+      keyNumber: "227",
+      keyLabel: "Spiele auf der KSC-Bank",
+      gradient: "linear-gradient(135deg, #1e3a8a 0%, #0c1e4a 100%)",
+    },
+    sections: [
+      {
+        type: "number-cards",
+        title: "Die Eichner-\u00C4ra in Zahlen",
+        subtitle: "Februar 2020 bis Sommer 2026",
+        data: {
+          cards: [
+            { value: "227", unit: "Spiele", label: "Auf der Bank seit 3. Februar 2020", color: "#1e3a8a" },
+            { value: "85", unit: "Siege", label: "37,4% Siegquote in der 2. Liga", color: "#60a5fa" },
+            { value: "6+", unit: "Jahre", label: "L\u00E4ngste KSC-Trainerzeit seit Winfried Sch\u00E4fer", color: "#f59e0b" },
+            { value: "8000+", unit: "Stimmen", label: "Petition gegen seine Entlassung", color: "#dc2626" },
+          ] as NumberCard[],
+        },
+      },
+      {
+        type: "torte-der-wahrheit",
+        title: "F\u00E4chertorten",
+        subtitle: "Was Karlsruher zur Trennung sagen",
+        data: {
+          pies: [
+            {
+              title: "Reaktionen aus dem Wildpark",
+              slices: [
+                { label: "Petition unterschrieben", value: 35, color: "#1e3a8a" },
+                { label: "Eggimann muss weg!", value: 25, color: "#dc2626" },
+                { label: "Endlich frische Impulse", value: 15, color: "#f59e0b" },
+                { label: "Erstmal Bier", value: 15, color: "#60a5fa" },
+                { label: "Wer ist Eichner?", value: 10, color: "#9ca3af" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Was Eichner f\u00FCr den KSC war",
+              slices: [
+                { label: "Trainer", value: 30, color: "#1e3a8a" },
+                { label: "Kindheitsverein-Identit\u00E4t", value: 30, color: "#f59e0b" },
+                { label: "Stabilit\u00E4tsanker", value: 20, color: "#60a5fa" },
+                { label: "Pressekonferenz-Talent", value: 20, color: "#dc2626" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Eichners Zukunft (Spekulation)",
+              slices: [
+                { label: "Bundesligaverein", value: 35, color: "#1e3a8a" },
+                { label: "Erstmal Sabbatical", value: 25, color: "#60a5fa" },
+                { label: "Ausland (England?)", value: 20, color: "#f59e0b" },
+                { label: "R\u00FCckkehr KSC 2030", value: 20, color: "#dc2626" },
+              ] as PieSlice[],
+            },
+          ],
+        },
+      },
+      {
+        type: "timeline",
+        title: "Sechs Jahre Eichner",
+        subtitle: "Die wichtigsten Stationen",
+        data: {
+          events: [
+            { date: "3. Februar 2020", label: "Eichner \u00FCbernimmt vom Wildpark-Profi zum Cheftrainer", highlight: true },
+            { date: "Mai 2020", label: "Klassenerhalt in Corona-Geisterspielen" },
+            { date: "Saison 21/22", label: "Vorzeitiger Klassenerhalt, Aufbruchstimmung" },
+            { date: "Saison 23/24", label: "Beste KSC-Saison seit Aufstieg, Platz 5", highlight: true },
+            { date: "Dez. 2025", label: "Co-Trainer Bajramovic muss gehen \u2013 erste Risse" },
+            { date: "23. April 2026", label: "KSC verk\u00FCndet Trennung zum Saisonende", highlight: true },
+            { date: "Sommer 2026", label: "Letzte Bank-Sitzung. \u00C4ra zu Ende.", highlight: true },
+          ] as TimelineEvent[],
+        },
+      },
+      {
+        type: "comparison",
+        title: "KSC-Trainer im Langzeit-Vergleich",
+        subtitle: "Anzahl Spiele beim KSC",
+        data: {
+          items: [
+            { label: "Winfried Sch\u00E4fer (1986\u201391)", value: 100, display: "~200 Spiele", color: "#f59e0b" },
+            { label: "Christian Eichner (2020\u201326)", value: 113, display: "227 Spiele", color: "#1e3a8a" },
+            { label: "Joe Albert Z. (2017\u201319)", value: 38, display: "~75 Spiele", color: "#60a5fa" },
+            { label: "Markus Kauczinski (2012\u201316)", value: 75, display: "~150 Spiele", color: "#dc2626" },
+            { label: "Alois Schwartz (2017)", value: 12, display: "~25 Spiele", color: "#9ca3af" },
+          ] as BarItem[],
+        },
+      },
+      {
+        type: "stacked-bar",
+        title: "Eichners Saison-Bilanz",
+        subtitle: "Punkte pro Saison in der 2. Bundesliga",
+        data: {
+          categories: ["19/20*", "20/21", "21/22", "22/23", "23/24", "24/25", "25/26"],
+          stacks: [
+            { label: "Punkte", color: "#1e3a8a" },
+          ],
+          unit: "Punkte",
+          values: [
+            [13],
+            [40],
+            [44],
+            [44],
+            [60],
+            [49],
+            [40],
+          ],
+        },
+      },
+      {
+        type: "quote",
+        title: "Zitat",
+        data: {
+          text: "Welcher Chef kann so etwas schon von sich behaupten, wenn er den Klub wechselt?",
+          author: "Christian Eichner \u00FCber die Welle der Dankesnachrichten, April 2026",
+          color: "#1e3a8a",
+        },
+      },
+      {
+        type: "waffle",
+        title: "Eichners Siegquote",
+        subtitle: "227 Pflichtspiele in der KSC-Karriere",
+        data: {
+          total: 100,
+          filled: 67,
+          filledColor: "#1e3a8a",
+          emptyColor: "#e5e7eb",
+          annotation: "37 Siege, 30 Unentschieden, 33 Niederlagen pro 100 Spiele \u2013 Eichners Bilanz: solide, aber selten triumphal. Doch die Identit\u00E4t mit dem Verein war sein gr\u00F6\u00DFtes Asset.",
+          secondaryFilled: 37,
+          secondaryColor: "#60a5fa",
+          filledLabel: "Unentschieden + Siege (67 von 100)",
+          secondaryLabel: "Davon Siege (37 von 100)",
+          emptyLabel: "Niederlagen (33 von 100)",
+        },
+      },
+    ],
+    sources: [
+      "ksc.de, Pressemitteilung Trainerwechsel, 23.04.2026",
+      "SWR Sport, 29.04.2026",
+      "footystats.org, Eichner Manager Stats",
+      "Wikipedia, Christian Eichner",
+      "news.de, KSC Saisontabelle 25/26",
+    ],
+    editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt.",
+    socialPostText: "Sechs Jahre, 227 Spiele, 8.000 Petitions-Stimmen: Christian Eichner verl\u00E4sst den KSC im Sommer. Die Bilanz einer \u00C4ra \u2013 und was Karlsruher Fans wirklich \u00FCber die Trennung denken.\n\n\u27a1 ka-life.de/#/kw/kw19-2026",
+  },
+  {
     id: "kw18-2026",
     weekNumber: 18,
     year: 2026,
