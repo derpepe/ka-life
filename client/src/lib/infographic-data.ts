@@ -41,6 +41,167 @@ export interface WeeklyInfographic {
 
 export const infographics: WeeklyInfographic[] = [
   {
+    id: "muttertag-2026",
+    weekNumber: 19,
+    year: 2026,
+    dateRange: "10. Mai 2026",
+    title: "Eine Milliarde f\u00FCr Mama",
+    subtitle: "Heute ist Muttertag. Deutschland gibt 1,05 Milliarden Euro f\u00FCr Geschenke aus, Karlsruher Caf\u00E9s sind komplett ausgebucht. Was Mama wirklich will und wie viel ein Brunch heute kostet.",
+    kicker: "Muttertag Spezial",
+    theme: {
+      accent: "#ec4899",
+      accentLight: "#f9a8d4",
+      accentDark: "#831843",
+      secondary: "#16a34a",
+      tertiary: "#f59e0b",
+      background: "#fafafa",
+    },
+    socialCard: {
+      headline: "Eine Milliarde\nf\u00FCr Mama",
+      subline: "Muttertag Spezial \u00b7 10. Mai 2026",
+      keyNumber: "1,05",
+      keyLabel: "Mrd. \u20ac geben Deutsche heute aus",
+      gradient: "linear-gradient(135deg, #ec4899 0%, #831843 100%)",
+    },
+    sections: [
+      {
+        type: "number-cards",
+        title: "Muttertag in Zahlen",
+        subtitle: "Was Deutschland heute der Mama schenkt",
+        data: {
+          cards: [
+            { value: "1,05", unit: "Mrd. \u20ac", label: "Geschenkausgaben in Deutschland", color: "#ec4899" },
+            { value: "18,72", unit: "\u20ac/Kopf", label: "Durchschnittlich pro Person", color: "#f59e0b" },
+            { value: "30", unit: "%", label: "Aller Deutschen kaufen ein Geschenk", color: "#16a34a" },
+            { value: "1923", unit: "Premiere", label: "Erster Muttertag in Deutschland", color: "#831843" },
+          ] as NumberCard[],
+        },
+      },
+      {
+        type: "torte-der-wahrheit",
+        title: "F\u00E4chertorten",
+        subtitle: "Karlsruher Muttertags-Wahrheiten",
+        data: {
+          pies: [
+            {
+              title: "Was Karlsruher heute zur Mama bringen",
+              slices: [
+                { label: "Blumen (Klassiker)", value: 35, color: "#ec4899" },
+                { label: "Pralinen", value: 20, color: "#831843" },
+                { label: "Selbstgebasteltes", value: 18, color: "#f59e0b" },
+                { label: "Brunch-Einladung", value: 15, color: "#16a34a" },
+                { label: "Vergessen, schnell tanken", value: 12, color: "#9ca3af" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Was Karlsruher Muettern heute wirklich w\u00FCnschen",
+              slices: [
+                { label: "Ruhe", value: 35, color: "#ec4899" },
+                { label: "Anruf gen\u00FCgt", value: 25, color: "#16a34a" },
+                { label: "Endlich aufger\u00E4umtes Kinderzimmer", value: 20, color: "#f59e0b" },
+                { label: "Den teuren Brunch", value: 15, color: "#831843" },
+                { label: "Enkelkinder", value: 5, color: "#9ca3af" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Wo Karlsruher heute brunchen",
+              slices: [
+                { label: "Wilma Wunder (Marktplatz)", value: 25, color: "#ec4899" },
+                { label: "Zuhause (selbst gemacht)", value: 35, color: "#16a34a" },
+                { label: "Caf\u00E9 Galerie Durlach", value: 15, color: "#f59e0b" },
+                { label: "Schlosshotel", value: 10, color: "#831843" },
+                { label: "Nirgends, Bett ist Pflicht", value: 15, color: "#9ca3af" },
+              ] as PieSlice[],
+            },
+          ],
+        },
+      },
+      {
+        type: "comparison",
+        title: "Muttertag vs. die Konkurrenz",
+        subtitle: "Geschenkausgaben in Deutschland (2026)",
+        data: {
+          items: [
+            { label: "Weihnachten", value: 100, display: "~120 Mrd. \u20ac", color: "#16a34a" },
+            { label: "Valentinstag", value: 17, display: "~1,4 Mrd. \u20ac", color: "#dc2626" },
+            { label: "Muttertag", value: 13, display: "1,05 Mrd. \u20ac", color: "#ec4899" },
+            { label: "Vatertag", value: 5, display: "~0,4 Mrd. \u20ac", color: "#1e40af" },
+            { label: "Ostern", value: 22, display: "~1,8 Mrd. \u20ac", color: "#f59e0b" },
+          ] as BarItem[],
+        },
+      },
+      {
+        type: "stacked-bar",
+        title: "Was im Geschenkkorb landet",
+        subtitle: "Beliebteste Muttertagsgeschenke 2026",
+        data: {
+          categories: ["Blumen", "S\u00FC\u00DFigkeiten", "Restaurant-Einladung", "Schmuck", "Selbstgebastelt"],
+          stacks: [
+            { label: "%-Anteil", color: "#ec4899" },
+          ],
+          unit: "%",
+          values: [
+            [42],
+            [29],
+            [22],
+            [14],
+            [11],
+          ],
+        },
+      },
+      {
+        type: "timeline",
+        title: "Vom Gedenktag zum Konsumfest",
+        subtitle: "Eine kleine Muttertags-Geschichte",
+        data: {
+          events: [
+            { date: "1908", label: "Anna Jarvis organisiert ersten Muttertag in West Virginia" },
+            { date: "1914", label: "USA: Woodrow Wilson erkl\u00E4rt Muttertag zum Nationalfeiertag" },
+            { date: "1923", label: "Muttertag kommt nach Deutschland \u2013 importiert vom Verband Deutscher Blumengesch\u00E4ftsinhaber", highlight: true },
+            { date: "1934", label: "Nazis machen Muttertag zum Staatsfeiertag (Propaganda)" },
+            { date: "1948", label: "Anna Jarvis stirbt mittellos \u2013 sie verklagte zuletzt Bl\u00FCmchenfirmen wegen Kommerzialisierung", highlight: true },
+            { date: "10. Mai 2026", label: "Deutschland gibt 1,05 Mrd. \u20ac aus \u2013 Anna Jarvis w\u00FCrde sich im Grab umdrehen", highlight: true },
+          ] as TimelineEvent[],
+        },
+      },
+      {
+        type: "quote",
+        title: "Zitat",
+        data: {
+          text: "Eine Karte, die du ein paar Cent gekostet hat, oder ein Telefonanruf druecken die wahre Liebe besser aus als ein gekauftes Geschenk.",
+          author: "Anna Jarvis, Begr\u00FCnderin und sp\u00E4tere Gegnerin des Muttertags",
+          color: "#ec4899",
+        },
+      },
+      {
+        type: "waffle",
+        title: "Wer denkt an die Mama?",
+        subtitle: "30 von 100 Deutschen kaufen ein Geschenk",
+        data: {
+          total: 100,
+          filled: 30,
+          filledColor: "#ec4899",
+          emptyColor: "#e5e7eb",
+          annotation: "30% der Deutschen kaufen ein Muttertagsgeschenk. Die anderen 70% telefonieren, basteln, kochen \u2013 oder haben es schlicht vergessen. Tipp: Tankstellen-Blumen z\u00E4hlen auch.",
+          secondaryFilled: 0,
+          secondaryColor: "#16a34a",
+          filledLabel: "Kaufen ein Geschenk (30%)",
+          secondaryLabel: "",
+          emptyLabel: "Anders ehren oder vergessen (70%)",
+        },
+      },
+    ],
+    sources: [
+      "Handelsverband Deutschland (HDE), Umfrage 28.04.2026",
+      "n-tv, 28.04.2026",
+      "GEO, Geschichte des Muttertags",
+      "Wikipedia, Anna Marie Jarvis",
+      "OpenTable Karlsruhe Muttertags-Reservierungen",
+    ],
+    editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt.",
+    socialPostText: "1,05 Milliarden Euro f\u00FCr Geschenke, 30% der Deutschen kaufen \u2013 und Karlsruhes Caf\u00E9s sind komplett ausgebucht. Heute zum Muttertag: Was Mama wirklich will und warum die Erfinderin des Tages ihn am Ende abschaffen wollte.\n\n\u27a1 ka-life.de/#/kw/muttertag-2026",
+  },
+  {
     id: "kw20-2026",
     weekNumber: 20,
     year: 2026,
