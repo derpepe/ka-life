@@ -86,16 +86,22 @@ function buildRss(): string {
       const url = `${SITE_URL}/#/kw/${ig.id}`;
       const imageUrl = `${SITE_URL}/social/${ig.id}.png`;
       const pubDate = parsePubDate(ig.dateRange, ig.year);
-      // Description includes the social post text plus a reference to the image.
-      const description = `${ig.subtitle}\n\n${ig.socialPostText}`;
+      const altText = `KA-Life ${ig.id.toUpperCase()}: ${ig.title}`;
+      // Plain-text description for tools that strip HTML.
+      const plainText = `${ig.subtitle}\n\n${ig.socialPostText}`;
+      // HTML description with image embedded as <img> for tools that use HTML.
+      const htmlContent = `<p><img src="${imageUrl}" alt="${escapeXml(altText)}" /></p>` +
+        `<p>${escapeXml(ig.subtitle)}</p>` +
+        `<p>${escapeXml(ig.socialPostText).replace(/\n/g, "<br/>")}</p>`;
       return `    <item>
       <title>${escapeXml(ig.title)}</title>
       <link>${escapeXml(url)}</link>
       <guid isPermaLink="true">${escapeXml(url)}</guid>
       <pubDate>${pubDate.toUTCString()}</pubDate>
       <category>${escapeXml(ig.kicker)}</category>
-      <description><![CDATA[${description}]]></description>
-      <enclosure url="${escapeXml(imageUrl)}" type="image/png" />
+      <description><![CDATA[${htmlContent}\n\n${plainText}]]></description>
+      <content:encoded><![CDATA[${htmlContent}]]></content:encoded>
+      <enclosure url="${escapeXml(imageUrl)}" length="0" type="image/png" />
       <media:content url="${escapeXml(imageUrl)}" medium="image" type="image/png" />
       <media:thumbnail url="${escapeXml(imageUrl)}" />
     </item>`;
