@@ -41,6 +41,166 @@ export interface WeeklyInfographic {
 
 export const infographics: WeeklyInfographic[] = [
   {
+    id: "kw20-2026",
+    weekNumber: 20,
+    year: 2026,
+    dateRange: "11.\u201317. Mai 2026",
+    title: "7.458 laufen 8,88889 Kilometer",
+    subtitle: "Die 35. Badische Meile sprengt alle Rekorde \u2013 mit 1.052 Startern aus dem KIT als gr\u00F6\u00DFter Mannschaft und einer Strecke, die nur Karlsruhe haben kann.",
+    kicker: "Sport & Stadtkultur",
+    theme: {
+      accent: "#0e7490",
+      accentLight: "#22d3ee",
+      accentDark: "#164e63",
+      secondary: "#f59e0b",
+      tertiary: "#dc2626",
+      background: "#fafafa",
+    },
+    socialCard: {
+      headline: "7.458 laufen\n8,88889 Kilometer",
+      subline: "Badische Meile \u00b7 KW 20",
+      keyNumber: "7.458",
+      keyLabel: "Finisher der 35. Badischen Meile",
+      gradient: "linear-gradient(135deg, #0e7490 0%, #164e63 100%)",
+    },
+    sections: [
+      {
+        type: "number-cards",
+        title: "Die 35. Badische Meile in Zahlen",
+        subtitle: "3. Mai 2026 \u2013 Karlsruhe l\u00E4uft",
+        data: {
+          cards: [
+            { value: "7.458", unit: "Finisher", label: "Auf 8,88889 km Strecke", color: "#0e7490" },
+            { value: "1.052", unit: "Starter", label: "Vom KIT \u2013 gr\u00F6\u00DFte Mannschaft", color: "#f59e0b" },
+            { value: "27:35", unit: "Minuten", label: "Siegerzeit Simon St\u00FCtzel (LGR Karlsruhe)", color: "#22d3ee" },
+            { value: "35", unit: "Auflage", label: "Seit 1990 Tradition in der F\u00E4cherstadt", color: "#dc2626" },
+          ] as NumberCard[],
+        },
+      },
+      {
+        type: "torte-der-wahrheit",
+        title: "F\u00E4chertorten",
+        subtitle: "Wahrheiten \u00FCber Karlsruhes gr\u00F6\u00DFten Volkslauf",
+        data: {
+          pies: [
+            {
+              title: "Warum Karlsruher die Badische Meile laufen",
+              slices: [
+                { label: "Tradition (lief Opa schon)", value: 30, color: "#0e7490" },
+                { label: "Firmenchallenge", value: 25, color: "#f59e0b" },
+                { label: "Eis im Ziel", value: 20, color: "#dc2626" },
+                { label: "Sport", value: 15, color: "#22d3ee" },
+                { label: "Aus Versehen angemeldet", value: 10, color: "#9ca3af" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Was Teilnehmer auf der Strecke denken",
+              slices: [
+                { label: "Warum sind das nicht 8 km?", value: 35, color: "#0e7490" },
+                { label: "Nie wieder!", value: 25, color: "#dc2626" },
+                { label: "Wo ist die Wasserstation?", value: 20, color: "#22d3ee" },
+                { label: "N\u00E4chstes Jahr unter 50 Min.", value: 20, color: "#f59e0b" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Karlsruher Laufausreden bei Regen",
+              slices: [
+                { label: "Knie tut weh", value: 30, color: "#0e7490" },
+                { label: "Brauche neue Schuhe", value: 25, color: "#f59e0b" },
+                { label: "Letztens schon 5 km", value: 20, color: "#22d3ee" },
+                { label: "Wetter zu schlecht", value: 15, color: "#9ca3af" },
+                { label: "Habs trotzdem gemacht", value: 10, color: "#dc2626" },
+              ] as PieSlice[],
+            },
+          ],
+        },
+      },
+      {
+        type: "timeline",
+        title: "Eine ungew\u00F6hnliche Distanz",
+        subtitle: "Wie Karlsruhe zu seiner eigenen Meile kam",
+        data: {
+          events: [
+            { date: "1715", label: "Karl Wilhelm gr\u00FCndet Karlsruhe \u2013 Stadtgrundma\u00DF entsteht" },
+            { date: "18. Jh.", label: "Eine \u201EBadische Meile\u201C = 8.888,89 m (ca. 5 r\u00F6mische Meilen)" },
+            { date: "1990", label: "Erste Badische Meile zum 275. Stadtjubil\u00E4um", highlight: true },
+            { date: "2019", label: "30-j\u00E4hriges Jubil\u00E4um \u2013 erste Massenveranstaltung mit 7.000+" },
+            { date: "2020\u201321", label: "Pause wegen Corona" },
+            { date: "3. Mai 2026", label: "35. Auflage \u2013 7.458 Finisher, KIT als gr\u00F6\u00DFter Verein", highlight: true },
+          ] as TimelineEvent[],
+        },
+      },
+      {
+        type: "comparison",
+        title: "Die schnellsten Karlsruher",
+        subtitle: "Top-Zeiten 2026 (Top 5 jeweils)",
+        data: {
+          items: [
+            { label: "Simon St\u00FCtzel (LGR)", value: 100, display: "27:35", color: "#0e7490" },
+            { label: "Christian St\u00F6ckl (Liedolsheim)", value: 92, display: "28:56", color: "#22d3ee" },
+            { label: "Samuel M\u00F6hler (RP KA)", value: 91, display: "29:00", color: "#f59e0b" },
+            { label: "Celine Kistner (LGR) \u2013 Frauen-Siegerin", value: 88, display: "29:44", color: "#dc2626" },
+            { label: "Melina Wolf (LGR)", value: 87, display: "29:51", color: "#9ca3af" },
+          ] as BarItem[],
+        },
+      },
+      {
+        type: "stacked-bar",
+        title: "Karlsruhes Sport-Massenveranstaltungen",
+        subtitle: "Teilnehmerzahlen 2025/26",
+        data: {
+          categories: ["Bad. Meile (Lauf)", "Baden Marathon", "Sport-Stadtmeisterschaft", "KSC-Kids-Tag", "Karlsruher Triathlon"],
+          stacks: [
+            { label: "Teilnehmer", color: "#0e7490" },
+          ],
+          unit: "Teilnehmer",
+          values: [
+            [7458],
+            [4500],
+            [3200],
+            [2800],
+            [1200],
+          ],
+        },
+      },
+      {
+        type: "quote",
+        title: "Zitat",
+        data: {
+          text: "Auf nasser Strecke gewann St\u00FCtzel hochverdient \u2013 in 27:35 Minuten lie\u00DF er keine Zweifel aufkommen.",
+          author: "Runner's World, 3. Mai 2026",
+          color: "#0e7490",
+        },
+      },
+      {
+        type: "waffle",
+        title: "Wer rennt eigentlich beim KIT mit?",
+        subtitle: "1.052 KIT-Starter unter 7.458 Finishern",
+        data: {
+          total: 100,
+          filled: 14,
+          filledColor: "#f59e0b",
+          emptyColor: "#e5e7eb",
+          annotation: "14 von 100 Finishern liefen unter dem KIT-Banner. Das KIT war damit gr\u00F6\u00DFter Verein \u2013 vor Stadtwerken, Polizei und Feuerwehr. Karlsruhe ist eben Wissens- UND Sportstadt.",
+          secondaryFilled: 0,
+          secondaryColor: "#22d3ee",
+          filledLabel: "KIT-L\u00E4ufer:innen (14% aller Starter)",
+          secondaryLabel: "",
+          emptyLabel: "Andere Vereine, Firmen, Privat (86%)",
+        },
+      },
+    ],
+    sources: [
+      "Runner's World, 3. Mai 2026",
+      "badischemeile.de, Veranstalter LG Region Karlsruhe",
+      "KIT, Pressemitteilung 04.05.2026",
+      "Stadtwiki Karlsruhe, Badische Meile",
+      "raceresult.com, Ergebnisse 2026",
+    ],
+    editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt.",
+    socialPostText: "7.458 Karlsruher rannten am Sonntag \u00FCber 8,88889 km \u2013 mit 1.052 Startern war das KIT gr\u00F6\u00DFter Verein. Warum die Strecke krumm ist, wer am schnellsten lief und was Teilnehmer wirklich denken.\n\n\u27a1 ka-life.de/#/kw/kw20-2026",
+  },
+  {
     id: "kw19-2026",
     weekNumber: 19,
     year: 2026,
