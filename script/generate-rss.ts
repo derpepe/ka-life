@@ -99,7 +99,7 @@ function buildRss(): string {
       <guid isPermaLink="true">${escapeXml(url)}</guid>
       <pubDate>${pubDate.toUTCString()}</pubDate>
       <category>${escapeXml(ig.kicker)}</category>
-      <description><![CDATA[${htmlContent}\n\n${plainText}]]></description>
+      <description><![CDATA[${plainText}]]></description>
       <content:encoded><![CDATA[${htmlContent}]]></content:encoded>
       <enclosure url="${escapeXml(imageUrl)}" length="0" type="image/png" />
       <media:content url="${escapeXml(imageUrl)}" medium="image" type="image/png" />
