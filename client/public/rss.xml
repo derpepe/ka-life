@@ -9,13 +9,29 @@
     <description>Wöchentliche Infografik-Kolumne zu Karlsruhe. Daten, Fakten und satirische Fächertorten aus der Fächerstadt.</description>
     <language>de-DE</language>
     <copyright>© Decisions Made Easy GmbH, Karlsruhe</copyright>
-    <lastBuildDate>Sat, 09 May 2026 23:12:18 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2026 07:05:03 GMT</lastBuildDate>
     <atom:link href="https://ka-life.de/rss.xml" rel="self" type="application/rss+xml" />
     <image>
-      <url>https://ka-life.de/social/muttertag-2026.png</url>
+      <url>https://ka-life.de/social/kw21-2026.png</url>
       <title>KA-Life — Karlsruhe in Zahlen</title>
       <link>https://ka-life.de</link>
     </image>
+    <item>
+      <title>27.000 muessen raus</title>
+      <link>https://ka-life.de/#/kw/kw21-2026</link>
+      <guid isPermaLink="true">https://ka-life.de/#/kw/kw21-2026</guid>
+      <pubDate>Sun, 24 May 2026 08:00:00 GMT</pubDate>
+      <category>Region &amp; Geschichte</category>
+      <description><![CDATA[In Pforzheim wird heute eine 1,35-Tonnen-Luftmine aus dem Zweiten Weltkrieg entschaerft. Es ist die groesste Evakuierung der Region seit Jahrzehnten – und der Zugverkehr nach Karlsruhe ist eingestellt.
+
+27.000 Pforzheimer müssen heute Morgen ihre Wohnungen verlassen – 1,35 Tonnen Sprengstoff aus dem Zweiten Weltkrieg liegen unter der Oststadt. Auch der Zugverkehr nach Karlsruhe ist eingestellt. Eine Bilanz in Zahlen.
+
+➡ ka-life.de/#/kw/kw21-2026]]></description>
+      <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw21-2026.png" alt="KA-Life KW21-2026: 27.000 muessen raus" /></p><p>In Pforzheim wird heute eine 1,35-Tonnen-Luftmine aus dem Zweiten Weltkrieg entschaerft. Es ist die groesste Evakuierung der Region seit Jahrzehnten – und der Zugverkehr nach Karlsruhe ist eingestellt.</p><p>27.000 Pforzheimer müssen heute Morgen ihre Wohnungen verlassen – 1,35 Tonnen Sprengstoff aus dem Zweiten Weltkrieg liegen unter der Oststadt. Auch der Zugverkehr nach Karlsruhe ist eingestellt. Eine Bilanz in Zahlen.<br/><br/>➡ ka-life.de/#/kw/kw21-2026</p>]]></content:encoded>
+      <enclosure url="https://ka-life.de/social/kw21-2026.png" length="0" type="image/png" />
+      <media:content url="https://ka-life.de/social/kw21-2026.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://ka-life.de/social/kw21-2026.png" />
+    </item>
     <item>
       <title>Eine Milliarde für Mama</title>
       <link>https://ka-life.de/#/kw/muttertag-2026</link>

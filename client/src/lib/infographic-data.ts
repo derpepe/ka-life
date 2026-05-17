@@ -41,6 +41,166 @@ export interface WeeklyInfographic {
 
 export const infographics: WeeklyInfographic[] = [
   {
+    id: "kw21-2026",
+    weekNumber: 21,
+    year: 2026,
+    dateRange: "18.\u201324. Mai 2026",
+    title: "27.000 muessen raus",
+    subtitle: "In Pforzheim wird heute eine 1,35-Tonnen-Luftmine aus dem Zweiten Weltkrieg entschaerft. Es ist die groesste Evakuierung der Region seit Jahrzehnten \u2013 und der Zugverkehr nach Karlsruhe ist eingestellt.",
+    kicker: "Region & Geschichte",
+    theme: {
+      accent: "#7c2d12",
+      accentLight: "#fb923c",
+      accentDark: "#431407",
+      secondary: "#1f2937",
+      tertiary: "#dc2626",
+      background: "#fafafa",
+    },
+    socialCard: {
+      headline: "27.000 muessen raus",
+      subline: "Pforzheim \u00b7 Bombenentsch\u00E4rfung \u00b7 KW 21",
+      keyNumber: "27.000",
+      keyLabel: "Menschen evakuiert",
+      gradient: "linear-gradient(135deg, #7c2d12 0%, #431407 100%)",
+    },
+    sections: [
+      {
+        type: "number-cards",
+        title: "Die Entsch\u00E4rfung in Zahlen",
+        subtitle: "17. Mai 2026 \u2013 Pforzheimer Oststadt",
+        data: {
+          cards: [
+            { value: "27.000", unit: "Menschen", label: "M\u00FCssen bis 8 Uhr ihre Wohnungen verlassen", color: "#7c2d12" },
+            { value: "1,35", unit: "Tonnen", label: "Sprengstoff in der Luftmine HC 4000", color: "#dc2626" },
+            { value: "1,5", unit: "km Radius", label: "Sperrgebiet um Damm-/St\u00FCckelh\u00E4ldenstra\u00DFe", color: "#fb923c" },
+            { value: "1.000", unit: "Einsatzkr\u00E4fte", label: "Polizei, Feuerwehr, THW vor Ort", color: "#1f2937" },
+          ] as NumberCard[],
+        },
+      },
+      {
+        type: "torte-der-wahrheit",
+        title: "F\u00E4chertorten",
+        subtitle: "Was Pforzheimer und Karlsruher Pendler heute denken",
+        data: {
+          pies: [
+            {
+              title: "Was Pforzheimer heute machen",
+              slices: [
+                { label: "Bei Verwandten in KA", value: 30, color: "#7c2d12" },
+                { label: "Wochenend-Trip Schwarzwald", value: 25, color: "#fb923c" },
+                { label: "Notunterkunft Congress-Centrum", value: 20, color: "#dc2626" },
+                { label: "Live-Ticker im Caf\u00E9 nebenan", value: 15, color: "#1f2937" },
+                { label: "Doch zu Hause geblieben (Achtung!)", value: 10, color: "#9ca3af" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Karlsruher Pendler-Reaktion",
+              slices: [
+                { label: "Endlich Sonntag \u2013 nicht mein Problem", value: 35, color: "#fb923c" },
+                { label: "Mist, kein Zug nach Pforzheim", value: 20, color: "#dc2626" },
+                { label: "S5/Stadtbahn-Check", value: 20, color: "#7c2d12" },
+                { label: "Spende fuer Notunterkunft", value: 15, color: "#1f2937" },
+                { label: "\u201EWieder eine?\u201C-Achselzucken", value: 10, color: "#9ca3af" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Wer hat die Bombe damals abgeworfen",
+              slices: [
+                { label: "Royal Air Force (Briten)", value: 75, color: "#1f2937" },
+                { label: "US-Bomber (vereinzelt)", value: 15, color: "#dc2626" },
+                { label: "Wei\u00DF keiner mehr genau", value: 10, color: "#9ca3af" },
+              ] as PieSlice[],
+            },
+          ],
+        },
+      },
+      {
+        type: "timeline",
+        title: "Pforzheim: Vom Inferno zur Entsch\u00E4rfung",
+        subtitle: "81 Jahre Bombenlast aus 22 Minuten",
+        data: {
+          events: [
+            { date: "23. Feb. 1945, 19:50", label: "RAF-Angriff beginnt \u2013 368 Bomber, 1.575 Tonnen Bomben", highlight: true },
+            { date: "23. Feb. 1945, 20:12", label: "Letzte Bombe f\u00E4llt. 22 Minuten, 17.600 Tote", highlight: true },
+            { date: "1945\u201360", label: "Wiederaufbau \u2013 98% des Zentrums war zerst\u00F6rt" },
+            { date: "2014", label: "Letzte gr\u00F6\u00DFere Entsch\u00E4rfung \u2013 ca. 3.000 Evakuierte" },
+            { date: "13. Mai 2026", label: "Bauarbeiter finden Luftmine am Quartierspark" },
+            { date: "17. Mai 2026, 8 Uhr", label: "Sperrgebiet ger\u00E4umt. Mittags Entsch\u00E4rfung.", highlight: true },
+          ] as TimelineEvent[],
+        },
+      },
+      {
+        type: "comparison",
+        title: "Gr\u00F6\u00DFte Evakuierungen der Region",
+        subtitle: "Bombenentsch\u00E4rfungen im Vergleich",
+        data: {
+          items: [
+            { label: "Frankfurt, Sept. 2017", value: 100, display: "65.000", color: "#dc2626" },
+            { label: "Augsburg, Weihnachten 2016", value: 83, display: "54.000", color: "#fb923c" },
+            { label: "Pforzheim, 17. Mai 2026", value: 42, display: "27.000", color: "#7c2d12" },
+            { label: "Pforzheim, 2014", value: 5, display: "~3.000", color: "#1f2937" },
+            { label: "Rastatt, Okt. 2025", value: 2, display: "~1.300", color: "#9ca3af" },
+          ] as BarItem[],
+        },
+      },
+      {
+        type: "stacked-bar",
+        title: "Blindg\u00E4nger in Deutschland",
+        subtitle: "Gefundene Weltkriegsbomben pro Jahr",
+        data: {
+          categories: ["2020", "2021", "2022", "2023", "2024", "2025"],
+          stacks: [
+            { label: "Bombenfunde", color: "#7c2d12" },
+          ],
+          unit: "Funde",
+          values: [
+            [4500],
+            [4200],
+            [3900],
+            [3700],
+            [3500],
+            [3300],
+          ],
+        },
+      },
+      {
+        type: "quote",
+        title: "Zitat",
+        data: {
+          text: "Bei einer Luftmine dieser Gr\u00F6\u00DFenordnung in dicht bebautem Stadtgebiet gibt es keine zweite Chance.",
+          author: "Matthias Peter, Kampfmittelbeseitigungsdienst Baden-W\u00FCrttemberg",
+          color: "#7c2d12",
+        },
+      },
+      {
+        type: "waffle",
+        title: "Was bedeuten 27.000 Menschen?",
+        subtitle: "Vergleich zur Bev\u00F6lkerung von Pforzheim",
+        data: {
+          total: 100,
+          filled: 22,
+          filledColor: "#7c2d12",
+          emptyColor: "#e5e7eb",
+          annotation: "22 von 100 Pforzheimern m\u00FCssen heute ihre Wohnung verlassen. Pforzheim hat rund 125.000 Einwohner \u2013 die Evakuierung betrifft also gut ein F\u00FCnftel der gesamten Stadt.",
+          secondaryFilled: 0,
+          secondaryColor: "#fb923c",
+          filledLabel: "Evakuiert (27.000 \u2248 22%)",
+          secondaryLabel: "",
+          emptyLabel: "Nicht direkt betroffen (\u2248 78%)",
+        },
+      },
+    ],
+    sources: [
+      "Stadt Pforzheim, Pressemitteilung 13.\u201316.05.2026",
+      "Tagesschau, 16.05.2026",
+      "SWR Aktuell Karlsruhe, 14.\u201316.05.2026",
+      "Pforzheim Geschichte, Bombenentsch\u00E4rfungen",
+      "Wikipedia, Bombing of Pforzheim in WWII",
+    ],
+    editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt.",
+    socialPostText: "27.000 Pforzheimer m\u00FCssen heute Morgen ihre Wohnungen verlassen \u2013 1,35 Tonnen Sprengstoff aus dem Zweiten Weltkrieg liegen unter der Oststadt. Auch der Zugverkehr nach Karlsruhe ist eingestellt. Eine Bilanz in Zahlen.\n\n\u27a1 ka-life.de/#/kw/kw21-2026",
+  },
+  {
     id: "muttertag-2026",
     weekNumber: 19,
     year: 2026,
