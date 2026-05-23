@@ -41,6 +41,169 @@ export interface WeeklyInfographic {
 
 export const infographics: WeeklyInfographic[] = [
   {
+    id: "kw22-2026",
+    weekNumber: 22,
+    year: 2026,
+    dateRange: "25.\u201331. Mai 2026",
+    title: "75 Jahre H\u00FCter des Grundgesetzes",
+    subtitle: "Das Bundesverfassungsgericht in Karlsruhe wird 75. Vom Prinz-Max-Palais zum wichtigsten Gericht der Republik \u2013 4.800 Verfassungsbeschwerden pro Jahr, 1,7% Erfolgsquote, und ein Standort, der Geschichte schrieb.",
+    kicker: "Bundesverfassungsgericht",
+    theme: {
+      accent: "#991b1b",
+      accentLight: "#fca5a5",
+      accentDark: "#450a0a",
+      secondary: "#1f2937",
+      tertiary: "#d4a017",
+      background: "#fafafa",
+    },
+    socialCard: {
+      headline: "75 Jahre H\u00FCter\ndes Grundgesetzes",
+      subline: "Bundesverfassungsgericht \u00b7 KW 22",
+      keyNumber: "75",
+      keyLabel: "Jahre Bundesverfassungsgericht in Karlsruhe",
+      gradient: "linear-gradient(135deg, #991b1b 0%, #450a0a 100%)",
+    },
+    sections: [
+      {
+        type: "number-cards",
+        title: "Karlsruhes wichtigste Beh\u00F6rde",
+        subtitle: "Das BVerfG in Zahlen",
+        data: {
+          cards: [
+            { value: "75", unit: "Jahre", label: "Seit 28. September 1951 in Karlsruhe", color: "#991b1b" },
+            { value: "4.800", unit: "Verfahren", label: "Pro Jahr \u2013 95% sind Verfassungsbeschwerden", color: "#1f2937" },
+            { value: "1,7", unit: "% Erfolg", label: "Nur 55 von 4.800 Beschwerden waren 2023 erfolgreich", color: "#d4a017" },
+            { value: "16", unit: "Richter:innen", label: "In zwei Senaten, halb Bundestag, halb Bundesrat", color: "#fca5a5" },
+          ] as NumberCard[],
+        },
+      },
+      {
+        type: "torte-der-wahrheit",
+        title: "F\u00E4chertorten",
+        subtitle: "Wahrheiten \u00FCber Karlsruhes obersten Gerichtshof",
+        data: {
+          pies: [
+            {
+              title: "Was Karlsruher \u00FCber das BVerfG sagen",
+              slices: [
+                { label: "Wichtigstes Geb\u00E4ude der Stadt", value: 30, color: "#991b1b" },
+                { label: "Sieht aus wie Schuhkarton", value: 25, color: "#1f2937" },
+                { label: "Stolz, dass es hier ist", value: 25, color: "#d4a017" },
+                { label: "Bin schonmal vorbeigefahren", value: 15, color: "#fca5a5" },
+                { label: "Welches Verfassungs-was?", value: 5, color: "#9ca3af" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Warum Karlsruhe und nicht Berlin?",
+              slices: [
+                { label: "Distanz zur Politik (Bonn 1951)", value: 40, color: "#991b1b" },
+                { label: "BGH war auch schon hier", value: 25, color: "#1f2937" },
+                { label: "Wein und Klima", value: 15, color: "#d4a017" },
+                { label: "Niemand weiss es genau", value: 15, color: "#fca5a5" },
+                { label: "Bauen halt in Karlsruhe gerne", value: 5, color: "#9ca3af" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Wer beschwert sich beim BVerfG?",
+              slices: [
+                { label: "B\u00FCrger:innen (Verfassungsbeschw.)", value: 60, color: "#991b1b" },
+                { label: "Bundesl\u00E4nder (gegen Bundesgesetze)", value: 15, color: "#1f2937" },
+                { label: "Politische Parteien", value: 12, color: "#d4a017" },
+                { label: "Andere Gerichte (Vorlagen)", value: 10, color: "#fca5a5" },
+                { label: "Der Bundespraesident", value: 3, color: "#9ca3af" },
+              ] as PieSlice[],
+            },
+          ],
+        },
+      },
+      {
+        type: "timeline",
+        title: "Die wichtigsten Karlsruher Urteile",
+        subtitle: "75 Jahre, die Deutschland gepraegt haben",
+        data: {
+          events: [
+            { date: "28. Sept. 1951", label: "Feierliche Er\u00F6ffnung im Prinz-Max-Palais durch Adenauer & Heuss", highlight: true },
+            { date: "1956", label: "KPD-Verbot \u2013 zweite und letzte Parteiverbot der BRD" },
+            { date: "1969", label: "Umzug ins neue Geb\u00E4ude am Schlosspark \u2013 Transparenz als Architektur" },
+            { date: "1975", label: "Erstes Abtreibungsurteil \u2013 Schutz des ungeborenen Lebens" },
+            { date: "1995", label: "Kruzifix-Beschluss \u2013 Kein Pflichtkreuz in bayerischen Schulen" },
+            { date: "2009", label: "Lissabon-Urteil \u2013 EU-Integration nur mit Grundgesetz-Grenzen" },
+            { date: "2021", label: "Klimaschutz-Urteil \u2013 Generationengerechtigkeit als Grundrecht", highlight: true },
+            { date: "2026", label: "75-Jahr-Jubil\u00E4um \u2013 Festakt mit Bundespr\u00E4sident in Karlsruhe", highlight: true },
+          ] as TimelineEvent[],
+        },
+      },
+      {
+        type: "comparison",
+        title: "BVerfG vs. die obersten Gerichte der Welt",
+        subtitle: "Anzahl Richter:innen im Vergleich",
+        data: {
+          items: [
+            { label: "BVerfG Karlsruhe", value: 100, display: "16", color: "#991b1b" },
+            { label: "US Supreme Court", value: 56, display: "9", color: "#1f2937" },
+            { label: "\u00D6sterreich VfGH", value: 88, display: "14", color: "#d4a017" },
+            { label: "Schweiz BGer", value: 240, display: "38", color: "#fca5a5" },
+            { label: "Frankreich Conseil constitutionnel", value: 56, display: "9", color: "#9ca3af" },
+          ] as BarItem[],
+        },
+      },
+      {
+        type: "stacked-bar",
+        title: "Verfassungsbeschwerden im Zeitverlauf",
+        subtitle: "Eingaenge pro Jahr beim BVerfG",
+        data: {
+          categories: ["1951", "1970", "1990", "2010", "2023"],
+          stacks: [
+            { label: "Beschwerden", color: "#991b1b" },
+          ],
+          unit: "Beschwerden",
+          values: [
+            [137],
+            [1700],
+            [3200],
+            [6200],
+            [4843],
+          ],
+        },
+      },
+      {
+        type: "quote",
+        title: "Zitat",
+        data: {
+          text: "Was in Karlsruhe entschieden wird, gilt f\u00FCr ganz Deutschland \u2013 und manchmal weit dar\u00FCber hinaus.",
+          author: "Bundespr\u00E4sident Frank-Walter Steinmeier, Festakt 75 Jahre BVerfG, Mai 2026",
+          color: "#991b1b",
+        },
+      },
+      {
+        type: "waffle",
+        title: "Wie viele Beschwerden Erfolg haben",
+        subtitle: "Von 100 Verfassungsbeschwerden in 2023",
+        data: {
+          total: 100,
+          filled: 100,
+          filledColor: "#1f2937",
+          emptyColor: "#e5e7eb",
+          annotation: "Von 100 Verfassungsbeschwerden in 2023 waren nur etwa 2 erfolgreich. 95% werden gar nicht erst zur Entscheidung angenommen. Karlsruhes Senate sieben streng \u2013 nicht jeder \u00C4rger ist ein Grundrechtsverstoss.",
+          secondaryFilled: 2,
+          secondaryColor: "#991b1b",
+          filledLabel: "Nicht angenommen oder abgewiesen (98)",
+          secondaryLabel: "Erfolgreich (2 von 100)",
+          emptyLabel: "",
+        },
+      },
+    ],
+    sources: [
+      "Bundesverfassungsgericht, Statistik 2023",
+      "Statista, Verfassungsbeschwerden 2013\u20132023",
+      "Deutscher Bundestag, BVerfGG Historie",
+      "Stadtarchiv Karlsruhe, Prinz-Max-Palais",
+      "Wikipedia, Bundesverfassungsgericht",
+    ],
+    editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt.",
+    socialPostText: "75 Jahre Bundesverfassungsgericht in Karlsruhe: 4.800 Verfassungsbeschwerden pro Jahr, 1,7% Erfolgsquote und Urteile, die Deutschland gepr\u00E4gt haben. Vom Prinz-Max-Palais zum H\u00FCter des Grundgesetzes.\n\n\u27a1 ka-life.de/#/kw/kw22-2026",
+  },
+  {
     id: "kw21-2026",
     weekNumber: 21,
     year: 2026,
