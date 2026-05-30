@@ -41,10 +41,173 @@ export interface WeeklyInfographic {
 
 export const infographics: WeeklyInfographic[] = [
   {
+    id: "kw23-2026",
+    weekNumber: 23,
+    year: 2026,
+    dateRange: "25.\u201331. Mai 2026",
+    title: "Inter Mailand kommt in den Wildpark",
+    subtitle: "Der amtierende italienische Meister gegen den KSC \u2013 am 26. Juli ist im BBBank Wildpark Champions-League-Atmosph\u00E4re. F\u00FCr viele Karlsruher das gr\u00F6\u00DFte Heimspiel seit Jahren.",
+    kicker: "KSC vs. Inter",
+    theme: {
+      accent: "#1e3a8a",
+      accentLight: "#60a5fa",
+      accentDark: "#0f172a",
+      secondary: "#000000",
+      tertiary: "#0284c7",
+      background: "#fafafa",
+    },
+    socialCard: {
+      headline: "KSC empf\u00E4ngt\nden italienischen Meister",
+      subline: "26. Juli 2026 \u00b7 BBBank Wildpark \u00b7 KW 23",
+      keyNumber: "21",
+      keyLabel: "Scudetti hat Inter \u2013 KSC hat einen Cup von 1956",
+      gradient: "linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%)",
+    },
+    sections: [
+      {
+        type: "number-cards",
+        title: "Das Duell in Zahlen",
+        subtitle: "Karlsruher SC vs. FC Internazionale Milano",
+        data: {
+          cards: [
+            { value: "26. 7.", unit: "2026", label: "Saisoner\u00F6ffnung im BBBank Wildpark, Anpfiff 16:30 Uhr", color: "#1e3a8a" },
+            { value: "33.180", unit: "Pl\u00E4tze", label: "Stadionkapazit\u00E4t Wildpark \u2013 d\u00FCrfte ausverkauft sein", color: "#0f172a" },
+            { value: "21", unit: "Scudetti", label: "Italienische Meistertitel von Inter, der j\u00FCngste am 4. Mai 2026", color: "#0284c7" },
+            { value: "3", unit: "Ligen Abstand", label: "Inter: Serie A Platz 1 \u00B7 KSC: 2. Bundesliga Platz 10", color: "#60a5fa" },
+          ] as NumberCard[],
+        },
+      },
+      {
+        type: "torte-der-wahrheit",
+        title: "F\u00E4chertorten",
+        subtitle: "Was die F\u00E4cherstadt am 26. Juli umtreibt",
+        data: {
+          pies: [
+            {
+              title: "Was Wildpark-Besucher beim Anpfiff denken",
+              slices: [
+                { label: "Endlich wieder Champions-League-Feeling", value: 35, color: "#1e3a8a" },
+                { label: "Bitte nicht zweistellig verlieren", value: 25, color: "#0284c7" },
+                { label: "Selfie mit Lautaro im Kopf", value: 20, color: "#60a5fa" },
+                { label: "Wer war nochmal Calhanoglu?", value: 12, color: "#0f172a" },
+                { label: "Ich bin nur wegen der Currywurst hier", value: 8, color: "#9ca3af" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Womit Inter-Spieler in Karlsruhe rechnen",
+              slices: [
+                { label: "Schwarzwaldluft und gutes Klima", value: 30, color: "#1e3a8a" },
+                { label: "Pfauen im Schlossgarten als Mitspieler", value: 25, color: "#0284c7" },
+                { label: "Currywurst statt Carbonara", value: 20, color: "#60a5fa" },
+                { label: "\u201EWo bitte ist der Mail\u00E4nder Dom?\u201C", value: 15, color: "#0f172a" },
+                { label: "Wein vom Turmberg im Hotel", value: 10, color: "#9ca3af" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Karlsruher Ticketkauf-Verhalten",
+              slices: [
+                { label: "Dauerkartenbesitzer freuen sich diebisch", value: 35, color: "#1e3a8a" },
+                { label: "Gucken ob noch was bei Kleinanzeigen", value: 25, color: "#0284c7" },
+                { label: "Familien-Block-Sondersitzung n\u00F6tig", value: 20, color: "#60a5fa" },
+                { label: "Lieber Public Viewing im Biergarten", value: 12, color: "#0f172a" },
+                { label: "Was, der KSC spielt im Sommer?", value: 8, color: "#9ca3af" },
+              ] as PieSlice[],
+            },
+          ],
+        },
+      },
+      {
+        type: "timeline",
+        title: "Vom Aufstieg bis zum gro\u00DFen Test",
+        subtitle: "KSC-Sommer 2026 \u2013 was bis zum Inter-Spiel passiert",
+        data: {
+          events: [
+            { date: "17. Mai 2026", label: "Saisonende 2. Liga: KSC landet auf Platz 10 mit 44 Punkten" },
+            { date: "22. Mai 2026", label: "Schleusener-Abschied: Topscorer verl\u00E4sst nach 71 Toren in 216 Spielen den Verein", highlight: true },
+            { date: "27. Mai 2026", label: "KSC verk\u00FCndet: Inter Mailand kommt zur Saisoner\u00F6ffnung", highlight: true },
+            { date: "28. Juni 2026", label: "Trainingsauftakt unter Christian Eichner\u2019s Nachfolge" },
+            { date: "Juli 2026", label: "Trainingslager und Testspiele zur Vorbereitung" },
+            { date: "26. Juli 2026", label: "Anpfiff KSC \u2013 Inter Mailand, 16:30 Uhr im Wildpark", highlight: true },
+            { date: "8. August 2026", label: "Erster Spieltag 2. Bundesliga \u2013 zur\u00FCck im Alltag" },
+          ] as TimelineEvent[],
+        },
+      },
+      {
+        type: "comparison",
+        title: "Marktwerte im Vergleich",
+        subtitle: "Kaderwert in Mio. \u20AC (Transfermarkt, Saison 2025/26)",
+        data: {
+          items: [
+            { label: "Inter Mailand", value: 100, display: "\u2248 530 Mio", color: "#1e3a8a" },
+            { label: "Bayern M\u00FCnchen (Referenz)", value: 175, display: "\u2248 925 Mio", color: "#dc2626" },
+            { label: "VfB Stuttgart (Referenz)", value: 56, display: "\u2248 295 Mio", color: "#0284c7" },
+            { label: "Karlsruher SC", value: 7, display: "\u2248 37 Mio", color: "#60a5fa" },
+            { label: "SV Sandhausen (Referenz)", value: 1.5, display: "\u2248 8 Mio", color: "#9ca3af" },
+          ] as BarItem[],
+        },
+      },
+      {
+        type: "stacked-bar",
+        title: "Inters Top-Torsch\u00FCtzen 2025/26",
+        subtitle: "Tore in der Serie A \u2013 wer am 26. Juli in Karlsruhe trifft, wei\u00DF noch keiner",
+        data: {
+          categories: ["Lautaro Mart\u00EDnez", "Marcus Thuram", "Hakan Calhanoglu", "Federico Dimarco", "Pio Esposito"],
+          stacks: [
+            { label: "Serie A Tore 25/26", color: "#1e3a8a" },
+          ],
+          unit: "Tore",
+          values: [
+            [17],
+            [13],
+            [9],
+            [7],
+            [7],
+          ],
+        },
+      },
+      {
+        type: "quote",
+        title: "Zitat",
+        data: {
+          text: "Zwei Wochen vor dem Saisonstart wartet auf den KSC und seine Fans ein echtes Highlight: Der italienische Spitzenclub gibt seine Visitenkarte im BBBank Wildpark ab.",
+          author: "KSC-Mitteilung, 27. Mai 2026",
+          color: "#1e3a8a",
+        },
+      },
+      {
+        type: "waffle",
+        title: "Wie selten so ein Gast ist",
+        subtitle: "Von 100 Sommer-Testspielen des KSC ist eines gegen einen amtierenden europ\u00E4ischen Top-Liga-Meister",
+        data: {
+          total: 100,
+          filled: 100,
+          filledColor: "#0f172a",
+          emptyColor: "#e5e7eb",
+          annotation: "Inter ist amtierender Meister der Serie A und Italienpokalsieger 2025/26. KSC-Testspiele gegen einen aktuellen europ\u00E4ischen Liga-Champion sind extrem selten \u2013 zuletzt 2019 gegen den FC Liverpool im Wildpark.",
+          secondaryFilled: 1,
+          secondaryColor: "#1e3a8a",
+          filledLabel: "Gegner aus Liga 2/3 oder Nachwuchsteams (99)",
+          secondaryLabel: "Amtierender europ\u00E4ischer Liga-Meister (1)",
+          emptyLabel: "",
+        },
+      },
+    ],
+    sources: [
+      "KSC.de, Saisoner\u00F6ffnung gegen FC Internazionale Milano (27.5.2026)",
+      "Inter.it, Summer Training Camp in Germany (29.5.2026)",
+      "bundesliga.com, Tabelle 2. Bundesliga 2025/26",
+      "ESPN, Internazionale 2025-26 Stats",
+      "Transfermarkt.de, Kaderwerte Saison 2025/26",
+      "KSC.de, Stadionkapazit\u00E4t BBBank Wildpark",
+    ],
+    editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt. Marktwerte sind gerundete Sch\u00E4tzungen.",
+    socialPostText: "Am 26. Juli kommt Inter Mailand in den Wildpark \u2013 der amtierende italienische Meister gegen unseren KSC. 21 Scudetti gegen einen Cup von 1956. F\u00FCr viele das gr\u00F6\u00DFte Heimspiel seit Jahren.\n\n\u27a1 ka-life.de/#/kw/kw23-2026",
+  },
+  {
     id: "kw22-2026",
     weekNumber: 22,
     year: 2026,
-    dateRange: "25.\u201331. Mai 2026",
+    dateRange: "18.\u201324. Mai 2026",
     title: "75 Jahre H\u00FCter des Grundgesetzes",
     subtitle: "Das Bundesverfassungsgericht in Karlsruhe wird 75. Vom Prinz-Max-Palais zum wichtigsten Gericht der Republik \u2013 4.800 Verfassungsbeschwerden pro Jahr, 1,7% Erfolgsquote, und ein Standort, der Geschichte schrieb.",
     kicker: "Bundesverfassungsgericht",
