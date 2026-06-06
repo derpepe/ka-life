@@ -41,6 +41,171 @@ export interface WeeklyInfographic {
 
 export const infographics: WeeklyInfographic[] = [
   {
+    id: "kw24-2026",
+    weekNumber: 24,
+    year: 2026,
+    dateRange: "1.\u20137. Juni 2026",
+    title: "286 Mess\u2019n und kein bisschen leise",
+    subtitle: "Die Karlsruher Fr\u00FChjahrsmess\u2019 geht in den Endspurt: 11 Tage Volksfest, ANUBIS mit 55 Metern, Bratw\u00FCrste ohne Ende und am 8. Juni das Abschluss-Feuerwerk. F\u00FCr viele DER emotionale Heimat-Moment im Sommer.",
+    kicker: "Karlsruher Mess\u2019",
+    theme: {
+      accent: "#ea580c",
+      accentLight: "#fdba74",
+      accentDark: "#7c2d12",
+      secondary: "#facc15",
+      tertiary: "#dc2626",
+      background: "#fafafa",
+    },
+    socialCard: {
+      headline: "Mess\u2019, Bratwurst,\nRiesenrad-Romantik",
+      subline: "286. Karlsruher Fr\u00FChjahrsmess\u2019 \u00b7 bis 8. Juni \u00b7 KW 24",
+      keyNumber: "286",
+      keyLabel: "Ausgaben hat die Karlsruher Mess\u2019 \u2013 mehr als jeder Karlsruher SC",
+      gradient: "linear-gradient(135deg, #ea580c 0%, #c2410c 50%, #7c2d12 100%)",
+    },
+    sections: [
+      {
+        type: "number-cards",
+        title: "Mess\u2019 in Zahlen",
+        subtitle: "Die 286. Karlsruher Fr\u00FChjahrsmess\u2019 auf dem Messplatz an der Durlacher Allee",
+        data: {
+          cards: [
+            { value: "286", unit: "Auflage", label: "So oft gab es die Karlsruher Mess\u2019 schon \u2013 zweimal pro Jahr, seit Generationen", color: "#ea580c" },
+            { value: "55", unit: "Meter h\u00F6chstes Fahrgesch.", label: "H\u00F6he der neuen Looping-Schaukel ANUBIS \u2013 mit bis zu 120 km/h", color: "#dc2626" },
+            { value: "11", unit: "Tage", label: "L\u00E4uft die Fr\u00FChjahrsmess\u2019 \u2013 vom 29. Mai bis 8. Juni 2026", color: "#facc15" },
+            { value: "4", unit: "Premieren", label: "ANUBIS, Alpen Coaster, Diablos Residenz, Familien-Wildwasserbahn \u2013 erstmals in KA", color: "#7c2d12" },
+          ] as NumberCard[],
+        },
+      },
+      {
+        type: "torte-der-wahrheit",
+        title: "F\u00E4chertorten",
+        subtitle: "Was auf dem Messplatz wirklich passiert",
+        data: {
+          pies: [
+            {
+              title: "Warum Karlsruher die Mess\u2019 besuchen",
+              slices: [
+                { label: "Eine Bratwurst, drei Langos, ein Cr\u00EApe", value: 30, color: "#ea580c" },
+                { label: "Auf ANUBIS Adrenalin schreien", value: 22, color: "#dc2626" },
+                { label: "Mit Kindern im Babyflug fahren", value: 18, color: "#facc15" },
+                { label: "Lose ziehen bis die Karte leer ist", value: 15, color: "#7c2d12" },
+                { label: "Klassentreffen am Riesenrad", value: 10, color: "#fdba74" },
+                { label: "Verlaufen und Sandhausen suchen", value: 5, color: "#9ca3af" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Was auf dem Heimweg \u00FCbrig bleibt",
+              slices: [
+                { label: "Eine wabbelige Plastikrose", value: 28, color: "#dc2626" },
+                { label: "Eine halbe Lebkuchen-Brezel", value: 22, color: "#ea580c" },
+                { label: "Ein 6-Euro-Goldfisch im Beutel", value: 18, color: "#facc15" },
+                { label: "Schwere Beine vom Riesenrad-Treppensteigen", value: 14, color: "#7c2d12" },
+                { label: "Eine Schramme vom Autoscooter", value: 10, color: "#fdba74" },
+                { label: "Restalkohol vom Krusig-Biergarten", value: 8, color: "#9ca3af" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Warum Eltern wirklich auf die Mess\u2019 gehen",
+              slices: [
+                { label: "Kinder ruhigstellen mit Zuckerwatte", value: 32, color: "#ea580c" },
+                { label: "Selbst mal wieder Break Dance fahren", value: 24, color: "#dc2626" },
+                { label: "Erinnerungen an die eigene Jugend", value: 20, color: "#facc15" },
+                { label: "In Krusig\u2019s Dorf ein Bier ohne Stress", value: 14, color: "#7c2d12" },
+                { label: "Weil man halt einmal im Jahr muss", value: 10, color: "#9ca3af" },
+              ] as PieSlice[],
+            },
+          ],
+        },
+      },
+      {
+        type: "timeline",
+        title: "Vom Fassanstich bis zum Feuerwerk",
+        subtitle: "11 Tage Mess\u2019 \u2013 wer wann wo was macht",
+        data: {
+          events: [
+            { date: "29. Mai 2026", label: "Er\u00F6ffnung 14 Uhr, Fassanstich durch OB Mentrup um 17 Uhr in Krusig\u2019s Dorf", highlight: true },
+            { date: "31. Mai 2026", label: "Erster Sonntag: Kostenloses Kinderschminken in Krusig\u2019s Dorf" },
+            { date: "2. Juni 2026", label: "\u00DC-65-Nachmittag: Kostenlose Riesenrad-Fahrt f\u00FCr Senior:innen" },
+            { date: "3. Juni 2026", label: "Familientag mit erm\u00E4\u00DFigten Preisen an allen Gesch\u00E4ften", highlight: true },
+            { date: "5. Juni 2026", label: "Premiere: Kindergeburtstag direkt auf der Mess\u2019 \u2013 25 \u20AC pro Kind, 7 Stationen" },
+            { date: "6.\u20137. Juni 2026", label: "Endspurt-Wochenende, Theater of Illusions im Hotel Edelweiss" },
+            { date: "8. Juni 2026", label: "Abschluss-Feuerwerk gegen 22:30 Uhr \u2013 Bis zur Herbst-Mess\u2019!", highlight: true },
+          ] as TimelineEvent[],
+        },
+      },
+      {
+        type: "comparison",
+        title: "Wie schnell f\u00E4hrt was?",
+        subtitle: "Spitzengeschwindigkeit in km/h \u2013 Mess\u2019-Fahrgesch\u00E4fte gegen Karlsruher Alltag",
+        data: {
+          items: [
+            { label: "ANUBIS Looping-Schaukel", value: 120, display: "120 km/h", color: "#dc2626" },
+            { label: "ICE durch den HBF Karlsruhe", value: 100, display: "\u2248 100 km/h (Limit)", color: "#ea580c" },
+            { label: "Alpen Coaster (gesch\u00E4tzt)", value: 60, display: "\u2248 60 km/h", color: "#facc15" },
+            { label: "Auto durch die Innenstadt", value: 50, display: "50 km/h", color: "#7c2d12" },
+            { label: "Tram der VBK auf der Kaiserstra\u00DFe", value: 30, display: "30 km/h", color: "#fdba74" },
+            { label: "Riesenrad Grand Soleil", value: 5, display: "\u2248 5 km/h", color: "#9ca3af" },
+          ] as BarItem[],
+        },
+      },
+      {
+        type: "stacked-bar",
+        title: "Kalorien-Hochrechnung eines Mess\u2019-Abends",
+        subtitle: "Eine typische Mess\u2019-Bestellung pro Person \u2013 schmecken muss es",
+        data: {
+          categories: ["Bratwurst mit Br\u00F6tchen", "Langos mit K\u00E4se", "Cr\u00EApe Nutella", "Pommes gro\u00DF", "Zuckerwatte"],
+          stacks: [
+            { label: "Kalorien", color: "#ea580c" },
+          ],
+          unit: "kcal",
+          values: [
+            [450],
+            [700],
+            [550],
+            [600],
+            [400],
+          ],
+        },
+      },
+      {
+        type: "quote",
+        title: "Zitat",
+        data: {
+          text: "Auf der Mess\u2019 trifft man Leute, die man sonst nie sieht \u2013 und isst Sachen, die man sonst nie essen w\u00FCrde. Genau deshalb gehen wir hin.",
+          author: "Karlsruher Mess\u2019-Tradition seit 1741",
+          color: "#ea580c",
+        },
+      },
+      {
+        type: "waffle",
+        title: "Mess\u2019-Fahrer-Typologie",
+        subtitle: "Von 100 Karlsruhern auf der Mess\u2019 \u2013 wer traut sich auf welche Bahn?",
+        data: {
+          total: 100,
+          filled: 60,
+          filledColor: "#ea580c",
+          emptyColor: "#e5e7eb",
+          annotation: "60 von 100 fahren maximal Riesenrad oder Babyflug. 30 wagen Klassiker wie Break Dance oder Autoscooter. Nur 10 trauen sich auf die neue ANUBIS-Schaukel in 55 Metern H\u00F6he.",
+          secondaryFilled: 30,
+          secondaryColor: "#dc2626",
+          filledLabel: "Riesenrad, Babyflug, Kinderkarussell (60)",
+          secondaryLabel: "Break Dance, Autoscooter, Geisterbahn (30)",
+          emptyLabel: "ANUBIS \u2013 nur f\u00FCr Adrenalin-Junkies (10)",
+        },
+      },
+    ],
+    sources: [
+      "karlsruhe.de/kultur-freizeit/maerkte/jahrmaerkte-karlsruher-mess (Stadt Karlsruhe Marktamt)",
+      "durlacher.de, 286. Fr\u00FChjahrsmess\u2019 mit neuen Attraktionen (27.5.2026)",
+      "karlsruhe-erleben.de, Karlsruher Fr\u00FChjahrsmess\u2019 2026",
+      "meinka.de, Erfahrungsberichte zur Karlsruher Mess\u2019",
+      "Kalorienangaben gem\u00E4\u00DF n\u00E4hrwerttabelle.de / DGE Durchschnittswerte",
+    ],
+    editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt. Kalorien sind Durchschnittsangaben handels\u00FCblicher Portionen.",
+    socialPostText: "286 Mess\u2019n und kein bisschen leise: Die Karlsruher Fr\u00FChjahrsmess\u2019 geht bis 8. Juni in den Endspurt. ANUBIS mit 120 km/h, Bratw\u00FCrste ohne Ende und am Montag das Feuerwerk. Wer war schon da?\n\n\u27a1 ka-life.de/#/kw/kw24-2026",
+  },
+  {
     id: "kw23-2026",
     weekNumber: 23,
     year: 2026,
