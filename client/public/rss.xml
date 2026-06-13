@@ -9,13 +9,29 @@
     <description>Wöchentliche Infografik-Kolumne zu Karlsruhe. Daten, Fakten und satirische Fächertorten aus der Fächerstadt.</description>
     <language>de-DE</language>
     <copyright>© Decisions Made Easy GmbH, Karlsruhe</copyright>
-    <lastBuildDate>Sat, 06 Jun 2026 08:06:23 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 08:04:22 GMT</lastBuildDate>
     <atom:link href="https://ka-life.de/rss.xml" rel="self" type="application/rss+xml" />
     <image>
-      <url>https://ka-life.de/social/kw24-2026.png</url>
+      <url>https://ka-life.de/social/kw25-2026.png</url>
       <title>KA-Life — Karlsruhe in Zahlen</title>
       <link>https://ka-life.de</link>
     </image>
+    <item>
+      <title>Schufa-Schmerz beim Karlsruher BGH</title>
+      <link>https://ka-life.de/#/kw/kw25-2026</link>
+      <guid isPermaLink="true">https://ka-life.de/#/kw/kw25-2026</guid>
+      <pubDate>Sun, 14 Jun 2026 08:00:00 GMT</pubDate>
+      <category>BGH-Urteil aus Karlsruhe</category>
+      <description><![CDATA[Der Bundesgerichtshof stoppt eine beliebte Inkasso-Praxis: Bonitätsauskunfts-Kosten von 1,35 € dürfen nicht mehr auf den Schuldner abgewälzt werden. Klein bei der Summe – groß bei der Wirkung für 68 Millionen Verbraucher.
+
+Der BGH in Karlsruhe stoppt eine beliebte Inkasso-Praxis: 1,35 € für eine Schufa-Auskunft dürfen nicht mehr auf den Schuldner abgewälzt werden. Klein in der Summe, groß in der Wirkung für 68 Mio. Verbraucher.
+
+➡ ka-life.de/#/kw/kw25-2026]]></description>
+      <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw25-2026.png" alt="KA-Life KW25-2026: Schufa-Schmerz beim Karlsruher BGH" /></p><p>Der Bundesgerichtshof stoppt eine beliebte Inkasso-Praxis: Bonitätsauskunfts-Kosten von 1,35 € dürfen nicht mehr auf den Schuldner abgewälzt werden. Klein bei der Summe – groß bei der Wirkung für 68 Millionen Verbraucher.</p><p>Der BGH in Karlsruhe stoppt eine beliebte Inkasso-Praxis: 1,35 € für eine Schufa-Auskunft dürfen nicht mehr auf den Schuldner abgewälzt werden. Klein in der Summe, groß in der Wirkung für 68 Mio. Verbraucher.<br/><br/>➡ ka-life.de/#/kw/kw25-2026</p>]]></content:encoded>
+      <enclosure url="https://ka-life.de/social/kw25-2026.png" length="0" type="image/png" />
+      <media:content url="https://ka-life.de/social/kw25-2026.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://ka-life.de/social/kw25-2026.png" />
+    </item>
     <item>
       <title>286 Mess’n und kein bisschen leise</title>
       <link>https://ka-life.de/#/kw/kw24-2026</link>

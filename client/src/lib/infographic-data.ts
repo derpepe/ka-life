@@ -41,6 +41,173 @@ export interface WeeklyInfographic {
 
 export const infographics: WeeklyInfographic[] = [
   {
+    id: "kw25-2026",
+    weekNumber: 25,
+    year: 2026,
+    dateRange: "8.\u201314. Juni 2026",
+    title: "Schufa-Schmerz beim Karlsruher BGH",
+    subtitle: "Der Bundesgerichtshof stoppt eine beliebte Inkasso-Praxis: Bonit\u00E4tsauskunfts-Kosten von 1,35 \u20AC d\u00FCrfen nicht mehr auf den Schuldner abgew\u00E4lzt werden. Klein bei der Summe \u2013 gro\u00DF bei der Wirkung f\u00FCr 68 Millionen Verbraucher.",
+    kicker: "BGH-Urteil aus Karlsruhe",
+    theme: {
+      accent: "#0e7490",
+      accentLight: "#67e8f9",
+      accentDark: "#164e63",
+      secondary: "#f59e0b",
+      tertiary: "#0891b2",
+      background: "#fafafa",
+    },
+    socialCard: {
+      headline: "1,35 \u20AC, die der BGH\nVerbrauchern erspart",
+      subline: "BGH-Urteil 11.06.2026 \u00B7 VII ZR 93/25 \u00B7 KW 25",
+      keyNumber: "1,35",
+      keyLabel: "Euro f\u00FCr eine Schufa-Auskunft \u2013 jetzt nicht mehr auf den Schuldner umlegbar",
+      gradient: "linear-gradient(135deg, #0e7490 0%, #0891b2 50%, #164e63 100%)",
+    },
+    sections: [
+      {
+        type: "number-cards",
+        title: "Das Urteil in Zahlen",
+        subtitle: "BGH VII. Zivilsenat \u2013 Urteile vom 11. Juni 2026",
+        data: {
+          cards: [
+            { value: "1,35", unit: "\u20AC", label: "Kosten einer Schufa-Bonit\u00E4tsauskunft, die nicht mehr abw\u00E4lzbar sind", color: "#0e7490" },
+            { value: "68", unit: "Mio.", label: "Verbraucher in Deutschland sind bei der Schufa gespeichert", color: "#164e63" },
+            { value: "29,95", unit: "\u20AC", label: "Kostet die offizielle Schufa-Bonit\u00E4tsAuskunft f\u00FCr Vermieter immer noch", color: "#f59e0b" },
+            { value: "12", unit: "Kriterien", label: "Bestimmen seit 17.\u202F3.\u202F2026 den neuen, transparenten Schufa-Score", color: "#0891b2" },
+          ] as NumberCard[],
+        },
+      },
+      {
+        type: "torte-der-wahrheit",
+        title: "F\u00E4chertorten",
+        subtitle: "Was bei jedem Schufa-Eintrag wirklich im Kopf des Karlsruhers vorgeht",
+        data: {
+          pies: [
+            {
+              title: "Warum Karlsruher Studis Schufa-Frust haben",
+              slices: [
+                { label: "Bei jeder Wohnungsbewerbung verlangt", value: 32, color: "#0e7490" },
+                { label: "Handyvertrag-Abfrage ohne Vorwarnung", value: 22, color: "#0891b2" },
+                { label: "O2-Falle aus dem Erstsemester", value: 18, color: "#f59e0b" },
+                { label: "Score sank wegen Bank-Wechsel", value: 14, color: "#164e63" },
+                { label: "Negativ-Eintrag durch Schreibfehler", value: 10, color: "#67e8f9" },
+                { label: "Verstehen es eigentlich gar nicht", value: 4, color: "#9ca3af" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Was Inkassob\u00FCros heute morgen gedacht haben",
+              slices: [
+                { label: "Verdammt, 1,35 \u20AC weniger pro Fall", value: 35, color: "#0e7490" },
+                { label: "Neue Mahngeb\u00FChr im Kleingedruckten suchen", value: 25, color: "#f59e0b" },
+                { label: "Brief an Karlsruher Richter aufsetzen", value: 18, color: "#164e63" },
+                { label: "Kunden auf Wunderkerze hoffen lassen", value: 14, color: "#0891b2" },
+                { label: "Egal, wir setzen es trotzdem an", value: 8, color: "#9ca3af" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Was wir tats\u00E4chlich \u00FCber unseren Schufa-Score wissen",
+              slices: [
+                { label: "Irgendwo zwischen 90 und 100\u202F%", value: 30, color: "#0e7490" },
+                { label: "Mal nachschauen, wenn die Wohnung weg ist", value: 24, color: "#0891b2" },
+                { label: "Habe ich da nicht mal einen Eintrag?", value: 18, color: "#f59e0b" },
+                { label: "App.schufa.de? Kostenlos? Echt jetzt?", value: 16, color: "#67e8f9" },
+                { label: "Lieber nicht reinschauen", value: 12, color: "#164e63" },
+              ] as PieSlice[],
+            },
+          ],
+        },
+      },
+      {
+        type: "timeline",
+        title: "Schufa-Beben aus Karlsruhe",
+        subtitle: "Wie ein 1,35-Euro-Streit zum Bundesurteil wurde",
+        data: {
+          events: [
+            { date: "17. M\u00E4rz 2026", label: "Schufa f\u00FChrt neuen, transparenten Score mit 12 Kriterien ein \u2013 Verbraucher k\u00F6nnen ihn erstmals kostenlos einsehen" },
+            { date: "M\u00E4rz/April 2026", label: "Kostenloser digitaler Schufa-Account \u00FCber app.schufa.de geht online" },
+            { date: "11. Juni 2026", label: "BGH-Urteil aus Karlsruhe: Schufa-Auskunft vor Klage ist kein Verzugsschaden \u2013 VII ZR 93/25 und 96/25", highlight: true },
+            { date: "Sofort", label: "Inkassob\u00FCros m\u00FCssen 1,35\u202F\u20AC-Position aus Mahnschreiben streichen", highlight: true },
+            { date: "Bis Ende 2028", label: "\u00DCbergangsfrist f\u00FCr Unternehmen zur Anpassung an den neuen Schufa-Score" },
+          ] as TimelineEvent[],
+        },
+      },
+      {
+        type: "comparison",
+        title: "Wo Karlsruher die Schufa treffen",
+        subtitle: "Anteil der Lebenslagen, in denen ein Bonit\u00E4tsnachweis verlangt wird (Sch\u00E4tzung)",
+        data: {
+          items: [
+            { label: "Wohnungssuche", value: 95, display: "\u2248 95\u202F%", color: "#0e7490" },
+            { label: "Mobilfunkvertrag", value: 80, display: "\u2248 80\u202F%", color: "#0891b2" },
+            { label: "Ratenkauf / BNPL", value: 70, display: "\u2248 70\u202F%", color: "#f59e0b" },
+            { label: "Kreditkartenantrag", value: 65, display: "\u2248 65\u202F%", color: "#164e63" },
+            { label: "Stromvertrag-Wechsel", value: 35, display: "\u2248 35\u202F%", color: "#67e8f9" },
+            { label: "Online-Rechnungskauf", value: 25, display: "\u2248 25\u202F%", color: "#9ca3af" },
+          ] as BarItem[],
+        },
+      },
+      {
+        type: "stacked-bar",
+        title: "Was eine Bonit\u00E4tspr\u00FCfung wirklich kostet",
+        subtitle: "Direkte Schufa-Geb\u00FChren in Euro \u2013 ohne versteckte Folgekosten",
+        data: {
+          categories: [
+            "BGH-Streitwert (Urteil)",
+            "Selbstauskunft Datenkopie",
+            "Schufa-Account online",
+            "BonitatsAuskunft (Vermieter)",
+          ],
+          stacks: [
+            { label: "Kosten", color: "#0e7490" },
+          ],
+          unit: "\u20AC",
+          values: [
+            [1.35],
+            [0],
+            [0],
+            [29.95],
+          ],
+        },
+      },
+      {
+        type: "quote",
+        title: "Zitat",
+        data: {
+          text: "Um ein gerichtliches Verfahren einzuleiten und am Ende einen rechtskr\u00E4ftigen Titel zu erlangen, ben\u00F6tigt ein Gl\u00E4ubiger schlichtweg keine Bonit\u00E4tsauskunft.",
+          author: "BGH, VII. Zivilsenat \u00B7 Urteil vom 11.\u202F6.\u202F2026",
+          color: "#0e7490",
+        },
+      },
+      {
+        type: "waffle",
+        title: "Wie viele Karlsruher betrifft das?",
+        subtitle: "Von 100 Erwachsenen in Karlsruhe haben fast alle einen Schufa-Eintrag",
+        data: {
+          total: 100,
+          filled: 92,
+          filledColor: "#0e7490",
+          emptyColor: "#e5e7eb",
+          annotation: "Rund 92 von 100 Erwachsenen sind in der Schufa gespeichert. Davon haben rund 10 mindestens einen Negativeintrag \u2013 oft aus banalen Gr\u00FCnden wie einer ungekl\u00E4rten Mobilfunkrechnung. Das BGH-Urteil schont jetzt jedem von ihnen mindestens 1,35\u202F\u20AC pro Inkasso-Fall.",
+          secondaryFilled: 10,
+          secondaryColor: "#f59e0b",
+          filledLabel: "Schufa-Eintrag ohne Negativmerkmal (82)",
+          secondaryLabel: "Mit mindestens einem Negativeintrag (10)",
+          emptyLabel: "Kein Schufa-Eintrag (8)",
+        },
+      },
+    ],
+    sources: [
+      "BGH, Pressemitteilung Nr. 100/2026 vom 11.06.2026 (VII ZR 93/25, VII ZR 96/25)",
+      "beck-aktuell.de, BGH verneint Erstattung Schufa-Kosten (11.06.2026)",
+      "wbs.legal, BGH: Keine Erstattung f\u00FCr Schufa-Auskunft (11.06.2026)",
+      "verbraucherrecht.io, Neuer SCHUFA-Score 2026 (10.4.2026)",
+      "postbank.de, SCHUFA-Auskunft kostenlos beantragen (5/2026)",
+      "advoneo-schuldnerberatung.de, SCHUFA Score, Eintr\u00E4ge und L\u00F6schfristen (4/2026)",
+    ],
+    editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt. Die Lebenslagen-Anteile sind branchen\u00FCbliche Sch\u00E4tzungen.",
+    socialPostText: "Der BGH in Karlsruhe stoppt eine beliebte Inkasso-Praxis: 1,35\u202F\u20AC f\u00FCr eine Schufa-Auskunft d\u00FCrfen nicht mehr auf den Schuldner abgew\u00E4lzt werden. Klein in der Summe, gro\u00DF in der Wirkung f\u00FCr 68 Mio. Verbraucher.\n\n\u27A1 ka-life.de/#/kw/kw25-2026",
+  },
+  {
     id: "kw24-2026",
     weekNumber: 24,
     year: 2026,
