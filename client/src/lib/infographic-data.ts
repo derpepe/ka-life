@@ -41,6 +41,173 @@ export interface WeeklyInfographic {
 
 export const infographics: WeeklyInfographic[] = [
   {
+    id: "kw26-2026",
+    weekNumber: 26,
+    year: 2026,
+    dateRange: "15.\u201321. Juni 2026",
+    title: "37,5 Grad und der Rest schmilzt mit",
+    subtitle: "Wagh\u00E4usel-Kirrlach im Landkreis Karlsruhe meldete am Freitag 37,5 Grad \u2013 nur eine Handbreit unter dem Juni-Rekord von 2019. Die Hitzewelle h\u00E4lt mindestens bis Mittwoch, der Hitzeaktionsplan ist gerade erst ein Jahr alt.",
+    kicker: "Hitzewelle KA",
+    theme: {
+      accent: "#dc2626",
+      accentLight: "#fca5a5",
+      accentDark: "#7f1d1d",
+      secondary: "#f59e0b",
+      tertiary: "#ea580c",
+      background: "#fafafa",
+    },
+    socialCard: {
+      headline: "37,5 Grad,\nund der Rest schmilzt mit",
+      subline: "Hitzewelle in KA \u00B7 Wagh\u00E4usel-Kirrlach am 19.6. \u00B7 KW 26",
+      keyNumber: "37,5",
+      keyLabel: "Grad Celsius am 19. Juni in Wagh\u00E4usel-Kirrlach \u2013 1,4 Grad unter dem Juni-Rekord",
+      gradient: "linear-gradient(135deg, #f59e0b 0%, #ea580c 45%, #7f1d1d 100%)",
+    },
+    sections: [
+      {
+        type: "number-cards",
+        title: "Die Hitze in Zahlen",
+        subtitle: "DWD-Messwerte vom 19. Juni 2026 und Langzeitdaten f\u00FCr Karlsruhe",
+        data: {
+          cards: [
+            { value: "37,5", unit: "\u00B0C", label: "In Wagh\u00E4usel-Kirrlach am 19. Juni \u2013 BW-Spitzenwert, deutschlandweit Platz 3", color: "#dc2626" },
+            { value: "38,9", unit: "\u00B0C", label: "Juni-Rekord BW von 2019 (Mannheim) \u2013 wackelt am Sonntag und Montag", color: "#f59e0b" },
+            { value: "40,2", unit: "\u00B0C", label: "All-Time-Rekord Karlsruhe, gemessen im August 2003", color: "#7f1d1d" },
+            { value: "70", unit: "Hitzetage", label: "Erwartet KA bis Ende des Jahrhunderts \u2013 heute sind es 15 bis 20", color: "#ea580c" },
+          ] as NumberCard[],
+        },
+      },
+      {
+        type: "torte-der-wahrheit",
+        title: "F\u00E4chertorten",
+        subtitle: "Drei Studien zur Karlsruher Lebensf\u00FChrung bei 37,5 Grad im Schatten",
+        data: {
+          pies: [
+            {
+              title: "Wo der Karlsruher um 14 Uhr wirklich steht",
+              slices: [
+                { label: "Im obersten Altbau-Stock, Fenster zu wegen Sonne", value: 32, color: "#dc2626" },
+                { label: "Vor dem K\u00FChlregal bei Edeka in der S\u00FCdstadt, l\u00E4nger als n\u00F6tig", value: 24, color: "#ea580c" },
+                { label: "Im Schloss-Schlauch zwischen zwei Tagungspausen", value: 18, color: "#f59e0b" },
+                { label: "Im KIT-Audimax, weil dort die Klimaanlage l\u00E4uft", value: 14, color: "#7f1d1d" },
+                { label: "Demonstrativ im Stadtgarten, mit Eis als Argument", value: 12, color: "#fca5a5" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Hitze-Strategien, die wir uns selbst gegen\u00FCber nie zugeben",
+              slices: [
+                { label: "\u201EFr\u00FChsommer am Rhein\u201C, eigentlich vier Stunden im Schatten einer Pappel", value: 30, color: "#dc2626" },
+                { label: "Drei Duschen am Tag, klimatechnisch verbucht als Sport", value: 24, color: "#ea580c" },
+                { label: "Nasses T-Shirt im Tiefk\u00FChler \u2013 Schwiegermutter-Trick aus Durlach", value: 20, color: "#f59e0b" },
+                { label: "Die Wohnung um 4:30 Uhr l\u00FCften, als w\u00E4re das normal", value: 14, color: "#7f1d1d" },
+                { label: "Im B\u00FCro l\u00E4nger bleiben \u2013 da geht die Klimaanlage", value: 12, color: "#fca5a5" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Was im Karlsruher Hitzeaktionsplan steht \u2013 und was wir davon nutzen",
+              slices: [
+                { label: "Trinkbrunnen im Schlossgarten, lokalisiert per Google Maps", value: 28, color: "#dc2626" },
+                { label: "Schwimmb\u00E4der mit \u00DCberlauf-Warteschlange ab 11 Uhr", value: 22, color: "#ea580c" },
+                { label: "Klimatisierter Lesesaal der BLB, getarnt als Goethelekt\u00FCre", value: 18, color: "#f59e0b" },
+                { label: "K\u00FChle Kirchen der Innenstadt, neuerdings auch atheistisch genutzt", value: 16, color: "#7f1d1d" },
+                { label: "Die Nachbarschaftshilfe-App, von der wir wussten, aber\u2026", value: 10, color: "#fca5a5" },
+                { label: "Eigentlich alles \u2013 wir kennen den Plan einfach nicht", value: 6, color: "#9ca3af" },
+              ] as PieSlice[],
+            },
+          ],
+        },
+      },
+      {
+        type: "timeline",
+        title: "Eine Woche heizt sich auf",
+        subtitle: "Die Karlsruher Hitzewelle, Stunde f\u00FCr Schwei\u00DFperle",
+        data: {
+          events: [
+            { date: "17. Juni 2026", label: "DWD warnt: \u201EHistorisch lange Hitzewelle\u201C \u2013 mindestens sieben Tage \u00FCber 30 Grad" },
+            { date: "18. Juni 2026", label: "Wagh\u00E4usel-Kirrlach passiert die 35-Grad-Marke, BW-Spitzenwert" },
+            { date: "19. Juni 2026", label: "37,5 Grad in Wagh\u00E4usel-Kirrlach \u2013 deutschlandweit Platz 3 hinter Kitzingen und Bad Kreuznach", highlight: true },
+            { date: "19. Juni 2026", label: "Bunte Nacht der Digitalisierung in KA \u2013 Thema \u201Edigitale Souver\u00E4nit\u00E4t\u201C bei 35 Grad in der Innenstadt" },
+            { date: "21. Juni 2026", label: "Kalendarischer Sommeranfang, Prognose 38 Grad \u2013 wackelt der Juni-Rekord?", highlight: true },
+            { date: "22. Juni 2026", label: "Montag: DWD h\u00E4lt 39 Grad im Rheingraben f\u00FCr m\u00F6glich \u2013 Juni-Allzeit-Rekord 38,9 Grad wackelt", highlight: true },
+            { date: "24. Juni 2026", label: "Mittwoch: Gewitter und Abk\u00FChlung erwartet \u2013 jedenfalls vorerst" },
+          ] as TimelineEvent[],
+        },
+      },
+      {
+        type: "comparison",
+        title: "Wo Karlsruhe in den Rekorden steht",
+        subtitle: "H\u00F6chsttemperaturen der letzten Jahre an deutschen Messstationen, in Grad Celsius",
+        data: {
+          items: [
+            { label: "Karlsruhe / Freiburg, August 2003", value: 40.2, display: "40,2\u00A0\u00B0C", color: "#7f1d1d" },
+            { label: "T\u00F6nisvorst & Duisburg, Juli 2019 (DE-Allzeit)", value: 41.2, display: "41,2\u00A0\u00B0C", color: "#dc2626" },
+            { label: "Bernburg, Juni 2019 (Juni-Allzeit DE)", value: 39.6, display: "39,6\u00A0\u00B0C", color: "#ea580c" },
+            { label: "Mannheim, Juni 2019 (Juni-Rekord BW)", value: 38.9, display: "38,9\u00A0\u00B0C", color: "#f59e0b" },
+            { label: "Wagh\u00E4usel-Kirrlach, 19. Juni 2026", value: 37.5, display: "37,5\u00A0\u00B0C", color: "#fca5a5" },
+          ] as BarItem[],
+        },
+      },
+      {
+        type: "stacked-bar",
+        title: "Wie hei\u00DF wird es in Karlsruhe?",
+        subtitle: "Anzahl der Hitzetage \u00FCber 30 Grad pro Jahr in Karlsruhe \u2013 heute und in der Worst-Case-Prognose",
+        data: {
+          categories: [
+            "Heute (15\u201320 Hitzetage)",
+            "Mitte Jahrhundert (Worst Case)",
+            "Ende Jahrhundert (Worst Case)",
+          ],
+          stacks: [
+            { label: "Hitzetage pro Jahr", color: "#dc2626" },
+          ],
+          unit: "Tage",
+          values: [
+            [18],
+            [50],
+            [70],
+          ],
+        },
+      },
+      {
+        type: "quote",
+        title: "Zitat",
+        data: {
+          text: "Wir haben eine Hitzewelle, die ungew\u00F6hnlich lange anh\u00E4lt, mit Temperaturen \u00FCber 30 Grad, mindestens sieben bis zehn, vielleicht sogar 14 Tage lang.",
+          author: "SWR-Wetterexperte Karsten Schwanke, 19. Juni 2026",
+          color: "#dc2626",
+        },
+      },
+      {
+        type: "waffle",
+        title: "Karlsruhe vor und nach der Klima-Anpassung",
+        subtitle: "Von 100 Karlsruhern erreichen heute nur ein Teil eine k\u00FChle Gr\u00FCnfl\u00E4che in 400 Metern \u2013 die Stadt will das \u00E4ndern",
+        data: {
+          total: 100,
+          filled: 65,
+          filledColor: "#dc2626",
+          emptyColor: "#e5e7eb",
+          annotation: "Heute erreichen sch\u00E4tzungsweise 65 von 100 Karlsruhern in weniger als 400 Metern eine echte Gr\u00FCnfl\u00E4che. Der Hitzeaktionsplan zielt darauf, das in den n\u00E4chsten Jahren auf 100 zu bringen \u2013 weil bei 70 Hitzetagen pro Jahr eine Eisdiele allein nicht reicht.",
+          secondaryFilled: 20,
+          secondaryColor: "#ea580c",
+          filledLabel: "K\u00FChle Gr\u00FCnfl\u00E4che in unter 400\u202Fm erreichbar (65)",
+          secondaryLabel: "Gr\u00FCnfl\u00E4che vorhanden, aber zu weit oder zu klein (20)",
+          emptyLabel: "Keine k\u00FChle R\u00FCckzugsfl\u00E4che in der Nachbarschaft (15)",
+        },
+      },
+    ],
+    sources: [
+      "DWD-Vorl\u00E4ufige Messwerte 19.\u00A0Juni 2026",
+      "tagesschau.de, Hitzewelle in Deutschland (19.\u00A06.\u00A02026)",
+      "zeit.de, Hitzewelle Deutschland (20.\u00A06.\u00A02026)",
+      "SWR Aktuell, Historisch lange Hitzewelle in BW (19.\u00A06.\u00A02026)",
+      "karlsruhe.de, Hitzeaktionsplan Karlsruhe (beschlossen 2025)",
+      "karlsruhe.de, Stadtklima und W\u00E4rmeinsel (Stand 5/2026)",
+      "Statista, Heisse Tage Worst-Case-Szenario, Region Karlsruhe (2021)",
+    ],
+    editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt. Die Erreichbarkeitsquote ist eine Sch\u00E4tzung in Anlehnung an die Karlsruher Klimaanpassungsstrategie.",
+    socialPostText: "37,5\u202F\u00B0C in Wagh\u00E4usel-Kirrlach, mindestens sieben Tage Hitze in Folge, Juni-Rekord am Montag in Reichweite. Der Karlsruher Hitzeaktionsplan ist ein Jahr alt \u2013 unsere Strategien sind \u00E4lter und kreativer.\n\n\u27A1 ka-life.de/#/kw/kw26-2026",
+  },
+  {
     id: "kw25-2026",
     weekNumber: 25,
     year: 2026,

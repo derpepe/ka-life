@@ -9,13 +9,29 @@
     <description>Wöchentliche Infografik-Kolumne zu Karlsruhe. Daten, Fakten und satirische Fächertorten aus der Fächerstadt.</description>
     <language>de-DE</language>
     <copyright>© Decisions Made Easy GmbH, Karlsruhe</copyright>
-    <lastBuildDate>Mon, 15 Jun 2026 21:40:16 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2026 08:05:18 GMT</lastBuildDate>
     <atom:link href="https://ka-life.de/rss.xml" rel="self" type="application/rss+xml" />
     <image>
-      <url>https://ka-life.de/social/kw25-2026.png</url>
+      <url>https://ka-life.de/social/kw26-2026.png</url>
       <title>KA-Life — Karlsruhe in Zahlen</title>
       <link>https://ka-life.de</link>
     </image>
+    <item>
+      <title>37,5 Grad und der Rest schmilzt mit</title>
+      <link>https://ka-life.de/#/kw/kw26-2026</link>
+      <guid isPermaLink="true">https://ka-life.de/#/kw/kw26-2026</guid>
+      <pubDate>Sun, 21 Jun 2026 08:00:00 GMT</pubDate>
+      <category>Hitzewelle KA</category>
+      <description><![CDATA[Waghäusel-Kirrlach im Landkreis Karlsruhe meldete am Freitag 37,5 Grad – nur eine Handbreit unter dem Juni-Rekord von 2019. Die Hitzewelle hält mindestens bis Mittwoch, der Hitzeaktionsplan ist gerade erst ein Jahr alt.
+
+37,5 °C in Waghäusel-Kirrlach, mindestens sieben Tage Hitze in Folge, Juni-Rekord am Montag in Reichweite. Der Karlsruher Hitzeaktionsplan ist ein Jahr alt – unsere Strategien sind älter und kreativer.
+
+➡ ka-life.de/#/kw/kw26-2026]]></description>
+      <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw26-2026.png" alt="KA-Life KW26-2026: 37,5 Grad und der Rest schmilzt mit" /></p><p>Waghäusel-Kirrlach im Landkreis Karlsruhe meldete am Freitag 37,5 Grad – nur eine Handbreit unter dem Juni-Rekord von 2019. Die Hitzewelle hält mindestens bis Mittwoch, der Hitzeaktionsplan ist gerade erst ein Jahr alt.</p><p>37,5 °C in Waghäusel-Kirrlach, mindestens sieben Tage Hitze in Folge, Juni-Rekord am Montag in Reichweite. Der Karlsruher Hitzeaktionsplan ist ein Jahr alt – unsere Strategien sind älter und kreativer.<br/><br/>➡ ka-life.de/#/kw/kw26-2026</p>]]></content:encoded>
+      <enclosure url="https://ka-life.de/social/kw26-2026.png" length="0" type="image/png" />
+      <media:content url="https://ka-life.de/social/kw26-2026.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://ka-life.de/social/kw26-2026.png" />
+    </item>
     <item>
       <title>Schufa-Schmerz beim Karlsruher BGH</title>
       <link>https://ka-life.de/#/kw/kw25-2026</link>
