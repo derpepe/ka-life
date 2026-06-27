@@ -41,6 +41,169 @@ export interface WeeklyInfographic {
 
 export const infographics: WeeklyInfographic[] = [
   {
+    id: "kw27-2026",
+    weekNumber: 27,
+    year: 2026,
+    dateRange: "22.\u201328. Juni 2026",
+    title: "Der neue Mann im Wildpark spielt kein Poker mehr",
+    subtitle: "Maximilian Senft ist 36, Wiener, ehemaliger Poker-Profi und seit Freitag offiziell Cheftrainer des Karlsruher SC. Am Sonntag steht er erstmals mit der Mannschaft auf dem Platz \u2013 vier Wochen sp\u00E4ter wartet Inter Mailand im Wildpark.",
+    kicker: "KSC-Trainerwechsel",
+    theme: {
+      accent: "#0f766e",
+      accentLight: "#5eead4",
+      accentDark: "#134e4a",
+      secondary: "#f59e0b",
+      tertiary: "#10b981",
+      background: "#fafafa",
+    },
+    socialCard: {
+      headline: "Vom Pokertisch\nan die Seitenlinie",
+      subline: "Maximilian Senft \u00B7 neuer KSC-Cheftrainer \u00B7 KW 27",
+      keyNumber: "36",
+      keyLabel: "Jahre alt, Wiener, UEFA Pro-Lizenz, fr\u00FCher Poker-Profi \u2013 jetzt Eichner-Nachfolger",
+      gradient: "linear-gradient(135deg, #0f766e 0%, #134e4a 50%, #042f2e 100%)",
+    },
+    sections: [
+      {
+        type: "number-cards",
+        title: "Der Neue in Zahlen",
+        subtitle: "Maximilian Senft \u00B7 Cheftrainer Karlsruher SC ab 28. Juni 2026",
+        data: {
+          cards: [
+            { value: "36", unit: "Jahre", label: "Alt ist Senft \u2013 in Wien geboren am 4. August 1989, j\u00FCnger als sein Vorg\u00E4nger Eichner", color: "#0f766e" },
+            { value: "2,17", unit: "Pkt./Spiel", label: "Schnitt bei der SV Ried 2024/25 \u2013 Aufstieg in die \u00F6sterreichische Bundesliga", color: "#10b981" },
+            { value: "6,5", unit: "Jahre", label: "War Christian Eichner KSC-Chefcoach \u2013 die Wildpark-\u00C4ra, die jetzt endet", color: "#f59e0b" },
+            { value: "28", unit: "6. 11 Uhr", label: "Trainingsstart Sonntag im Wildpark \u2013 Senfts erste Aufstellung als KSC-Coach", color: "#134e4a" },
+          ] as NumberCard[],
+        },
+      },
+      {
+        type: "torte-der-wahrheit",
+        title: "F\u00E4chertorten",
+        subtitle: "Drei Karlsruher Innenansichten zur \u00C4ra Senft",
+        data: {
+          pies: [
+            {
+              title: "Was beim KSC-Fan h\u00E4ngenbleibt, wenn er den Namen Senft h\u00F6rt",
+              slices: [
+                { label: "Der hat doch fr\u00FCher Poker gespielt, oder?", value: 38, color: "#0f766e" },
+                { label: "\u00D6sterreicher, das wird kompliziert mit dem Dialekt", value: 22, color: "#10b981" },
+                { label: "Hat in Ried den Aufstieg geschafft \u2013 wo war Ried noch?", value: 18, color: "#f59e0b" },
+                { label: "36 Jahre alt? Ich habe l\u00E4ngere KSC-Mitgliedschaften", value: 14, color: "#134e4a" },
+                { label: "Hoffentlich nicht der n\u00E4chste Slomka-Moment", value: 8, color: "#5eead4" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Was Senft am Sonntag um 11 Uhr im Wildpark wirklich denkt",
+              slices: [
+                { label: "Welcher Wiener Coffeeshop hat hier um die Ecke ge\u00F6ffnet?", value: 30, color: "#0f766e" },
+                { label: "Eichner hat sechs Jahre lang dieselbe Bank besessen", value: 24, color: "#f59e0b" },
+                { label: "In vier Wochen kommt Inter \u2013 das war wirklich vereinbart?", value: 20, color: "#10b981" },
+                { label: "Beim Pressetermin nicht \u00FCber Pokerregeln reden", value: 16, color: "#134e4a" },
+                { label: "Wie viele Wildpark-Pfauen sehen den ersten Aufgalopp mit?", value: 10, color: "#5eead4" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Welche Skills aus der Pokerkarriere im Wildpark wirklich helfen",
+              slices: [
+                { label: "Lesen, ob der Gegner auf der Trib\u00FCne bluffen wird (Mario Eggimann)", value: 32, color: "#0f766e" },
+                { label: "Ruhig bleiben, wenn der Schiri einen Karlsruher Joker zieht", value: 26, color: "#10b981" },
+                { label: "Implied Odds als Argument bei der Aufstellungsdebatte", value: 20, color: "#f59e0b" },
+                { label: "Pokerface bei Trainerumfragen der BNN", value: 14, color: "#134e4a" },
+                { label: "All-In als Saisonziel \u2013 die Fans w\u00FCrden mitgehen", value: 8, color: "#5eead4" },
+              ] as PieSlice[],
+            },
+          ],
+        },
+      },
+      {
+        type: "timeline",
+        title: "Von der Trainerentscheidung zum Saisonstart",
+        subtitle: "Wie sich die KSC-Abl\u00F6sesaison 2026 verdichtet hat",
+        data: {
+          events: [
+            { date: "8. April 2026", label: "KSC und Eichner verk\u00FCnden: gemeinsame Wege enden nach 6,5 Jahren im Sommer" },
+            { date: "21. Mai 2026", label: "Maximilian Senft wird als Nachfolger offiziell vorgestellt \u2013 von der SV Ried in die F\u00E4cherstadt", highlight: true },
+            { date: "17. Mai 2026", label: "Eichners letzter Heimsieg, Verabschiedung im Wildpark" },
+            { date: "6. Juni 2026", label: "DFB-Pokalauslosung: KSC trifft in der 1. Runde auf Preu\u00DFen M\u00FCnster" },
+            { date: "26. Juni 2026", label: "Senft stellt sich auf der Auftakt-Pressekonferenz im Wildpark erstmals den Fragen", highlight: true },
+            { date: "28. Juni 2026", label: "Trainingsauftakt um 11 Uhr \u2013 die Senft-\u00C4ra beginnt auf dem Rasen", highlight: true },
+            { date: "26. Juli 2026", label: "Saisoner\u00F6ffnung gegen Inter Mailand im Wildpark \u2013 Senfts erstes gro\u00DFes Heimspiel", highlight: true },
+            { date: "August 2026", label: "DFB-Pokalauftakt bei Preu\u00DFen M\u00FCnster (Freitagabend)" },
+          ] as TimelineEvent[],
+        },
+      },
+      {
+        type: "comparison",
+        title: "Senft im KSC-Trainervergleich",
+        subtitle: "Letzte Cheftrainer des Karlsruher SC \u2013 wie alt sie zum Amtsantritt waren (Jahre)",
+        data: {
+          items: [
+            { label: "Maximilian Senft (ab 2026)", value: 36, display: "36 Jahre", color: "#0f766e" },
+            { label: "Christian Eichner (2020\u20132026)", value: 37, display: "37 Jahre", color: "#134e4a" },
+            { label: "Alois Schwartz (2017\u20132019)", value: 50, display: "50 Jahre", color: "#f59e0b" },
+            { label: "Mirko Slomka (2016\u20132017)", value: 48, display: "48 Jahre", color: "#10b981" },
+            { label: "Tomas Oral (2014\u20132016)", value: 41, display: "41 Jahre", color: "#5eead4" },
+          ] as BarItem[],
+        },
+      },
+      {
+        type: "stacked-bar",
+        title: "Senfts \u00D6sterreich-Bilanz, kompakt",
+        subtitle: "Punkteschnitt pro Spiel in den letzten drei Spielzeiten bei der SV Ried",
+        data: {
+          categories: ["Saison 2023/24 (2. Liga \u00D6)", "Saison 2024/25 (2. Liga \u00D6, Meister)", "Saison 2025/26 (Bundesliga \u00D6)"],
+          stacks: [
+            { label: "Punkte pro Spiel", color: "#0f766e" },
+          ],
+          unit: "Pkt./Spiel",
+          values: [
+            [1.55],
+            [2.17],
+            [1.18],
+          ],
+        },
+      },
+      {
+        type: "quote",
+        title: "Zitat",
+        data: {
+          text: "Aktuell spiele ich seit einigen Jahren \u00FCberhaupt kein Poker mehr. Eigentlich habe ich damit aufgeh\u00F6rt, als ich den Kindertrainerkurs gemacht und mich voll auf die Trainerprofession konzentriert habe.",
+          author: "Maximilian Senft \u00B7 Auftakt-Pressekonferenz 26.\u202F6.\u202F2026 im Wildpark",
+          color: "#0f766e",
+        },
+      },
+      {
+        type: "waffle",
+        title: "Wie viele KSC-Trainer kommen aus \u00D6sterreich?",
+        subtitle: "Von den 30 KSC-Cheftrainern der vergangenen 50 Jahre haben nur die wenigsten einen \u00F6sterreichischen Pass",
+        data: {
+          total: 30,
+          filled: 1,
+          filledColor: "#0f766e",
+          emptyColor: "#e5e7eb",
+          annotation: "Senft ist nach Klubchronik der erste Cheftrainer mit \u00F6sterreichischem Pass im Karlsruher Profibereich seit Jahrzehnten. Die KSC-Trainerb\u00E4nke der letzten 50 Jahre wurden zu \u00FCber 90\u202F% von deutschen Coaches besetzt, sechs kamen aus dem Ausland \u2013 vor allem aus den Niederlanden und der Schweiz.",
+          secondaryFilled: 5,
+          secondaryColor: "#f59e0b",
+          filledLabel: "\u00D6sterreichischer Pass (Senft, 1)",
+          secondaryLabel: "Andere Auslandsp\u00E4sse (NL, CH, BiH \u2026, 5)",
+          emptyLabel: "Deutsche Cheftrainer (24)",
+        },
+      },
+    ],
+    sources: [
+      "ksc.de, Maximilian Senft wird neuer Cheftrainer beim KSC (21.\u202F5.\u202F2026)",
+      "sportschau.de, Ehemaliger Poker-Profi: Das ist der neue KSC-Trainer (26.\u202F6.\u202F2026)",
+      "Stuttgarter Zeitung, Senft wird neuer Trainer beim KSC (21.\u202F5.\u202F2026)",
+      "de.wikipedia.org, Maximilian Senft (Stand 6/2026)",
+      "ksc.de, KSC gastiert im DFB-Pokal bei Preu\u00DFen M\u00FCnster (6.\u202F6.\u202F2026)",
+      "swr.de, Auftakt-Pressekonferenz Maximilian Senft (26.\u202F6.\u202F2026)",
+      "DFB-Pokal 2026/27, Ansetzungen 1. Hauptrunde (24.\u202F6.\u202F2026)",
+    ],
+    editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt. Die Punkteschnitte gelten f\u00FCr Senfts Zeit als Cheftrainer der SV Ried in den letzten drei Spielzeiten.",
+    socialPostText: "Vom Pokertisch an die Seitenlinie: Maximilian Senft (36, Wien) ist ab Sonntag KSC-Cheftrainer. Vier Wochen Vorbereitung, dann steht Inter Mailand im Wildpark. Lust auf ein Spiel?\n\n\u27A1 ka-life.de/#/kw/kw27-2026",
+  },
+  {
     id: "kw26-2026",
     weekNumber: 26,
     year: 2026,

@@ -9,13 +9,29 @@
     <description>Wöchentliche Infografik-Kolumne zu Karlsruhe. Daten, Fakten und satirische Fächertorten aus der Fächerstadt.</description>
     <language>de-DE</language>
     <copyright>© Decisions Made Easy GmbH, Karlsruhe</copyright>
-    <lastBuildDate>Sat, 20 Jun 2026 08:05:18 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2026 08:03:55 GMT</lastBuildDate>
     <atom:link href="https://ka-life.de/rss.xml" rel="self" type="application/rss+xml" />
     <image>
-      <url>https://ka-life.de/social/kw26-2026.png</url>
+      <url>https://ka-life.de/social/kw27-2026.png</url>
       <title>KA-Life — Karlsruhe in Zahlen</title>
       <link>https://ka-life.de</link>
     </image>
+    <item>
+      <title>Der neue Mann im Wildpark spielt kein Poker mehr</title>
+      <link>https://ka-life.de/#/kw/kw27-2026</link>
+      <guid isPermaLink="true">https://ka-life.de/#/kw/kw27-2026</guid>
+      <pubDate>Sun, 28 Jun 2026 08:00:00 GMT</pubDate>
+      <category>KSC-Trainerwechsel</category>
+      <description><![CDATA[Maximilian Senft ist 36, Wiener, ehemaliger Poker-Profi und seit Freitag offiziell Cheftrainer des Karlsruher SC. Am Sonntag steht er erstmals mit der Mannschaft auf dem Platz – vier Wochen später wartet Inter Mailand im Wildpark.
+
+Vom Pokertisch an die Seitenlinie: Maximilian Senft (36, Wien) ist ab Sonntag KSC-Cheftrainer. Vier Wochen Vorbereitung, dann steht Inter Mailand im Wildpark. Lust auf ein Spiel?
+
+➡ ka-life.de/#/kw/kw27-2026]]></description>
+      <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw27-2026.png" alt="KA-Life KW27-2026: Der neue Mann im Wildpark spielt kein Poker mehr" /></p><p>Maximilian Senft ist 36, Wiener, ehemaliger Poker-Profi und seit Freitag offiziell Cheftrainer des Karlsruher SC. Am Sonntag steht er erstmals mit der Mannschaft auf dem Platz – vier Wochen später wartet Inter Mailand im Wildpark.</p><p>Vom Pokertisch an die Seitenlinie: Maximilian Senft (36, Wien) ist ab Sonntag KSC-Cheftrainer. Vier Wochen Vorbereitung, dann steht Inter Mailand im Wildpark. Lust auf ein Spiel?<br/><br/>➡ ka-life.de/#/kw/kw27-2026</p>]]></content:encoded>
+      <enclosure url="https://ka-life.de/social/kw27-2026.png" length="0" type="image/png" />
+      <media:content url="https://ka-life.de/social/kw27-2026.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://ka-life.de/social/kw27-2026.png" />
+    </item>
     <item>
       <title>37,5 Grad und der Rest schmilzt mit</title>
       <link>https://ka-life.de/#/kw/kw26-2026</link>
