@@ -41,6 +41,174 @@ export interface WeeklyInfographic {
 
 export const infographics: WeeklyInfographic[] = [
   {
+    id: "kw28-2026",
+    weekNumber: 28,
+    year: 2026,
+    dateRange: "29. Juni \u2013 5. Juli 2026",
+    title: "Karlsruhe hat eine eigene Ameisenkoordinatorin",
+    subtitle: "Die Gro\u00DFe Dr\u00FCsenameise Tapinoma magnum ist in acht Karlsruher Stadtteilen angekommen, unterh\u00F6hlt Gehwege und nistet sich in Stromk\u00E4sten ein. Im nur 80 Kilometer entfernten Kehl legt sie ganze Stromnetze lahm.",
+    kicker: "Karlsruher Ameisenplage",
+    theme: {
+      accent: "#92400e",
+      accentLight: "#fbbf24",
+      accentDark: "#451a03",
+      secondary: "#dc2626",
+      tertiary: "#a16207",
+      background: "#fafafa",
+    },
+    socialCard: {
+      headline: "Karlsruhe hat eine\nAmeisenkoordinatorin",
+      subline: "Tapinoma magnum in KA \u00B7 8 Stadtteile befallen \u00B7 KW 28",
+      keyNumber: "8",
+      keyLabel: "Karlsruher Stadtteile mit Tapinoma-magnum-Superkolonien \u2013 Tendenz steigend",
+      gradient: "linear-gradient(135deg, #a16207 0%, #92400e 50%, #451a03 100%)",
+    },
+    sections: [
+      {
+        type: "number-cards",
+        title: "Die Ameiseninvasion in Zahlen",
+        subtitle: "Was das Karlsruher Umweltamt und die Nachbarstadt Kehl bisher wissen",
+        data: {
+          cards: [
+            { value: "8", unit: "Stadtteile", label: "In Karlsruhe hat sich Tapinoma magnum bereits ausgebreitet \u2013 mit Superkolonien", color: "#92400e" },
+            { value: "1", unit: "Koordinatorin", label: "Karen E\u00DFer arbeitet seit 2025 in Vollzeit gegen die Dr\u00FCsenameise", color: "#a16207" },
+            { value: "50.000", unit: "\u20AC/Woche", label: "So teuer ist laut Kehl die Bek\u00E4mpfung einer einzelnen Superkolonie", color: "#dc2626" },
+            { value: "5", unit: "Spray-Runden", label: "Hat Kehl bisher versucht \u2013 die Kolonien wachsen trotzdem weiter", color: "#451a03" },
+          ] as NumberCard[],
+        },
+      },
+      {
+        type: "torte-der-wahrheit",
+        title: "F\u00E4chertorten",
+        subtitle: "Drei Karlsruher Innenansichten zum Superkolonien-Alltag",
+        data: {
+          pies: [
+            {
+              title: "Wo Karlsruher zuerst gemerkt haben, dass etwas nicht stimmt",
+              slices: [
+                { label: "Ameisenstra\u00DFe zwischen Bordstein und Kaffeevollautomat", value: 32, color: "#92400e" },
+                { label: "Der Stromkasten in der Weststadt piepst neuerdings", value: 22, color: "#a16207" },
+                { label: "Ein Gehwegplatte in der Oststadt kippt seit April", value: 20, color: "#dc2626" },
+                { label: "Beim Grillen in der S\u00FCdstadt Terrasse wurde die Wurst betreut", value: 14, color: "#fbbf24" },
+                { label: "Nachbar sprach seit drei Wochen von \u201Eschwarzen B\u00E4chen\u201C", value: 12, color: "#451a03" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Was auf Karen E\u00DFers Schreibtisch heute morgen lag",
+              slices: [
+                { label: "37 Meldungen aus B\u00FCrger*innen-Postfach \u201EStadt Karlsruhe\u201C", value: 30, color: "#92400e" },
+                { label: "Ein Foto einer Ameisenstra\u00DFe, gel\u00E4ndeorientiert bis Grabenstra\u00DFe", value: 22, color: "#dc2626" },
+                { label: "Anfrage aus Kehl, ob man mal telefonieren k\u00F6nne", value: 20, color: "#a16207" },
+                { label: "Neue Absage vom Insektizid-H\u00E4ndler \u2013 wieder ausverkauft", value: 16, color: "#451a03" },
+                { label: "Studie aus Freiburg, deren Kernaussage: \u201Enichts hilft\u201C", value: 12, color: "#fbbf24" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Welche Ameisen-Mythen im Karlsruher Nachbarschaftschat kursieren",
+              slices: [
+                { label: "Backpulver in die Ritzen, kennt die Schwiegermutter aus Durlach", value: 30, color: "#92400e" },
+                { label: "Einfach viel gie\u00DFen, die m\u00F6gen kein Wasser", value: 24, color: "#a16207" },
+                { label: "Sind angeblich mit dem letzten Ficus aus Italien gekommen", value: 20, color: "#dc2626" },
+                { label: "Der Nachbar hat gesagt, sie meiden Fair-Trade-Kaffee", value: 14, color: "#fbbf24" },
+                { label: "Wenn nichts hilft, gibt es doch die Koordinatorin \u2013 zust\u00E4ndig ist sie", value: 12, color: "#451a03" },
+              ] as PieSlice[],
+            },
+          ],
+        },
+      },
+      {
+        type: "timeline",
+        title: "Wie eine Mittelmeerameise Karlsruhe eroberte",
+        subtitle: "Sechs Etappen einer Invasion, die bis 2019 noch niemand ernst nahm",
+        data: {
+          events: [
+            { date: "vor 2010", label: "Erste Sichtungen von Tapinoma magnum in Deutschland \u2013 wohl mit Mediterranpflanzen eingeschleppt" },
+            { date: "2020", label: "Ausbreitung im Rheingraben nimmt Fahrt auf, Kehl meldet erste Nester" },
+            { date: "Herbst 2024", label: "Kehl ruft den ersten stadtweiten \u201EAmeisenalarm\u201C aus \u2013 Millionen Ameisen legen Stromk\u00E4sten lahm", highlight: true },
+            { date: "2025", label: "Karlsruhe schafft die bundesweit erste \u201EAmeisenkoordinatorin\u201C \u2013 Karen E\u00DFer \u00FCbernimmt", highlight: true },
+            { date: "April 2026", label: "Karlsruher Umweltamt best\u00E4tigt: In acht Stadtteilen sind Superkolonien nachgewiesen", highlight: true },
+            { date: "3. Juli 2026", label: "SPIEGEL widmet der Ameisenplage in KA einen gro\u00DFen Beitrag \u2013 die Republik lernt E\u00DFer kennen", highlight: true },
+            { date: "2027 +", label: "BW-Landesumweltministerium: Bek\u00E4mpfung wird zur Daueraufgabe, Bundesmittel gefordert" },
+          ] as TimelineEvent[],
+        },
+      },
+      {
+        type: "comparison",
+        title: "Superkolonie gegen Karlsruhe",
+        subtitle: "Gr\u00F6\u00DFenverh\u00E4ltnisse, wenn man Zahlen sortiert wie eine Ameise sortiert Kr\u00FCmel",
+        data: {
+          items: [
+            { label: "Ameisen pro Superkolonie (Kehl, gesch\u00E4tzt)", value: 100, display: "mehrere Millionen", color: "#dc2626" },
+            { label: "Karlsruher Einwohner", value: 32, display: "\u2248 310.000", color: "#92400e" },
+            { label: "Wildpark-Zuschauer bei Vollhaus", value: 3, display: "33.180", color: "#a16207" },
+            { label: "Karlsruher Zoo-Besuche pro Tag (Schnitt)", value: 0.4, display: "\u2248 3.500", color: "#fbbf24" },
+            { label: "Ameisenkoordinator*innen in Deutschland", value: 0.05, display: "1 (Karen E\u00DFer)", color: "#451a03" },
+          ] as BarItem[],
+        },
+      },
+      {
+        type: "stacked-bar",
+        title: "Was die Ameise wirklich lahmlegt",
+        subtitle: "Anteil der bekannten Sch\u00E4den bei Tapinoma magnum in Karlsruhe und Kehl \u2013 gesch\u00E4tzt in Prozent",
+        data: {
+          categories: [
+            "Unterh\u00F6hlte Gehwege",
+            "Stromk\u00E4sten und Verteiler",
+            "Hausfundamente und Terrassen",
+            "K\u00FCchen und Vorratsr\u00E4ume",
+            "Internet- und Datenleitungen",
+          ],
+          stacks: [
+            { label: "Anteil der Schadensmeldungen", color: "#92400e" },
+          ],
+          unit: "%",
+          values: [
+            [42],
+            [24],
+            [15],
+            [12],
+            [7],
+          ],
+        },
+      },
+      {
+        type: "quote",
+        title: "Zitat",
+        data: {
+          text: "Sie sind \u00FCberall. In Stromk\u00E4sten, in Hausfundamenten, unter Gehwegen. Und es gibt aktuell nichts, was zuverl\u00E4ssig gegen sie hilft.",
+          author: "Karen E\u00DFer, Karlsruher Ameisenkoordinatorin, im SPIEGEL (3.\u202F7.\u202F2026)",
+          color: "#92400e",
+        },
+      },
+      {
+        type: "waffle",
+        title: "Karlsruhe und seine Stadtteile",
+        subtitle: "Von 27 Karlsruher Stadtteilen sind bereits acht bef\u00E4llen, die anderen bangen mit",
+        data: {
+          total: 27,
+          filled: 8,
+          filledColor: "#dc2626",
+          emptyColor: "#e5e7eb",
+          annotation: "Karlsruhe hat 27 Stadtteile. In acht davon sind Tapinoma-magnum-Superkolonien nachgewiesen \u2013 die Tendenz ist steigend. In Kehl haben die Ameisen Superkolonien mit mehreren Millionen Tieren aufgebaut und mehrfach Strom- und Internetausf\u00E4lle verursacht.",
+          secondaryFilled: 5,
+          secondaryColor: "#fbbf24",
+          filledLabel: "Best\u00E4tigte Superkolonien (8)",
+          secondaryLabel: "Verdachtsf\u00E4lle, noch nicht best\u00E4tigt (5)",
+          emptyLabel: "Bisher unauff\u00E4llig (14)",
+        },
+      },
+    ],
+    sources: [
+      "DER SPIEGEL, Karlsruhe hat ein Ameisenproblem (Paula Haase, 3.\u202F7.\u202F2026)",
+      "t-online.de, Dr\u00FCsenameise in Karlsruhe: Invasive Art bedroht Gehwege und Wohnh\u00E4user (24.\u202F4.\u202F2026)",
+      "SWR Aktuell, Ameisen sorgen f\u00FCr Stromausf\u00E4lle in Kehl",
+      "BILD, Millionen Ameisen l\u00F6sen Stromausf\u00E4lle aus (Kehl 2024)",
+      "karlsruhe.de, Tapinoma magnum und die Karlsruher Umweltverwaltung (Stand 6/2026)",
+    ],
+    editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt. Die Prozentangaben zu Schadensarten sind Sch\u00E4tzungen auf Basis der \u00F6ffentlich zug\u00E4nglichen Berichte.",
+    socialPostText: "Karlsruhe hat als bisher einzige Stadt in Deutschland eine Ameisenkoordinatorin. Warum? In acht Stadtteilen breitet sich die Gro\u00DFe Dr\u00FCsenameise aus. In der Nachbarstadt Kehl legen ihre Kolonien schon Stromk\u00E4sten lahm.\n\n\u27A1 ka-life.de/#/kw/kw28-2026",
+  },
+  {
     id: "kw27-2026",
     weekNumber: 27,
     year: 2026,

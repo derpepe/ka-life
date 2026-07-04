@@ -9,13 +9,29 @@
     <description>Wöchentliche Infografik-Kolumne zu Karlsruhe. Daten, Fakten und satirische Fächertorten aus der Fächerstadt.</description>
     <language>de-DE</language>
     <copyright>© Decisions Made Easy GmbH, Karlsruhe</copyright>
-    <lastBuildDate>Sat, 27 Jun 2026 08:03:55 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jul 2026 08:03:57 GMT</lastBuildDate>
     <atom:link href="https://ka-life.de/rss.xml" rel="self" type="application/rss+xml" />
     <image>
-      <url>https://ka-life.de/social/kw27-2026.png</url>
+      <url>https://ka-life.de/social/kw28-2026.png</url>
       <title>KA-Life — Karlsruhe in Zahlen</title>
       <link>https://ka-life.de</link>
     </image>
+    <item>
+      <title>Karlsruhe hat eine eigene Ameisenkoordinatorin</title>
+      <link>https://ka-life.de/#/kw/kw28-2026</link>
+      <guid isPermaLink="true">https://ka-life.de/#/kw/kw28-2026</guid>
+      <pubDate>Sun, 05 Jul 2026 08:00:00 GMT</pubDate>
+      <category>Karlsruher Ameisenplage</category>
+      <description><![CDATA[Die Große Drüsenameise Tapinoma magnum ist in acht Karlsruher Stadtteilen angekommen, unterhöhlt Gehwege und nistet sich in Stromkästen ein. Im nur 80 Kilometer entfernten Kehl legt sie ganze Stromnetze lahm.
+
+Karlsruhe hat als bisher einzige Stadt in Deutschland eine Ameisenkoordinatorin. Warum? In acht Stadtteilen breitet sich die Große Drüsenameise aus. In der Nachbarstadt Kehl legen ihre Kolonien schon Stromkästen lahm.
+
+➡ ka-life.de/#/kw/kw28-2026]]></description>
+      <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw28-2026.png" alt="KA-Life KW28-2026: Karlsruhe hat eine eigene Ameisenkoordinatorin" /></p><p>Die Große Drüsenameise Tapinoma magnum ist in acht Karlsruher Stadtteilen angekommen, unterhöhlt Gehwege und nistet sich in Stromkästen ein. Im nur 80 Kilometer entfernten Kehl legt sie ganze Stromnetze lahm.</p><p>Karlsruhe hat als bisher einzige Stadt in Deutschland eine Ameisenkoordinatorin. Warum? In acht Stadtteilen breitet sich die Große Drüsenameise aus. In der Nachbarstadt Kehl legen ihre Kolonien schon Stromkästen lahm.<br/><br/>➡ ka-life.de/#/kw/kw28-2026</p>]]></content:encoded>
+      <enclosure url="https://ka-life.de/social/kw28-2026.png" length="0" type="image/png" />
+      <media:content url="https://ka-life.de/social/kw28-2026.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://ka-life.de/social/kw28-2026.png" />
+    </item>
     <item>
       <title>Der neue Mann im Wildpark spielt kein Poker mehr</title>
       <link>https://ka-life.de/#/kw/kw27-2026</link>
