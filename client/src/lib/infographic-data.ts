@@ -41,6 +41,174 @@ export interface WeeklyInfographic {
 
 export const infographics: WeeklyInfographic[] = [
   {
+    id: "kw29-2026",
+    weekNumber: 29,
+    year: 2026,
+    dateRange: "6.\u201312. Juli 2026",
+    title: "Elf Tage bis Mount Klotz",
+    subtitle: "Vom 23. bis 26. Juli klettert die G\u00FCnther-Klotz-Anlage wieder auf ihren Sommer-Gipfel. 36 Bands auf vier B\u00FChnen, Nico Santos am Donnerstag, Beatsteaks am Freitag, Zartmann am Samstag, Max Herre am Sonntag \u2013 und Karlsruhe zwischendrin.",
+    kicker: "DAS FEST 2026",
+    theme: {
+      accent: "#db2777",
+      accentLight: "#f9a8d4",
+      accentDark: "#831843",
+      secondary: "#f59e0b",
+      tertiary: "#8b5cf6",
+      background: "#fafafa",
+    },
+    socialCard: {
+      headline: "36 Bands, 4 B\u00FChnen,\nein Mount Klotz",
+      subline: "DAS FEST 23.\u201326.\u202F7.\u202F2026 \u00B7 KW 29",
+      keyNumber: "41",
+      keyLabel: "Ausgabe von DAS FEST \u2013 seit 1985 gr\u00F6\u00DFtes Karlsruher Open-Air",
+      gradient: "linear-gradient(135deg, #db2777 0%, #a21caf 45%, #4c1d95 100%)",
+    },
+    sections: [
+      {
+        type: "number-cards",
+        title: "Das Fest in Zahlen",
+        subtitle: "Die 41. Ausgabe des gr\u00F6\u00DFten Karlsruher Sommer-Open-Airs",
+        data: {
+          cards: [
+            { value: "41", unit: "Ausgabe", label: "So oft steigt DAS FEST 2026 auf dem Mount Klotz \u2013 seit dem ersten Fest 1985", color: "#db2777" },
+            { value: "36", unit: "Bands", label: "stehen auf vier B\u00FChnen \u2013 von Beatsteaks bis zum SWR Symphonieorchester", color: "#a21caf" },
+            { value: "250", unit: "Tsd. G\u00E4ste", label: "kamen 2024 in die G\u00FCnther-Klotz-Anlage \u2013 ein Karlsruhe im Karlsruhe", color: "#8b5cf6" },
+            { value: "70", unit: "% gratis", label: "des Programms sind ohne Ticket zug\u00E4nglich \u2013 Feld-, Kultur- und FEST-Floor", color: "#f59e0b" },
+          ] as NumberCard[],
+        },
+      },
+      {
+        type: "torte-der-wahrheit",
+        title: "F\u00E4chertorten",
+        subtitle: "Drei Karlsruher Perspektiven, elf Tage vor dem Fassanstich am Mount Klotz",
+        data: {
+          pies: [
+            {
+              title: "Wo Karlsruher am Fest-Donnerstag um 20 Uhr wirklich stehen",
+              slices: [
+                { label: "Vorne bei Nico Santos, mit einem viel zu warmen Radler", value: 30, color: "#db2777" },
+                { label: "Auf der Kulturb\u00FChne, weil es dort halb so voll ist", value: 22, color: "#a21caf" },
+                { label: "Am Ausschank in Krusig\u2019s Dorf, sechster Platz von hinten", value: 18, color: "#f59e0b" },
+                { label: "Im Ausl\u00E4nderweg, weil das Handy nur da noch Netz hat", value: 14, color: "#8b5cf6" },
+                { label: "Auf dem Weg zur Toilette, seit zwanzig Minuten", value: 10, color: "#f9a8d4" },
+                { label: "Zu Hause, weil das Wetter zu unklar war", value: 6, color: "#831843" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Welche Line-up-Debatte diese Woche im KA-Freundeskreis l\u00E4uft",
+              slices: [
+                { label: "Zartmann ist der neue Peter Fox, versprochen", value: 30, color: "#db2777" },
+                { label: "Beatsteaks h\u00E4tten schon vor 2015 der Freitagsheadliner sein sollen", value: 24, color: "#a21caf" },
+                { label: "Ich kenne Max Herre nur wegen meiner \u00E4lteren Schwester", value: 20, color: "#8b5cf6" },
+                { label: "Ist der Sonntag mit Leony jetzt Familientag oder Studi-Kater?", value: 14, color: "#f59e0b" },
+                { label: "Ehrlich? Ich gehe wegen dem Karaokeshow am Sonntag um 15:45", value: 12, color: "#f9a8d4" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Woran Karlsruher DAS FEST tats\u00E4chlich erinnern werden",
+              slices: [
+                { label: "Eine Regenpause, in der der Mount Klotz zur Schlammrutsche wurde", value: 28, color: "#db2777" },
+                { label: "Den Song, bei dem die Handylichter angingen \u2013 alle wei\u00DF es", value: 22, color: "#a21caf" },
+                { label: "Die Bratwurst, die trotz aller Kritik wieder gekauft wurde", value: 18, color: "#f59e0b" },
+                { label: "Wen man am Rand des Kulturb\u00FChnenzelts nach acht Jahren wiedertraf", value: 16, color: "#8b5cf6" },
+                { label: "Die Frage: \u201EWar\u2019s fr\u00FCher wirklich besser oder werde ich nur \u00E4lter?\u201C", value: 16, color: "#831843" },
+              ] as PieSlice[],
+            },
+          ],
+        },
+      },
+      {
+        type: "timeline",
+        title: "Von Reggae-Woche zu Ray Dalton",
+        subtitle: "Die wichtigsten Stationen der 41 Jahre am Mount Klotz",
+        data: {
+          events: [
+            { date: "1985", label: "Erste Ausgabe von DAS FEST in der G\u00FCnther-Klotz-Anlage \u2013 als Reggae-Woche mit ein paar tausend G\u00E4sten" },
+            { date: "2003", label: "Erstmals \u00FCber 100.000 Besucher, DAS FEST wird bundesweit ernst genommen" },
+            { date: "2019", label: "Rekordjahr mit rund 250.000 G\u00E4sten \u2013 Peter Fox l\u00E4sst den Mount Klotz beben" },
+            { date: "2020\u20132021", label: "Corona-Pause, DAS FEST verlegt sich auf abgesagte Termine und Frust" },
+            { date: "2025", label: "40. Jubil\u00E4um mit Amy Macdonald, Clueso und Faithless", highlight: true },
+            { date: "15. Juli 2026", label: "DAS FEST AM SEE er\u00F6ffnet die Festwoche in kleiner Kulisse", highlight: true },
+            { date: "23.\u201326. Juli 2026", label: "41. Ausgabe am Mount Klotz \u2013 vier Tage, vier B\u00FChnen, ein Karlsruhe im Ausnahmezustand", highlight: true },
+          ] as TimelineEvent[],
+        },
+      },
+      {
+        type: "comparison",
+        title: "Mount Klotz gegen den Rest der Republik",
+        subtitle: "Gesch\u00E4tzte Besucherzahlen gro\u00DFer deutscher Sommerfestivals (Rekord- oder Standardjahr)",
+        data: {
+          items: [
+            { label: "Rock am Ring (Nurburgring)", value: 92, display: "\u2248 92.000", color: "#8b5cf6" },
+            { label: "Wacken Open Air", value: 85, display: "\u2248 85.000", color: "#a21caf" },
+            { label: "DAS FEST Karlsruhe (2024)", value: 250, display: "\u2248 250.000", color: "#db2777" },
+            { label: "Southside Festival", value: 65, display: "\u2248 65.000", color: "#f59e0b" },
+            { label: "Deichbrand", value: 62, display: "\u2248 62.000", color: "#f9a8d4" },
+          ] as BarItem[],
+        },
+      },
+      {
+        type: "stacked-bar",
+        title: "Wie sich die Tages-Charts verteilen",
+        subtitle: "Anteil der 36 best\u00E4tigten Fest-Acts pro Festivaltag \u2013 quer \u00FCber alle vier B\u00FChnen",
+        data: {
+          categories: [
+            "Donnerstag (Nico Santos)",
+            "Freitag (Beatsteaks)",
+            "Samstag (Zartmann)",
+            "Sonntag (Max Herre & Joy Denalane)",
+          ],
+          stacks: [
+            { label: "Acts pro Tag", color: "#db2777" },
+          ],
+          unit: "Acts",
+          values: [
+            [5],
+            [10],
+            [12],
+            [9],
+          ],
+        },
+      },
+      {
+        type: "quote",
+        title: "Zitat",
+        data: {
+          text: "Auf DAS FEST trifft man Leute, die man sonst nur bei Beerdigungen sieht \u2013 nur mit besserer Musik und schlechterem Bier.",
+          author: "Ungeschriebene Regel unter Karlsruher Alt-Festgehern",
+          color: "#db2777",
+        },
+      },
+      {
+        type: "waffle",
+        title: "Karlsruher Fest-Typologie",
+        subtitle: "Von 100 erwachsenen Karlsruher\u00B4innen \u2013 wer geht wann und wie oft auf den Mount Klotz?",
+        data: {
+          total: 100,
+          filled: 55,
+          filledColor: "#db2777",
+          emptyColor: "#e5e7eb",
+          annotation: "Rund 55 von 100 erwachsenen Karlsruher\u00B4innen besuchen 2026 mindestens einen Tag am Mount Klotz. Etwa 25 nehmen das gesamte Wochenende mit, die anderen 20 bleiben zu Hause \u2013 aus Prinzip, wegen der Kinder oder weil das Line-up dieses Jahr \u201Enicht ganz so ihres\u201C ist.",
+          secondaryFilled: 25,
+          secondaryColor: "#8b5cf6",
+          filledLabel: "Ein oder zwei Fest-Tage (55)",
+          secondaryLabel: "Alle vier Tage vom Mount Klotz (25)",
+          emptyLabel: "Bleiben zu Hause (20)",
+        },
+      },
+    ],
+    sources: [
+      "dasfest.de, Line-up und Programm 2026 (Stand 07/2026)",
+      "SWR3, DAS FEST 2026 in Karlsruhe (9.\u202F7.\u202F2026)",
+      "karlsruhe.de, Haltung und Glitzer \u2013 DAS FEST 2026 (1/2026)",
+      "karlsruhe-erleben.de, DAS FEST 2026",
+      "Wikipedia, Das Fest (Karlsruhe) \u2013 Historie und Besucherzahlen",
+      "Wikipedia, G\u00FCnther-Klotz-Anlage",
+    ],
+    editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt. Die Besucherzahlen anderer Festivals sind Sch\u00E4tzungen aus \u00F6ffentlichen Quellen und schwanken jahresabh\u00E4ngig.",
+    socialPostText: "Elf Tage bis Mount Klotz: DAS FEST 2026 macht Karlsruhe vom 23. bis 26. Juli wieder zum Festivalstaat. 36 Bands, vier B\u00FChnen, Beatsteaks, Nico Santos, Zartmann und Max Herre \u2013 und ein Sonntag, an dem die Karaokeshow um 15:45 alles retten kann.\n\n\u27A1 ka-life.de/#/kw/kw29-2026",
+  },
+  {
     id: "kw28-2026",
     weekNumber: 28,
     year: 2026,

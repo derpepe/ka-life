@@ -9,13 +9,29 @@
     <description>Wöchentliche Infografik-Kolumne zu Karlsruhe. Daten, Fakten und satirische Fächertorten aus der Fächerstadt.</description>
     <language>de-DE</language>
     <copyright>© Decisions Made Easy GmbH, Karlsruhe</copyright>
-    <lastBuildDate>Sat, 04 Jul 2026 08:03:57 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 08:04:08 GMT</lastBuildDate>
     <atom:link href="https://ka-life.de/rss.xml" rel="self" type="application/rss+xml" />
     <image>
-      <url>https://ka-life.de/social/kw28-2026.png</url>
+      <url>https://ka-life.de/social/kw29-2026.png</url>
       <title>KA-Life — Karlsruhe in Zahlen</title>
       <link>https://ka-life.de</link>
     </image>
+    <item>
+      <title>Elf Tage bis Mount Klotz</title>
+      <link>https://ka-life.de/#/kw/kw29-2026</link>
+      <guid isPermaLink="true">https://ka-life.de/#/kw/kw29-2026</guid>
+      <pubDate>Sun, 12 Jul 2026 08:00:00 GMT</pubDate>
+      <category>DAS FEST 2026</category>
+      <description><![CDATA[Vom 23. bis 26. Juli klettert die Günther-Klotz-Anlage wieder auf ihren Sommer-Gipfel. 36 Bands auf vier Bühnen, Nico Santos am Donnerstag, Beatsteaks am Freitag, Zartmann am Samstag, Max Herre am Sonntag – und Karlsruhe zwischendrin.
+
+Elf Tage bis Mount Klotz: DAS FEST 2026 macht Karlsruhe vom 23. bis 26. Juli wieder zum Festivalstaat. 36 Bands, vier Bühnen, Beatsteaks, Nico Santos, Zartmann und Max Herre – und ein Sonntag, an dem die Karaokeshow um 15:45 alles retten kann.
+
+➡ ka-life.de/#/kw/kw29-2026]]></description>
+      <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw29-2026.png" alt="KA-Life KW29-2026: Elf Tage bis Mount Klotz" /></p><p>Vom 23. bis 26. Juli klettert die Günther-Klotz-Anlage wieder auf ihren Sommer-Gipfel. 36 Bands auf vier Bühnen, Nico Santos am Donnerstag, Beatsteaks am Freitag, Zartmann am Samstag, Max Herre am Sonntag – und Karlsruhe zwischendrin.</p><p>Elf Tage bis Mount Klotz: DAS FEST 2026 macht Karlsruhe vom 23. bis 26. Juli wieder zum Festivalstaat. 36 Bands, vier Bühnen, Beatsteaks, Nico Santos, Zartmann und Max Herre – und ein Sonntag, an dem die Karaokeshow um 15:45 alles retten kann.<br/><br/>➡ ka-life.de/#/kw/kw29-2026</p>]]></content:encoded>
+      <enclosure url="https://ka-life.de/social/kw29-2026.png" length="0" type="image/png" />
+      <media:content url="https://ka-life.de/social/kw29-2026.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://ka-life.de/social/kw29-2026.png" />
+    </item>
     <item>
       <title>Karlsruhe hat eine eigene Ameisenkoordinatorin</title>
       <link>https://ka-life.de/#/kw/kw28-2026</link>
