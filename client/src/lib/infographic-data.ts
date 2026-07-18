@@ -41,6 +41,179 @@ export interface WeeklyInfographic {
 
 export const infographics: WeeklyInfographic[] = [
   {
+    id: "kw30-2026",
+    weekNumber: 30,
+    year: 2026,
+    dateRange: "13.\u201319. Juli 2026",
+    title: "18:45 Uhr, und der Himmel fiel",
+    subtitle: "Am Donnerstagabend zog eine Superzelle mit Downburst \u00FCber Karlsruhe. Sturmb\u00F6en bis 130\u202Fkm/h, \u00FCber 250 Feuerwehreins\u00E4tze, ein Mensch tot. Freitag begann die F\u00E4cherstadt mit dem Aufr\u00E4umen \u2013 und der DAS-FEST-Woche im Nacken.",
+    kicker: "Karlsruher Unwetter",
+    theme: {
+      accent: "#334155",
+      accentLight: "#94a3b8",
+      accentDark: "#0f172a",
+      secondary: "#eab308",
+      tertiary: "#3b82f6",
+      background: "#fafafa",
+    },
+    socialCard: {
+      headline: "Superzelle, Downburst,\nAusnahmezustand",
+      subline: "16.\u202F7.\u202F2026 \u00B7 Karlsruhe \u00B7 KW 30",
+      keyNumber: "130",
+      keyLabel: "km/h \u2013 st\u00E4rkste gemessene Sturmb\u00F6e beim Downburst am Donnerstagabend",
+      gradient: "linear-gradient(135deg, #475569 0%, #1e293b 50%, #0f172a 100%)",
+    },
+    sections: [
+      {
+        type: "number-cards",
+        title: "Die Sturmnacht in Zahlen",
+        subtitle: "Karlsruher Feuerwehr, Polizei und Stadt Karlsruhe \u00FCber die Nacht vom 16. auf den 17. Juli 2026",
+        data: {
+          cards: [
+            { value: "130", unit: "km/h", label: "St\u00E4rkste gemessene Sturmb\u00F6e beim Downburst \u00FCber dem Stadtgebiet", color: "#334155" },
+            { value: "250", unit: "+ Eins\u00E4tze", label: "F\u00FChrte die Karlsruher Feuerwehr allein im Stadtgebiet in wenigen Stunden aus", color: "#0f172a" },
+            { value: "400", unit: "Feuerwehr", label: "Kr\u00E4fte plus rund 50 vom THW waren im Ausnahmezustand im Einsatz", color: "#3b82f6" },
+            { value: "1", unit: "Todesopfer", label: "Ein 60-J\u00E4hriger wurde in der Michiganstra\u00DFe von einem Baum erschlagen", color: "#eab308" },
+          ] as NumberCard[],
+        },
+      },
+      {
+        type: "torte-der-wahrheit",
+        title: "F\u00E4chertorten",
+        subtitle: "Drei Karlsruher Innenansichten des Tages danach \u2013 der Trauerfall selbst bleibt drau\u00DFen",
+        data: {
+          pies: [
+            {
+              title: "Wo Karlsruher am Donnerstag um 18:45 wirklich standen",
+              slices: [
+                { label: "Am Bahnsteig, kurz vor der eingestellten Stra\u00DFenbahn", value: 28, color: "#334155" },
+                { label: "Im B\u00FCro, mit Blick auf den kippenden Trompetenbaum drau\u00DFen", value: 22, color: "#3b82f6" },
+                { label: "Auf dem Fahrrad in der Nordstadt \u2013 und keine Sekunde zu fr\u00FCh abgebogen", value: 18, color: "#0f172a" },
+                { label: "Beim FEST AM SEE, das gerade um 19:45 abgebrochen wurde", value: 16, color: "#eab308" },
+                { label: "Zu Hause, mit Blick auf den Wetter-Push \u201Estufe rot\u201C", value: 12, color: "#94a3b8" },
+                { label: "An der Tiefgaragenausfahrt, hoffend, dass es reicht", value: 4, color: "#f59e0b" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Was Karlsruher am Freitag um 7 Uhr auf ihrem Grundst\u00FCck vorfanden",
+              slices: [
+                { label: "Einen Ast, so lang wie das Nachbargrundst\u00FCck breit ist", value: 30, color: "#334155" },
+                { label: "Den Balkonstuhl, jetzt in einem g\u00E4nzlich anderen Bezirk", value: 22, color: "#3b82f6" },
+                { label: "Eine Dachrinne, die niemand mehr als solche erkennt", value: 18, color: "#94a3b8" },
+                { label: "Blumenerde auf dem Tempo-30-Schild vor dem Kindergarten", value: 14, color: "#eab308" },
+                { label: "Ein Zelt vom FEST AM SEE, in der Hecke, weiter n\u00F6rdlich", value: 10, color: "#0f172a" },
+                { label: "Nichts. Der Sturm hatte die Adresse verwechselt.", value: 6, color: "#f59e0b" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Woran die F\u00E4cherstadt diesen Sturm noch in zehn Jahren erkennen wird",
+              slices: [
+                { label: "Die neuen L\u00FCcken im Kronenkleid der Alleen", value: 32, color: "#334155" },
+                { label: "Die Sperrung der KVV-Linien, die niemand mehr rekonstruiert bekommt", value: 22, color: "#3b82f6" },
+                { label: "Den Anruf beim Baumkataster, der zum WhatsApp-Klassiker wurde", value: 18, color: "#94a3b8" },
+                { label: "Das Foto der leeren FEST-AM-SEE-B\u00FChne, das alle geteilt haben", value: 16, color: "#eab308" },
+                { label: "Den Moment, in dem Karlsruhe kollektiv \u201Egut, dass es vorbei ist\u201C dachte", value: 12, color: "#0f172a" },
+              ] as PieSlice[],
+            },
+          ],
+        },
+      },
+      {
+        type: "timeline",
+        title: "Sechs Stunden Ausnahmezustand",
+        subtitle: "Vom ersten DWD-Warnhinweis bis zum \u201EEnde der au\u00DFergew\u00F6hnlichen Einsatzlage\u201C",
+        data: {
+          events: [
+            { date: "16. Juli, 14 Uhr", label: "DWD warnt vor Unwetter mit schweren Sturmb\u00F6en, Hagel und Starkregen f\u00FCr Baden-W\u00FCrttemberg" },
+            { date: "18:45 Uhr", label: "Superzelle mit Downburst zieht \u00FCber Karlsruhe, Sturmb\u00F6en bis 130\u202Fkm/h, B\u00E4ume kippen im gesamten Stadtgebiet", highlight: true },
+            { date: "19:00 Uhr", label: "Erste Notrufe erreichen die Integrierte Leitstelle im Sekundentakt" },
+            { date: "19:45 Uhr", label: "DAS FEST AM SEE in der G\u00FCnther-Klotz-Anlage wird abgebrochen, ein Mitarbeiter verletzt", highlight: true },
+            { date: "ca. 20 Uhr", label: "Stadt Karlsruhe ruft \u201Eau\u00DFergew\u00F6hnliche Einsatzlage\u201C nach Landeskatastrophenschutzgesetz aus", highlight: true },
+            { date: "Nacht auf Freitag", label: "Etwa 400 Feuerwehrleute und 50 THW-Kr\u00E4fte arbeiten \u00FCber 250 Eins\u00E4tze ab, Stra\u00DFenbahnverkehr steht komplett" },
+            { date: "17. Juli, ab 6 Uhr", label: "Der Freitag beginnt mit Motors\u00E4gen, Kehrmaschinen und der Nachricht: ein Radfahrer ist tot", highlight: true },
+            { date: "17. Juli, mittags", label: "Gr\u00F6tzinger Tunnel wieder freigegeben, Stadt richtet Sturmsch\u00E4den-Hotline ein" },
+          ] as TimelineEvent[],
+        },
+      },
+      {
+        type: "comparison",
+        title: "Der KA-Sturm im historischen Vergleich",
+        subtitle: "Feuerwehr-Eins\u00E4tze in einer Nacht \u2013 grob gerundet, gr\u00F6\u00DFere BW-Unwetter der letzten Jahre",
+        data: {
+          items: [
+            { label: "Karlsruhe, 16.\u202F7.\u202F2026 (Downburst)", value: 250, display: "\u2248 250", color: "#334155" },
+            { label: "Landkreis Karlsruhe, Juni 2024 (Hochwasser)", value: 500, display: "\u2248 500", color: "#3b82f6" },
+            { label: "Karlsruhe, August 2019 (Gewitterfront)", value: 186, display: "\u2248 186", color: "#94a3b8" },
+            { label: "Stuttgart, Juli 2013 (Hagelsturm Andreas)", value: 300, display: "\u2248 300", color: "#eab308" },
+            { label: "Karlsruhe, Juni 2019 (Bernd-Woche)", value: 120, display: "\u2248 120", color: "#0f172a" },
+          ] as BarItem[],
+        },
+      },
+      {
+        type: "stacked-bar",
+        title: "Woran sich die 250 Eins\u00E4tze verteilen",
+        subtitle: "Anteil der bekannten Schadenskategorien in Karlsruhe \u2013 gesch\u00E4tzt auf Basis der Presseberichte",
+        data: {
+          categories: [
+            "Umgest\u00FCrzte B\u00E4ume und \u00C4ste",
+            "\u00DCberflutete Stra\u00DFen und Keller",
+            "Dach- und Fassadensch\u00E4den",
+            "Fahrzeugsch\u00E4den (Autos, Fahrr\u00E4der)",
+            "Blitzsch\u00E4den und Br\u00E4nde",
+          ],
+          stacks: [
+            { label: "Anteil der Eins\u00E4tze", color: "#334155" },
+          ],
+          unit: "%",
+          values: [
+            [55],
+            [22],
+            [12],
+            [8],
+            [3],
+          ],
+        },
+      },
+      {
+        type: "quote",
+        title: "Zitat",
+        data: {
+          text: "Wir haben in wenigen Stunden mehr als 250 Eins\u00E4tze zu bew\u00E4ltigen \u2013 das ist ein Ausnahmezustand, wie ihn Karlsruhe seit Jahren nicht mehr gesehen hat.",
+          author: "Karlsruher Feuerwehr, Einsatzleitung in der Nacht vom 16. auf den 17.\u202F7.\u202F2026",
+          color: "#334155",
+        },
+      },
+      {
+        type: "waffle",
+        title: "Bereits ein Jahr harter Wetterjahre",
+        subtitle: "Von 12 Monaten haben Karlsruhe und Umgebung 2025/26 in mindestens f\u00FCnf ein Extremwetterereignis erlebt",
+        data: {
+          total: 12,
+          filled: 5,
+          filledColor: "#334155",
+          emptyColor: "#e5e7eb",
+          annotation: "Die 12 Monate seit August 2025: Hitzewelle im Sommer, Hochwasser im Landkreis KA im Herbst, Sturmtief im Winter, Hitzewelle mit 37,5\u202F\u00B0C im Juni 2026, jetzt der Downburst im Juli. F\u00FCnf klare Extremwetter-Ereignisse in einem Jahr \u2013 Klimafolgen sind hier keine Statistik mehr, sondern Alltag.",
+          secondaryFilled: 3,
+          secondaryColor: "#3b82f6",
+          filledLabel: "Monate mit Extremwetter im Stadtgebiet (5)",
+          secondaryLabel: "Monate mit erh\u00F6htem Wetter-Stress (3)",
+          emptyLabel: "Weitgehend ruhige Monate (4)",
+        },
+      },
+    ],
+    sources: [
+      "tagesschau.de, Unwetter in Karlsruhe: Radfahrer erschlagen, \u00FCber 250 Eins\u00E4tze im Stadtgebiet (17.\u202F7.\u202F2026)",
+      "ZEIT ONLINE, Superzelle, Toter, Verletzte: Die Bilanz der Unwetter-Nacht (17.\u202F7.\u202F2026)",
+      "SWR Aktuell, Mann bei Unwetter in Karlsruhe von Baum erschlagen (17.\u202F7.\u202F2026)",
+      "Nonstopnews.de, Superzelle zieht mit Downburst \u00FCber Karlsruhe hinweg (16.\u202F7.\u202F2026)",
+      "Durlacher.de, Unwetter trifft Karlsruhe \u2013 \u00FCber 250 Eins\u00E4tze und ein Todesopfer (17.\u202F7.\u202F2026)",
+      "Focus Online, Videos zeigen Hagel-Chaos \u00FCber BW (17.\u202F7.\u202F2026)",
+      "Karlsruhe.de, Meldungen zum Unwetter und Baumschadensmanagement (Stand 17.\u202F7.\u202F2026)",
+    ],
+    editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt. Die Prozentwerte zu Schadenskategorien und die historischen Einsatzzahlen sind Sch\u00E4tzungen aus \u00F6ffentlich zug\u00E4nglichen Berichten. Die Redaktion denkt an das Todesopfer und seine Angeh\u00F6rigen \u2013 die Satire in dieser Ausgabe bezieht sich ausschlie\u00DFlich auf die kollektive Aufr\u00E4umerfahrung der Stadt.",
+    socialPostText: "18:45\u202FUhr, Superzelle mit Downburst, 130\u202Fkm/h Sturmb\u00F6en, \u00FCber 250 Feuerwehreins\u00E4tze, ein Toter, DAS FEST AM SEE abgebrochen. Karlsruhe hat am Freitag mit dem Aufr\u00E4umen begonnen \u2013 und mit dem Nachdenken \u00FCber Wetter, das nicht mehr die Ausnahme ist.\n\n\u27A1 ka-life.de/#/kw/kw30-2026",
+  },
+  {
     id: "kw29-2026",
     weekNumber: 29,
     year: 2026,

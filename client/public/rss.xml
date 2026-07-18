@@ -9,13 +9,29 @@
     <description>Wöchentliche Infografik-Kolumne zu Karlsruhe. Daten, Fakten und satirische Fächertorten aus der Fächerstadt.</description>
     <language>de-DE</language>
     <copyright>© Decisions Made Easy GmbH, Karlsruhe</copyright>
-    <lastBuildDate>Sat, 11 Jul 2026 08:04:08 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 08:05:14 GMT</lastBuildDate>
     <atom:link href="https://ka-life.de/rss.xml" rel="self" type="application/rss+xml" />
     <image>
-      <url>https://ka-life.de/social/kw29-2026.png</url>
+      <url>https://ka-life.de/social/kw30-2026.png</url>
       <title>KA-Life — Karlsruhe in Zahlen</title>
       <link>https://ka-life.de</link>
     </image>
+    <item>
+      <title>18:45 Uhr, und der Himmel fiel</title>
+      <link>https://ka-life.de/#/kw/kw30-2026</link>
+      <guid isPermaLink="true">https://ka-life.de/#/kw/kw30-2026</guid>
+      <pubDate>Sun, 19 Jul 2026 08:00:00 GMT</pubDate>
+      <category>Karlsruher Unwetter</category>
+      <description><![CDATA[Am Donnerstagabend zog eine Superzelle mit Downburst über Karlsruhe. Sturmböen bis 130 km/h, über 250 Feuerwehreinsätze, ein Mensch tot. Freitag begann die Fächerstadt mit dem Aufräumen – und der DAS-FEST-Woche im Nacken.
+
+18:45 Uhr, Superzelle mit Downburst, 130 km/h Sturmböen, über 250 Feuerwehreinsätze, ein Toter, DAS FEST AM SEE abgebrochen. Karlsruhe hat am Freitag mit dem Aufräumen begonnen – und mit dem Nachdenken über Wetter, das nicht mehr die Ausnahme ist.
+
+➡ ka-life.de/#/kw/kw30-2026]]></description>
+      <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw30-2026.png" alt="KA-Life KW30-2026: 18:45 Uhr, und der Himmel fiel" /></p><p>Am Donnerstagabend zog eine Superzelle mit Downburst über Karlsruhe. Sturmböen bis 130 km/h, über 250 Feuerwehreinsätze, ein Mensch tot. Freitag begann die Fächerstadt mit dem Aufräumen – und der DAS-FEST-Woche im Nacken.</p><p>18:45 Uhr, Superzelle mit Downburst, 130 km/h Sturmböen, über 250 Feuerwehreinsätze, ein Toter, DAS FEST AM SEE abgebrochen. Karlsruhe hat am Freitag mit dem Aufräumen begonnen – und mit dem Nachdenken über Wetter, das nicht mehr die Ausnahme ist.<br/><br/>➡ ka-life.de/#/kw/kw30-2026</p>]]></content:encoded>
+      <enclosure url="https://ka-life.de/social/kw30-2026.png" length="0" type="image/png" />
+      <media:content url="https://ka-life.de/social/kw30-2026.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://ka-life.de/social/kw30-2026.png" />
+    </item>
     <item>
       <title>Elf Tage bis Mount Klotz</title>
       <link>https://ka-life.de/#/kw/kw29-2026</link>
