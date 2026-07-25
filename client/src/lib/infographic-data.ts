@@ -41,6 +41,182 @@ export interface WeeklyInfographic {
 
 export const infographics: WeeklyInfographic[] = [
   {
+    id: "kw31-2026",
+    weekNumber: 31,
+    year: 2026,
+    dateRange: "20.\u201326. Juli 2026",
+    title: "Morgen, 16:30 Uhr: 16 zu 0 zu Karlsruhe",
+    subtitle: "Der amtierende italienische Meister hat sein erstes Vorbereitungsspiel gegen SV Aasen 16:0 gewonnen. Am Sonntag steht Inter Mailand im BBBank Wildpark \u2013 f\u00FCr Trainer Senft die erste Feuerprobe, f\u00FCr Karlsruhe ein Nachmittag, den man sich vorher notieren m\u00F6chte.",
+    kicker: "KSC \u2013 Inter Mailand",
+    theme: {
+      accent: "#1e40af",
+      accentLight: "#60a5fa",
+      accentDark: "#020617",
+      secondary: "#fbbf24",
+      tertiary: "#0369a1",
+      background: "#fafafa",
+    },
+    socialCard: {
+      headline: "Ein 16:0 im\nR\u00FCcken, dann KSC",
+      subline: "KSC \u2013 Inter Mailand \u00B7 So 26.\u202F7. 16:30 \u00B7 BBBank Wildpark",
+      keyNumber: "16:0",
+      keyLabel: "So verlie\u00DF Inter am 22. Juli sein erstes Sommer-Testspiel gegen den SV Aasen",
+      gradient: "linear-gradient(135deg, #1e40af 0%, #1e293b 55%, #020617 100%)",
+    },
+    sections: [
+      {
+        type: "number-cards",
+        title: "Das Match in Zahlen",
+        subtitle: "Karlsruher SC empf\u00E4ngt am 26. Juli den amtierenden italienischen Meister im Wildpark",
+        data: {
+          cards: [
+            { value: "16:30", unit: "Uhr", label: "Anpfiff am Sonntag im BBBank Wildpark \u2013 letzter Test Inters in Deutschland", color: "#1e40af" },
+            { value: "16:0", unit: "vs. SV Aasen", label: "So gewann Inter am 22. Juli sein Sommer-Auftaktspiel im Trainingslager", color: "#020617" },
+            { value: "27:0", unit: "und 13:0", label: "So begann Senfts KSC seine Vorbereitung \u2013 in Untergrombach und Gaggenau", color: "#0369a1" },
+            { value: "4:4", unit: "vs. Freiberg", label: "Ergebnis des ersten ernsten Tests am 9. Juli \u2013 auch als Warnung zu lesen", color: "#fbbf24" },
+          ] as NumberCard[],
+        },
+      },
+      {
+        type: "torte-der-wahrheit",
+        title: "F\u00E4chertorten",
+        subtitle: "Drei Karlsruher Perspektiven, 24 Stunden vor dem Nerazzurro-Anpfiff im Wildpark",
+        data: {
+          pies: [
+            {
+              title: "Was der Karlsruher am Sonntag um 16:29 Uhr wirklich hofft",
+              slices: [
+                { label: "Dass der KSC einmal in die H\u00E4lfte des amtierenden Meisters kommt", value: 32, color: "#1e40af" },
+                { label: "Ein Foto mit Pio Esposito, der gerade f\u00FCnf Tore geschossen hat", value: 22, color: "#fbbf24" },
+                { label: "Dass Lautaro nach dem WM-Finale wirklich mitspielt", value: 18, color: "#60a5fa" },
+                { label: "Kein Ergebnis wie am Dienstag \u2013 bitte h\u00F6chstens einstellig", value: 14, color: "#0369a1" },
+                { label: "Dass die neue Wildpark-K\u00FChltheke die Radler-Menge \u00FCberlebt", value: 10, color: "#020617" },
+                { label: "Autogramm von Chivu, weil den kennt hier gerade jeder", value: 4, color: "#94a3b8" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Worauf Karlsruher Familien in der Halbzeit umsteigen",
+              slices: [
+                { label: "Die Fanshop-Schlange, weil das Kind ein KSC-Wildpark-Trikot m\u00F6chte", value: 30, color: "#1e40af" },
+                { label: "Currywurst-Bude C, weil A und B chronisch \u00FCberf\u00FCllt sind", value: 22, color: "#fbbf24" },
+                { label: "Die Toilette bei der Nordtrib\u00FCne, die niemand kennt", value: 18, color: "#60a5fa" },
+                { label: "WhatsApp-Familienchat, um Fotos zu verschicken, ohne Freigabe zu haben", value: 14, color: "#0369a1" },
+                { label: "YouTube, um noch mal das 16:0-Highlight in Aasen zu sehen", value: 10, color: "#94a3b8" },
+                { label: "Nach Hause \u2013 die Kinder m\u00FCssen ins Bett und Papa fluchen", value: 6, color: "#020617" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Worauf sich Karlsruher Sportkneipen am Sonntagabend vorbereiten",
+              slices: [
+                { label: "Nachanalyse am Tisch: \u201EEigentlich waren wir gar nicht so schlecht\u201C", value: 28, color: "#1e40af" },
+                { label: "Alte Videos vom KSC-1993-CL-Wunder gegen Valencia, geteilt \u00FCber TikTok", value: 22, color: "#fbbf24" },
+                { label: "Der Standardsatz \u201EInter hat halt eine ganz andere Liga gespielt\u201C", value: 20, color: "#60a5fa" },
+                { label: "Reklamation, weil das Lieferservice-Zelt schon dicht ist", value: 14, color: "#0369a1" },
+                { label: "Ein selbst gestreamter Interview-Ausschnitt mit Senft f\u00FCr Instagram", value: 10, color: "#020617" },
+                { label: "Weinen. In leiser B\u00FCrgerlichkeit. Dann Ligastart planen.", value: 6, color: "#94a3b8" },
+              ] as PieSlice[],
+            },
+          ],
+        },
+      },
+      {
+        type: "timeline",
+        title: "Die zwei Wege zum Wildpark",
+        subtitle: "Wie sich Inter und der KSC in den letzten Wochen auf denselben Rasen vorbereitet haben",
+        data: {
+          events: [
+            { date: "28. Juni 2026", label: "Trainingsauftakt Senft-KSC im Wildpark, rund 1.200 Fans schauen zu", highlight: true },
+            { date: "1. Juli 2026", label: "KSC \u2013 FC Untergrombach 27:0 (Kreisklasse A). Kein Druckfehler" },
+            { date: "9. Juli 2026", label: "KSC \u2013 SGV Freiberg 4:4. Der erste ernste Test endet mit Nachdenklichkeit" },
+            { date: "16. Juli 2026", label: "Inter Mailand bezieht das Trainingslager in Donaueschingen \u2013 alle Einheiten hinter verschlossenen T\u00FCren", highlight: true },
+            { date: "18. Juli 2026", label: "KSC beendet sein Trainingslager mit zwei Tests gegen Shimizu S-Pulse in Garmisch" },
+            { date: "22. Juli 2026", label: "Inter \u2013 SV Aasen 16:0. Pio Esposito trifft f\u00FCnfmal, Topalovic dreimal", highlight: true },
+            { date: "26. Juli 2026, 16:30 Uhr", label: "Anpfiff KSC \u2013 Inter Mailand im BBBank Wildpark. Chivu gegen Senft, ein Wunder gegen einen Meister", highlight: true },
+            { date: "1. August 2026", label: "Inter fliegt am Abend nach Hongkong, KSC f\u00E4hrt nach Sinsheim zur TSG Hoffenheim" },
+          ] as TimelineEvent[],
+        },
+      },
+      {
+        type: "comparison",
+        title: "Inters Torfestival gegen SV Aasen",
+        subtitle: "Die Torsch\u00FCtzen des 16:0 am 22. Juli \u2013 wer morgen in Karlsruhe treffen k\u00F6nnte",
+        data: {
+          items: [
+            { label: "Pio Esposito", value: 5, display: "5 Tore", color: "#1e40af" },
+            { label: "Luka Topalovic", value: 3, display: "3 Tore", color: "#0369a1" },
+            { label: "Davide Frattesi", value: 2, display: "2 Tore", color: "#60a5fa" },
+            { label: "Andy Diouf", value: 2, display: "2 Tore", color: "#fbbf24" },
+            { label: "Jamal Iddrissou", value: 2, display: "2 Tore", color: "#94a3b8" },
+            { label: "Federico Dimarco und Mattia Mosconi", value: 2, display: "je 1 Tor", color: "#020617" },
+          ] as BarItem[],
+        },
+      },
+      {
+        type: "stacked-bar",
+        title: "Ausl\u00E4nder mit Bekanntheitsgrad im Wildpark",
+        subtitle: "Anzahl der Google-Treffer f\u00FCr Inter-Namen in deutschen Sportmedien der letzten 30 Tage (grob gerundet, in Tausend)",
+        data: {
+          categories: [
+            "Cristian Chivu (Trainer)",
+            "Pio Esposito",
+            "Federico Dimarco",
+            "Hakan Calhanoglu",
+            "Lautaro Martinez",
+          ],
+          stacks: [
+            { label: "Erw\u00E4hnungen", color: "#1e40af" },
+          ],
+          unit: "Tsd. Treffer",
+          values: [
+            [42],
+            [38],
+            [28],
+            [55],
+            [72],
+          ],
+        },
+      },
+      {
+        type: "quote",
+        title: "Zitat",
+        data: {
+          text: "Zwei Wochen vor dem Saisonstart wartet auf den KSC und seine Fans ein echtes Highlight: Der italienische Spitzenclub gibt seine Visitenkarte im BBBank Wildpark ab.",
+          author: "KSC-Mitteilung, Mai 2026 \u2013 morgen wird sie eingel\u00F6st",
+          color: "#1e40af",
+        },
+      },
+      {
+        type: "waffle",
+        title: "Der letzte italienische Meister im Wildpark",
+        subtitle: "Von den 21 italienischen Serie-A-Meistern kamen bisher fast keine als Gast nach Karlsruhe \u2013 morgen bricht Inter die Serie",
+        data: {
+          total: 21,
+          filled: 1,
+          filledColor: "#1e40af",
+          emptyColor: "#e5e7eb",
+          annotation: "Inter Mailand hat 21 italienische Meistertitel gewonnen (Scudetti), zuletzt am 4. Mai 2026. In den letzten Jahrzehnten war jedoch keiner dieser Kader je Gast im BBBank Wildpark. Morgen ist es soweit \u2013 der einzige Vergleichspunkt bleibt das Karlsruher CL-Wunder gegen den FC Valencia im Herbst 1993.",
+          secondaryFilled: 3,
+          secondaryColor: "#fbbf24",
+          filledLabel: "Inter am 26.\u202F7.\u202F2026 im Wildpark (1)",
+          secondaryLabel: "Andere Ex-Serie-A-Meister als Gast in Karlsruhe (3, Freundschaftsspiele)",
+          emptyLabel: "Nie zu Gast im Wildpark (17)",
+        },
+      },
+    ],
+    sources: [
+      "inter.it, Pre-season friendly: Karlsruher SC (Anpfiff 16:30, 17.\u202F7.\u202F2026)",
+      "inter.it, Inter beat SV Aasen 16-0 in a friendly (22.\u202F7.\u202F2026)",
+      "corrieredellosport.it, L'Inter scalda i motori, contro l'SV Aasen ne fa 16 (22.\u202F7.\u202F2026)",
+      "gazzetta.it, Inter in Black Forest Training Camp \u2013 Chivu-Methode (17.\u202F7.\u202F2026)",
+      "ka-news.de, KSC erlebt Woche des Umbruchs mit Senft-Deb\u00FCt (3.\u202F7.\u202F2026)",
+      "kicker.de, Senfts Liebe f\u00FCrs Detail (5.\u202F7.\u202F2026)",
+      "SWR Sport, Zweitligastart im Blick \u2013 Sommerfahrplan KSC (15.\u202F7.\u202F2026)",
+      "KSC.de, Saisoner\u00F6ffnung gegen FC Internazionale Milano (27.\u202F5.\u202F2026)",
+    ],
+    editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt. Die Google-Trefferzahlen sind Sch\u00E4tzungen \u00FCber Sportmedien im deutschsprachigen Raum. Lautaros Einsatz h\u00E4ngt von seiner R\u00FCckreise nach dem WM-Finale ab.",
+    socialPostText: "Morgen 16:30 im Wildpark: KSC gegen den italienischen Meister, der gerade 16:0 gegen die sechste Liga gewonnen hat. Chivu gegen Senft, ein Wunder gegen einen Titeltr\u00E4ger. Wir wissen, wo wir sitzen.\n\n\u27A1 ka-life.de/#/kw/kw31-2026",
+  },
+  {
     id: "kw30-2026",
     weekNumber: 30,
     year: 2026,
