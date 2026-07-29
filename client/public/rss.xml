@@ -9,8 +9,9 @@
     <description>Wöchentliche Infografik-Kolumne zu Karlsruhe. Daten, Fakten und satirische Fächertorten aus der Fächerstadt.</description>
     <language>de-DE</language>
     <copyright>© Decisions Made Easy GmbH, Karlsruhe</copyright>
-    <lastBuildDate>Sat, 25 Jul 2026 08:04:33 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 11:56:02 GMT</lastBuildDate>
     <atom:link href="https://ka-life.de/rss.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ka-life.de/atom.xml" rel="alternate" type="application/atom+xml" />
     <image>
       <url>https://ka-life.de/social/kw31-2026.png</url>
       <title>KA-Life — Karlsruhe in Zahlen</title>
@@ -28,7 +29,7 @@ Morgen 16:30 im Wildpark: KSC gegen den italienischen Meister, der gerade 16:0 g
 
 ➡ ka-life.de/#/kw/kw31-2026]]></description>
       <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw31-2026.png" alt="KA-Life KW31-2026: Morgen, 16:30 Uhr: 16 zu 0 zu Karlsruhe" /></p><p>Der amtierende italienische Meister hat sein erstes Vorbereitungsspiel gegen SV Aasen 16:0 gewonnen. Am Sonntag steht Inter Mailand im BBBank Wildpark – für Trainer Senft die erste Feuerprobe, für Karlsruhe ein Nachmittag, den man sich vorher notieren möchte.</p><p>Morgen 16:30 im Wildpark: KSC gegen den italienischen Meister, der gerade 16:0 gegen die sechste Liga gewonnen hat. Chivu gegen Senft, ein Wunder gegen einen Titelträger. Wir wissen, wo wir sitzen.<br/><br/>➡ ka-life.de/#/kw/kw31-2026</p>]]></content:encoded>
-      <enclosure url="https://ka-life.de/social/kw31-2026.png" length="0" type="image/png" />
+      <enclosure url="https://ka-life.de/social/kw31-2026.png" length="439230" type="image/png" />
       <media:content url="https://ka-life.de/social/kw31-2026.png" medium="image" type="image/png" />
       <media:thumbnail url="https://ka-life.de/social/kw31-2026.png" />
     </item>
@@ -44,7 +45,7 @@ Morgen 16:30 im Wildpark: KSC gegen den italienischen Meister, der gerade 16:0 g
 
 ➡ ka-life.de/#/kw/kw30-2026]]></description>
       <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw30-2026.png" alt="KA-Life KW30-2026: 18:45 Uhr, und der Himmel fiel" /></p><p>Am Donnerstagabend zog eine Superzelle mit Downburst über Karlsruhe. Sturmböen bis 130 km/h, über 250 Feuerwehreinsätze, ein Mensch tot. Freitag begann die Fächerstadt mit dem Aufräumen – und der DAS-FEST-Woche im Nacken.</p><p>18:45 Uhr, Superzelle mit Downburst, 130 km/h Sturmböen, über 250 Feuerwehreinsätze, ein Toter, DAS FEST AM SEE abgebrochen. Karlsruhe hat am Freitag mit dem Aufräumen begonnen – und mit dem Nachdenken über Wetter, das nicht mehr die Ausnahme ist.<br/><br/>➡ ka-life.de/#/kw/kw30-2026</p>]]></content:encoded>
-      <enclosure url="https://ka-life.de/social/kw30-2026.png" length="0" type="image/png" />
+      <enclosure url="https://ka-life.de/social/kw30-2026.png" length="618507" type="image/png" />
       <media:content url="https://ka-life.de/social/kw30-2026.png" medium="image" type="image/png" />
       <media:thumbnail url="https://ka-life.de/social/kw30-2026.png" />
     </item>
@@ -60,7 +61,7 @@ Elf Tage bis Mount Klotz: DAS FEST 2026 macht Karlsruhe vom 23. bis 26. Juli wie
 
 ➡ ka-life.de/#/kw/kw29-2026]]></description>
       <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw29-2026.png" alt="KA-Life KW29-2026: Elf Tage bis Mount Klotz" /></p><p>Vom 23. bis 26. Juli klettert die Günther-Klotz-Anlage wieder auf ihren Sommer-Gipfel. 36 Bands auf vier Bühnen, Nico Santos am Donnerstag, Beatsteaks am Freitag, Zartmann am Samstag, Max Herre am Sonntag – und Karlsruhe zwischendrin.</p><p>Elf Tage bis Mount Klotz: DAS FEST 2026 macht Karlsruhe vom 23. bis 26. Juli wieder zum Festivalstaat. 36 Bands, vier Bühnen, Beatsteaks, Nico Santos, Zartmann und Max Herre – und ein Sonntag, an dem die Karaokeshow um 15:45 alles retten kann.<br/><br/>➡ ka-life.de/#/kw/kw29-2026</p>]]></content:encoded>
-      <enclosure url="https://ka-life.de/social/kw29-2026.png" length="0" type="image/png" />
+      <enclosure url="https://ka-life.de/social/kw29-2026.png" length="635730" type="image/png" />
       <media:content url="https://ka-life.de/social/kw29-2026.png" medium="image" type="image/png" />
       <media:thumbnail url="https://ka-life.de/social/kw29-2026.png" />
     </item>
@@ -76,7 +77,7 @@ Karlsruhe hat als bisher einzige Stadt in Deutschland eine Ameisenkoordinatorin.
 
 ➡ ka-life.de/#/kw/kw28-2026]]></description>
       <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw28-2026.png" alt="KA-Life KW28-2026: Karlsruhe hat eine eigene Ameisenkoordinatorin" /></p><p>Die Große Drüsenameise Tapinoma magnum ist in acht Karlsruher Stadtteilen angekommen, unterhöhlt Gehwege und nistet sich in Stromkästen ein. Im nur 80 Kilometer entfernten Kehl legt sie ganze Stromnetze lahm.</p><p>Karlsruhe hat als bisher einzige Stadt in Deutschland eine Ameisenkoordinatorin. Warum? In acht Stadtteilen breitet sich die Große Drüsenameise aus. In der Nachbarstadt Kehl legen ihre Kolonien schon Stromkästen lahm.<br/><br/>➡ ka-life.de/#/kw/kw28-2026</p>]]></content:encoded>
-      <enclosure url="https://ka-life.de/social/kw28-2026.png" length="0" type="image/png" />
+      <enclosure url="https://ka-life.de/social/kw28-2026.png" length="514299" type="image/png" />
       <media:content url="https://ka-life.de/social/kw28-2026.png" medium="image" type="image/png" />
       <media:thumbnail url="https://ka-life.de/social/kw28-2026.png" />
     </item>
@@ -92,7 +93,7 @@ Vom Pokertisch an die Seitenlinie: Maximilian Senft (36, Wien) ist ab Sonntag KS
 
 ➡ ka-life.de/#/kw/kw27-2026]]></description>
       <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw27-2026.png" alt="KA-Life KW27-2026: Der neue Mann im Wildpark spielt kein Poker mehr" /></p><p>Maximilian Senft ist 36, Wiener, ehemaliger Poker-Profi und seit Freitag offiziell Cheftrainer des Karlsruher SC. Am Sonntag steht er erstmals mit der Mannschaft auf dem Platz – vier Wochen später wartet Inter Mailand im Wildpark.</p><p>Vom Pokertisch an die Seitenlinie: Maximilian Senft (36, Wien) ist ab Sonntag KSC-Cheftrainer. Vier Wochen Vorbereitung, dann steht Inter Mailand im Wildpark. Lust auf ein Spiel?<br/><br/>➡ ka-life.de/#/kw/kw27-2026</p>]]></content:encoded>
-      <enclosure url="https://ka-life.de/social/kw27-2026.png" length="0" type="image/png" />
+      <enclosure url="https://ka-life.de/social/kw27-2026.png" length="490900" type="image/png" />
       <media:content url="https://ka-life.de/social/kw27-2026.png" medium="image" type="image/png" />
       <media:thumbnail url="https://ka-life.de/social/kw27-2026.png" />
     </item>
@@ -108,7 +109,7 @@ Vom Pokertisch an die Seitenlinie: Maximilian Senft (36, Wien) ist ab Sonntag KS
 
 ➡ ka-life.de/#/kw/kw26-2026]]></description>
       <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw26-2026.png" alt="KA-Life KW26-2026: 37,5 Grad und der Rest schmilzt mit" /></p><p>Waghäusel-Kirrlach im Landkreis Karlsruhe meldete am Freitag 37,5 Grad – nur eine Handbreit unter dem Juni-Rekord von 2019. Die Hitzewelle hält mindestens bis Mittwoch, der Hitzeaktionsplan ist gerade erst ein Jahr alt.</p><p>37,5 °C in Waghäusel-Kirrlach, mindestens sieben Tage Hitze in Folge, Juni-Rekord am Montag in Reichweite. Der Karlsruher Hitzeaktionsplan ist ein Jahr alt – unsere Strategien sind älter und kreativer.<br/><br/>➡ ka-life.de/#/kw/kw26-2026</p>]]></content:encoded>
-      <enclosure url="https://ka-life.de/social/kw26-2026.png" length="0" type="image/png" />
+      <enclosure url="https://ka-life.de/social/kw26-2026.png" length="575109" type="image/png" />
       <media:content url="https://ka-life.de/social/kw26-2026.png" medium="image" type="image/png" />
       <media:thumbnail url="https://ka-life.de/social/kw26-2026.png" />
     </item>
@@ -124,7 +125,7 @@ Der BGH in Karlsruhe stoppt eine beliebte Inkasso-Praxis: 1,35 € für eine S
 
 ➡ ka-life.de/#/kw/kw25-2026]]></description>
       <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw25-2026.png" alt="KA-Life KW25-2026: Schufa-Schmerz beim Karlsruher BGH" /></p><p>Der Bundesgerichtshof stoppt eine beliebte Inkasso-Praxis: Bonitätsauskunfts-Kosten von 1,35 € dürfen nicht mehr auf den Schuldner abgewälzt werden. Klein bei der Summe – groß bei der Wirkung für 68 Millionen Verbraucher.</p><p>Der BGH in Karlsruhe stoppt eine beliebte Inkasso-Praxis: 1,35 € für eine Schufa-Auskunft dürfen nicht mehr auf den Schuldner abgewälzt werden. Klein in der Summe, groß in der Wirkung für 68 Mio. Verbraucher.<br/><br/>➡ ka-life.de/#/kw/kw25-2026</p>]]></content:encoded>
-      <enclosure url="https://ka-life.de/social/kw25-2026.png" length="0" type="image/png" />
+      <enclosure url="https://ka-life.de/social/kw25-2026.png" length="546466" type="image/png" />
       <media:content url="https://ka-life.de/social/kw25-2026.png" medium="image" type="image/png" />
       <media:thumbnail url="https://ka-life.de/social/kw25-2026.png" />
     </item>
@@ -140,7 +141,7 @@ Der BGH in Karlsruhe stoppt eine beliebte Inkasso-Praxis: 1,35 € für eine S
 
 ➡ ka-life.de/#/kw/kw24-2026]]></description>
       <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw24-2026.png" alt="KA-Life KW24-2026: 286 Mess’n und kein bisschen leise" /></p><p>Die Karlsruher Frühjahrsmess’ geht in den Endspurt: 11 Tage Volksfest, ANUBIS mit 55 Metern, Bratwürste ohne Ende und am 8. Juni das Abschluss-Feuerwerk. Für viele DER emotionale Heimat-Moment im Sommer.</p><p>286 Mess’n und kein bisschen leise: Die Karlsruher Frühjahrsmess’ geht bis 8. Juni in den Endspurt. ANUBIS mit 120 km/h, Bratwürste ohne Ende und am Montag das Feuerwerk. Wer war schon da?<br/><br/>➡ ka-life.de/#/kw/kw24-2026</p>]]></content:encoded>
-      <enclosure url="https://ka-life.de/social/kw24-2026.png" length="0" type="image/png" />
+      <enclosure url="https://ka-life.de/social/kw24-2026.png" length="464743" type="image/png" />
       <media:content url="https://ka-life.de/social/kw24-2026.png" medium="image" type="image/png" />
       <media:thumbnail url="https://ka-life.de/social/kw24-2026.png" />
     </item>
@@ -156,7 +157,7 @@ Am 26. Juli kommt Inter Mailand in den Wildpark – der amtierende italienische 
 
 ➡ ka-life.de/#/kw/kw23-2026]]></description>
       <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw23-2026.png" alt="KA-Life KW23-2026: Inter Mailand kommt in den Wildpark" /></p><p>Der amtierende italienische Meister gegen den KSC – am 26. Juli ist im BBBank Wildpark Champions-League-Atmosphäre. Für viele Karlsruher das größte Heimspiel seit Jahren.</p><p>Am 26. Juli kommt Inter Mailand in den Wildpark – der amtierende italienische Meister gegen unseren KSC. 21 Scudetti gegen einen Cup von 1956. Für viele das größte Heimspiel seit Jahren.<br/><br/>➡ ka-life.de/#/kw/kw23-2026</p>]]></content:encoded>
-      <enclosure url="https://ka-life.de/social/kw23-2026.png" length="0" type="image/png" />
+      <enclosure url="https://ka-life.de/social/kw23-2026.png" length="435059" type="image/png" />
       <media:content url="https://ka-life.de/social/kw23-2026.png" medium="image" type="image/png" />
       <media:thumbnail url="https://ka-life.de/social/kw23-2026.png" />
     </item>
@@ -172,7 +173,7 @@ Am 26. Juli kommt Inter Mailand in den Wildpark – der amtierende italienische 
 
 ➡ ka-life.de/#/kw/kw22-2026]]></description>
       <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw22-2026.png" alt="KA-Life KW22-2026: 75 Jahre Hüter des Grundgesetzes" /></p><p>Das Bundesverfassungsgericht in Karlsruhe wird 75. Vom Prinz-Max-Palais zum wichtigsten Gericht der Republik – 4.800 Verfassungsbeschwerden pro Jahr, 1,7% Erfolgsquote, und ein Standort, der Geschichte schrieb.</p><p>75 Jahre Bundesverfassungsgericht in Karlsruhe: 4.800 Verfassungsbeschwerden pro Jahr, 1,7% Erfolgsquote und Urteile, die Deutschland geprägt haben. Vom Prinz-Max-Palais zum Hüter des Grundgesetzes.<br/><br/>➡ ka-life.de/#/kw/kw22-2026</p>]]></content:encoded>
-      <enclosure url="https://ka-life.de/social/kw22-2026.png" length="0" type="image/png" />
+      <enclosure url="https://ka-life.de/social/kw22-2026.png" length="289238" type="image/png" />
       <media:content url="https://ka-life.de/social/kw22-2026.png" medium="image" type="image/png" />
       <media:thumbnail url="https://ka-life.de/social/kw22-2026.png" />
     </item>
@@ -188,7 +189,7 @@ Am 26. Juli kommt Inter Mailand in den Wildpark – der amtierende italienische 
 
 ➡ ka-life.de/#/kw/kw21-2026]]></description>
       <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw21-2026.png" alt="KA-Life KW21-2026: 27.000 muessen raus" /></p><p>In Pforzheim wird heute eine 1,35-Tonnen-Luftmine aus dem Zweiten Weltkrieg entschaerft. Es ist die groesste Evakuierung der Region seit Jahrzehnten – und der Zugverkehr nach Karlsruhe ist eingestellt.</p><p>27.000 Pforzheimer müssen heute Morgen ihre Wohnungen verlassen – 1,35 Tonnen Sprengstoff aus dem Zweiten Weltkrieg liegen unter der Oststadt. Auch der Zugverkehr nach Karlsruhe ist eingestellt. Eine Bilanz in Zahlen.<br/><br/>➡ ka-life.de/#/kw/kw21-2026</p>]]></content:encoded>
-      <enclosure url="https://ka-life.de/social/kw21-2026.png" length="0" type="image/png" />
+      <enclosure url="https://ka-life.de/social/kw21-2026.png" length="425706" type="image/png" />
       <media:content url="https://ka-life.de/social/kw21-2026.png" medium="image" type="image/png" />
       <media:thumbnail url="https://ka-life.de/social/kw21-2026.png" />
     </item>
@@ -204,7 +205,7 @@ Am 26. Juli kommt Inter Mailand in den Wildpark – der amtierende italienische 
 
 ➡ ka-life.de/#/kw/muttertag-2026]]></description>
       <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/muttertag-2026.png" alt="KA-Life MUTTERTAG-2026: Eine Milliarde für Mama" /></p><p>Heute ist Muttertag. Deutschland gibt 1,05 Milliarden Euro für Geschenke aus, Karlsruher Cafés sind komplett ausgebucht. Was Mama wirklich will und wie viel ein Brunch heute kostet.</p><p>1,05 Milliarden Euro für Geschenke, 30% der Deutschen kaufen – und Karlsruhes Cafés sind komplett ausgebucht. Heute zum Muttertag: Was Mama wirklich will und warum die Erfinderin des Tages ihn am Ende abschaffen wollte.<br/><br/>➡ ka-life.de/#/kw/muttertag-2026</p>]]></content:encoded>
-      <enclosure url="https://ka-life.de/social/muttertag-2026.png" length="0" type="image/png" />
+      <enclosure url="https://ka-life.de/social/muttertag-2026.png" length="445244" type="image/png" />
       <media:content url="https://ka-life.de/social/muttertag-2026.png" medium="image" type="image/png" />
       <media:thumbnail url="https://ka-life.de/social/muttertag-2026.png" />
     </item>
@@ -220,7 +221,7 @@ Am 26. Juli kommt Inter Mailand in den Wildpark – der amtierende italienische 
 
 ➡ ka-life.de/#/kw/kw20-2026]]></description>
       <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw20-2026.png" alt="KA-Life KW20-2026: 7.458 laufen 8,88889 Kilometer" /></p><p>Die 35. Badische Meile sprengt alle Rekorde – mit 1.052 Startern aus dem KIT als größter Mannschaft und einer Strecke, die nur Karlsruhe haben kann.</p><p>7.458 Karlsruher rannten am Sonntag über 8,88889 km – mit 1.052 Startern war das KIT größter Verein. Warum die Strecke krumm ist, wer am schnellsten lief und was Teilnehmer wirklich denken.<br/><br/>➡ ka-life.de/#/kw/kw20-2026</p>]]></content:encoded>
-      <enclosure url="https://ka-life.de/social/kw20-2026.png" length="0" type="image/png" />
+      <enclosure url="https://ka-life.de/social/kw20-2026.png" length="411822" type="image/png" />
       <media:content url="https://ka-life.de/social/kw20-2026.png" medium="image" type="image/png" />
       <media:thumbnail url="https://ka-life.de/social/kw20-2026.png" />
     </item>
@@ -236,7 +237,7 @@ Sechs Jahre, 227 Spiele, 8.000 Petitions-Stimmen: Christian Eichner verlässt de
 
 ➡ ka-life.de/#/kw/kw19-2026]]></description>
       <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw19-2026.png" alt="KA-Life KW19-2026: Das Ende einer Ära" /></p><p>Christian Eichner verlässt den KSC nach 6 Jahren. Über 8.000 Fans unterschreiben gegen die Trennung. Die Bilanz eines Trainers, der mehr war als nur ein Trainer.</p><p>Sechs Jahre, 227 Spiele, 8.000 Petitions-Stimmen: Christian Eichner verlässt den KSC im Sommer. Die Bilanz einer Ära – und was Karlsruher Fans wirklich über die Trennung denken.<br/><br/>➡ ka-life.de/#/kw/kw19-2026</p>]]></content:encoded>
-      <enclosure url="https://ka-life.de/social/kw19-2026.png" length="0" type="image/png" />
+      <enclosure url="https://ka-life.de/social/kw19-2026.png" length="401651" type="image/png" />
       <media:content url="https://ka-life.de/social/kw19-2026.png" medium="image" type="image/png" />
       <media:thumbnail url="https://ka-life.de/social/kw19-2026.png" />
     </item>
@@ -252,7 +253,7 @@ Sechs Jahre, 227 Spiele, 8.000 Petitions-Stimmen: Christian Eichner verlässt de
 
 ➡ ka-life.de/#/kw/kw18-2026]]></description>
       <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw18-2026.png" alt="KA-Life KW18-2026: Karlsruhe wird zum Genuss-Tempel" /></p><p>Fest der Sinne am 25./26. April – 40 Genussstände, 300 Oldtimer, 100 Jahre Berufsfeuerwehr und ein verkaufsoffener Sonntag. Die Fächerstadt feiert den Frühling.</p><p>40 Genussstände, historische Feuerwehr-Oldtimer, verkaufsoffener Sonntag und 100 Jahre Berufsfeuerwehr: Karlsruhe feiert dieses Wochenende das Fest der Sinne. Was Karlsruher dabei wirklich tun – satirisch in Fächertorten.<br/><br/>➡ ka-life.de/#/kw/kw18-2026</p>]]></content:encoded>
-      <enclosure url="https://ka-life.de/social/kw18-2026.png" length="0" type="image/png" />
+      <enclosure url="https://ka-life.de/social/kw18-2026.png" length="459087" type="image/png" />
       <media:content url="https://ka-life.de/social/kw18-2026.png" medium="image" type="image/png" />
       <media:thumbnail url="https://ka-life.de/social/kw18-2026.png" />
     </item>
@@ -268,7 +269,7 @@ Sechs Jahre, 227 Spiele, 8.000 Petitions-Stimmen: Christian Eichner verlässt de
 
 ➡ ka-life.de/#/kw/kw17-2026]]></description>
       <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw17-2026.png" alt="KA-Life KW17-2026: Vier Tore gegen die Angst" /></p><p>KSC zerlegt Bielefeld 4:1 im Wildpark – der höchste Heimsieg der Saison. Plötzlich redet Karlsruhe über Aufstieg statt Abstieg.</p><p>4:1 gegen Bielefeld – der höchste Heimsieg der Saison! Wanitzek trifft per Freistoß, Fukuda macht den Deckel drauf. Plötzlich redet der Wildpark über Aufstieg statt Abstieg.<br/><br/>➡ ka-life.de/#/kw/kw17-2026</p>]]></content:encoded>
-      <enclosure url="https://ka-life.de/social/kw17-2026.png" length="0" type="image/png" />
+      <enclosure url="https://ka-life.de/social/kw17-2026.png" length="221089" type="image/png" />
       <media:content url="https://ka-life.de/social/kw17-2026.png" medium="image" type="image/png" />
       <media:thumbnail url="https://ka-life.de/social/kw17-2026.png" />
     </item>
@@ -284,7 +285,7 @@ Sechs Jahre, 227 Spiele, 8.000 Petitions-Stimmen: Christian Eichner verlässt de
 
 ➡ ka-life.de/#/kw/kw16-2026]]></description>
       <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw16-2026.png" alt="KA-Life KW16-2026: Dauerbaustelle Fächerstadt" /></p><p>Tram 4, Tram 5, S4, S5, Rheintalbahn – Karlsruhe buddelt sich durch 2026. Kaum eine Linie bleibt verschont, und nach Ostern geht es direkt weiter.</p><p>12+ Linien gleichzeitig betroffen, 7 Wochen Entenfang-Sperre, Busse statt S-Bahn nach Bretten, +2 Stunden nach Freiburg. Willkommen in der Dauerbaustelle Fächerstadt.<br/><br/>➡ ka-life.de/#/kw/kw16-2026</p>]]></content:encoded>
-      <enclosure url="https://ka-life.de/social/kw16-2026.png" length="0" type="image/png" />
+      <enclosure url="https://ka-life.de/social/kw16-2026.png" length="466190" type="image/png" />
       <media:content url="https://ka-life.de/social/kw16-2026.png" medium="image" type="image/png" />
       <media:thumbnail url="https://ka-life.de/social/kw16-2026.png" />
     </item>
@@ -300,7 +301,7 @@ Sechs Jahre, 227 Spiele, 8.000 Petitions-Stimmen: Christian Eichner verlässt de
 
 ➡ ka-life.de/#/kw/kw15-2026]]></description>
       <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw15-2026.png" alt="KA-Life KW15-2026: 18 Euro für 30 Quadratmeter" /></p><p>Die Mieten in Karlsruhe steigen weiter – Studis zahlen inzwischen 480 Euro für ein WG-Zimmer und 18,42 €/m² für Kleinstwohnungen. Ein Stadtteil-Vergleich.</p><p>18,42 € pro Quadratmeter für 30 m² in Karlsruhe. 480 € für ein WG-Zimmer. Und 55% vom BAföG gehen nur für die Miete drauf. Willkommen auf dem Karlsruher Wohnungsmarkt 2026.<br/><br/>➡ ka-life.de/#/kw/kw15-2026</p>]]></content:encoded>
-      <enclosure url="https://ka-life.de/social/kw15-2026.png" length="0" type="image/png" />
+      <enclosure url="https://ka-life.de/social/kw15-2026.png" length="219874" type="image/png" />
       <media:content url="https://ka-life.de/social/kw15-2026.png" medium="image" type="image/png" />
       <media:thumbnail url="https://ka-life.de/social/kw15-2026.png" />
     </item>
@@ -316,7 +317,7 @@ Sechs Jahre, 227 Spiele, 8.000 Petitions-Stimmen: Christian Eichner verlässt de
 
 ➡ ka-life.de/#/kw/kw14-2026]]></description>
       <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw14-2026.png" alt="KA-Life KW14-2026: Zurück zum Mond – mit deutscher Technik" /></p><p>Artemis II startet am 1. April 2026 mit 4 Astronauten zum Mond. An Bord: ein European Service Module aus Europa und ein deutscher Kleinsatellit.</p><p>54 Jahre nach Apollo 17 fliegen wieder Menschen zum Mond. An Bord von Artemis II: ein europäisches Antriebsmodul und ein deutscher Kleinsatellit. Was die Mission für Deutschland bedeutet.<br/><br/>➡ ka-life.de/#/kw/kw14-2026</p>]]></content:encoded>
-      <enclosure url="https://ka-life.de/social/kw14-2026.png" length="0" type="image/png" />
+      <enclosure url="https://ka-life.de/social/kw14-2026.png" length="402304" type="image/png" />
       <media:content url="https://ka-life.de/social/kw14-2026.png" medium="image" type="image/png" />
       <media:thumbnail url="https://ka-life.de/social/kw14-2026.png" />
     </item>
@@ -332,7 +333,7 @@ Der BGH in Karlsruhe hat entschieden: Autobauer müssen nicht schneller aus dem 
 
 ➡ ka-life.de/#/kw/kw13-2026]]></description>
       <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw13-2026.png" alt="KA-Life KW13-2026: Verbrenner dürfen weiter brennen" /></p><p>Der BGH in Karlsruhe weist Klimaklagen gegen BMW und Mercedes ab – die Politik soll’s richten, nicht die Richter.</p><p>Der BGH in Karlsruhe hat entschieden: Autobauer müssen nicht schneller aus dem Verbrenner raus, als die Politik es vorgibt. Was das für die Klimadebatte bedeutet – in unserer neuen Infografik.<br/><br/>➡ ka-life.de/#/kw/kw13-2026</p>]]></content:encoded>
-      <enclosure url="https://ka-life.de/social/kw13-2026.png" length="0" type="image/png" />
+      <enclosure url="https://ka-life.de/social/kw13-2026.png" length="391874" type="image/png" />
       <media:content url="https://ka-life.de/social/kw13-2026.png" medium="image" type="image/png" />
       <media:thumbnail url="https://ka-life.de/social/kw13-2026.png" />
     </item>
@@ -348,7 +349,7 @@ Der BGH in Karlsruhe hat entschieden: Autobauer müssen nicht schneller aus dem 
 
 ➡ ka-life.de/#/kw/kw12-2026]]></description>
       <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw12-2026.png" alt="KA-Life KW12-2026: Achterbahn in Blau-Weiß" /></p><p>Der KSC kämpft in der 2. Liga um den Anschluss ans Mittelfeld – zwischen Hoffnung und Frustration.</p><p>37 Punkte, Platz 8, Tordifferenz minus 8: Der KSC pendelt zwischen Glücksgefühlen und Frust. Ein Blick auf die Achterbahn-Saison in Blau-Weiß.<br/><br/>➡ ka-life.de/#/kw/kw12-2026</p>]]></content:encoded>
-      <enclosure url="https://ka-life.de/social/kw12-2026.png" length="0" type="image/png" />
+      <enclosure url="https://ka-life.de/social/kw12-2026.png" length="373620" type="image/png" />
       <media:content url="https://ka-life.de/social/kw12-2026.png" medium="image" type="image/png" />
       <media:thumbnail url="https://ka-life.de/social/kw12-2026.png" />
     </item>
@@ -364,7 +365,7 @@ Das KIT bleibt Exzellenzuniversität! 105 Millionen Euro Förderung, Top 10 welt
 
 ➡ ka-life.de/#/kw/kw11-2026]]></description>
       <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw11-2026.png" alt="KA-Life KW11-2026: Exzellent! KIT verteidigt den Titel" /></p><p>Das Karlsruher Institut für Technologie bleibt Exzellenzuniversität – mit bis zu 105 Millionen Euro Förderung.</p><p>Das KIT bleibt Exzellenzuniversität! 105 Millionen Euro Förderung, Top 10 weltweit in Quantenforschung – was der Titel für Karlsruhe bedeutet.<br/><br/>➡ ka-life.de/#/kw/kw11-2026</p>]]></content:encoded>
-      <enclosure url="https://ka-life.de/social/kw11-2026.png" length="0" type="image/png" />
+      <enclosure url="https://ka-life.de/social/kw11-2026.png" length="230357" type="image/png" />
       <media:content url="https://ka-life.de/social/kw11-2026.png" medium="image" type="image/png" />
       <media:thumbnail url="https://ka-life.de/social/kw11-2026.png" />
     </item>
@@ -380,7 +381,7 @@ Landtagswahl 2026: Karlsruhe wählt mit 39% Grüne deutlich grüner als der Rest
 
 ➡ ka-life.de/#/kw/kw10-2026]]></description>
       <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw10-2026.png" alt="KA-Life KW10-2026: Karlsruhe wählt grün" /></p><p>Bei der Landtagswahl holt Cem Özdemir die Grünen auf Platz 1 – in Karlsruhe besonders deutlich.</p><p>Landtagswahl 2026: Karlsruhe wählt mit 39% Grüne deutlich grüner als der Rest des Landes. Cem Özdemir wird Ministerpräsident.<br/><br/>➡ ka-life.de/#/kw/kw10-2026</p>]]></content:encoded>
-      <enclosure url="https://ka-life.de/social/kw10-2026.png" length="0" type="image/png" />
+      <enclosure url="https://ka-life.de/social/kw10-2026.png" length="418788" type="image/png" />
       <media:content url="https://ka-life.de/social/kw10-2026.png" medium="image" type="image/png" />
       <media:thumbnail url="https://ka-life.de/social/kw10-2026.png" />
     </item>
@@ -396,7 +397,7 @@ Vor 200 Jahren starb Friedrich Weinbrenner – der Mann, der Karlsruhe geformt h
 
 ➡ ka-life.de/#/kw/kw09-2026]]></description>
       <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw09-2026.png" alt="KA-Life KW09-2026: 200 Jahre ohne Weinbrenner" /></p><p>Am 1. März jährt sich der Todestag von Friedrich Weinbrenner zum 200. Mal – dem Mann, der Karlsruhe sein Gesicht gab.</p><p>Vor 200 Jahren starb Friedrich Weinbrenner – der Mann, der Karlsruhe geformt hat. Vom Marktplatz bis zur Pyramide: Was von seinem Erbe übrig ist.<br/><br/>➡ ka-life.de/#/kw/kw09-2026</p>]]></content:encoded>
-      <enclosure url="https://ka-life.de/social/kw09-2026.png" length="0" type="image/png" />
+      <enclosure url="https://ka-life.de/social/kw09-2026.png" length="421128" type="image/png" />
       <media:content url="https://ka-life.de/social/kw09-2026.png" medium="image" type="image/png" />
       <media:thumbnail url="https://ka-life.de/social/kw09-2026.png" />
     </item>
@@ -412,7 +413,7 @@ Vor 200 Jahren starb Friedrich Weinbrenner – der Mann, der Karlsruhe geformt h
 
 ➡ ka-life.de/#/kw/kw08-2026]]></description>
       <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw08-2026.png" alt="KA-Life KW08-2026: 500 Käfige für die Freiheit" /></p><p>THE CAGE von Fahar Al-Salih verwandelt die Stadtkirche in einen begehbaren Käfig aus 500 Vogelkäfigen – Kunst zwischen Freiheit und Begrenzung.</p><p>500 handgefertigte Vogelkäfige bilden einen begehbaren Raum in der Karlsruher Stadtkirche. THE CAGE von Fahar Al-Salih fragt: In welchen Käfigen leben wir?<br/><br/>➡ ka-life.de/#/kw/kw08-2026</p>]]></content:encoded>
-      <enclosure url="https://ka-life.de/social/kw08-2026.png" length="0" type="image/png" />
+      <enclosure url="https://ka-life.de/social/kw08-2026.png" length="390483" type="image/png" />
       <media:content url="https://ka-life.de/social/kw08-2026.png" medium="image" type="image/png" />
       <media:thumbnail url="https://ka-life.de/social/kw08-2026.png" />
     </item>
@@ -428,7 +429,7 @@ Vor 200 Jahren starb Friedrich Weinbrenner – der Mann, der Karlsruhe geformt h
 
 ➡ ka-life.de/#/kw/kw06-2026]]></description>
       <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw06-2026.png" alt="KA-Life KW06-2026: Deutschlands größte Kunstmesse" /></p><p>Die art karlsruhe 2026 bringt 180 Galerien aus 18 Ländern, 50.000 Besucher und Kunst von 20 Euro bis 1,12 Millionen.</p><p>180 Galerien, 18 Länder, 50.000 Besucher: Die art karlsruhe 2026 zeigt, warum Karlsruhe Deutschlands wichtigster Kunstmesse-Standort ist.<br/><br/>➡ ka-life.de/#/kw/kw06-2026</p>]]></content:encoded>
-      <enclosure url="https://ka-life.de/social/kw06-2026.png" length="0" type="image/png" />
+      <enclosure url="https://ka-life.de/social/kw06-2026.png" length="454147" type="image/png" />
       <media:content url="https://ka-life.de/social/kw06-2026.png" medium="image" type="image/png" />
       <media:thumbnail url="https://ka-life.de/social/kw06-2026.png" />
     </item>

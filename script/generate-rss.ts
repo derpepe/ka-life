@@ -1,8 +1,8 @@
-// Generates RSS 2.0 feed (rss.xml) and sitemap.xml for KA-Life infographics.
-// Reads infographics from client/src/lib/infographic-data.ts and writes feed
-// to client/public/rss.xml so Vite serves it at /rss.xml after build.
+// Generates RSS 2.0 (rss.xml), Atom 1.0 (atom.xml) and sitemap.xml for KA-Life.
+// Reads infographics from client/src/lib/infographic-data.ts and writes feeds
+// to client/public/ so Vite serves them at /rss.xml, /atom.xml and /sitemap.xml.
 
-import { writeFileSync, mkdirSync } from "fs";
+import { writeFileSync, mkdirSync, statSync, existsSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
 
@@ -80,6 +80,19 @@ function parsePubDate(dateRange: string, year: number): Date {
   return new Date(Date.UTC(year, month, day, 8, 0, 0));
 }
 
+// Return the byte size of the local social PNG, if present.
+function imageBytes(id: string): number {
+  const localPath = resolve(projectRoot, "client", "public", "social", `${id}.png`);
+  if (existsSync(localPath)) {
+    try {
+      return statSync(localPath).size;
+    } catch {
+      return 0;
+    }
+  }
+  return 0;
+}
+
 function buildRss(): string {
   const items = infographics
     .map((ig) => {
@@ -87,6 +100,7 @@ function buildRss(): string {
       const imageUrl = `${SITE_URL}/social/${ig.id}.png`;
       const pubDate = parsePubDate(ig.dateRange, ig.year);
       const altText = `KA-Life ${ig.id.toUpperCase()}: ${ig.title}`;
+      const bytes = imageBytes(ig.id);
       // Plain-text description for tools that strip HTML.
       const plainText = `${ig.subtitle}\n\n${ig.socialPostText}`;
       // HTML description with image embedded as <img> for tools that use HTML.
@@ -101,7 +115,7 @@ function buildRss(): string {
       <category>${escapeXml(ig.kicker)}</category>
       <description><![CDATA[${plainText}]]></description>
       <content:encoded><![CDATA[${htmlContent}]]></content:encoded>
-      <enclosure url="${escapeXml(imageUrl)}" length="0" type="image/png" />
+      <enclosure url="${escapeXml(imageUrl)}" length="${bytes}" type="image/png" />
       <media:content url="${escapeXml(imageUrl)}" medium="image" type="image/png" />
       <media:thumbnail url="${escapeXml(imageUrl)}" />
     </item>`;
@@ -123,6 +137,7 @@ function buildRss(): string {
     <copyright>${escapeXml(COPYRIGHT)}</copyright>
     <lastBuildDate>${lastBuild}</lastBuildDate>
     <atom:link href="${SITE_URL}/rss.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="${SITE_URL}/atom.xml" rel="alternate" type="application/atom+xml" />
     <image>
       <url>${SITE_URL}/social/${infographics[0]?.id ?? ""}.png</url>
       <title>${escapeXml(FEED_TITLE)}</title>
@@ -131,6 +146,57 @@ function buildRss(): string {
 ${items}
   </channel>
 </rss>
+`;
+}
+
+function buildAtom(): string {
+  const feedId = `${SITE_URL}/`;
+  const updated = new Date().toISOString();
+  const entries = infographics
+    .map((ig) => {
+      const url = `${SITE_URL}/#/kw/${ig.id}`;
+      const imageUrl = `${SITE_URL}/social/${ig.id}.png`;
+      const pubDate = parsePubDate(ig.dateRange, ig.year);
+      const altText = `KA-Life ${ig.id.toUpperCase()}: ${ig.title}`;
+      const bytes = imageBytes(ig.id);
+      const htmlContent = `<p><img src="${imageUrl}" alt="${escapeXml(altText)}" /></p>` +
+        `<p>${escapeXml(ig.subtitle)}</p>` +
+        `<p>${escapeXml(ig.socialPostText).replace(/\n/g, "<br/>")}</p>`;
+      const enclosureLen = bytes > 0 ? ` length="${bytes}"` : "";
+      return `  <entry>
+    <id>${escapeXml(url)}</id>
+    <title>${escapeXml(ig.title)}</title>
+    <link rel="alternate" type="text/html" href="${escapeXml(url)}" />
+    <link rel="enclosure" type="image/png"${enclosureLen} href="${escapeXml(imageUrl)}" />
+    <published>${pubDate.toISOString()}</published>
+    <updated>${pubDate.toISOString()}</updated>
+    <category term="${escapeXml(ig.kicker)}" />
+    <summary>${escapeXml(ig.subtitle)}</summary>
+    <content type="html"><![CDATA[${htmlContent}]]></content>
+    <media:content url="${escapeXml(imageUrl)}" medium="image" type="image/png" />
+    <media:thumbnail url="${escapeXml(imageUrl)}" />
+  </entry>`;
+    })
+    .join("\n");
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:media="http://search.yahoo.com/mrss/"
+      xml:lang="${FEED_LANGUAGE}">
+  <id>${feedId}</id>
+  <title>${escapeXml(FEED_TITLE)}</title>
+  <subtitle>${escapeXml(FEED_DESCRIPTION)}</subtitle>
+  <link rel="self" type="application/atom+xml" href="${SITE_URL}/atom.xml" />
+  <link rel="alternate" type="text/html" href="${SITE_URL}" />
+  <link rel="alternate" type="application/rss+xml" href="${SITE_URL}/rss.xml" />
+  <updated>${updated}</updated>
+  <rights>${escapeXml(COPYRIGHT)}</rights>
+  <author>
+    <name>Decisions Made Easy GmbH</name>
+    <email>ka-life@pjs.de</email>
+  </author>
+${entries}
+</feed>
 `;
 }
 
@@ -160,6 +226,10 @@ mkdirSync(outputDir, { recursive: true });
 const rss = buildRss();
 writeFileSync(resolve(outputDir, "rss.xml"), rss, "utf-8");
 console.log(`Wrote rss.xml (${rss.length} bytes, ${infographics.length} items)`);
+
+const atom = buildAtom();
+writeFileSync(resolve(outputDir, "atom.xml"), atom, "utf-8");
+console.log(`Wrote atom.xml (${atom.length} bytes, ${infographics.length} entries)`);
 
 const sitemap = buildSitemap();
 writeFileSync(resolve(outputDir, "sitemap.xml"), sitemap, "utf-8");

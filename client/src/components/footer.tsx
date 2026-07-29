@@ -51,6 +51,52 @@ export default function Footer() {
         >
           Impressum
         </Link>
+        <span style={{ color: "#e5e7eb" }}>{"\u00B7"}</span>
+        <a
+          href="/rss.xml"
+          title="RSS-Feed abonnieren"
+          aria-label="RSS-Feed"
+          style={{
+            color: "#9ca3af",
+            textDecoration: "none",
+            display: "inline-flex",
+            alignItems: "center",
+            gap: 4,
+            transition: "color 0.15s",
+          }}
+          onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.color = "#ea580c")}
+          onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = "#9ca3af")}
+        >
+          <svg
+            width="11"
+            height="11"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2.5"
+            strokeLinecap="round"
+            aria-hidden="true"
+          >
+            <path d="M4 11a9 9 0 0 1 9 9" />
+            <path d="M4 4a16 16 0 0 1 16 16" />
+            <circle cx="5" cy="19" r="1.5" fill="currentColor" stroke="none" />
+          </svg>
+          RSS
+        </a>
+        <a
+          href="/atom.xml"
+          title="Atom-Feed abonnieren"
+          aria-label="Atom-Feed"
+          style={{
+            color: "#9ca3af",
+            textDecoration: "none",
+            transition: "color 0.15s",
+          }}
+          onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.color = "#6b7280")}
+          onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = "#9ca3af")}
+        >
+          Atom
+        </a>
       </p>
     </footer>
   );
