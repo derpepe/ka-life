@@ -41,6 +41,177 @@ export interface WeeklyInfographic {
 
 export const infographics: WeeklyInfographic[] = [
   {
+    id: "kw32-2026",
+    weekNumber: 32,
+    year: 2026,
+    dateRange: "27. Juli \u2013 2. August 2026",
+    title: "Karlsruhe zieht 30 Millionen f\u00FCr die Sonne",
+    subtitle: "Das Bundesforschungsministerium hat das KIT am 29. Juli zu einem von drei deutschen Fusionshubs bestimmt. Ergebnis: rund 30 Millionen Euro Anschub, ein Standort mitten in der F\u00E4cherstadt und die Ansage, dass die Sonne im Reagenzglas ein Karlsruher Job wird.",
+    kicker: "KIT wird Fusionshub",
+    theme: {
+      accent: "#14b8a6",
+      accentLight: "#5eead4",
+      accentDark: "#0f766e",
+      secondary: "#d946ef",
+      tertiary: "#3b82f6",
+      background: "#fafafa",
+    },
+    socialCard: {
+      headline: "Ein Fusionshub\nim Hardtwald",
+      subline: "BMFTR-F\u00F6rderung 30 Mio. \u20AC \u00B7 KIT \u00B7 29.\u202F7.\u202F2026 \u00B7 KW 32",
+      keyNumber: "30",
+      keyLabel: "Millionen Euro Anschubf\u00F6rderung f\u00FCr das KIT als deutscher Fusionshub",
+      gradient: "linear-gradient(135deg, #14b8a6 0%, #0369a1 40%, #7c3aed 75%, #d946ef 100%)",
+    },
+    sections: [
+      {
+        type: "number-cards",
+        title: "Der Hub in Zahlen",
+        subtitle: "Was das Bundesministerium f\u00FCr Forschung, Technologie und Raumfahrt am 29. Juli entschieden hat",
+        data: {
+          cards: [
+            { value: "30", unit: "Mio. \u20AC", label: "F\u00F6rderung fliesst als Anschub in den KIT-Fusionshub \u2013 langfristig sollen es deutlich mehr werden", color: "#14b8a6" },
+            { value: "125", unit: "Mio. \u20AC", label: "Beziffert die Gesamtf\u00F6rderung f\u00FCr alle drei deutschen Fusionshubs zusammen", color: "#0369a1" },
+            { value: "34", unit: "Partner", label: "Forschungseinrichtungen und Unternehmen ziehen in dem Programm mit \u2013 vier davon am KIT", color: "#7c3aed" },
+            { value: "150", unit: "Mio. \u00B0C", label: "So hei\u00DF muss ein Fusionsplasma werden, damit Wasserstoffkerne verschmelzen", color: "#d946ef" },
+          ] as NumberCard[],
+        },
+      },
+      {
+        type: "torte-der-wahrheit",
+        title: "F\u00E4chertorten",
+        subtitle: "Drei Karlsruher Perspektiven auf 30 Millionen Euro f\u00FCr die k\u00FCnstliche Sonne",
+        data: {
+          pies: [
+            {
+              title: "Was der Karlsruher am Mittwochabend im Freundeskreis erkl\u00E4rt",
+              slices: [
+                { label: "\u201EWir bauen jetzt eine Sonne im Hardtwald, also so ungef\u00E4hr\u201C", value: 30, color: "#14b8a6" },
+                { label: "\u201E30 Millionen sind ja auch kein Kombil\u00F6sungs-Geld\u201C", value: 22, color: "#0369a1" },
+                { label: "\u201EIch kenne einen, der bei Proxima im Praktikum war\u201C", value: 18, color: "#d946ef" },
+                { label: "\u201EEinstein war ja auch kein Physiker, nur Patentbeamter\u201C", value: 14, color: "#7c3aed" },
+                { label: "\u201EMerkel hatte doch damals versprochen, das kommt aus Garching\u201C", value: 10, color: "#5eead4" },
+                { label: "\u201EWir haben gerade noch das Elfmeter-Ding aufgearbeitet\u201C", value: 6, color: "#94a3b8" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Was der neue Karlsruher Fusionshub sofort besch\u00E4ftigt",
+              slices: [
+                { label: "Die Frage, wo die Cryo-K\u00E4lteanlage bl\u00F6\u00DF hin soll", value: 30, color: "#14b8a6" },
+                { label: "Vier Start-ups mit vier IT-Systemen, die niemand zusammenkriegt", value: 24, color: "#7c3aed" },
+                { label: "Der KIT-Bereich Materialforschung, der pl\u00F6tzlich alle Ex-CERN-Leute anschreibt", value: 18, color: "#0369a1" },
+                { label: "Ein Presse-Interview zum Thema, bei dem niemand \u201EStellarator\u201C sagen darf", value: 14, color: "#d946ef" },
+                { label: "Eine erste Bewerbung von einem Physik-Studenten der TU M\u00FCnchen", value: 10, color: "#5eead4" },
+                { label: "Die Kaffeek\u00FCche im INR, in der jetzt vier Fluoreszenzr\u00F6hren mehr brennen", value: 4, color: "#94a3b8" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Wie Karlsruher die Fusion in zehn Jahren beschreiben werden",
+              slices: [
+                { label: "\u201EWir hatten damals schon den Hub, bevor die anderen ihn brauchten\u201C", value: 28, color: "#14b8a6" },
+                { label: "\u201EAm Anfang hatten alle noch gedacht, das wird ein KIT-Institut wie sonst\u201C", value: 22, color: "#0369a1" },
+                { label: "\u201EProxima ist doch inzwischen die deutsche Tesla, oder?\u201C", value: 20, color: "#d946ef" },
+                { label: "\u201EJa, damals sind die ersten Fusionsingenieurinnen hier zur\u00FCckgekehrt\u201C", value: 16, color: "#7c3aed" },
+                { label: "\u201EOhne die 30 Millionen h\u00E4tten wir nichts \u2013 die 3 Milliarden kamen ja sp\u00E4ter\u201C", value: 14, color: "#5eead4" },
+              ] as PieSlice[],
+            },
+          ],
+        },
+      },
+      {
+        type: "timeline",
+        title: "Wie Karlsruhe zur Fusionshauptstadt wurde",
+        subtitle: "Vom ersten kleinen Reaktor 1959 zur bundesweiten Rolle 2026",
+        data: {
+          events: [
+            { date: "1959", label: "Der erste deutsche Forschungsreaktor FR2 geht am damaligen Kernforschungszentrum Karlsruhe in Betrieb" },
+            { date: "1970er", label: "Karlsruhe wird zu einem europ\u00E4ischen Zentrum f\u00FCr Materialforschung und Kryotechnik \u2013 Grundlagen der sp\u00E4teren Fusionsarbeit" },
+            { date: "2009", label: "Aus Forschungszentrum und Universit\u00E4t wird das KIT \u2013 die Zusammenlegung schafft die kritische Masse f\u00FCr Gro\u00DFprojekte" },
+            { date: "2023", label: "Karlsruhe wird deutscher Partnerstandort im europ\u00E4ischen ITER-Programm mit Beitr\u00E4gen zur Blanket- und Divertorforschung" },
+            { date: "M\u00E4rz 2026", label: "BMFTR schreibt die drei nationalen Fusionshubs aus \u2013 KIT reicht ein Konsortium mit Proxima, Gauss, Focused Energy und Marvel Fusion ein" },
+            { date: "29. Juli 2026", label: "Bundesministerium k\u00FCrt den Karlsruher Antrag zum Hub f\u00FCr Grundlagentechnologien \u2013 30 Mio. \u20AC Anschub, langfristig deutlich mehr", highlight: true },
+            { date: "2027 +", label: "Aufbau der ersten Hub-Werkst\u00E4tten, gemeinsame Berufungen mit den Fusions-Start-ups, erste Doktoranden-Kohorte startet", highlight: true },
+          ] as TimelineEvent[],
+        },
+      },
+      {
+        type: "comparison",
+        title: "Die drei deutschen Fusionshubs im Vergleich",
+        subtitle: "F\u00F6rderanteil pro Hub aus den 125 Mio. Euro BMFTR-Programm \u2013 grob gerundet",
+        data: {
+          items: [
+            { label: "KIT Karlsruhe (Grundlagentechnologien)", value: 30, display: "\u2248 30 Mio. \u20AC", color: "#14b8a6" },
+            { label: "IPP Garching / Max-Planck (Magnetfusion)", value: 55, display: "\u2248 55 Mio. \u20AC", color: "#0369a1" },
+            { label: "HZDR Dresden-Rossendorf (Laserfusion)", value: 40, display: "\u2248 40 Mio. \u20AC", color: "#d946ef" },
+            { label: "KIT-Fusionsbudget bisher (pro Jahr, gesch\u00E4tzt)", value: 12, display: "\u2248 12 Mio. \u20AC", color: "#7c3aed" },
+          ] as BarItem[],
+        },
+      },
+      {
+        type: "stacked-bar",
+        title: "Woran Karlsruher Fusionsforscher schon jetzt arbeiten",
+        subtitle: "Grobe Aufteilung der KIT-Aktivit\u00E4ten in der Fusionsforschung nach Themenbereich (Stand 2026, gesch\u00E4tzt)",
+        data: {
+          categories: [
+            "Materialien f\u00FCr die erste Wand",
+            "Supraleitende Magnete und Kryotechnik",
+            "Blanket, Tritiumkreislauf und Brennstoff",
+            "Laser- und Zieltechnik",
+            "Sicherheits- und Ausbildungssysteme",
+          ],
+          stacks: [
+            { label: "Anteil der Fusionsprojekte", color: "#14b8a6" },
+          ],
+          unit: "%",
+          values: [
+            [32],
+            [26],
+            [22],
+            [12],
+            [8],
+          ],
+        },
+      },
+      {
+        type: "quote",
+        title: "Zitat",
+        data: {
+          text: "Wir setzen langfristig auf Karlsruhe als zentralen Nukleus f\u00FCr die Industrialisierung der Fusionstechnologie.",
+          author: "Bundesministerium f\u00FCr Forschung, Technologie und Raumfahrt (BMFTR), 29.\u202F7.\u202F2026",
+          color: "#14b8a6",
+        },
+      },
+      {
+        type: "waffle",
+        title: "Wie realistisch ist die Fusion 2035?",
+        subtitle: "Von 100 Energieexpertinnen und -experten \u2013 wer h\u00E4lt kommerzielle Fusion bis 2035 f\u00FCr wahrscheinlich?",
+        data: {
+          total: 100,
+          filled: 12,
+          filledColor: "#14b8a6",
+          emptyColor: "#e5e7eb",
+          annotation: "Umfragen unter deutschen Fachleuten deuten an: Rund 12 von 100 halten kommerzielle Fusionsenergie schon vor 2035 f\u00FCr realistisch, weitere 45 rechnen mit den 2040ern. Der Karlsruher Hub soll die Br\u00FCcke bauen \u2013 von der Kryogen-Werkstatt zur Serienproduktion.",
+          secondaryFilled: 45,
+          secondaryColor: "#7c3aed",
+          filledLabel: "Halten Fusion vor 2035 f\u00FCr m\u00F6glich (12)",
+          secondaryLabel: "Erwarten Durchbruch in den 2040ern (45)",
+          emptyLabel: "Sp\u00E4ter oder nie (43)",
+        },
+      },
+    ],
+    sources: [
+      "baden-wuerttemberg.de, KIT wird Forschungshub f\u00FCr Fusionstechnologie (29.\u202F7.\u202F2026)",
+      "beteiligungsportal.baden-wuerttemberg.de, Pressemitteilung KIT Fusionshub (29.\u202F7.\u202F2026)",
+      "forschung-und-lehre.de, BMFTR gibt die gef\u00F6rderten Hubs bekannt (29.\u202F7.\u202F2026)",
+      "BMFTR, Hightech Agenda \u2013 Fusionshubs (Sommer 2026)",
+      "kit.edu, Fusionsforschung am KIT (Stand 7/2026)",
+      "proxima-fusion.com, Partnerschaftsank\u00FCndigung mit KIT (2026)",
+      "tagesschau.de, Zur\u00FCck zur Kernfusion \u2013 Deutschland startet Fusionshubs (30.\u202F7.\u202F2026)",
+    ],
+    editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt. Die F\u00F6rderaufteilung zwischen den drei Hubs ist eine grobe Sch\u00E4tzung auf Basis der \u00F6ffentlichen Kommunikation; genaue Zahlen ver\u00F6ffentlicht das BMFTR erst mit den Bewilligungsbescheiden.",
+    socialPostText: "30 Millionen Euro, ein Bundesministerium, ein Hardtwald: Das KIT ist seit Mittwoch offiziell einer der drei deutschen Fusionshubs. Karlsruhe baut also mit an der k\u00FCnstlichen Sonne \u2013 zwischen ITER-Nachfolgern, Proxima Fusion und einem Kaffeeautomaten im INR.\n\n\u27A1 ka-life.de/#/kw/kw32-2026",
+  },
+  {
     id: "kw31-2026",
     weekNumber: 31,
     year: 2026,
