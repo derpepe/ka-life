@@ -9,14 +9,30 @@
     <description>Wöchentliche Infografik-Kolumne zu Karlsruhe. Daten, Fakten und satirische Fächertorten aus der Fächerstadt.</description>
     <language>de-DE</language>
     <copyright>© Decisions Made Easy GmbH, Karlsruhe</copyright>
-    <lastBuildDate>Sat, 05 Sep 2026 08:04:13 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 08:06:06 GMT</lastBuildDate>
     <atom:link href="https://ka-life.de/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://ka-life.de/atom.xml" rel="alternate" type="application/atom+xml" />
     <image>
-      <url>https://ka-life.de/social/kw36-2026.png</url>
+      <url>https://ka-life.de/social/kw37-2026.png</url>
       <title>KA-Life — Karlsruhe in Zahlen</title>
       <link>https://ka-life.de</link>
     </image>
+    <item>
+      <title>ARMAR-7 fährt zum Minister</title>
+      <link>https://ka-life.de/#/kw/kw37-2026</link>
+      <guid isPermaLink="true">https://ka-life.de/#/kw/kw37-2026</guid>
+      <pubDate>Sun, 13 Sep 2026 08:00:00 GMT</pubDate>
+      <category>KIT-Robotik</category>
+      <description><![CDATA[Am Cyber Valley Day in Tübingen hat das KIT diese Woche seinen humanoiden Assistenzroboter ARMAR-7 vorgestellt – vor Ministerpräsident Cem Özdemir. 26 Jahre nach dem ersten Karlsruher Humanoid ist die Fächerstadt still und leise zur deutschen ARMAR-Metropole geworden.
+
+ARMAR-7 hat sich diese Woche vor Ministerpräsident Özdemir vorgestellt: 7. Generation, über 30 Gelenke, seit 26 Jahren wird die Karlsruher Roboterfamilie entwickelt. Bis er wirklich im Pflegealltag steht, kalkuliert der KIT-Chefentwickler 5 bis 10 Jahre. Wir freuen uns schon aufs Skatspielen.
+
+➡ ka-life.de/#/kw/kw37-2026]]></description>
+      <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw37-2026.png" alt="KA-Life KW37-2026: ARMAR-7 fährt zum Minister" /></p><p>Am Cyber Valley Day in Tübingen hat das KIT diese Woche seinen humanoiden Assistenzroboter ARMAR-7 vorgestellt – vor Ministerpräsident Cem Özdemir. 26 Jahre nach dem ersten Karlsruher Humanoid ist die Fächerstadt still und leise zur deutschen ARMAR-Metropole geworden.</p><p>ARMAR-7 hat sich diese Woche vor Ministerpräsident Özdemir vorgestellt: 7. Generation, über 30 Gelenke, seit 26 Jahren wird die Karlsruher Roboterfamilie entwickelt. Bis er wirklich im Pflegealltag steht, kalkuliert der KIT-Chefentwickler 5 bis 10 Jahre. Wir freuen uns schon aufs Skatspielen.<br/><br/>➡ ka-life.de/#/kw/kw37-2026</p>]]></content:encoded>
+      <enclosure url="https://ka-life.de/social/kw37-2026.png" length="0" type="image/png" />
+      <media:content url="https://ka-life.de/social/kw37-2026.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://ka-life.de/social/kw37-2026.png" />
+    </item>
     <item>
       <title>62 Disziplinen, 1.048 Tage – Karlsruhe legt los</title>
       <link>https://ka-life.de/#/kw/kw36-2026</link>
@@ -29,7 +45,7 @@
 
 ➡ ka-life.de/#/kw/kw36-2026]]></description>
       <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw36-2026.png" alt="KA-Life KW36-2026: 62 Disziplinen, 1.048 Tage – Karlsruhe legt los" /></p><p>Am 3. September hat die IWGA das finale Sportprogramm der World Games 2029 verkündet: 62 Disziplinen aus 36 Sportarten, so viele wie noch nie. Als erste Stadt der Geschichte wird Karlsruhe die World Games zum zweiten Mal ausrichten – und die Fassade der Fächerstadt wird bald in neuen Farben leuchten.</p><p>62 Disziplinen aus 36 Sportarten, 4.000 Athlet:innen aus 100 Ländern und ein Karlsruhe, das als erste Stadt überhaupt zum zweiten Mal Ausrichter wird. Vom 19. bis 29. Juli 2029 – und Kunstradfahren feiert dabei ein 40-Jahre-Comeback am selben Ort.<br/><br/>➡ ka-life.de/#/kw/kw36-2026</p>]]></content:encoded>
-      <enclosure url="https://ka-life.de/social/kw36-2026.png" length="0" type="image/png" />
+      <enclosure url="https://ka-life.de/social/kw36-2026.png" length="569273" type="image/png" />
       <media:content url="https://ka-life.de/social/kw36-2026.png" medium="image" type="image/png" />
       <media:thumbnail url="https://ka-life.de/social/kw36-2026.png" />
     </item>

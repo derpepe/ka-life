@@ -41,6 +41,183 @@ export interface WeeklyInfographic {
 
 export const infographics: WeeklyInfographic[] = [
   {
+    id: "kw37-2026",
+    weekNumber: 37,
+    year: 2026,
+    dateRange: "7.\u201313. September 2026",
+    title: "ARMAR-7 f\u00E4hrt zum Minister",
+    subtitle: "Am Cyber Valley Day in T\u00FCbingen hat das KIT diese Woche seinen humanoiden Assistenzroboter ARMAR-7 vorgestellt \u2013 vor Ministerpr\u00E4sident Cem \u00D6zdemir. 26 Jahre nach dem ersten Karlsruher Humanoid ist die F\u00E4cherstadt still und leise zur deutschen ARMAR-Metropole geworden.",
+    kicker: "KIT-Robotik",
+    theme: {
+      accent: "#0891b2",
+      accentLight: "#67e8f9",
+      accentDark: "#0e2a4b",
+      secondary: "#f59e0b",
+      tertiary: "#64748b",
+      background: "#fafafa",
+    },
+    socialCard: {
+      headline: "ARMAR-7 f\u00E4hrt\nzum Minister",
+      subline: "KIT beim Cyber Valley Day \u00B7 11.\u202F9.\u202F2026 \u00B7 KW 37",
+      keyNumber: "7",
+      keyLabel: "ARMAR-Generation aus Karlsruhe \u2013 seit 26 Jahren am H\u00B2T des KIT entwickelt",
+      gradient: "linear-gradient(135deg, #0891b2 0%, #164e63 50%, #0e2a4b 100%)",
+    },
+    sections: [
+      {
+        type: "number-cards",
+        title: "ARMAR-7 in Zahlen",
+        subtitle: "Der humanoide Assistenzroboter am KIT-Institut f\u00FCr Anthropomatik und Robotik",
+        data: {
+          cards: [
+            { value: "30", unit: "+ Gelenke", label: "Freiheitsgrade in Kopf, Torso, zwei Armen und der mobilen Plattform", color: "#0891b2" },
+            { value: "7", unit: ". Generation", label: "ARMAR-Modell seit 2000 \u2013 die Familie geh\u00F6rt zu Europas ersten Humanoiden", color: "#164e63" },
+            { value: "3", unit: "Rechner", label: "Sitzen in der mobilen Basis \u2013 zusammen mit Batterien und drei R\u00E4dern", color: "#f59e0b" },
+            { value: "5\u201310", unit: "Jahre", label: "Sch\u00E4tzt Prof. Tamim Asfour, bis solche Roboter im echten Pflegealltag stehen", color: "#0e2a4b" },
+          ] as NumberCard[],
+        },
+      },
+      {
+        type: "torte-der-wahrheit",
+        title: "F\u00E4chertorten",
+        subtitle: "Drei Karlsruher Perspektiven auf einen Roboter, der Ministerpr\u00E4sidenten trifft",
+        data: {
+          pies: [
+            {
+              title: "Was ARMAR-7 tats\u00E4chlich schon kann",
+              slices: [
+                { label: "Sp\u00FClmaschine ausr\u00E4umen, ohne den Cappuccino-L\u00F6ffel im Karnies liegen zu lassen", value: 30, color: "#0891b2" },
+                { label: "W\u00E4sche nach hell und dunkel sortieren, wenn Kleidung nicht dazwischen liegt", value: 24, color: "#164e63" },
+                { label: "Objekte auf Gesten erkennen und in Zeitlupe \u00FCbergeben", value: 18, color: "#67e8f9" },
+                { label: "Sich merken, wo die K\u00FCchenutensilien vor zwei Stunden lagen", value: 14, color: "#f59e0b" },
+                { label: "Menschen bei einer Handlung zuschauen und daraus ein Modell bauen", value: 10, color: "#64748b" },
+                { label: "Ministerpr\u00E4sidenten die Hand sch\u00FCtteln, ohne den PR-Termin zu ruinieren", value: 4, color: "#0e2a4b" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Was Karlsruher Kolleg:innen fragen, wenn ARMAR im Videocall auftaucht",
+              slices: [
+                { label: "\u201EWann kann der endlich meinen Wochenendputz machen?\u201C", value: 30, color: "#0891b2" },
+                { label: "\u201EKann der auch mal die Balkonpflanze gie\u00DFen?\u201C", value: 22, color: "#164e63" },
+                { label: "\u201EWie lernt der eigentlich \u2013 mit oder ohne DSGVO-Vermerk?\u201C", value: 18, color: "#f59e0b" },
+                { label: "\u201EIst das ein K\u00FCnstler von der Karlsruher Kunsthochschule?\u201C", value: 14, color: "#67e8f9" },
+                { label: "\u201EReden wir hier von 5 Jahren oder von den KIT-5-Jahren?\u201C", value: 10, color: "#64748b" },
+                { label: "\u201EWas kostet mich das denn dann?\u201C, gleich zweimal", value: 6, color: "#0e2a4b" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Wie eine Karlsruher Pflegeeinrichtung sich einen ARMAR im Jahr 2032 vorstellt",
+              slices: [
+                { label: "Hilft nachts, wenn der Pflegedienst nur zu zweit unterwegs ist", value: 30, color: "#0891b2" },
+                { label: "Bringt Wasser und Fernbedienung, wenn Bewohner klingeln", value: 22, color: "#164e63" },
+                { label: "Wird nach zwei Wochen \u201EHerr Doktor\u201C genannt, weil er so ruhig spricht", value: 20, color: "#f59e0b" },
+                { label: "L\u00E4sst sich vom 92-j\u00E4hrigen Herrn Meier beim Skat schlagen", value: 14, color: "#67e8f9" },
+                { label: "Erkl\u00E4rt geduldig, warum er das WLAN-Passwort nicht kennt", value: 10, color: "#64748b" },
+                { label: "Wird dennoch vom Chef als \u201Eeigentlich unn\u00F6tig\u201C bezeichnet", value: 4, color: "#0e2a4b" },
+              ] as PieSlice[],
+            },
+          ],
+        },
+      },
+      {
+        type: "timeline",
+        title: "26 Jahre ARMAR in Karlsruhe",
+        subtitle: "Vom 25-DoF-K\u00FCchenroboter bis zum Cyber-Valley-Auftritt",
+        data: {
+          events: [
+            { date: "2000", label: "ARMAR-I wird am damaligen Forschungszentrum Karlsruhe fertig \u2013 der erste Karlsruher Humanoid mit 25 Freiheitsgraden" },
+            { date: "2002", label: "ARMAR-II geht in Betrieb, aus dem DFG-Sonderforschungsbereich 588 \u201ELernende und kooperierende multimodale Roboter\u201C" },
+            { date: "2006\u20132008", label: "ARMAR-III kommt als K\u00FCchenroboter in die Labore \u2013 das Modell, das die \u00D6ffentlichkeit als \u201Eden KIT-Roboter\u201C kennenlernt" },
+            { date: "2012", label: "ARMAR-4 wird zum ersten laufenden Humanoiden der Karlsruher Familie \u2013 zwei Beine, zwei Arme, ein Torso" },
+            { date: "April 2026", label: "ARMAR-7 tritt auf der Hannover Messe erstmals \u00F6ffentlich als lernender Assistent auf \u2013 mit VINCENT-H\u00E4nden aus Karlsruhe", highlight: true },
+            { date: "9. September 2026", label: "Cyber Valley Day in T\u00FCbingen: 10 Jahre KI- und Robotik-Zentrum, MP Cem \u00D6zdemir er\u00F6ffnet das Programm", highlight: true },
+            { date: "11. September 2026", label: "KIT ver\u00F6ffentlicht die offizielle Meldung: ARMAR-7 hat den Ministerpr\u00E4sidenten in T\u00FCbingen begr\u00FC\u00DFt", highlight: true },
+            { date: "2031\u20132036", label: "Erwartetes Zeitfenster f\u00FCr die ersten produktiven Eins\u00E4tze humanoider Assistenzroboter in deutschen Pflegeeinrichtungen" },
+          ] as TimelineEvent[],
+        },
+      },
+      {
+        type: "comparison",
+        title: "ARMAR-Familie im Vergleich",
+        subtitle: "Freiheitsgrade der Karlsruher Humanoiden im Verlauf der Generationen (grob)",
+        data: {
+          items: [
+            { label: "ARMAR-I (2000)", value: 25, display: "25 Gelenke", color: "#64748b" },
+            { label: "ARMAR-III (2006)", value: 43, display: "43 Gelenke", color: "#67e8f9" },
+            { label: "ARMAR-4 (2012)", value: 63, display: "63 Gelenke", color: "#0891b2" },
+            { label: "ARMAR-6 (2018)", value: 27, display: "27 Gelenke", color: "#164e63" },
+            { label: "ARMAR-7 (2026)", value: 32, display: "\u00FCber 30 Gelenke", color: "#0e2a4b" },
+          ] as BarItem[],
+        },
+      },
+      {
+        type: "stacked-bar",
+        title: "Woraus die Cyber Valley Familie besteht",
+        subtitle: "Beteiligungen am 2016 gegr\u00FCndeten Cyber Valley Innovation Campus \u2013 grobe Verteilung nach Cluster",
+        data: {
+          categories: [
+            "Max-Planck-Institute (Intelligente Systeme)",
+            "Universit\u00E4t T\u00FCbingen (Cluster ML/AI)",
+            "Universit\u00E4t Stuttgart",
+            "Karlsruher Institut f\u00FCr Technologie (seit 2024)",
+            "Industriepartner (Bosch, Amazon, Mercedes\u2026)",
+            "Start-ups und Ausgr\u00FCndungen",
+          ],
+          stacks: [
+            { label: "Aktive Forschungsgruppen (grob)", color: "#0891b2" },
+          ],
+          unit: "Gruppen",
+          values: [
+            [24],
+            [18],
+            [10],
+            [8],
+            [12],
+            [22],
+          ],
+        },
+      },
+      {
+        type: "quote",
+        title: "Zitat",
+        data: {
+          text: "Der Roboter soll in der Lage sein, die Intention des Menschen zu erkennen. Solange ich meinen Arm nicht ausstrecke, wird er nicht versuchen, mir das Objekt zu \u00FCbergeben. Aber in dem Moment wird er das tun.",
+          author: "Prof. Tamim Asfour, Leiter des H\u00B2T-Labors am KIT (Hannover Messe 2026)",
+          color: "#0891b2",
+        },
+      },
+      {
+        type: "waffle",
+        title: "Wie viele Sekunden pro Aufgabe braucht ARMAR-7\u202F?",
+        subtitle: "Grobe Sch\u00E4tzung f\u00FCr eine 100er-Aufgabe wie \u201ESp\u00FClmaschine ausr\u00E4umen\u201C \u2013 im Vergleich zum ge\u00FCbten Menschen",
+        data: {
+          total: 100,
+          filled: 70,
+          filledColor: "#0891b2",
+          emptyColor: "#e5e7eb",
+          annotation: "F\u00FCr eine 100 Sekunden lange Alltagsaufgabe braucht der ge\u00FCbte Mensch rund 30 Sekunden, ARMAR-7 rund 100 \u2013 der Unterschied ist noch gro\u00DF. Prof. Asfour beziffert die verbleibende Reifezeit f\u00FCr flexible, sichere humanoide Assistenz auf f\u00FCnf bis zehn Jahre. Genau daran arbeitet das H\u00B2T-Labor am KIT jeden Werktag.",
+          secondaryFilled: 30,
+          secondaryColor: "#f59e0b",
+          filledLabel: "Der zus\u00E4tzliche Zeitbedarf des Roboters (70)",
+          secondaryLabel: "Reiner Bearbeitungsanteil des Menschen (30)",
+          emptyLabel: "",
+        },
+      },
+    ],
+    sources: [
+      "kit.edu, KIT zeigt humanoiden Roboter ARMAR beim Cyber Valley Day (11.\u202F9.\u202F2026)",
+      "kit.edu (english), KIT Showcases Humanoid Robot ARMAR at Cyber Valley Day (11.\u202F9.\u202F2026)",
+      "h2t.iar.kit.edu, ARMAR-Familie und ARMAR-7 (Stand 2026)",
+      "SWR Aktuell, W\u00E4sche sortieren, Geschirr ausr\u00E4umen: Humanoider Roboter ARMAR-7 (22.\u202F4.\u202F2026)",
+      "vincentsystems.de, Robotik-Kooperation mit KIT ARMAR-7",
+      "cyber-valley.de, Cyber Valley Day 2026 \u2013 10 Jahre Innovation Campus (10.\u202F9.\u202F2026)",
+      "landtag-bw.de, Cem \u00D6zdemir zum Ministerpr\u00E4sidenten gew\u00E4hlt (13.\u202F5.\u202F2026)",
+      "Asfour et al., The Karlsruhe ARMAR Humanoid Robot (2017, Fachbeitrag)",
+    ],
+    editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt. Die Cyber-Valley-Cluster-Verteilung und die Aufgaben-Sekundenwerte sind grobe Sch\u00E4tzungen zur Illustration; die Freiheitsgrade der ARMAR-Generationen entsprechen den ver\u00F6ffentlichten Angaben des H\u00B2T-Labors am KIT.",
+    socialPostText: "ARMAR-7 hat sich diese Woche vor Ministerpr\u00E4sident \u00D6zdemir vorgestellt: 7. Generation, \u00FCber 30 Gelenke, seit 26 Jahren wird die Karlsruher Roboterfamilie entwickelt. Bis er wirklich im Pflegealltag steht, kalkuliert der KIT-Chefentwickler 5 bis 10 Jahre. Wir freuen uns schon aufs Skatspielen.\n\n\u27A1 ka-life.de/#/kw/kw37-2026",
+  },
+  {
     id: "kw36-2026",
     weekNumber: 36,
     year: 2026,
