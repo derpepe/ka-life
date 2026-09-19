@@ -41,6 +41,176 @@ export interface WeeklyInfographic {
 
 export const infographics: WeeklyInfographic[] = [
   {
+    id: "kw38-2026",
+    weekNumber: 38,
+    year: 2026,
+    dateRange: "14.\u201320. September 2026",
+    title: "Fieberthermometer im Wildpark",
+    subtitle: "Heute um 13 Uhr trifft der KSC (Platz 12, 5 Punkte, drei Spiele sieglos) auf den 1. FC N\u00FCrnberg (Platz 2, 13 Punkte, ungeschlagen). Miroslav Klose gegen Maximilian Senft, S\u00FCd-Derby im BBBank Wildpark \u2013 der fr\u00FCheste Stimmungstest der Saison.",
+    kicker: "KSC \u2013 1. FC N\u00FCrnberg",
+    theme: {
+      accent: "#dc2626",
+      accentLight: "#fca5a5",
+      accentDark: "#7f1d1d",
+      secondary: "#0f172a",
+      tertiary: "#f59e0b",
+      background: "#fafafa",
+    },
+    socialCard: {
+      headline: "5 Punkte, 12. Platz,\n13 Uhr Wildpark",
+      subline: "KSC \u2013 1.\u202FFC N\u00FCrnberg \u00B7 Sa 19.\u202F9.\u202F2026 \u00B7 KW 38",
+      keyNumber: "5",
+      keyLabel: "Punkte aus 5 Spielen \u2013 der KSC ist auf Platz 12 gerutscht",
+      gradient: "linear-gradient(135deg, #dc2626 0%, #991b1b 45%, #450a0a 100%)",
+    },
+    sections: [
+      {
+        type: "number-cards",
+        title: "Der 6. Spieltag in Zahlen",
+        subtitle: "Was der KSC gegen den 1. FC N\u00FCrnberg heute um 13 Uhr im Wildpark zu verlieren hat",
+        data: {
+          cards: [
+            { value: "5", unit: "Punkte", label: "Hat der KSC nach 5 Spielen \u2013 einer Sieg, zwei Remis, zwei Niederlagen", color: "#dc2626" },
+            { value: "13", unit: "Punkte", label: "Stehen bei N\u00FCrnberg auf dem Konto \u2013 vier Siege, ein Remis, ungeschlagen", color: "#0f172a" },
+            { value: "11", unit: "Gegentore", label: "Musste der KSC bereits schlucken \u2013 elf in f\u00FCnf Partien, elfth\u00F6chster Wert der Liga", color: "#7f1d1d" },
+            { value: "3.600", unit: "Franken", label: "So viele N\u00FCrnberger Fans reisen erwartet zum S\u00FCd-Derby in den Wildpark", color: "#f59e0b" },
+          ] as NumberCard[],
+        },
+      },
+      {
+        type: "torte-der-wahrheit",
+        title: "F\u00E4chertorten",
+        subtitle: "Drei Karlsruher Innenansichten, drei Stunden vor dem Anpfiff des S\u00FCd-Derbys",
+        data: {
+          pies: [
+            {
+              title: "Was der Karlsruher heute Morgen beim Fr\u00FChst\u00FCck denkt",
+              slices: [
+                { label: "\u201EEigentlich haben wir gegen Cottbus nur \u2018n Tag erwischt\u201C", value: 30, color: "#dc2626" },
+                { label: "\u201EKlose ist eine Legende, den d\u00FCrfen wir schlagen \u2013 einmalig\u201C", value: 22, color: "#991b1b" },
+                { label: "\u201EOhne Broschinski wird das schwer, aber Fukuda\u2026\u201C", value: 18, color: "#7f1d1d" },
+                { label: "\u201EHelmut, um wie viel Uhr wollen wir am Wildpark sein?\u201C", value: 14, color: "#f59e0b" },
+                { label: "\u201EDie Wettquote ist 3,00 f\u00FCr uns \u2013 das ist doch ein Zeichen\u201C", value: 10, color: "#fca5a5" },
+                { label: "\u201EIch glaub, ich schau nur die Konferenz auf Sky\u201C", value: 6, color: "#450a0a" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Was Senfts Notizen f\u00FCr die Halbzeitansprache enthalten k\u00F6nnten",
+              slices: [
+                { label: "\u201EWir sind zu weit weg vom Gegner \u2013 zehn Meter kompakter, bitte\u201C", value: 28, color: "#dc2626" },
+                { label: "\u201EDer H\u00E9liton-Wechsel jetzt kostet mich mein erstes Debut\u201C", value: 22, color: "#991b1b" },
+                { label: "\u201EOffener Zweikampf mit Klose bringt uns nichts, wir m\u00FCssen laufen\u201C", value: 20, color: "#7f1d1d" },
+                { label: "\u201EEgloff kann rein \u2013 aber nur, wenn er die letzten 30 Minuten \u00FCbersteht\u201C", value: 16, color: "#f59e0b" },
+                { label: "\u201EKein Trainer verliert einen Job in der Halbzeitansprache\u201C, murmelnd", value: 14, color: "#0f172a" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Welche Szenarien der Karlsruher heute Abend zu Hause zu erkl\u00E4ren hat",
+              slices: [
+                { label: "Sensationssieg gegen Klose \u2013 die Kneipe im Karnies bebt bis Mitternacht", value: 18, color: "#dc2626" },
+                { label: "1:1 \u2013 alle nicken, keiner sagt, dass es nicht reicht", value: 22, color: "#991b1b" },
+                { label: "1:2, Diskussion \u00FCber den entscheidenden Fehler bis zum Ende", value: 26, color: "#7f1d1d" },
+                { label: "0:3 wie gegen Cottbus \u2013 die Fenster bleiben zu, das Radler auch", value: 18, color: "#0f172a" },
+                { label: "5:1 wie letzte Saison in N\u00FCrnberg \u2013 wir haben es ja geahnt", value: 12, color: "#450a0a" },
+                { label: "Torfestival 3:3 und trotzdem zufrieden, das wollen wir sehen", value: 4, color: "#f59e0b" },
+              ] as PieSlice[],
+            },
+          ],
+        },
+      },
+      {
+        type: "timeline",
+        title: "Die KSC-Saison bisher",
+        subtitle: "Vom furiosen Auftaktsieg zum Cottbus-Kater in sechs Wochen",
+        data: {
+          events: [
+            { date: "8. August 2026", label: "KSC \u2013 Arminia Bielefeld 2:1, Auftakt der Senft-\u00C4ra mit einem echten Heimsieg im ausverkauften Wildpark", highlight: true },
+            { date: "15. August 2026", label: "Kaiserslautern \u2013 KSC 0:0 im S\u00FCdwest-Derby \u2013 kein Sieger, aber Punkt mitgenommen" },
+            { date: "22. August 2026", label: "DFB-Pokal 1. Runde in Emden 9:1, Broschinski trifft und humpelt sp\u00E4ter vom Feld" },
+            { date: "29. August 2026", label: "KSC \u2013 VfL Wolfsburg 2:5, erste Heimniederlage \u2013 hier begann die Serie ohne Sieg" },
+            { date: "4. September 2026", label: "Hannover 96 \u2013 KSC 2:2, Pinto Pedrosa rettet in der 86. den Punkt" },
+            { date: "13. September 2026", label: "KSC \u2013 Energie Cottbus 0:3, Aufsteiger-Klatsche im eigenen Stadion", highlight: true },
+            { date: "19. September 2026, 13 Uhr", label: "KSC \u2013 1. FC N\u00FCrnberg im Wildpark. Anpfiff. Prof. Klose beobachtet. Wildpark f\u00FCllt sich", highlight: true },
+            { date: "20. September\u2013 4. Oktober", label: "L\u00E4nderspielpause \u2013 Zeit f\u00FCr Individualtraining, Testspiele und ein paar Nachtgespr\u00E4che" },
+          ] as TimelineEvent[],
+        },
+      },
+      {
+        type: "comparison",
+        title: "KSC vs. N\u00FCrnberg im direkten Vergleich",
+        subtitle: "Kernwerte aus den bisherigen f\u00FCnf Spieltagen der 2. Bundesliga 2026/27",
+        data: {
+          items: [
+            { label: "1. FC N\u00FCrnberg \u2013 Punkte", value: 13, display: "13 Pkt.", color: "#0f172a" },
+            { label: "KSC \u2013 Punkte", value: 5, display: "5 Pkt.", color: "#dc2626" },
+            { label: "N\u00FCrnberg \u2013 Tordifferenz", value: 9, display: "+9 (15:6)", color: "#7f1d1d" },
+            { label: "KSC \u2013 Tordifferenz", value: -5, display: "\u22125 (6:11)", color: "#991b1b" },
+            { label: "N\u00FCrnberg-Fans im Wildpark", value: 3.6, display: "\u2248 3.600", color: "#f59e0b" },
+          ] as BarItem[],
+        },
+      },
+      {
+        type: "stacked-bar",
+        title: "Was Buchmacher heute Morgen sagen",
+        subtitle: "Implizite Wahrscheinlichkeit der drei Ausg\u00E4nge laut deutschem Wettquotenschnitt (aibetting/Betano, 18.\u202F9.\u202F2026)",
+        data: {
+          categories: [
+            "N\u00FCrnberg gewinnt",
+            "Unentschieden",
+            "KSC gewinnt",
+          ],
+          stacks: [
+            { label: "Wahrscheinlichkeit", color: "#dc2626" },
+          ],
+          unit: "%",
+          values: [
+            [45],
+            [25],
+            [30],
+          ],
+        },
+      },
+      {
+        type: "quote",
+        title: "Zitat",
+        data: {
+          text: "Der Trainerkollege hat den Finger in die Wunde gelegt. Wir wissen, wo wir stehen. Und wir werden nicht die Kernidee verlassen \u2013 aber die richtigen kleinen Adaptionen finden.",
+          author: "Maximilian Senft, KSC-Cheftrainer \u00B7 Presserunde 18.\u202F9.\u202F2026 im Wildpark",
+          color: "#dc2626",
+        },
+      },
+      {
+        type: "waffle",
+        title: "Wo Karlsruher heute 13 Uhr sitzen",
+        subtitle: "Von 100 erwachsenen Karlsruher:innen \u2013 wer verfolgt den Spielstart live?",
+        data: {
+          total: 100,
+          filled: 30,
+          filledColor: "#dc2626",
+          emptyColor: "#e5e7eb",
+          annotation: "Rund 30 von 100 erwachsenen Karlsruher:innen verfolgen das S\u00FCd-Derby ab dem Anpfiff \u2013 im Wildpark selbst (rund 30.000 Zuschauer erwartet, davon 3.600 aus N\u00FCrnberg), am Sky-Bildschirm zu Hause, oder in der Sportkneipe zwischen Marktplatz und Werderplatz. Weitere 25 schalten in der zweiten Halbzeit ein oder werfen h\u00F6chstens einen Blick auf den Ticker.",
+          secondaryFilled: 25,
+          secondaryColor: "#f59e0b",
+          filledLabel: "Verfolgen den Anpfiff live (30)",
+          secondaryLabel: "Schalten sp\u00E4ter zu / Ticker-Blick (25)",
+          emptyLabel: "Machen etwas anderes (45)",
+        },
+      },
+    ],
+    sources: [
+      "ksc.de, Matchcenter und Spielplan 2026/27 (Stand 18.\u202F9.\u202F2026)",
+      "ksc.de, Bericht 5. Spieltag KSC \u2013 Energie Cottbus 0:3 (13.\u202F9.\u202F2026)",
+      "bundesliga.com, 2. Bundesliga Tabelle (Stand 18.\u202F9.\u202F2026)",
+      "Wochenblatt Reporter, Abwehrsorgen beim KSC (18.\u202F9.\u202F2026)",
+      "ZEIT, Finger in die Wunde gelegt \u2013 KSC-Sorgen vor N\u00FCrnberg-Spiel (18.\u202F9.\u202F2026)",
+      "ka-news.de, Horror-Woche beim KSC (18.\u202F9.\u202F2026)",
+      "Sportschau, Karlsruher SC Spielplan 2026/27",
+      "aibetting.tips und wetttipsheute.net, Quoten und Prognosen (17.\u202F9.\u202F2026)",
+    ],
+    editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt. Die Buchmacher-Wahrscheinlichkeiten sind aus den ver\u00F6ffentlichten Wettquoten grob abgeleitet (ohne Bereinigung um die Marge); die Karlsruher Zuschauer-Aufteilung ist eine Sch\u00E4tzung des Redaktionsteams.",
+    socialPostText: "Fieberthermometer Wildpark: KSC (Platz 12, 5 Punkte) empf\u00E4ngt heute um 13 Uhr Klose und den 1. FC N\u00FCrnberg (Platz 2, ungeschlagen). Nach der 0:3-Klatsche gegen Cottbus der fr\u00FCheste Stimmungstest der Saison \u2013 wir wissen alle, wo wir sitzen.\n\n\u27A1 ka-life.de/#/kw/kw38-2026",
+  },
+  {
     id: "kw37-2026",
     weekNumber: 37,
     year: 2026,
