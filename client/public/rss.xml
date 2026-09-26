@@ -9,14 +9,30 @@
     <description>Wöchentliche Infografik-Kolumne zu Karlsruhe. Daten, Fakten und satirische Fächertorten aus der Fächerstadt.</description>
     <language>de-DE</language>
     <copyright>© Decisions Made Easy GmbH, Karlsruhe</copyright>
-    <lastBuildDate>Sat, 19 Sep 2026 08:09:39 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 08:06:51 GMT</lastBuildDate>
     <atom:link href="https://ka-life.de/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://ka-life.de/atom.xml" rel="alternate" type="application/atom+xml" />
     <image>
-      <url>https://ka-life.de/social/kw38-2026.png</url>
+      <url>https://ka-life.de/social/kw39-2026.png</url>
       <title>KA-Life — Karlsruhe in Zahlen</title>
       <link>https://ka-life.de</link>
     </image>
+    <item>
+      <title>75 Kerzen, 1,1 Prozent</title>
+      <link>https://ka-life.de/#/kw/kw39-2026</link>
+      <guid isPermaLink="true">https://ka-life.de/#/kw/kw39-2026</guid>
+      <pubDate>Sun, 27 Sep 2026 08:00:00 GMT</pubDate>
+      <category>75 Jahre Bundesverfassungsgericht</category>
+      <description><![CDATA[Am Montag, 28. September, wird das Bundesverfassungsgericht exakt 75 Jahre alt. Festakt in der Stadthalle mit Bundespräsident Steinmeier und rund 1.000 Gästen – und ein Blick auf die Zahlen hinter dem wichtigsten Gericht, das in Karlsruhe sitzt.
+
+Das Bundesverfassungsgericht wird am Montag 75 – und von 100 Verfassungsbeschwerden hat gerade mal eine Erfolg. Alles Gute, Karlsruhe, zum Gericht mit der härtesten Tür der Republik.
+
+➡ ka-life.de/#/kw/kw39-2026]]></description>
+      <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw39-2026.png" alt="KA-Life KW39-2026: 75 Kerzen, 1,1 Prozent" /></p><p>Am Montag, 28. September, wird das Bundesverfassungsgericht exakt 75 Jahre alt. Festakt in der Stadthalle mit Bundespräsident Steinmeier und rund 1.000 Gästen – und ein Blick auf die Zahlen hinter dem wichtigsten Gericht, das in Karlsruhe sitzt.</p><p>Das Bundesverfassungsgericht wird am Montag 75 – und von 100 Verfassungsbeschwerden hat gerade mal eine Erfolg. Alles Gute, Karlsruhe, zum Gericht mit der härtesten Tür der Republik.<br/><br/>➡ ka-life.de/#/kw/kw39-2026</p>]]></content:encoded>
+      <enclosure url="https://ka-life.de/social/kw39-2026.png" length="611567" type="image/png" />
+      <media:content url="https://ka-life.de/social/kw39-2026.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://ka-life.de/social/kw39-2026.png" />
+    </item>
     <item>
       <title>Fieberthermometer im Wildpark</title>
       <link>https://ka-life.de/#/kw/kw38-2026</link>

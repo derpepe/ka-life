@@ -8,12 +8,25 @@
   <link rel="self" type="application/atom+xml" href="https://ka-life.de/atom.xml" />
   <link rel="alternate" type="text/html" href="https://ka-life.de" />
   <link rel="alternate" type="application/rss+xml" href="https://ka-life.de/rss.xml" />
-  <updated>2026-09-19T08:09:39.461Z</updated>
+  <updated>2026-09-26T08:06:51.916Z</updated>
   <rights>© Decisions Made Easy GmbH, Karlsruhe</rights>
   <author>
     <name>Decisions Made Easy GmbH</name>
     <email>ka-life@pjs.de</email>
   </author>
+  <entry>
+    <id>https://ka-life.de/#/kw/kw39-2026</id>
+    <title>75 Kerzen, 1,1 Prozent</title>
+    <link rel="alternate" type="text/html" href="https://ka-life.de/#/kw/kw39-2026" />
+    <link rel="enclosure" type="image/png" length="611567" href="https://ka-life.de/social/kw39-2026.png" />
+    <published>2026-09-27T08:00:00.000Z</published>
+    <updated>2026-09-27T08:00:00.000Z</updated>
+    <category term="75 Jahre Bundesverfassungsgericht" />
+    <summary>Am Montag, 28. September, wird das Bundesverfassungsgericht exakt 75 Jahre alt. Festakt in der Stadthalle mit Bundespräsident Steinmeier und rund 1.000 Gästen – und ein Blick auf die Zahlen hinter dem wichtigsten Gericht, das in Karlsruhe sitzt.</summary>
+    <content type="html"><![CDATA[<p><img src="https://ka-life.de/social/kw39-2026.png" alt="KA-Life KW39-2026: 75 Kerzen, 1,1 Prozent" /></p><p>Am Montag, 28. September, wird das Bundesverfassungsgericht exakt 75 Jahre alt. Festakt in der Stadthalle mit Bundespräsident Steinmeier und rund 1.000 Gästen – und ein Blick auf die Zahlen hinter dem wichtigsten Gericht, das in Karlsruhe sitzt.</p><p>Das Bundesverfassungsgericht wird am Montag 75 – und von 100 Verfassungsbeschwerden hat gerade mal eine Erfolg. Alles Gute, Karlsruhe, zum Gericht mit der härtesten Tür der Republik.<br/><br/>➡ ka-life.de/#/kw/kw39-2026</p>]]></content>
+    <media:content url="https://ka-life.de/social/kw39-2026.png" medium="image" type="image/png" />
+    <media:thumbnail url="https://ka-life.de/social/kw39-2026.png" />
+  </entry>
   <entry>
     <id>https://ka-life.de/#/kw/kw38-2026</id>
     <title>Fieberthermometer im Wildpark</title>

@@ -41,6 +41,165 @@ export interface WeeklyInfographic {
 
 export const infographics: WeeklyInfographic[] = [
   {
+    id: "kw39-2026",
+    weekNumber: 39,
+    year: 2026,
+    dateRange: "21.\u201327. September 2026",
+    title: "75 Kerzen, 1,1 Prozent",
+    subtitle: "Am Montag, 28. September, wird das Bundesverfassungsgericht exakt 75 Jahre alt. Festakt in der Stadthalle mit Bundespr\u00E4sident Steinmeier und rund 1.000 G\u00E4sten \u2013 und ein Blick auf die Zahlen hinter dem wichtigsten Gericht, das in Karlsruhe sitzt.",
+    kicker: "75 Jahre Bundesverfassungsgericht",
+    theme: {
+      accent: "#b8860b",
+      accentLight: "#f5d67a",
+      accentDark: "#1f2937",
+      secondary: "#374151",
+      tertiary: "#9a3412",
+      background: "#fafafa",
+    },
+    socialCard: {
+      headline: "75 Kerzen,\n1,1 Prozent",
+      subline: "Bundesverfassungsgericht \u00B7 Festakt Mo 28. 9. 2026 \u00B7 KW 39",
+      keyNumber: "1,1 %",
+      keyLabel: "Erfolgsquote der Verfassungsbeschwerden 2025 \u2013 55 von 4.916",
+      gradient: "linear-gradient(135deg, #1f2937 0%, #374151 50%, #b8860b 100%)",
+    },
+    sections: [
+      {
+        type: "number-cards",
+        title: "Das Gericht in Zahlen",
+        subtitle: "Jahresbericht 2025 und Jubil\u00E4umsprogramm des Bundesverfassungsgerichts",
+        data: {
+          cards: [
+            { value: "75", unit: "Jahre", label: "Am 28. September 1951 wurde das Gericht im Karlsruher Schauspielhaus er\u00F6ffnet", color: "#b8860b" },
+            { value: "4.939", unit: "Eing\u00E4nge", label: "Neue Verfahren im Jahr 2025 \u2013 96 Prozent davon Verfassungsbeschwerden", color: "#1f2937" },
+            { value: "55", unit: "Erfolge", label: "Erfolgreiche Verfassungsbeschwerden 2025, bei 4.916 entschiedenen", color: "#9a3412" },
+            { value: "263.434", unit: "Beschwerden", label: "Verfassungsbeschwerden sind seit 1951 in Karlsruhe eingegangen", color: "#374151" },
+          ] as NumberCard[],
+        },
+      },
+      {
+        type: "torte-der-wahrheit",
+        title: "F\u00E4chertorten",
+        subtitle: "Das Gericht verteilt zum Geburtstag Torte in 16 Schulen. Wir verteilen drei.",
+        data: {
+          pies: [
+            {
+              title: "Wie die Verfassungsbeschwerden 2025 bei den Absendern ankamen",
+              slices: [
+                { label: "\u201ENicht zur Entscheidung angenommen\u201C \u2013 drei Zeilen, daf\u00FCr auf sehr gutem Papier", value: 58, color: "#1f2937" },
+                { label: "Erkenntnis, dass \u201ENachbar m\u00E4ht sonntags in der Weststadt\u201C kein Grundrecht ber\u00FChrt", value: 20, color: "#374151" },
+                { label: "Frist verpasst, weil man dachte, Karlsruhe arbeitet so z\u00FCgig wie die Kombil\u00F6sung", value: 12, color: "#9a3412" },
+                { label: "Noch in Bearbeitung, gef\u00FChlt seit der Er\u00F6ffnung des Stadtbahntunnels", value: 9, color: "#f5d67a" },
+                { label: "Erfolgreich \u2013 Sekt am Schlossplatz", value: 1, color: "#b8860b" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Wer am Montag um 11 Uhr in der Stadthalle sitzt",
+              slices: [
+                { label: "Bundesprominenz, deren Dienstwagen am Festplatz keinen Parkplatz findet", value: 42, color: "#1f2937" },
+                { label: "300 B\u00FCrger:innen, die am 3. September um 12:00:01 Uhr schneller klickten als je bei DAS-FEST-Tickets", value: 23, color: "#b8860b" },
+                { label: "Ehemalige Richter, die Steinmeiers Rede leise auf Verfassungsm\u00E4\u00DFigkeit pr\u00FCfen", value: 15, color: "#374151" },
+                { label: "Personenschutz, der vorsichtshalber jeden Zaun zwischen Schloss und BGH im Blick hat", value: 12, color: "#9a3412" },
+                { label: "Karlsruher:innen, die ehrlich gesagt wegen des Buffets gekommen sind", value: 8, color: "#f5d67a" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Was Karlsruhe am 29. September vom Jubil\u00E4um bleibt",
+              slices: [
+                { label: "Das Gef\u00FChl, \u201EResidenz des Rechts\u201C zu sein \u2013 bis zur n\u00E4chsten Haushaltssperre", value: 34, color: "#b8860b" },
+                { label: "Absperrgitter in der Karl-Friedrich-Stra\u00DFe, die vermutlich bis zum Christkindlesmarkt bleiben", value: 24, color: "#374151" },
+                { label: "Die Erkenntnis, dass die Geburtstagstorte in 16 Bundesl\u00E4ndern verteilt wird, aber nicht im Audimax", value: 20, color: "#9a3412" },
+                { label: "Der Gemeinderat, der ab Dienstag auch endlich einen Livestream hat \u2013 einen Tag nach dem ZDF", value: 14, color: "#1f2937" },
+                { label: "Ein neues Profilbild vom Platz der Grundrechte", value: 8, color: "#f5d67a" },
+              ] as PieSlice[],
+            },
+          ],
+        },
+      },
+      {
+        type: "timeline",
+        title: "Vom Schauspielhaus zur Stadthalle",
+        subtitle: "Die wichtigsten Termine rund um den 75. Geburtstag",
+        data: {
+          events: [
+            { date: "28. September 1951", label: "Feierliche Er\u00F6ffnung des Bundesverfassungsgerichts im Karlsruher Schauspielhaus", highlight: true },
+            { date: "16. Mai 2026", label: "Tag der offenen T\u00FCr \u2013 rund 4.500 Besucherinnen und Besucher im Gericht" },
+            { date: "Mai 2026", label: "Gl\u00E4serner Cube auf dem Marktplatz mit Richterroben und digitalen Einblicken" },
+            { date: "3. September 2026, 12 Uhr", label: "Rund 300 kostenlose B\u00FCrgertickets f\u00FCr den Festakt gehen online" },
+            { date: "28. September 2026, 10:45 Uhr", label: "ZDF spezial \u00FCbertr\u00E4gt live aus Karlsruhe, moderiert von Sarah Tacke" },
+            { date: "28. September 2026, 11 Uhr", label: "Festakt in der Stadthalle: Festrede von Bundespr\u00E4sident Steinmeier, Gespr\u00E4ch mit Andreas Vo\u00DFkuhle", highlight: true },
+            { date: "28. September 2026, ab 15 Uhr", label: "Kunstaktionen und Sound-Performance auf dem Platz der Grundrechte" },
+            { date: "29. September 2026, 20:15 Uhr", label: "ZDF-Doku \u201ELetzte Instanz \u2013 Urteile \u00FCber Leben und Tod\u201C zur Schleyer-Nacht 1977" },
+            { date: "bis Oktober 2026", label: "Alle 16 Richterinnen und Richter besuchen je eine Schule in einem Bundesland \u2013 mit Geburtstagstorte" },
+          ] as TimelineEvent[],
+        },
+      },
+      {
+        type: "comparison",
+        title: "Wer beim Geburtstag dabei ist",
+        subtitle: "Teilnehmerzahlen im Jubil\u00E4umsjahr",
+        data: {
+          items: [
+            { label: "Tag der offenen T\u00FCr (16. 5.)", value: 4500, display: "\u2248 4.500", color: "#b8860b" },
+            { label: "Geladene G\u00E4ste beim Festakt", value: 1000, display: "\u2248 1.000", color: "#1f2937" },
+            { label: "Kostenlose B\u00FCrgertickets", value: 300, display: "\u2248 300", color: "#9a3412" },
+            { label: "Mitarbeitende des Gerichts", value: 295, display: "\u2248 295", color: "#374151" },
+            { label: "Richterinnen und Richter", value: 16, display: "16", color: "#f5d67a" },
+          ] as BarItem[],
+        },
+      },
+      {
+        type: "stacked-bar",
+        title: "Wie die 5.208 Erledigungen 2025 zustande kamen",
+        subtitle: "Nur ein Bruchteil wird von einem der beiden Senate mit acht Richtern entschieden",
+        data: {
+          categories: [
+            "Kammerentscheidungen (drei Richter)",
+            "Sonstige Erledigungen",
+            "Senatsentscheidungen (acht Richter)",
+          ],
+          stacks: [
+            { label: "Verfahren", color: "#b8860b" },
+          ],
+          unit: "Verfahren",
+          values: [
+            [4913],
+            [237],
+            [58],
+          ],
+        },
+      },
+      {
+        type: "waffle",
+        title: "Wie lange Karlsruhe braucht",
+        subtitle: "Verfahrensdauer am Bundesverfassungsgericht, Durchschnitt 2016 bis 2025 \u2013 von 100 Verfahren",
+        data: {
+          total: 100,
+          filled: 83,
+          filledColor: "#b8860b",
+          emptyColor: "#e5e7eb",
+          annotation: "83 von 100 Verfahren sind nach sp\u00E4testens einem Jahr erledigt, weitere 10 nach bis zu zwei Jahren. 7 dauern l\u00E4nger \u2013 3 davon sogar \u00FCber drei Jahre.",
+          secondaryFilled: 10,
+          secondaryColor: "#374151",
+          filledLabel: "Bis zu 1 Jahr (83)",
+          secondaryLabel: "1 bis 2 Jahre (10)",
+          emptyLabel: "L\u00E4nger als 2 Jahre (7)",
+        },
+      },
+    ],
+    sources: [
+      "Bundesverfassungsgericht, Jahresbericht 2025",
+      "Bundesverfassungsgericht, Pressemitteilung Nr. 42/2026 (15. 7. 2026)",
+      "Bundesverfassungsgericht, Pressemitteilung Nr. 52/2026 (31. 8. 2026)",
+      "Bundesverfassungsgericht, Jubil\u00E4umsseite 75 Jahre BVerfG",
+      "ZDF Presseportal, ZDF spezial und Doku \u201ELetzte Instanz\u201C",
+      "Wochenblatt Reporter, Kunstaktionen auf dem Platz der Grundrechte (September 2026)",
+      "Wochenblatt Reporter, Gemeinderat startet Livestream (24. 9. 2026)",
+    ],
+    editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt. Die Erfolgsquote von 1,1 Prozent ist aus den im Jahresbericht 2025 genannten 55 erfolgreichen von 4.916 entschiedenen Verfassungsbeschwerden berechnet; der Zehnjahresschnitt liegt bei 1,48 Prozent.",
+    socialPostText: "Das Bundesverfassungsgericht wird am Montag 75 \u2013 und von 100 Verfassungsbeschwerden hat gerade mal eine Erfolg. Alles Gute, Karlsruhe, zum Gericht mit der h\u00E4rtesten T\u00FCr der Republik.\n\n\u27A1 ka-life.de/#/kw/kw39-2026",
+  },
+  {
     id: "kw38-2026",
     weekNumber: 38,
     year: 2026,
