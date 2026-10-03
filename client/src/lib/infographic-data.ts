@@ -41,6 +41,151 @@ export interface WeeklyInfographic {
 
 export const infographics: WeeklyInfographic[] = [
   {
+    id: "kw40-2026",
+    weekNumber: 40,
+    year: 2026,
+    dateRange: "28. September \u2013 4. Oktober 2026",
+    title: "20,90 Euro zur\u00FCck aus Karlsruhe",
+    subtitle: "Der Bundesgerichtshof hat am 1. Oktober die Prime-Preiserh\u00F6hung von 2022 gekippt. Millionen Altkunden zahlen vorerst wieder den alten Preis \u2013 und k\u00F6nnen f\u00FCr bis zu drei Jahre Geld zur\u00FCckfordern.",
+    kicker: "BGH-Urteil Amazon Prime",
+    theme: {
+      accent: "#8b5a2b",
+      accentLight: "#e7c9a0",
+      accentDark: "#3b2a1a",
+      secondary: "#1e3a8a",
+      tertiary: "#15803d",
+      background: "#fafafa",
+    },
+    socialCard: {
+      headline: "20,90 Euro zur\u00FCck\naus Karlsruhe",
+      subline: "BGH III ZR 205/25 \u00B7 Urteil vom 1. 10. 2026 \u00B7 KW 40",
+      keyNumber: "20,90 \u20AC",
+      keyLabel: "Aufschlag pro Jahr seit September 2022 \u2013 laut BGH unwirksam",
+      gradient: "linear-gradient(135deg, #c8a27a 0%, #8b5a2b 50%, #3b2a1a 100%)",
+    },
+    sections: [
+      {
+        type: "number-cards",
+        title: "Das Urteil in Zahlen",
+        subtitle: "BGH, III. Zivilsenat, Az. III ZR 205/25, verk\u00FCndet am 1. Oktober 2026",
+        data: {
+          cards: [
+            { value: "69 \u2192 89,90", unit: "\u20AC / Jahr", label: "So stieg der Prime-Jahresbeitrag im September 2022 \u2013 ein Plus von gut 30 Prozent", color: "#8b5a2b" },
+            { value: "7,99 \u2192 8,99", unit: "\u20AC / Monat", label: "Die Erh\u00F6hung beim Monatsabo \u2013 ein Euro mehr, jeden Monat", color: "#1e3a8a" },
+            { value: "3", unit: "Jahre", label: "So weit zur\u00FCck k\u00F6nnen Betroffene laut Verbraucherzentrale NRW individuell Geld zur\u00FCckfordern", color: "#15803d" },
+            { value: "145.000", unit: "Eintr\u00E4ge", label: "Menschen haben sich bereits ins Klageregister der Sammelklage am OLG Hamm eingetragen", color: "#3b2a1a" },
+          ] as NumberCard[],
+        },
+      },
+      {
+        type: "torte-der-wahrheit",
+        title: "F\u00E4chertorten",
+        subtitle: "Das Urteil kommt aus der Herrenstra\u00DFe. Die Pointen auch.",
+        data: {
+          pies: [
+            {
+              title: "Was Karlsruher mit 20,90 Euro im Jahr anfangen",
+              slices: [
+                { label: "Direkt zur\u00FCck in Prime, weil die Serie gerade spannend wird", value: 34, color: "#8b5a2b" },
+                { label: "Eine Ma\u00DF auf dem Oktoberfest am Messplatz \u2013 die zweite zahlt man dann wieder selbst", value: 24, color: "#1e3a8a" },
+                { label: "Ein Drittel Deutschlandticket \u2013 also ungef\u00E4hr Durlach bis M\u00FChlburg, gef\u00FChlt", value: 16, color: "#15803d" },
+                { label: "Prime k\u00FCndigen und sich dabei kurz wie ein Bundesrichter f\u00FChlen", value: 16, color: "#3b2a1a" },
+                { label: "Klageregister ge\u00F6ffnet, Formular ausgef\u00FCllt, ELSTER-Passwort gesucht, aufgegeben", value: 10, color: "#e7c9a0" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Was die S\u00FCdstadt vom Prime-Urteil mitbekommt",
+              slices: [
+                { label: "Paketboten, die am BGH vorbeifahren, um zwei Stra\u00DFen weiter \u201Enicht angetroffen\u201C zu notieren", value: 38, color: "#8b5a2b" },
+                { label: "\u00DCbertragungswagen, die in der Herrenstra\u00DFe die Parkpl\u00E4tze verfassungskonform blockieren", value: 26, color: "#1e3a8a" },
+                { label: "Stolz, dass Karlsruhe einem Weltkonzern Grenzen setzt \u2013 aber kein Wasserspiel am Bernhardusplatz bezahlen kann", value: 24, color: "#15803d" },
+                { label: "Juristen, die in der Mittagspause ihr eigenes Prime-Abo nachrechnen", value: 12, color: "#3b2a1a" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Wie Amazon das Urteil intern verarbeitet",
+              slices: [
+                { label: "Das Wort \u201Evor\u00FCbergehend\u201C in der Pressemitteilung dreimal fett setzen", value: 36, color: "#3b2a1a" },
+                { label: "Neue, garantiert transparente AGB entwerfen \u2013 jetzt mit 400 Seiten", value: 24, color: "#8b5a2b" },
+                { label: "Ausrechnen, dass 145.000 Klageregister-Eintr\u00E4ge ein Rundungsfehler sind", value: 18, color: "#1e3a8a" },
+                { label: "Kunden \u201Evor dem n\u00E4chsten Zahlungstermin\u201C informieren \u2013 Zustellung voraussichtlich morgen", value: 14, color: "#15803d" },
+                { label: "Prime-Video-Doku \u201EKarlsruhe \u2013 Die letzte Instanz\u201C in Auftrag geben", value: 8, color: "#e7c9a0" },
+              ] as PieSlice[],
+            },
+          ],
+        },
+      },
+      {
+        type: "stacked-bar",
+        title: "Woraus der Prime-Preis seit 2022 besteht",
+        subtitle: "Alter Beitrag plus der Aufschlag, den der BGH f\u00FCr unwirksam erkl\u00E4rt hat",
+        data: {
+          categories: [
+            "Jahresabo",
+            "Monatsabo (aufs Jahr gerechnet)",
+          ],
+          stacks: [
+            { label: "Alter Beitrag", color: "#8b5a2b" },
+            { label: "Unwirksamer Aufschlag", color: "#15803d" },
+          ],
+          unit: "\u20AC",
+          values: [
+            [69, 20.9],
+            [95.88, 12],
+          ],
+        },
+      },
+      {
+        type: "comparison",
+        title: "Was sich zur\u00FCckholen l\u00E4sst",
+        subtitle: "Rechnerischer Aufschlag je nach Modell und Zeitraum (eigene Berechnung, ohne Studenten- und Sonderabos)",
+        data: {
+          items: [
+            { label: "Jahresabo, Sept. 2022 bis Sept. 2026 (4 Jahre)", value: 83.6, display: "83,60 \u20AC", color: "#3b2a1a" },
+            { label: "Jahresabo, letzte 3 Jahre", value: 62.7, display: "62,70 \u20AC", color: "#8b5a2b" },
+            { label: "Monatsabo, letzte 3 Jahre", value: 36, display: "36,00 \u20AC", color: "#1e3a8a" },
+            { label: "Jahresabo, ein einziges Jahr", value: 20.9, display: "20,90 \u20AC", color: "#15803d" },
+          ] as BarItem[],
+        },
+      },
+      {
+        type: "timeline",
+        title: "Vier Jahre bis Karlsruhe",
+        subtitle: "Vom Aufpreis zum Urteil",
+        data: {
+          events: [
+            { date: "September 2022", label: "Amazon erh\u00F6ht Prime von 69 auf 89,90 Euro im Jahr bzw. von 7,99 auf 8,99 Euro im Monat \u2013 mit Verweis auf gestiegene Kosten", highlight: true },
+            { date: "Januar 2025", label: "Landgericht D\u00FCsseldorf erkl\u00E4rt die Preisanpassungsklausel f\u00FCr unwirksam" },
+            { date: "Oktober 2025", label: "Oberlandesgericht D\u00FCsseldorf best\u00E4tigt \u2013 Amazon geht zum BGH" },
+            { date: "Dezember 2025", label: "Verbraucherzentrale NRW reicht Sammelklage am OLG Hamm ein (Az. I-13 VKl 1/25)" },
+            { date: "Januar 2026", label: "Bundesamt f\u00FCr Justiz \u00F6ffnet das Klageregister" },
+            { date: "1. Oktober 2026", label: "BGH, III. Zivilsenat: Klausel verst\u00F6\u00DFt gegen das Transparenzgebot und ist unwirksam", highlight: true },
+            { date: "2. Oktober 2026", label: "Amazon senkt den Beitrag vor\u00FCbergehend f\u00FCr Mitglieder mit Abo-Start vor dem 15. September 2022" },
+          ] as TimelineEvent[],
+        },
+      },
+      {
+        type: "quote",
+        title: "Zitat",
+        data: {
+          text: "Der BGH hat jetzt klargestellt: Nicht jede Preisanpassungsklausel ist ein Freifahrtschein f\u00FCr Unternehmen.",
+          author: "Wolfgang Schuldzinski, Vorstand der Verbraucherzentrale NRW (via dpa, 1. 10. 2026)",
+          color: "#8b5a2b",
+        },
+      },
+    ],
+    sources: [
+      "Bundesgerichtshof, Urteil vom 1. 10. 2026, III ZR 205/25",
+      "DIE ZEIT, Amazon Prime: BGH erkl\u00E4rt Preiserh\u00F6hung f\u00FCr unzul\u00E4ssig (1. 10. 2026)",
+      "S\u00FCddeutsche Zeitung / dpa, BGH-Urteil zu Amazon Prime: Was ist nun mit den Preisen? (1. 10. 2026)",
+      "rosenheim24.de, BGH kippt Amazon-Prime-Erh\u00F6hung (2. 10. 2026)",
+      "tagesschau.de, Amazon Prime senkt Preis f\u00FCr Altkunden (2. 10. 2026)",
+      "ka-news.de, Bernhardusplatz: Wasserspiel wegen Kosten gestoppt (30. 9. 2026)",
+    ],
+    editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt. Die R\u00FCckforderungsbetr\u00E4ge sind eigene Rechnungen aus der Preisdifferenz; die tats\u00E4chliche H\u00F6he h\u00E4ngt vom Abo-Modell, der Laufzeit und der Verj\u00E4hrung ab. Keine Rechtsberatung.",
+    socialPostText: "Der BGH in Karlsruhe hat die Prime-Preiserh\u00F6hung von 2022 gekippt \u2013 f\u00FCr Jahreszahler sind das 20,90 Euro pro Jahr, f\u00FCr bis zu drei Jahre r\u00FCckforderbar. Schickt das allen, die seit 2022 brav bezahlt haben.\n\n\u27A1 ka-life.de/#/kw/kw40-2026",
+  },
+  {
     id: "kw39-2026",
     weekNumber: 39,
     year: 2026,

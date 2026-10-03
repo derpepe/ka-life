@@ -8,12 +8,25 @@
   <link rel="self" type="application/atom+xml" href="https://ka-life.de/atom.xml" />
   <link rel="alternate" type="text/html" href="https://ka-life.de" />
   <link rel="alternate" type="application/rss+xml" href="https://ka-life.de/rss.xml" />
-  <updated>2026-09-26T08:06:51.916Z</updated>
+  <updated>2026-10-03T08:04:59.460Z</updated>
   <rights>© Decisions Made Easy GmbH, Karlsruhe</rights>
   <author>
     <name>Decisions Made Easy GmbH</name>
     <email>ka-life@pjs.de</email>
   </author>
+  <entry>
+    <id>https://ka-life.de/#/kw/kw40-2026</id>
+    <title>20,90 Euro zurück aus Karlsruhe</title>
+    <link rel="alternate" type="text/html" href="https://ka-life.de/#/kw/kw40-2026" />
+    <link rel="enclosure" type="image/png" length="637987" href="https://ka-life.de/social/kw40-2026.png" />
+    <published>2026-10-04T08:00:00.000Z</published>
+    <updated>2026-10-04T08:00:00.000Z</updated>
+    <category term="BGH-Urteil Amazon Prime" />
+    <summary>Der Bundesgerichtshof hat am 1. Oktober die Prime-Preiserhöhung von 2022 gekippt. Millionen Altkunden zahlen vorerst wieder den alten Preis – und können für bis zu drei Jahre Geld zurückfordern.</summary>
+    <content type="html"><![CDATA[<p><img src="https://ka-life.de/social/kw40-2026.png" alt="KA-Life KW40-2026: 20,90 Euro zurück aus Karlsruhe" /></p><p>Der Bundesgerichtshof hat am 1. Oktober die Prime-Preiserhöhung von 2022 gekippt. Millionen Altkunden zahlen vorerst wieder den alten Preis – und können für bis zu drei Jahre Geld zurückfordern.</p><p>Der BGH in Karlsruhe hat die Prime-Preiserhöhung von 2022 gekippt – für Jahreszahler sind das 20,90 Euro pro Jahr, für bis zu drei Jahre rückforderbar. Schickt das allen, die seit 2022 brav bezahlt haben.<br/><br/>➡ ka-life.de/#/kw/kw40-2026</p>]]></content>
+    <media:content url="https://ka-life.de/social/kw40-2026.png" medium="image" type="image/png" />
+    <media:thumbnail url="https://ka-life.de/social/kw40-2026.png" />
+  </entry>
   <entry>
     <id>https://ka-life.de/#/kw/kw39-2026</id>
     <title>75 Kerzen, 1,1 Prozent</title>
