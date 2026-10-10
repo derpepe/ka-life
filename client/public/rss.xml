@@ -9,14 +9,30 @@
     <description>Wöchentliche Infografik-Kolumne zu Karlsruhe. Daten, Fakten und satirische Fächertorten aus der Fächerstadt.</description>
     <language>de-DE</language>
     <copyright>© Decisions Made Easy GmbH, Karlsruhe</copyright>
-    <lastBuildDate>Sat, 03 Oct 2026 08:04:59 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 08:04:39 GMT</lastBuildDate>
     <atom:link href="https://ka-life.de/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://ka-life.de/atom.xml" rel="alternate" type="application/atom+xml" />
     <image>
-      <url>https://ka-life.de/social/kw40-2026.png</url>
+      <url>https://ka-life.de/social/kw41-2026.png</url>
       <title>KA-Life — Karlsruhe in Zahlen</title>
       <link>https://ka-life.de</link>
     </image>
+    <item>
+      <title>Tauziehen ums Steuergeld</title>
+      <link>https://ka-life.de/#/kw/kw41-2026</link>
+      <guid isPermaLink="true">https://ka-life.de/#/kw/kw41-2026</guid>
+      <pubDate>Sun, 11 Oct 2026 08:00:00 GMT</pubDate>
+      <category>Schwarzbuch 2026</category>
+      <description><![CDATA[Der Bund der Steuerzahler hat die World Games 2029 ins Schwarzbuch 2026/27 aufgenommen: rund 120 Millionen Euro Gesamtkosten, knapp 111 Millionen davon Steuergeld. OB Mentrup nennt die Kritik „unsachlich und unfair“.
+
+Karlsruhe ist im Schwarzbuch: 120 Millionen Euro für die World Games 2029, 22,6 Millionen davon zahlt die Stadt trotz Haushaltssperre. Disziplin Nummer eins: Tauziehen.
+
+➡ ka-life.de/#/kw/kw41-2026]]></description>
+      <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw41-2026.png" alt="KA-Life KW41-2026: Tauziehen ums Steuergeld" /></p><p>Der Bund der Steuerzahler hat die World Games 2029 ins Schwarzbuch 2026/27 aufgenommen: rund 120 Millionen Euro Gesamtkosten, knapp 111 Millionen davon Steuergeld. OB Mentrup nennt die Kritik „unsachlich und unfair“.</p><p>Karlsruhe ist im Schwarzbuch: 120 Millionen Euro für die World Games 2029, 22,6 Millionen davon zahlt die Stadt trotz Haushaltssperre. Disziplin Nummer eins: Tauziehen.<br/><br/>➡ ka-life.de/#/kw/kw41-2026</p>]]></content:encoded>
+      <enclosure url="https://ka-life.de/social/kw41-2026.png" length="357022" type="image/png" />
+      <media:content url="https://ka-life.de/social/kw41-2026.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://ka-life.de/social/kw41-2026.png" />
+    </item>
     <item>
       <title>20,90 Euro zurück aus Karlsruhe</title>
       <link>https://ka-life.de/#/kw/kw40-2026</link>

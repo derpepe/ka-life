@@ -41,6 +41,173 @@ export interface WeeklyInfographic {
 
 export const infographics: WeeklyInfographic[] = [
   {
+    id: "kw41-2026",
+    weekNumber: 41,
+    year: 2026,
+    dateRange: "5.\u201311. Oktober 2026",
+    title: "Tauziehen ums Steuergeld",
+    subtitle: "Der Bund der Steuerzahler hat die World Games 2029 ins Schwarzbuch 2026/27 aufgenommen: rund 120 Millionen Euro Gesamtkosten, knapp 111 Millionen davon Steuergeld. OB Mentrup nennt die Kritik \u201Eunsachlich und unfair\u201C.",
+    kicker: "Schwarzbuch 2026",
+    theme: {
+      accent: "#ca8a04",
+      accentLight: "#fde047",
+      accentDark: "#0a0a0a",
+      secondary: "#404040",
+      tertiary: "#dc2626",
+      background: "#fafafa",
+    },
+    socialCard: {
+      headline: "Tauziehen\nums Steuergeld",
+      subline: "World Games 2029 im Schwarzbuch \u00B7 KW 41",
+      keyNumber: "22,6 Mio. \u20AC",
+      keyLabel: "zahlt die Stadt Karlsruhe selbst \u2013 trotz Haushaltssperre",
+      gradient: "linear-gradient(135deg, #0a0a0a 0%, #262626 60%, #4d3f08 100%)",
+    },
+    sections: [
+      {
+        type: "number-cards",
+        title: "Die World Games in Zahlen",
+        subtitle: "Angaben des Bundes der Steuerzahler im Schwarzbuch 2026/27",
+        data: {
+          cards: [
+            { value: "120", unit: "Mio. \u20AC", label: "Gesamtkosten der World Games 2029 laut Bund der Steuerzahler", color: "#0a0a0a" },
+            { value: "111", unit: "Mio. \u20AC", label: "Davon Steuergeld \u2013 rund 92 Prozent kommen von Bund, Land und Stadt", color: "#ca8a04" },
+            { value: "22,6", unit: "Mio. \u20AC", label: "Muss die Stadt Karlsruhe selbst aufbringen", color: "#dc2626" },
+            { value: "4.000+", unit: "Athleten", label: "In rund 30 nicht-olympischen Sportarten, vom 19. bis 29. Juli 2029", color: "#404040" },
+          ] as NumberCard[],
+        },
+      },
+      {
+        type: "torte-der-wahrheit",
+        title: "F\u00E4chertorten",
+        subtitle: "Karlsruhe steht im Schwarzbuch. Wir machen das Beste draus.",
+        data: {
+          pies: [
+            {
+              title: "Was man mit 22,6 Millionen sonst h\u00E4tte machen k\u00F6nnen",
+              slices: [
+                { label: "Ein mittelgro\u00DFes Schulgeb\u00E4ude sanieren \u2013 laut OB der eigentliche Konkurrent im Haushalt", value: 38, color: "#0a0a0a" },
+                { label: "Das Wasserspiel am Bernhardusplatz bauen, inklusive 67 Prozent Kosten\u00FCberschreitung", value: 22, color: "#ca8a04" },
+                { label: "Die Haushaltssperre ein zweites Mal beschlie\u00DFen, diesmal auf sch\u00F6nerem Papier", value: 18, color: "#404040" },
+                { label: "Jedem Karlsruher rund 73 Euro in bar auszahlen, unter der Pyramide", value: 14, color: "#dc2626" },
+                { label: "Eine Machbarkeitsstudie, ob man sich die Machbarkeitsstudie leisten kann", value: 8, color: "#fde047" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Woran Karlsruher bei den World-Games-Sportarten zuerst denken",
+              slices: [
+                { label: "Tauziehen \u2013 endlich eine Disziplin, die der Gemeinderat seit Jahren trainiert", value: 34, color: "#ca8a04" },
+                { label: "Billard \u2013 passt, die Stadt spielt ja auch \u00FCber Bande mit Bund und Land", value: 24, color: "#0a0a0a" },
+                { label: "Wasserski \u2013 im Rheinhafen? Oder im Stadtbahntunnel bei Starkregen?", value: 20, color: "#404040" },
+                { label: "\u201EKarlsruhe will Olympia!\u201C \u2013 steht ja schon in der \u00DCberschrift", value: 12, color: "#dc2626" },
+                { label: "An gar nichts, nur daran, dass DAS FEST 2029 verschoben wird", value: 10, color: "#fde047" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Was vom Schwarzbuch-Eintrag bleibt",
+              slices: [
+                { label: "Erste Sch\u00E4tzung 99 Mio., heute 120 Mio. \u2013 wer die Kombil\u00F6sung kennt, nennt das Punktlandung", value: 32, color: "#0a0a0a" },
+                { label: "\u201EUnsachlich und unfair\u201C \u2013 perfektes Zitat f\u00FCr die n\u00E4chste Schwarzbuch-Auflage", value: 28, color: "#dc2626" },
+                { label: "Stuttgart ist erleichtert, dass diesmal nicht nur das Caf\u00E9 Planie drinsteht", value: 25, color: "#ca8a04" },
+                { label: "Karlsruher, die das Schwarzbuch kaufen, nur um den eigenen Eintrag zu lesen", value: 15, color: "#404040" },
+              ] as PieSlice[],
+            },
+          ],
+        },
+      },
+      {
+        type: "stacked-bar",
+        title: "Wer die 120 Millionen bezahlt",
+        subtitle: "Finanzierung der World Games 2029 laut Bund der Steuerzahler (Rest: private und sonstige Mittel, eigene Differenzrechnung)",
+        data: {
+          categories: [
+            "Bund (Sportetat Kanzleramt, bis 2030)",
+            "Land Baden-W\u00FCrttemberg",
+            "Stadt Karlsruhe",
+            "Sonstige Mittel",
+          ],
+          stacks: [
+            { label: "Finanzierungsanteil", color: "#ca8a04" },
+          ],
+          unit: "Mio. \u20AC",
+          values: [
+            [55],
+            [33],
+            [22.6],
+            [9.4],
+          ],
+        },
+      },
+      {
+        type: "waffle",
+        title: "Von 100 Euro World-Games-Budget",
+        subtitle: "Aufteilung der rund 120 Millionen Euro Gesamtkosten, gerundet",
+        data: {
+          total: 100,
+          filled: 73,
+          filledColor: "#404040",
+          emptyColor: "#e5e7eb",
+          annotation: "73 von 100 Euro kommen von Bund und Land, 19 Euro von der Stadt Karlsruhe. Nur rund 8 Euro stammen nicht aus \u00F6ffentlichen Haushalten.",
+          secondaryFilled: 19,
+          secondaryColor: "#ca8a04",
+          filledLabel: "Bund und Land (73)",
+          secondaryLabel: "Stadt Karlsruhe (19)",
+          emptyLabel: "Sonstige Mittel (8)",
+        },
+      },
+      {
+        type: "comparison",
+        title: "1989 gegen 2029",
+        subtitle: "Karlsruhe war schon einmal Gastgeber der World Games",
+        data: {
+          items: [
+            { label: "Gesamtkosten 2029 (Mio. \u20AC)", value: 120, display: "\u2248 120 Mio. \u20AC", color: "#0a0a0a" },
+            { label: "Erste Kostensch\u00E4tzung der Stadt (Mio. \u20AC)", value: 99.44, display: "99,44 Mio. \u20AC", color: "#404040" },
+            { label: "Steuergeld 2029 (Mio. \u20AC)", value: 111, display: "\u2248 111 Mio. \u20AC", color: "#ca8a04" },
+            { label: "Gesamtbudget 1989 (Mio. DM)", value: 4, display: "gut 4 Mio. DM", color: "#dc2626" },
+          ] as BarItem[],
+        },
+      },
+      {
+        type: "timeline",
+        title: "Der Weg ins Schwarzbuch",
+        subtitle: "Von den ersten World Games in Karlsruhe bis zur Kritik",
+        data: {
+          events: [
+            { date: "1989", label: "Karlsruhe richtet die World Games zum ersten Mal aus \u2013 mit einem Gesamtbudget von gut vier Millionen D-Mark", highlight: true },
+            { date: "Vorplanung", label: "Erste Sch\u00E4tzung der Stadt: rund 99,44 Mio. Euro Gesamtkosten, 10 Mio. Euro Eigenanteil" },
+            { date: "Gemeinderat", label: "Der Gemeinderat stimmt nach intensiver Debatte zweimal f\u00FCr die World Games" },
+            { date: "Haushalt 2026/27", label: "Gewerbesteuereinbruch, Einstellungsstopp, Haushaltssperre \u2013 die Stadt sucht 60 Mio. Euro" },
+            { date: "1. Oktober 2026", label: "Schwarzbuch 2026/27: World Games als einer von neun F\u00E4llen aus Baden-W\u00FCrttemberg", highlight: true },
+            { date: "2. Oktober 2026", label: "OB Mentrup weist den Vorwurf der Steuerverschwendung zur\u00FCck" },
+            { date: "19.\u201329. Juli 2029", label: "The World Games 2029 in Karlsruhe", highlight: true },
+          ] as TimelineEvent[],
+        },
+      },
+      {
+        type: "quote",
+        title: "Zitat",
+        data: {
+          text: "Die abf\u00E4llige Kommentierung der positiven Stellungnahmen von Bund und Stadt durch das Schwarzbuch ist unsachlich und unfair.",
+          author: "Frank Mentrup, Oberb\u00FCrgermeister von Karlsruhe (SWR, 2. 10. 2026)",
+          color: "#ca8a04",
+        },
+      },
+    ],
+    sources: [
+      "Bund der Steuerzahler, Schwarzbuch 2026/2027 (1. 10. 2026)",
+      "SWR Aktuell, Steuerverschwendung? World Games 2029 landen im Schwarzbuch (1./2. 10. 2026)",
+      "tagesschau.de / SWR, Karlsruhe mit World Games im Schwarzbuch (1. 10. 2026)",
+      "Wochenblatt Reporter, Mentrup verteidigt Karlsruhes Kurs bei den World Games (2. 10. 2026)",
+      "ka-news.de, Schwarzbuch 2026: Diese Projekte kosten Baden-W\u00FCrttemberg Millionen (2. 10. 2026)",
+      "Stadt Karlsruhe, Beschlussvorlage The World Games 2029 (Ratsinformationssystem)",
+      "DOSB, Ein sportliches Gro\u00DFereignis, das die Stadt nachhaltig gepr\u00E4gt hat",
+      "ka-news.de, Bernhardusplatz: Wasserspiel wegen Kosten gestoppt (30. 9. 2026)",
+    ],
+    editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt. Die \u201Esonstigen Mittel\u201C (9,4 Mio. Euro) und die Waffel-Anteile sind eigene Differenzrechnungen aus den Angaben des Bundes der Steuerzahler; der Pro-Kopf-Wert von rund 73 Euro basiert auf ca. 308.000 Einwohnern. Die D-Mark-Angabe von 1989 ist nicht inflationsbereinigt.",
+    socialPostText: "Karlsruhe ist im Schwarzbuch: 120 Millionen Euro f\u00FCr die World Games 2029, 22,6 Millionen davon zahlt die Stadt trotz Haushaltssperre. Disziplin Nummer eins: Tauziehen.\n\n\u27A1 ka-life.de/#/kw/kw41-2026",
+  },
+  {
     id: "kw40-2026",
     weekNumber: 40,
     year: 2026,
