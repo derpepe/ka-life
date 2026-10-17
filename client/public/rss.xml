@@ -9,14 +9,30 @@
     <description>Wöchentliche Infografik-Kolumne zu Karlsruhe. Daten, Fakten und satirische Fächertorten aus der Fächerstadt.</description>
     <language>de-DE</language>
     <copyright>© Decisions Made Easy GmbH, Karlsruhe</copyright>
-    <lastBuildDate>Sat, 10 Oct 2026 08:04:39 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 08:03:55 GMT</lastBuildDate>
     <atom:link href="https://ka-life.de/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://ka-life.de/atom.xml" rel="alternate" type="application/atom+xml" />
     <image>
-      <url>https://ka-life.de/social/kw41-2026.png</url>
+      <url>https://ka-life.de/social/kw42-2026.png</url>
       <title>KA-Life — Karlsruhe in Zahlen</title>
       <link>https://ka-life.de</link>
     </image>
+    <item>
+      <title>Tomaten statt Strömung</title>
+      <link>https://ka-life.de/#/kw/kw42-2026</link>
+      <guid isPermaLink="true">https://ka-life.de/#/kw/kw42-2026</guid>
+      <pubDate>Sun, 18 Oct 2026 08:00:00 GMT</pubDate>
+      <category>Niedrigwasser am Rhein</category>
+      <description><![CDATA[Der Rhein bei Karlsruhe führt so wenig Wasser wie seit Jahrzehnten nicht. Am Pegel Maxau fiel der Tagesmittelwert am 30. September auf 279 Zentimeter, der Yachthafen liegt stellenweise trocken – und auf den Tomateninseln bei Au am Rhein wachsen wieder Tomaten.
+
+Der Rhein bei Karlsruhe hat so wenig Wasser wie seit Jahrzehnten nicht: 279 Zentimeter am Pegel Maxau, Boote stecken im Schlamm fest – und auf den Tomateninseln wachsen wieder Tomaten. Aus dem Klärwerk.
+
+➡ ka-life.de/#/kw/kw42-2026]]></description>
+      <content:encoded><![CDATA[<p><img src="https://ka-life.de/social/kw42-2026.png" alt="KA-Life KW42-2026: Tomaten statt Strömung" /></p><p>Der Rhein bei Karlsruhe führt so wenig Wasser wie seit Jahrzehnten nicht. Am Pegel Maxau fiel der Tagesmittelwert am 30. September auf 279 Zentimeter, der Yachthafen liegt stellenweise trocken – und auf den Tomateninseln bei Au am Rhein wachsen wieder Tomaten.</p><p>Der Rhein bei Karlsruhe hat so wenig Wasser wie seit Jahrzehnten nicht: 279 Zentimeter am Pegel Maxau, Boote stecken im Schlamm fest – und auf den Tomateninseln wachsen wieder Tomaten. Aus dem Klärwerk.<br/><br/>➡ ka-life.de/#/kw/kw42-2026</p>]]></content:encoded>
+      <enclosure url="https://ka-life.de/social/kw42-2026.png" length="260375" type="image/png" />
+      <media:content url="https://ka-life.de/social/kw42-2026.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://ka-life.de/social/kw42-2026.png" />
+    </item>
     <item>
       <title>Tauziehen ums Steuergeld</title>
       <link>https://ka-life.de/#/kw/kw41-2026</link>

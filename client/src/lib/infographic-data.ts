@@ -41,6 +41,156 @@ export interface WeeklyInfographic {
 
 export const infographics: WeeklyInfographic[] = [
   {
+    id: "kw42-2026",
+    weekNumber: 42,
+    year: 2026,
+    dateRange: "12.\u201318. Oktober 2026",
+    title: "Tomaten statt Str\u00F6mung",
+    subtitle: "Der Rhein bei Karlsruhe f\u00FChrt so wenig Wasser wie seit Jahrzehnten nicht. Am Pegel Maxau fiel der Tagesmittelwert am 30. September auf 279 Zentimeter, der Yachthafen liegt stellenweise trocken \u2013 und auf den Tomateninseln bei Au am Rhein wachsen wieder Tomaten.",
+    kicker: "Niedrigwasser am Rhein",
+    theme: {
+      accent: "#0369a1",
+      accentLight: "#bae6fd",
+      accentDark: "#0c4a6e",
+      secondary: "#c9a66b",
+      tertiary: "#dc2626",
+      background: "#fafafa",
+    },
+    socialCard: {
+      headline: "Tomaten\nstatt Str\u00F6mung",
+      subline: "Pegel Maxau \u00B7 Niedrigwasser 2026 \u00B7 KW 42",
+      keyNumber: "279 cm",
+      keyLabel: "Tiefster Tagesmittelwert am Pegel Maxau, 30. September 2026",
+      gradient: "linear-gradient(180deg, #0c4a6e 0%, #0369a1 45%, #c9a66b 100%)",
+    },
+    sections: [
+      {
+        type: "number-cards",
+        title: "Der Rhein in Zahlen",
+        subtitle: "Pegel Maxau, Rhein-Kilometer 362,3 \u2013 der Referenzpegel f\u00FCr Karlsruhe",
+        data: {
+          cards: [
+            { value: "279", unit: "cm", label: "Tagesmittelwert am 30. September 2026 \u2013 der bisher tiefste Stand des Jahres", color: "#0c4a6e" },
+            { value: "311", unit: "cm", label: "Der bisherige Tiefstwert vom 26. November 2018 \u2013 schon im August unterboten", color: "#0369a1" },
+            { value: "\u2212165", unit: "cm", label: "So weit lag der Pegel am 12. Oktober unter dem Mittelwert f\u00FCr diesen Tag (464 cm)", color: "#dc2626" },
+            { value: "140", unit: "Boote", label: "Im Yachthafen Maxau sind alle vom Niedrigwasser betroffen, manche Liegepl\u00E4tze haben fast 0 cm Wasser", color: "#c9a66b" },
+          ] as NumberCard[],
+        },
+      },
+      {
+        type: "torte-der-wahrheit",
+        title: "F\u00E4chertorten",
+        subtitle: "Der Rhein hat wenig Wasser. Wir haben daf\u00FCr umso mehr Ideen.",
+        data: {
+          pies: [
+            {
+              title: "Woher die Tomaten auf den Tomateninseln wirklich kommen",
+              slices: [
+                { label: "Aus dem Kl\u00E4rwerk \u2013 laut LUBW keimf\u00E4hig, laut Wochenmarkt am Gutenbergplatz unverk\u00E4uflich", value: 40, color: "#dc2626" },
+                { label: "Pizzareste vom Sommer im Rheinstrandbad Rappenw\u00F6rt", value: 22, color: "#c9a66b" },
+                { label: "Ein pf\u00E4lzisches Geheimprojekt, um die Grenzfrage im Flussbett neu zu kl\u00E4ren", value: 18, color: "#0c4a6e" },
+                { label: "Ein KIT-Reallabor \u201EUrban Gardening ganz ohne Stadt\u201C", value: 12, color: "#0369a1" },
+                { label: "Lieferung vom Bio-Sp\u00E4ti in der Waldstra\u00DFe \u2013 per Str\u00F6mung, also sehr langsam", value: 8, color: "#bae6fd" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Was man bei 279 Zentimetern am Rhein jetzt alles machen kann",
+              slices: [
+                { label: "Im Yachthafen Maxau direkt neben dem eigenen Boot stehen \u2013 auf dem Hafengrund", value: 30, color: "#0c4a6e" },
+                { label: "Trockenen Fu\u00DFes ein St\u00FCck Richtung Pfalz laufen \u2013 Personalausweis trotzdem einstecken", value: 24, color: "#c9a66b" },
+                { label: "Die Rheinbr\u00FCcke Maxau endlich mal ganz von unten anschauen", value: 18, color: "#0369a1" },
+                { label: "Tomaten ernten, die man aus guten Gr\u00FCnden nicht isst", value: 16, color: "#dc2626" },
+                { label: "Sich freuen, nicht in Kaub zu wohnen \u2013 dort stand der Pegel bei minus 6 Zentimetern", value: 12, color: "#bae6fd" },
+              ] as PieSlice[],
+            },
+            {
+              title: "Wie Karlsruhe den Rhein retten will",
+              slices: [
+                { label: "Auf Regen warten \u2013 laut LUBW bitte lang, fl\u00E4chendeckend und am besten in den Alpen", value: 36, color: "#0369a1" },
+                { label: "Alle st\u00E4dtischen Brunnen in den Rhein leiten \u2013 die gehen ja sowieso gerade in die Winterruhe", value: 22, color: "#0c4a6e" },
+                { label: "Das gestrichene Wasserspiel vom Bernhardusplatz einfach in Maxau aufbauen", value: 18, color: "#c9a66b" },
+                { label: "Einen Antrag im Gemeinderat stellen \u2013 l\u00E4uft jetzt ja auch im Livestream", value: 14, color: "#dc2626" },
+                { label: "Den Schwarzwald h\u00F6flich bitten, mal wieder etwas mehr zu weinen", value: 10, color: "#bae6fd" },
+              ] as PieSlice[],
+            },
+          ],
+        },
+      },
+      {
+        type: "stacked-bar",
+        title: "Wie viel Rhein fehlt",
+        subtitle: "Pegel Maxau am 12. Oktober 2026 im Vergleich zum Mittelwert dieses Kalendertags (Bezugszeitraum 1991\u20132020, LUBW)",
+        data: {
+          categories: [
+            "12. Oktober 2026",
+            "Mittel f\u00FCr einen 12. Oktober",
+          ],
+          stacks: [
+            { label: "Wasserstand", color: "#0369a1" },
+            { label: "Fehlender Wasserstand", color: "#c9a66b" },
+          ],
+          unit: "cm",
+          values: [
+            [299, 165],
+            [464, 0],
+          ],
+        },
+      },
+      {
+        type: "comparison",
+        title: "Die Pegel-Leiter von Maxau",
+        subtitle: "Schwellen, Rekorde und Wasserst\u00E4nde 2026 im \u00DCberblick",
+        data: {
+          items: [
+            { label: "Mittelwert f\u00FCr einen 12. Oktober (1991\u20132020)", value: 464, display: "464 cm", color: "#0c4a6e" },
+            { label: "Beginn Niedrigwasser-Vorstufe", value: 401, display: "401 cm", color: "#0369a1" },
+            { label: "Typisches j\u00E4hrliches Niedrigwasser", value: 380, display: "\u2248 380 cm", color: "#0369a1" },
+            { label: "Niedrigwasserstufe 2", value: 344, display: "344 cm", color: "#bae6fd" },
+            { label: "Yachthafen Maxau noch gut befahrbar", value: 330, display: "\u2248 330 cm", color: "#c9a66b" },
+            { label: "Alter Rekord-Tiefstand (26. 11. 2018)", value: 311, display: "311 cm", color: "#c9a66b" },
+            { label: "Tiefststand 2026 (30. 9.)", value: 279, display: "279 cm", color: "#dc2626" },
+          ] as BarItem[],
+        },
+      },
+      {
+        type: "timeline",
+        title: "Ein Sommer ohne Wasser",
+        subtitle: "Wie der Rhein bei Karlsruhe 2026 immer weiter sank",
+        data: {
+          events: [
+            { date: "Fr\u00FChsommer 2003", label: "Erstes bekanntes Tomatenjahr: Auf den Inseln bei Au am Rhein keimen Tomaten aus dem Kl\u00E4rwerk" },
+            { date: "26. November 2018", label: "Bisheriger Rekord-Tiefstand am Pegel Maxau seit rund 50 Jahren: 311 cm" },
+            { date: "Ende Juni 2026", label: "Pegel f\u00E4llt unter 401 cm \u2013 die Niedrigwasserphase beginnt" },
+            { date: "Erste Julih\u00E4lfte 2026", label: "Niedrigwasserstufe 1 (373 cm), kurz darauf Stufe 2 (344 cm)" },
+            { date: "12. August 2026", label: "Tagesmittel 298 cm \u2013 der Rekord von 2018 ist gebrochen", highlight: true },
+            { date: "30. September 2026", label: "Neuer Tiefstwert: 279 cm im Tagesmittel", highlight: true },
+            { date: "12. Oktober 2026", label: "299 cm \u2013 laut LUBW 165 cm unter dem Mittel, \u201Eeine Erholung ist nicht in Sicht\u201C" },
+          ] as TimelineEvent[],
+        },
+      },
+      {
+        type: "quote",
+        title: "Zitat",
+        data: {
+          text: "Die Samen der Tomaten sind selbst nach dem Durchlauf durch die Kl\u00E4rwerke noch keimf\u00E4hig. Wenn sie zuf\u00E4llig auf den Inseln abgelagert werden und die Wasserst\u00E4nde wie 2003 im Fr\u00FChsommer niedrig genug sind, k\u00F6nnen sie keimen und wachsen.",
+          author: "Landesanstalt f\u00FCr Umwelt Baden-W\u00FCrttemberg (LUBW), via ka-news.de, 17. 10. 2026",
+          color: "#dc2626",
+        },
+      },
+    ],
+    sources: [
+      "ka-news.de, Rhein schrumpft auf historischen Tiefstand: Bedrohte Arten und Tomateninseln (17. 10. 2026)",
+      "ka-news.de, Niedrigwasser legt Boote im Yachthafen Maxau still (14. 10. 2026)",
+      "Die Rheinpfalz, Rhein: Wasserstand noch weiter gesunken (2. 10. 2026)",
+      "Die Rheinpfalz, Rhein: Niedrigwasser bis mindestens Anfang Oktober erwartet (13. 8. 2026)",
+      "Hochwasservorhersagezentrale Baden-W\u00FCrttemberg (NIZ), Lagebericht Oberfl\u00E4chengew\u00E4sser (Oktober 2026)",
+      "Bundesanstalt f\u00FCr Gew\u00E4sserkunde, Niedrigwasser-Update 2026",
+      "come-on.de, Rhein erlebt l\u00E4ngste Niedrigwasserphase der Geschichte (15. 10. 2026)",
+    ],
+    editorNote: "Die F\u00E4chertorten sind satirisch \u00FCberspitzt. Die Fakten in den anderen Grafiken sind recherchiert und belegt. Pegelwerte sind Tagesmittel am Pegel Maxau; der Pegel misst nicht die tats\u00E4chliche Wassertiefe des Rheins. Die Tomaten von den Tomateninseln bitte nicht essen.",
+    socialPostText: "Der Rhein bei Karlsruhe hat so wenig Wasser wie seit Jahrzehnten nicht: 279 Zentimeter am Pegel Maxau, Boote stecken im Schlamm fest \u2013 und auf den Tomateninseln wachsen wieder Tomaten. Aus dem Kl\u00E4rwerk.\n\n\u27A1 ka-life.de/#/kw/kw42-2026",
+  },
+  {
     id: "kw41-2026",
     weekNumber: 41,
     year: 2026,
